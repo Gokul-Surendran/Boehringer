@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Boehringer Forward Head';
+    src: url('BoehringerForwardHead-BdIt.woff2') format('woff2'),
+        url('BoehringerForwardHead-BdIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boehringer Forward Text';
+    src: url('BoehringerForwardText-Bd.woff2') format('woff2'),
+        url('BoehringerForwardText-Bd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boehringer Forward Text';
+    src: url('BoehringerForwardText.woff2') format('woff2'),
+        url('BoehringerForwardText.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boehringer Forward Head Md';
+    src: url('BoehringerForwardHead-Md.woff2') format('woff2'),
+        url('BoehringerForwardHead-Md.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boehringer Forward Text Md';
+    src: url('BoehringerForwardText-MdIt.woff2') format('woff2'),
+        url('BoehringerForwardText-MdIt.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boehringer Forward Text Md';
+    src: url('BoehringerForwardText-Md.woff2') format('woff2'),
+        url('BoehringerForwardText-Md.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boehringer Forward Head';
+    src: url('BoehringerForwardHead-Bd.woff2') format('woff2'),
+        url('BoehringerForwardHead-Bd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

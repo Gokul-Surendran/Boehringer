@@ -1,0 +1,50 @@
+.boehringer {
+    .list-show .product-box {
+        border: 2px solid #CCCCCC;
+    }
+
+    .bi-plp {
+        background: #f6f5f3;
+    }
+
+    .list-show .product-box .product {
+        border-bottom: 0px;
+        background-color: transparent;
+    }
+
+    .bi-wicon {
+        width: 24px;
+        position: absolute;
+        right: 4px;
+        top: 4px;
+
+        img {
+            position: absolute;
+            right: 4px;
+            top: 4px;
+            width: 100%;
+        }
+    }
+    .bh-prodcut {
+        .nav-pills {
+            text-align: left;
+        }
+    }
+    .sec-menu ul  {
+        display: flex;
+        justify-content: space-between;
+    }
+    .bi-dot {
+        position: absolute;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        border: 2px solid white;
+        right: 12%;
+        bottom: 0px;
+
+        &.active {
+        background: green;
+        }
+    }
+}
