@@ -25,39 +25,74 @@
             width: 100%;
         }
     }
+
     .bh-prodcut {
         .nav-pills {
             text-align: left;
         }
     }
-    .sec-menu ul  {
+
+    .sec-menu ul {
         display: flex;
         justify-content: space-between;
     }
+
     .bi-dot {
         position: absolute;
         border-radius: 50%;
         width: 20px;
         height: 20px;
         border: 2px solid white;
-        right: 8%;
+        right: 12%;
         bottom: 12%;
 
         &.active {
-            background: #00E47C ;
+            background: #00E47C;
         }
     }
+
     .bi-dot2 {
         position: absolute;
         border-radius: 50%;
         width: 20px;
         height: 20px;
         border: 2px solid white;
-        right: 10%;
+        right: 14%;
         bottom: 12%;
 
         &.active {
             background: #00E47C;
         }
+    }
+
+    .user-items button {
+        width: auto !important;
+    }
+
+    .bh-button {
+        border: 1px solid #00E47C;
+        border-radius: 6px;
+        padding: 6px;
+    }
+
+    .bh-heading {
+        font-size: 52px;
+        line-height: 72px;
+        padding-bottom: 8px;
+    }
+    .bh-hero__text {
+        padding-bottom: 54px;
+    }
+    .bh-heading2 {
+        width: 100%;
+        font-size: 48px;
+        padding-bottom: 8px;
+        text-transform: unset;
+        color: #191919;
+        font-weight: 600;
+    }
+    .bi-ibc__para {
+        font-size: 16px;
+        width: 86%;
     }
 }
