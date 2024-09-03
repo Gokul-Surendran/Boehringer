@@ -93,7 +93,7 @@
     }
     .bi-ibc__para {
         font-size: 16px;
-        width: 86%;
+        width: 82%;
     }
     .bi-footer__links {
         &:hover {
@@ -111,5 +111,11 @@
     }
     .bh-prodcut__cnt {
         font-size: 17px;
+    }
+    .bh-new__slide {
+        margin: 0;
+    }
+    .bh-new .bh-heading {
+        padding: 0 60px 32px;
     }
 }
