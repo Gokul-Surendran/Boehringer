@@ -1,0 +1,56 @@
+.boehringer {
+    .bo-bannernew {
+        &__desk {
+            display: block;
+            img {
+             width: 100%;
+             height: auto;
+             display: block;
+            }
+        }
+        &__tab {
+            display: none;
+            img {
+                width: 100%;
+                height: auto;
+                display: block;
+               }
+        }
+        &__mob {
+            display: none;
+            img {
+                width: 100%;
+                height: auto;
+                display: block;
+               }
+        }
+    }
+    
+    @include tablet {
+        .bo-bannernew {
+            &__tab {
+                display: block;
+            }
+            &__desk {
+                display: none;
+            }
+            &__mob {
+                display: none;
+            }
+        }
+    }
+
+    @include mobile {
+        .bo-bannernew {
+            &__tab {
+                display: none;
+            }
+            &__desk {
+                display: none;
+            }
+            &__mob {
+                display: block;
+            }
+        }
+    }
+}
