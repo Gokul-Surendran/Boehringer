@@ -95,4 +95,21 @@
         font-size: 16px;
         width: 86%;
     }
+    .bi-footer__links {
+        &:hover {
+            color: #00E47C;
+        }
+    }
+    .bi-ibc {
+        margin: 80px 0;
+    }
+    .cx-btn-prfl {
+        padding: 22px 0 0 15px !important;
+    }
+    .bh-prodcut__left {
+        width: 38%;
+    }
+    .bh-prodcut__cnt {
+        font-size: 17px;
+    }
 }
