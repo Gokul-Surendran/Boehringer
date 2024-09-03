@@ -120,3 +120,18 @@
         padding: 0 60px 32px;
     }
 }
+
+
+
+
+/* Media Queries */
+@include mobile {
+    .boehringer {
+        .bh-heading2 {
+            font-size: 32px;
+        }
+    }
+    .bh-prodcut__left {
+        width: 100% !important;
+    }
+}
