@@ -1,5 +1,6 @@
 .boehringer {
     .bo-bannernew {
+        position: relative;
         &__desk {
             display: block;
             img {
@@ -23,6 +24,25 @@
                 height: auto;
                 display: block;
                }
+        }
+        &__dot-out {
+            position: absolute;
+            bottom: 15%;
+            right: 3%;
+            display: flex;
+        }
+        &__dot {
+            width: 20px;
+            height: 20px;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            margin: 0 4px;
+            cursor: pointer;
+            z-index: 1;
+            position: relative;
+            &.active {
+                background-color: #00E47C;
+            }
         }
     }
     
