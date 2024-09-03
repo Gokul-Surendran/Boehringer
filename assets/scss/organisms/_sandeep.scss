@@ -40,11 +40,24 @@
         width: 20px;
         height: 20px;
         border: 2px solid white;
-        right: 12%;
-        bottom: 0px;
+        right: 8%;
+        bottom: 12%;
 
         &.active {
-        background: green;
+            background: #00E47C ;
+        }
+    }
+    .bi-dot2 {
+        position: absolute;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        border: 2px solid white;
+        right: 10%;
+        bottom: 12%;
+
+        &.active {
+            background: #00E47C;
         }
     }
 }
