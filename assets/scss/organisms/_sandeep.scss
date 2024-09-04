@@ -81,9 +81,11 @@
         line-height: 72px;
         padding-bottom: 8px;
     }
+
     .bh-hero__text {
         padding-bottom: 54px;
     }
+
     .bh-heading2 {
         width: 100%;
         font-size: 48px;
@@ -92,33 +94,162 @@
         color: #191919;
         font-weight: 600;
     }
+
     .bi-ibc__para {
         font-size: 16px;
         width: 85%;
         font-weight: 500;
     }
+
     .bi-footer__links {
         &:hover {
             color: #00E47C;
         }
     }
+
     .bi-ibc {
         margin: 80px 0;
     }
+
     .cx-btn-prfl {
         padding: 22px 0 0 15px !important;
     }
+
     .bh-prodcut__left {
         width: 38%;
     }
+
     .bh-prodcut__cnt {
         font-size: 17px;
     }
+
     .bh-new__slide {
         margin: 0;
     }
+
     .bh-new .bh-heading {
         padding: 0 60px 32px;
+    }
+
+    .bi-plp {
+        padding-top: 40px;
+
+        .bread-crumb {
+            margin-left: 15px;
+        }
+    }
+
+    .list-show .hover .product-name {
+        font-family: 'Boehringer Forward Head Md';
+        color: #08312A;
+    }
+
+    .ab-tile__desc {
+        font-family: 'Boehringer Forward Text Md';
+    }
+
+    .pricing li:first-child {
+        font-family: 'Boehringer Forward Head';
+    }
+
+    .filter-check-box label {
+        color: #676767;
+    }
+
+    .filter-check-box {
+        td {
+            padding-bottom: 8px;
+        }
+    }
+
+    .book-name-and-buy .btn-buy {
+        font-family: 'Boehringer Forward Head';
+        color: #08312A !important;
+        text-transform: capitalize;
+        font-size: 15px;
+        padding: 5px 10px;
+        ;
+    }
+
+    .dataView.product-box a:hover {
+        color: #08312A !important;
+    }
+
+    .cx-clr-ctn {
+        width: auto;
+        border: 2px solid #00E47C;
+        background-color: #00E47C;
+        padding: 5px 20px;
+        color: #FFFFFF;
+
+        &:hover {
+            color: #00E47C !important;
+        }
+    }
+
+    .left-box {
+        h3 {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+    }
+
+    .cx-sortby {
+        color: #000000;
+        text-transform: none;
+    }
+
+    .inner-marging {
+        padding-top: 40px;
+    }
+
+    .btn-wishlists {
+        border-radius: 6px !important;
+        background-color: #08312A !important;
+        border: 1px solid #08312A !important;
+        color: #F6F6F6;
+        padding: 10px 20px;
+        font-size: 14px !important;
+        width: 48%;
+        &:hover {
+            color: #08312A !important;
+            background-color: transparent !important;
+            ;
+        }
+    }
+
+    .mobile-price .btn-red.hvr-fade {
+        background-color: #00E47C !important;
+        border: 2px solid #00E47C !important;
+        color: #08312A !important;
+        border-radius: 6px;
+        padding: 10px 20px;
+        box-shadow: none;
+        font-size: 14px !important;
+        width: 48%;
+        &:hover {
+            color: #08312A !important;
+            background-color: transparent !important;
+        }
+    }
+
+    .bi-pdpbtn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .bi-pdp {
+        background: #F8F9FA;
+    }
+    // .mobile-price {
+    //     background-color: #fff !important;
+    // }
+    .cx-pp__copy h4 {
+        font-size: 20px;
+        font-weight: bold;
+        color: #2a2b2c;
     }
 }
 
@@ -132,6 +263,7 @@
             font-size: 32px;
         }
     }
+
     .bh-prodcut__left {
         width: 100% !important;
     }
