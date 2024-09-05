@@ -256,6 +256,22 @@
         left: -44px !important;
         right: 0 !important;
     }
+    .price-field {
+        position: relative;
+        appearance: none;
+        margin: 0;
+        border: 0;
+        outline: 0;
+        border-radius: 50%;
+        height: 10px;
+        width: 10px;
+        margin-top: -5px;
+        background-color: #A9A8A5;
+        cursor: pointer;
+        cursor: pointer;
+        pointer-events: all;
+        z-index: 100;
+    }
 }
 
 
