@@ -168,7 +168,6 @@
         text-transform: capitalize;
         font-size: 15px;
         padding: 5px 10px;
-        ;
     }
 
     .dataView.product-box a:hover {
@@ -256,21 +255,32 @@
         left: -44px !important;
         right: 0 !important;
     }
-    .price-field {
-        position: relative;
-        appearance: none;
-        margin: 0;
-        border: 0;
-        outline: 0;
-        border-radius: 50%;
-        height: 10px;
-        width: 10px;
-        margin-top: -5px;
-        background-color: #A9A8A5;
-        cursor: pointer;
-        cursor: pointer;
-        pointer-events: all;
-        z-index: 100;
+    .mobile-price .del {
+        color: #000000;
+        margin-bottom: 20px;
+    }
+    .bi-rmb-left {
+        color: #000000;
+        font-size: 18px;
+    }
+    .bi-rmb {
+        font-weight: 400;
+    }
+    .ab-details {
+        border: 2px solid #cccccc;
+    }
+    .ab-details td {
+        border-right: 1px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
+        padding: 8px;
+    }
+    .ab-details__head  {
+        color: #08312A;
+        font-weight: 600;
+    }
+    .bi-pdplft {
+        background: #fff;
+        border-radius: 8px;
     }
 }
 

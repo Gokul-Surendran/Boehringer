@@ -5,4 +5,29 @@
         font-family: 'Boehringer Forward Text';
         font-weight: 700;
     }
+
+    &__dwn {
+        border: 1px solid #CCCCCC;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: calc(25% - 20px);
+        margin: 10px;
+    }
+
+    &__img {
+        width: 70%;
+
+        img {
+            width: 100%;
+        }
+    }
+    &__content {
+        h3 {
+            font-size: 20px;
+            color: #08312A;
+            font-family: 'Boehringer Forward Head';
+        }
+    }
 }
