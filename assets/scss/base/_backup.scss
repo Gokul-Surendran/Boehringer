@@ -4117,18 +4117,18 @@ body {
   border: 1px solid #0a67a8;
   border-radius: 2px;
 }
-.boehringer .cx-product-desc {
-  color: #828282 !important;
+.boehringer .bi-product-desc {
+  color: #000 !important;
   font-size: 14px !important;
   line-height: 28px;
 }
-.boehringer .cx-product-desc b {
+.boehringer .bi-product-desc b {
   position: relative;
   width: 50% !important;
   display: inline-block;
   color: #373F3F !important;
 }
-.boehringer .cx-product-desc b::after {
+.boehringer .bi-product-desc b::after {
   content: ":";
   position: absolute;
   right: 3px;
