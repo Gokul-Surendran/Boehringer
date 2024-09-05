@@ -1877,7 +1877,7 @@
   top: -3px;
 }
 .cx-varient div {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   margin: 0 -2px;
@@ -1886,7 +1886,7 @@
   width: calc(33.3% - 4px);
   margin: 0 2px;
   margin-bottom: 4px;
-  border: 1px solid grey;
+  border: 1px solid #08312A;
   background-color: transparent;
   border-radius: 4px;
   font-size: 13px;
@@ -1895,12 +1895,12 @@
   align-content: center;
   justify-content: center;
   align-items: center;
-  padding: 4px;
-  color: #828282;
+  padding: 4px 26px;
+  color: #000;
   cursor: pointer;
 }
 .cx-varient div .varient-btn.active {
-  background-color: #d1d1d1;
+  background-color: #fff;
   color: black !important;
 }
 
@@ -4220,7 +4220,7 @@ body {
 }
 .boehringer .varient-btn {
   font-size: 11px !important;
-  width: calc(50% - 4px) !important;
+  width: calc(33% - 4px) !important;
   margin: 0 2px !important;
   margin-bottom: 6px !important;
 }
