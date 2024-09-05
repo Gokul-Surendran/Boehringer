@@ -168,7 +168,6 @@
         text-transform: capitalize;
         font-size: 15px;
         padding: 5px 10px;
-        ;
     }
 
     .dataView.product-box a:hover {
@@ -250,6 +249,38 @@
         font-size: 20px;
         font-weight: bold;
         color: #2a2b2c;
+    }
+    .account-search .dropdown .dropdown-menu {
+        top: 52px;
+        left: -44px !important;
+        right: 0 !important;
+    }
+    .mobile-price .del {
+        color: #000000;
+        margin-bottom: 20px;
+    }
+    .bi-rmb-left {
+        color: #000000;
+        font-size: 18px;
+    }
+    .bi-rmb {
+        font-weight: 400;
+    }
+    .ab-details {
+        border: 2px solid #cccccc;
+    }
+    .ab-details td {
+        border-right: 1px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
+        padding: 8px;
+    }
+    .ab-details__head  {
+        color: #08312A;
+        font-weight: 600;
+    }
+    .bi-pdplft {
+        background: #fff;
+        border-radius: 8px;
     }
 }
 
