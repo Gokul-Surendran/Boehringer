@@ -1,4 +1,16 @@
 .bi-tree {
+    &.ethos {
+        .bi-tree__onehead {
+            font-size: 140px;
+            line-height: 150px;
+            span {
+                color: #00E57B;
+            }
+        }
+        .bi-tree__one-right {
+            margin-top: 50px;
+        }
+    }
     padding: 32px 0;
 
     &__num-head {
