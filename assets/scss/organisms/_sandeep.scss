@@ -309,7 +309,7 @@
 
     .bi-txtarea {
         color: #08312A;
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .cx-tbout {
@@ -332,9 +332,26 @@
     .bi-to {
         display: flex;
         color: #000000;
+       
 
         ul {
             line-height: 30px;
+
+            li {
+                padding-left: 20px;
+                position: relative;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    background: #000;
+                    left: 0;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    font-size: 50px;
+                    top: 11px;
+                }
+            }
         }
     }
 
@@ -344,16 +361,24 @@
             border-radius: 6px;
         }
     }
+
     .inner-marging {
         min-height: 150vh;
     }
+
     .filter-check-box label {
         color: #000000;
     }
+
     .sort select {
         color: #000000;
         font-weight: 400;
         border: 1px solid #8c8481;
+        background-color: #f6f5f3;
+    }
+
+    .inner-marging {
+        min-height: 140vh;
     }
 }
 
