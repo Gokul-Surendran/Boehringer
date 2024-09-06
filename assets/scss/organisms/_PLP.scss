@@ -1,0 +1,20 @@
+.boehringer {
+    .bi-wicon {
+        cursor: pointer;
+        #whishicon, #whishicon-red {
+            width: 24px;
+            height: 21px;
+        }
+        #whishicon-red {
+            display: none;
+        }
+        &.active {
+            #whishicon {
+                display: none;
+            }
+            #whishicon-red {
+                display: block;
+            }
+        }
+    }
+}
