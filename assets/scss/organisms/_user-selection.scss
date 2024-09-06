@@ -4,7 +4,6 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      min-height: 100vh;
    }
 
    &__outer {
@@ -16,10 +15,7 @@
    &__wrap {
       position: relative;
       background-color: #fff;
-      padding: 20px;
       width: 500px;
-      margin: auto;
-      padding: 20px 0px;
       border-radius: 10px;
       margin: 0 auto;
       padding: 40px;
@@ -27,7 +23,7 @@
   }
   
   &__head {
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Boehringer Forward Head';
       text-align: center;
       font-size: 36px;
       font-weight: bold;
@@ -62,7 +58,7 @@
   }
 
   &__submit {
-      font-family: sans-serif;
+      font-family: 'Boehringer Forward Head';
       background-color: #00E47C;
       border: 2px solid #00E47C;
       border-radius: 5px;
@@ -98,7 +94,7 @@
   }
 
   &__rbtn {
-   font-family: sans-serif;
+   font-family: 'Boehringer Forward Head';
    color: #08312A;
    font-weight: 600;
    img {

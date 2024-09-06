@@ -1,0 +1,171 @@
+.user-type {
+
+   &__bg {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+
+   &__outer {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+   }
+
+   &__wrap {
+      position: relative;
+      background-color: #fff;
+      padding: 24px;
+      width: 350px;
+      border-radius: 10px;
+      margin: 0 auto;
+      background-color: #fff;
+  }
+  
+  &__head {
+      font-family: 'Boehringer Forward Head';
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+      color: #08312A;
+      margin: 20px 0px;  
+  }
+
+   &__copy {
+      font-size: 16px;
+      font-family: 'Boehringer Forward Head';
+      text-align: center;
+      color: #08312A;
+      margin-bottom: 20px;
+   }
+
+   &__smcopy {
+      font-size: 14px;
+      font-family: 'Boehringer Forward Head';
+      text-align: center;
+      color: #000;
+      margin: 20px 0;
+   }
+
+  &__closebtn {
+      position: absolute;
+      padding: 7px;
+      top: 16px;
+      right: 16px;
+      background-color: #08312A;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+  }
+
+  &__submit {
+      font-family: 'Boehringer Forward Head';
+      background-color: #00E47C;
+      border: 2px solid #00E47C;
+      border-radius: 30px;
+      color: #08312A;
+      cursor: pointer;
+      font-size: 20px;
+      line-height: 28px;
+      width: 100%;
+      text-align: center;
+      padding: 8px 16px;
+      &:hover {
+         background-color: #fff;
+         color: #00E47C;
+      }
+  }
+  &__inputwrap {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   border-bottom: 1px solid #ccc;
+   margin-bottom: 16px;
+   }
+
+   &__otpip {
+      text-align: center;
+      letter-spacing: 2px;
+      border: 1px solid #08312A;
+      border-radius: 20px;
+      min-height: 42px;
+      margin: 24px 0px 16px;
+      font-size: 16px;
+      position: relative;
+   }
+
+   &__otpip::placeholder {
+      letter-spacing: 0;
+      color:#08312A;
+   }
+
+   &__otpip.active-err {
+      background: #f2f2f2;
+      color: #ff0000;
+      font-weight: 600;
+   }
+   &__dnarrow {
+      width: 16px;
+      margin-left: 8px;
+   }
+   &__userselect {
+      position: relative;
+      display: block;
+      font-family: 'Boehringer Forward Head';
+
+      &:hover {
+         .user-type__button {
+            border-radius: 20px 20px 0px 0px;
+            border-bottom: 1px solid transparent;
+         }
+         .user-type__dropdown {
+            display: block;
+            border-top: 1px solid #e5e3de;
+         }
+      }
+   }
+   &__button {
+      background-color: #fff;
+      border-radius: 30px;
+      width: 100%;
+      color: #212121;
+      min-height: 42px;
+      font-size: 15px;
+      border: 1px solid #08312A;
+      cursor: pointer;
+      padding-left: 12px;
+    }
+    &__dropdown {
+      display: none;
+      font-size: 14px;
+      position: absolute;
+      z-index: 1;
+      min-width: 200px;
+      background-color: #fff;
+      border: 1px solid #08312A;
+      border-radius: 0px 0px 20px 20px;
+      width: 100%;
+      text-align: center;
+      a {
+         color: #08312A;
+         padding: 8px 10px;
+         text-decoration: none;
+         display: block;
+         transition: 0.1s;
+         &:hover {
+            background-color: #f2f2f2;
+         }
+         &:focus {
+            background-color: #fff;
+            color: #08312A;
+         }
+       }
+       #personal:hover {
+         border-radius: 0px;
+       }
+       #business:hover {
+         border-radius: 0px 0px 20px 20px;
+       }
+      
+    }
+}
