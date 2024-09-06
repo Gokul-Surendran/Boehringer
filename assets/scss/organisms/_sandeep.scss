@@ -213,11 +213,10 @@
         padding: 10px 20px;
         font-size: 14px !important;
         width: 48%;
-
+        font-weight: 400;
         &:hover {
             color: #08312A !important;
             background-color: transparent !important;
-            ;
         }
     }
 
@@ -230,6 +229,7 @@
         box-shadow: none;
         font-size: 14px !important;
         width: 48%;
+        font-weight: 400 !important;
 
         &:hover {
             color: #08312A !important;
@@ -270,7 +270,7 @@
 
     .bi-rmb-left {
         color: #000000;
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .bi-rmb {
@@ -345,8 +345,8 @@
                     position: absolute;
                     background: #000;
                     left: 0;
-                    width: 8px;
-                    height: 8px;
+                    width: 5px;
+                    height: 5px;
                     border-radius: 50%;
                     font-size: 50px;
                     top: 11px;
@@ -379,6 +379,31 @@
 
     .inner-marging {
         min-height: 140vh;
+    }
+    .cx-varient b::after {
+        right: 17px;
+        top: 0;
+    }
+    .cx-varient b {
+        font-size: 14px;
+        color: #08312A;
+    }
+    .btn-calc {
+        border-radius: 6px ;
+        background-color: #08312A ;
+        border: 1px solid #08312A ;
+        color: #F6F6F6;
+        padding: 8px 10px;
+        font-size: 14px ;
+        width: auto;
+
+        &:hover {
+            color: #08312A;
+            background-color: transparent;
+        }
+    }
+    .bi-product-desc {
+        line-height: 22px;
     }
 }
 
