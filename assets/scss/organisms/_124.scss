@@ -1,0 +1,131 @@
+.bi-tree {
+    padding: 32px 0;
+
+    &__num-head {
+        color: #00E57B;
+        font-size: 350px;
+        line-height: 360px;
+        font-family: 'Boehringer Forward Head';
+    }
+
+    &__sec-one {
+        display: flex;
+        margin-bottom: 32px;
+    }
+    &__one-left {
+        width: 55%;
+        margin-right: -15%;
+        z-index: 1;
+    }
+    &__onehead {
+        font-size: 160px;
+        line-height: 170px;
+        font-weight: 600;
+        font-family: 'Boehringer Forward Head';
+        padding-bottom: 32px;
+        color: #000;
+    }
+    &__desc {
+        width: 60%;
+        p {
+            color: #08312a;
+            font-size: 16px;
+            font-weight: 400;
+            padding-bottom: 16px;
+        }
+    }
+    &__one-right {
+        width: 65%;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    &__sec-two {
+        display: flex;
+    }
+    &__two-left {
+        width: 50%;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    &__two-right {
+        width: 50%;
+        padding-left: 40px;
+        img {
+            width: 70%;
+            height: auto;
+        }
+
+        h1 {
+            font-size: 95px;
+            padding-bottom: 24px;
+            font-weight: 600;
+            color: #000;
+        }
+        p {
+            color: #08312a;
+            font-size: 16px;
+            font-weight: 400;
+            padding-bottom: 16px;
+        }
+    }
+}
+
+@include tablet {
+    .bi-tree {
+        &__onehead {
+            font-size: 100px;
+            line-height: 110px;
+        } 
+    }
+}
+
+@include mobile {
+    .bi-tree {
+        &__sec-one {
+            flex-direction: column;
+        }
+        &__onehead {
+            font-size: 50px;
+            line-height:60px;
+        } 
+        &__one-left {
+            width: 100%;
+            margin: 0;
+        }
+        &__desc {
+            width: 100%;
+        }
+        &__one-right {
+            width: 100%;
+        }
+        &__sec-two {
+            flex-direction: column;
+        }
+        &__two-left {
+            width: 100%;
+        }
+        &__two-right {
+            width: 100%;
+            padding-left: 0;
+            h1 {
+                font-size: 50px;
+                line-height: 60px;
+                br {
+                    display: none;
+                }
+            }
+            img {
+                width: 100%;
+            }
+        }
+        &__num-head {
+            font-size: 150px;
+            line-height: 160px;
+        }
+    }
+}
