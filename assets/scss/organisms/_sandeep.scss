@@ -197,6 +197,8 @@
     .cx-sortby {
         color: #000000;
         text-transform: none;
+        font-weight: 400;
+        font-size: 18px;
     }
 
     .inner-marging {
@@ -211,6 +213,7 @@
         padding: 10px 20px;
         font-size: 14px !important;
         width: 48%;
+
         &:hover {
             color: #08312A !important;
             background-color: transparent !important;
@@ -227,6 +230,7 @@
         box-shadow: none;
         font-size: 14px !important;
         width: 48%;
+
         &:hover {
             color: #08312A !important;
             background-color: transparent !important;
@@ -239,9 +243,11 @@
         align-items: center;
         width: 100%;
     }
+
     .bi-pdp {
         background: #F8F9FA;
     }
+
     // .mobile-price {
     //     background-color: #fff !important;
     // }
@@ -250,49 +256,104 @@
         font-weight: bold;
         color: #2a2b2c;
     }
+
     .account-search .dropdown .dropdown-menu {
         top: 52px;
         left: -44px !important;
         right: 0 !important;
     }
+
     .mobile-price .del {
         color: #000000;
         margin-bottom: 20px;
     }
+
     .bi-rmb-left {
         color: #000000;
         font-size: 18px;
     }
+
     .bi-rmb {
         font-weight: 400;
     }
+
     .ab-details {
         border: 2px solid #cccccc;
     }
+
     .ab-details td {
         border-right: 1px solid #cccccc;
         border-bottom: 1px solid #cccccc;
         padding: 8px;
     }
-    .ab-details__head  {
+
+    .ab-details__head {
         color: #08312A;
-        font-weight: 600;
+        font-weight: 400;
     }
+
     .bi-pdplft {
         background: #fff;
         border-radius: 8px;
     }
+
     .cx-qd {
         color: #08312A;
         font-weight: 500;
         margin-bottom: 16px;
     }
+
     .mobile-price {
-        background-color: #fff!important;
+        background-color: #fff !important;
     }
+
     .bi-txtarea {
         color: #08312A;
         font-size: 16px;
+    }
+
+    .cx-tbout {
+        justify-content: flex-start;
+    }
+
+    .product-details-page h2 {
+        text-transform: capitalize;
+    }
+
+    .bi-pdphead {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .bi-img {
+        margin-left: 10px;
+    }
+
+    .bi-to {
+        display: flex;
+        color: #000000;
+
+        ul {
+            line-height: 30px;
+        }
+    }
+
+    .bi-txt {
+        textarea {
+            border: 1px solid #54565A;
+            border-radius: 6px;
+        }
+    }
+    .inner-marging {
+        min-height: 150vh;
+    }
+    .filter-check-box label {
+        color: #000000;
+    }
+    .sort select {
+        color: #000000;
+        font-weight: 400;
+        border: 1px solid #8c8481;
     }
 }
 
