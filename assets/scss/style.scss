@@ -10,6 +10,7 @@
 // @import "./base/backup-old";
 
 // atoms
+@import "./atoms/input";
 
 // molecule
 @import './molecules/price-range';
@@ -25,4 +26,6 @@
 // pages
 @import "./organisms/124";
 @import "organisms/PLP";
+// pages
+@import "./organisms/user-details";
 // pages
