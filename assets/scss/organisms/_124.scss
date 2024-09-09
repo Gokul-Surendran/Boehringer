@@ -98,6 +98,15 @@
 
 @include mobile {
     .bi-tree {
+        &.ethos {
+            .bi-tree__onehead {
+                font-size: 50px;
+                line-height:60px;
+                br {
+                    display: none;
+                }
+            }
+        }
         &__sec-one {
             flex-direction: column;
         }
