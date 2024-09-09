@@ -4,6 +4,12 @@
     label {
         margin-bottom: 5px;
         font-weight: bold;
+
+        sup {
+            position: relative;
+            top: 0;
+            right: 0;
+        }
     }
 
     input,
