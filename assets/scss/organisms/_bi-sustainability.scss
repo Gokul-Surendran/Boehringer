@@ -1,0 +1,133 @@
+.bi-sustainability {
+  background-color: #f6f5f3;
+  padding: 32px 0 64px;
+
+  &__outer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__left {
+    width: 65%;
+    height: auto;
+  }
+
+  &__right {
+    width: 35%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__img {
+    width: 280px;
+    height: auto;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  h1 {
+    font-size: 80px;
+    line-height: 86px;
+    font-weight: 500;
+    color: #08312a;
+    padding-bottom: 10px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+  }
+
+  &__col {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+
+  &__col-one, &__col-two {
+    width: 48%;
+    height: auto;
+    padding: 24px 0 32px;
+  }
+
+  &__col-one {
+    border-right: 1px solid #bcbcbc;
+  }
+}
+
+@include tablet {
+    .bi-sustainability  {
+        h1 {
+            font-size: 46px;
+            line-height: 54px;
+        }
+
+        &__left {
+            width: 56%;
+        }
+
+        &__right {
+            width: 44%;
+        }
+
+        &__img {
+            width: 210px;
+        }
+
+        .bi-si-tile {
+            padding: 24px 18px;
+        }
+    }
+}
+
+@include mobile {
+    .bi-sustainability  {
+        padding: 24px 0;
+        h1 {
+            font-size: 35px;
+            line-height: 42px;
+        }
+
+        &__outer {
+            flex-direction: column;
+        }
+
+        &__left , &__right{
+            width: 100%;
+        }
+
+        &__img {
+            width: 160px;
+            padding: 20px 0;
+        }
+
+        &__col {
+            flex-direction: column;
+        }
+
+        &__col-one {
+            border-right: none;
+            border-bottom: 1px solid #bcbcbc;
+            padding: 5px 0;
+        }
+
+        &__col-two {
+            padding: 5px 0;
+        }
+
+        &__col-one, &__col-two {
+            width: 100%;
+        }
+
+        .bi-si-tile {
+            padding: 18px 0;
+        }
+    }
+}

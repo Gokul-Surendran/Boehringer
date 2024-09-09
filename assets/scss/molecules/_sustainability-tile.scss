@@ -1,0 +1,24 @@
+.bi-si-tile {
+    background-color: #f6f5f3;
+    padding: 24px 40px;
+
+    &__round {
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: 600;
+        padding: 4px 12px;
+        border: 1px solid #000000;
+        border-radius: 20px;
+        color: #000000;
+        display: inline-block;
+    }
+
+    &__cnt {
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+        padding-top: 8px;
+    }
+
+
+}
