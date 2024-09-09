@@ -1,22 +1,119 @@
-.bi-shpingcart__left {
-   width: 70%;
-}
 .bi-shpcarttitle {
    display: flex;
+   justify-content: space-around;
    width: 100%;
 }
 .bi-shpcarttitle__a {
-   width: 45%;
-   font-size: 24px;
+   width: 38%;
+   font-size: 20px;
+   padding-left: 32px;
    font-weight: 600;
    color: #08312A;
 }
 .bi-shpcarttitle__b, 
 .bi-shpcarttitle__c, 
-.bi-shpcarttitle__d {
-   width: 18.33%;
-   font-size: 24px;
+.bi-shpcarttitle__d,
+.bi-shpcarttitle__e {
+   font-size: 20px;
    font-weight: 700;
    color: #08312A;
    text-align: center;
+}
+.bi-shpcarttitle__b,
+.bi-shpcarttitle__c {
+   width: 18%;
+}
+.bi-shpcarttitle__d {
+   width: 16%;
+}
+.bi-shpcarttitle__e {
+   width: 10%;
+   padding-right: 12px;
+}
+.bi-shpcartpdt__pricecode {
+   font-weight: 700;
+   color: #000;
+   text-align: center;
+   font-size: 18px;
+   width: 18%;
+}
+.bi-ordersumrywrap {
+   background-color: #fff;
+   padding: 16px 24px 32px;
+   border-radius: 12px;
+}
+.bi-ordrsumry__btn {
+   background-color: #08312A;
+   color: #fff;
+   width: 85%;
+   display: inline-block;
+   text-align: center;
+   border: 1px solid #08312A;
+   border-radius: 4px;
+   padding: 10px 0px;
+   margin-top: 26px;
+   &:hover {
+      background-color: transparent;
+      color: #08312A;
+      cursor: pointer;
+      border: 1px solid #08312A;
+   }
+}
+.cx-shpingcart .cx-ordrsumry__item.total {
+   border-bottom: 0;
+   padding-bottom: 0;
+}
+.total .label {
+   font-size: 18px !important;
+}
+.bi-buttonswrap {
+   display: flex;
+   justify-content: flex-end;
+}
+.bi-buttons {
+   width: 46%;
+   display: flex;
+   gap: 20px;
+}
+.bi-savebasket {
+   margin-top: 32px;
+}
+.bi-sbhead {
+   font-size: 18px;
+   font-weight: 500;
+   font-family: 'Boehringer Forward Head';
+   color: #08312A;
+   margin-bottom: 16px;
+}
+.bi-sbcopy {
+   font-size: 16px;
+   color: #000;
+   a {
+      text-decoration: underline !important;
+   }
+}
+.bi-binputwrap {
+   margin-top: 28%;
+}
+.bi-w40 {
+   width: 40%;
+}
+.bi-sqinput {
+   width: 100%;
+   height: 48px;
+   border: 1px solid #54565A;
+   border-radius: 4px;
+}
+
+@include mobile {
+   .bi-binputwrap,
+   .cx-ordrsumry__head {
+      margin-top: 24px;
+   }
+   .bi-buttons {
+      width: 100%;
+   }
+   .cx-shpcart__outer {
+      overflow: scroll;
+   }
 }
