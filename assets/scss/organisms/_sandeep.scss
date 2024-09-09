@@ -32,9 +32,14 @@
         }
     }
 
+    .sec-menu {
+        width: 100% !important;
+    }
+
     .sec-menu ul {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
     .bi-dot {
@@ -214,6 +219,7 @@
         font-size: 14px !important;
         width: 48%;
         font-weight: 400;
+
         &:hover {
             color: #08312A !important;
             background-color: transparent !important;
@@ -317,29 +323,35 @@
         min-width: 207px;
         overflow-x: scroll;
     }
+
     .cx-tbout::-webkit-scrollbar {
-        height: 6px; /* Set the height of the scrollbar */     
-      }
-      
-      .cx-tbout::-webkit-scrollbar-thumb {
-        background-color: #888; /* Color of the scrollbar thumb */
-        border-radius: 10px; /* Roundness of the scrollbar */
-      }
-      
-      .cx-tbout::-webkit-scrollbar-thumb:hover {
-        background-color: #555; /* Darker color when hovering */
-      }
-      
-      .cx-tbout::-webkit-scrollbar-track {
-        background-color: #f1f1f1; /* Background of the scrollbar track */
+        height: 6px;
+        /* Set the height of the scrollbar */
+    }
+
+    .cx-tbout::-webkit-scrollbar-thumb {
+        background-color: #888;
+        /* Color of the scrollbar thumb */
         border-radius: 10px;
-      }
-      
-      /* Optional: Adds smooth scrolling */
-      .cx-tbout {
+        /* Roundness of the scrollbar */
+    }
+
+    .cx-tbout::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+        /* Darker color when hovering */
+    }
+
+    .cx-tbout::-webkit-scrollbar-track {
+        background-color: #f1f1f1;
+        /* Background of the scrollbar track */
+        border-radius: 10px;
+    }
+
+    /* Optional: Adds smooth scrolling */
+    .cx-tbout {
         scroll-behavior: smooth;
         cursor: pointer;
-      }
+    }
 
     .product-details-page h2 {
         text-transform: capitalize;
@@ -357,7 +369,7 @@
     .bi-to {
         display: flex;
         color: #000000;
-       
+
 
         ul {
             line-height: 30px;
@@ -365,6 +377,7 @@
             li {
                 padding-left: 20px;
                 position: relative;
+
                 &::before {
                     content: "";
                     position: absolute;
@@ -401,21 +414,24 @@
         border: 1px solid #8c8481;
         background-color: #f6f5f3;
     }
+
     .cx-varient b::after {
         right: 17px;
         top: 0;
     }
+
     .cx-varient b {
         font-size: 14px;
         color: #08312A;
     }
+
     .btn-calc {
-        border-radius: 6px ;
-        background-color: #08312A ;
-        border: 1px solid #08312A ;
+        border-radius: 6px;
+        background-color: #08312A;
+        border: 1px solid #08312A;
         color: #F6F6F6;
         padding: 8px 10px;
-        font-size: 14px ;
+        font-size: 14px;
         width: auto;
 
         &:hover {
@@ -423,8 +439,97 @@
             background-color: transparent;
         }
     }
+
     .bi-product-desc {
         line-height: 22px;
+    }
+
+    .search .form-inline {
+        width: 180px;
+        text-align: right;
+        margin-left: 49%;
+    }
+
+    .form-control {
+        height: 32px;
+        font-size: 14px !important;
+    }
+
+    .navbar-brand>img:nth-child(2) {
+        width: 140px !important;
+    }
+
+    .cx-searchbar {
+        border: 1px solid #fff !important;
+    }
+
+    .btn-outline-success:hover {
+        color: #fff;
+        background-color: none;
+        border-color: none;
+    }
+
+    .my-lg-8 a {
+        top: 16px;
+    }
+
+    .plp-price {
+        display: flex;
+        justify-content: space-between;
+        color: #666666;
+    }
+
+    .cx-pf__head {
+        span {
+            font-weight: bold;
+            color: #08312A;
+        }
+    }
+
+    .cx-pf__again {
+        color: #fff;
+        display: inline-block;
+        text-align: center;
+        border: 1px solid #08312A;
+        border-radius: 6px;
+        width: 230px;
+        height: 38px;
+        padding: 7px 8px;
+        font-weight: 100;
+        font-size: 16px;
+        background-color: #08312A;
+        margin-right: 32px;
+
+        &:hover {
+            background-color: transparent;
+            border: 1px solid #08312A;
+            color: #08312A;
+        }
+    }
+    .cx-pf__back {
+        color: #08312A;
+        background-color: #00E47C !important;
+        display: inline-block;
+        text-align: center;
+        border: 1px solid #00E47C !important;
+        border-radius: 6px;
+        width: 230px;
+        height: 38px;
+        padding: 7px 8px;
+        font-weight: 100;
+        font-size: 16px;
+        margin-right: 16px;
+        &:hover {
+            background-color: transparent !important;
+            border: 1px solid #00E47C !important;
+            color: #00E47C;
+        }
+    }
+    .cx-pf__para {
+        color: #000000;
+    }
+    .cx-pf__wrap {
+        margin-top: 24px;
     }
 }
 
