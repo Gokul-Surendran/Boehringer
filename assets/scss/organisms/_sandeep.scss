@@ -213,11 +213,10 @@
         padding: 10px 20px;
         font-size: 14px !important;
         width: 48%;
-
+        font-weight: 400;
         &:hover {
             color: #08312A !important;
             background-color: transparent !important;
-            ;
         }
     }
 
@@ -230,6 +229,7 @@
         box-shadow: none;
         font-size: 14px !important;
         width: 48%;
+        font-weight: 400 !important;
 
         &:hover {
             color: #08312A !important;
@@ -270,7 +270,7 @@
 
     .bi-rmb-left {
         color: #000000;
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .bi-rmb {
@@ -309,7 +309,7 @@
 
     .bi-txtarea {
         color: #08312A;
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .cx-tbout {
@@ -332,9 +332,26 @@
     .bi-to {
         display: flex;
         color: #000000;
+       
 
         ul {
             line-height: 30px;
+
+            li {
+                padding-left: 20px;
+                position: relative;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    background: #000;
+                    left: 0;
+                    width: 5px;
+                    height: 5px;
+                    border-radius: 50%;
+                    font-size: 50px;
+                    top: 11px;
+                }
+            }
         }
     }
 
@@ -344,16 +361,49 @@
             border-radius: 6px;
         }
     }
+
     .inner-marging {
         min-height: 150vh;
     }
+
     .filter-check-box label {
         color: #000000;
     }
+
     .sort select {
         color: #000000;
         font-weight: 400;
         border: 1px solid #8c8481;
+        background-color: #f6f5f3;
+    }
+
+    .inner-marging {
+        min-height: 140vh;
+    }
+    .cx-varient b::after {
+        right: 17px;
+        top: 0;
+    }
+    .cx-varient b {
+        font-size: 14px;
+        color: #08312A;
+    }
+    .btn-calc {
+        border-radius: 6px ;
+        background-color: #08312A ;
+        border: 1px solid #08312A ;
+        color: #F6F6F6;
+        padding: 8px 10px;
+        font-size: 14px ;
+        width: auto;
+
+        &:hover {
+            color: #08312A;
+            background-color: transparent;
+        }
+    }
+    .bi-product-desc {
+        line-height: 22px;
     }
 }
 

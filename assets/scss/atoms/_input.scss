@@ -1,0 +1,28 @@
+.bi-input {
+    margin-bottom: 16px;
+
+    label {
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    input,
+    select {
+        width: 100%;
+        border: 1px solid #cccccc;
+        padding: 5px 10px;
+
+        &:focus {
+            border: 1px solid #022D25;
+        }
+    }
+
+
+}
+
+
+@include mobile {
+    .bi-input {
+        width: 100%;
+    }
+}
