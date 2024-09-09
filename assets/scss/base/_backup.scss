@@ -2229,7 +2229,7 @@
   font-size: 18px;
 }
 .cx-shpcart .cx-shpcartpdt .boldblu {
-  color: #003D5B;
+  color: #08312A;
   font-weight: 700;
 }
 .cx-shpcart .cx-shpcartpdt__delete {
@@ -3088,10 +3088,10 @@
 .cx-shpingcart__head {
   font-size: 64px;
   font-weight: 700;
-  color: #003D5B;
-  text-align: center;
+  color: #08312A;
+  text-align: left;
   padding: 20px 0px;
-  margin-bottom: 24px;
+  margin: 32px 0 0;
 }
 .cx-shpingcart__outer {
   display: flex;
@@ -3111,7 +3111,7 @@
 .cx-shpingcart .cx-ordrsumry__head {
   font-size: 24px;
   font-weight: 700;
-  color: #003D5B;
+  color: #08312A;
   margin-bottom: 20px;
   text-transform: unset;
 }
@@ -3140,26 +3140,25 @@
   font-size: 18px;
 }
 .cx-shpingcart .cx-ordrsumry .boldblu {
-  color: #003D5B;
+  color: #08312A;
   font-weight: 700;
 }
 .cx-shpingcart .cx-ordrsumry__btn {
-  background-color: #003D5B;
-  color: #ffffff;
-  font-weight: 600;
+  background-color: #00E47C;
+  color: #08312A;
   width: 100%;
   display: inline-block;
   text-align: center;
-  border: 1px solid #003D5B;
-  border-radius: 20px;
+  border: 1px solid #00E47C;
+  border-radius: 4px;
   padding: 8px 0px;
   margin-top: 20px;
 }
 .cx-shpingcart .cx-ordrsumry__btn:hover {
   background-color: #fff;
-  color: #003D5B;
+  color: #00E47C;
   cursor: pointer;
-  border: 1px solid #003D5B;
+  border: 1px solid #00E47C;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
