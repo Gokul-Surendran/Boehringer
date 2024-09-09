@@ -314,7 +314,32 @@
 
     .cx-tbout {
         justify-content: flex-start;
+        min-width: 207px;
+        overflow-x: scroll;
     }
+    .cx-tbout::-webkit-scrollbar {
+        height: 6px; /* Set the height of the scrollbar */     
+      }
+      
+      .cx-tbout::-webkit-scrollbar-thumb {
+        background-color: #888; /* Color of the scrollbar thumb */
+        border-radius: 10px; /* Roundness of the scrollbar */
+      }
+      
+      .cx-tbout::-webkit-scrollbar-thumb:hover {
+        background-color: #555; /* Darker color when hovering */
+      }
+      
+      .cx-tbout::-webkit-scrollbar-track {
+        background-color: #f1f1f1; /* Background of the scrollbar track */
+        border-radius: 10px;
+      }
+      
+      /* Optional: Adds smooth scrolling */
+      .cx-tbout {
+        scroll-behavior: smooth;
+        cursor: pointer;
+      }
 
     .product-details-page h2 {
         text-transform: capitalize;
@@ -375,10 +400,6 @@
         font-weight: 400;
         border: 1px solid #8c8481;
         background-color: #f6f5f3;
-    }
-
-    .inner-marging {
-        min-height: 140vh;
     }
     .cx-varient b::after {
         right: 17px;
