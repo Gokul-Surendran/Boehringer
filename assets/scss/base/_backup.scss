@@ -2368,10 +2368,10 @@
 .cx-copdt__outer {
   padding: 28px 24px 4px 12px;
   background-color: #fff;
+  border-top: 1px solid #08312a;
   min-height: auto;
   max-height: 300px;
   overflow-y: scroll;
-  margin-left: 12px;
   display: none;
 }
 .cx-copdt__outer.active {
@@ -2401,24 +2401,30 @@
 }
 
 .cx-odrsmry {
-  background-color: #f4f4f4;
-  padding: 20px 0px 0px;
+  background-color: #fff;
+  padding: 20px 0px;
   border-radius: 10px;
+  margin-bottom: 24px;
 }
 .cx-odrsmry__head {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
-  text-align: center;
-  color: #003D5B;
-  margin-bottom: 20px;
+  text-align: left;
+  color: #08312a;
   text-transform: unset;
-  border-bottom: 1px solid #c0c0c0;
-  padding-bottom: 15px;
+  margin-bottom: 16px;
 }
 .cx-odrsmry__item {
   display: flex;
   justify-content: space-between;
-  padding: 0px 16px 12px;
+  border-bottom: 1px solid #c0c0c0;
+  margin: 0px 16px 12px;
+  padding-bottom: 12px;
+}
+.cx-odrsmry__item.total {
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .cx-odrsmry__item:nth-child(3) {
   border-bottom: 1px solid #c0c0c0;
@@ -2430,9 +2436,9 @@
   padding-bottom: 15px;
 }
 .cx-odrsmry .label {
-  color: #535353;
+  color: #000;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
 }
 .cx-odrsmry .value {
   color: #000000;
@@ -2440,7 +2446,7 @@
   font-size: 18px;
 }
 .cx-odrsmry .boldblu {
-  color: #003D5B;
+  color: #08312a;
   font-weight: 700;
 }
 .cx-odrsmry__btnwrap {
@@ -2450,7 +2456,7 @@
 }
 .cx-odrsmry__btn {
   background-color: #25E2CC;
-  color: #003D5B;
+  color: #08312a;
   text-decoration: none;
   font-weight: 600;
   width: 90%;
@@ -2471,13 +2477,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #777;
-  font-size: 16px;
+  color: #08312a;
+  font-size: 18px;
   font-weight: 600;
   text-align: center;
-  border-top: 1px solid #c0c0c0;
-  border-bottom: 1px solid #c0c0c0;
-  padding: 6px 0px;
   cursor: pointer;
 }
 .cx-odrsmry__txtcart:last-child {
@@ -3251,16 +3254,12 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
-  padding: 40px 0px;
 }
 .cx-checkout__left {
-  background-color: #e6f1f2;
-  width: 69%;
-  padding: 16px;
+  width: 66%;
   border-radius: 6px;
   height: -moz-fit-content;
   height: fit-content;
-  // font-family: "Montserrat", sans-serif;
 }
 .cx-checkout__left h2 {
   color: #003D5B;
