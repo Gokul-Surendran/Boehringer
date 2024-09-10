@@ -269,7 +269,7 @@
 
     .account-search .dropdown .dropdown-menu {
         top: 52px;
-        left: -44px !important;
+        left: 12px !important;
         right: 0 !important;
     }
 
@@ -464,13 +464,13 @@
     }
 
     .search .form-inline {
-        width: 180px;
+        width: 200px;
         text-align: right;
-        margin-left: 49%;
+        margin-left: 46%;
     }
 
     .form-control {
-        height: 32px;
+        height: 32px !important;
         font-size: 14px !important;
     }
 
@@ -490,6 +490,7 @@
 
     .my-lg-8 a {
         top: 16px;
+        right: -22px;
     }
 
     .plp-price {
@@ -551,6 +552,18 @@
     }
     .cx-pf__wrap {
         margin-top: 24px;
+    }
+    .navbar {
+        margin-top: 0;
+    }
+    .sec-menu .btn-secondary:hover::before {
+        background-color: transparent;        
+    }
+    .sec-menu .btn-secondary:hover {
+        color: #00E47C !important;
+    }
+    .sec-menu .btn-secondary {
+        font-size: 14px !important;
     }
 }
 
