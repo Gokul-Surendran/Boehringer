@@ -1,0 +1,29 @@
+.bi-btn {
+    background-color: #00E47C;
+    color: #08312A;
+    border-color: #00E47C;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 7px 14px;
+    border-radius: 4px;
+    transition: all 0.2s 0s ease-in;
+    margin: 20px 0;
+    
+    a {
+        color: #08312A;
+        text-decoration: none;
+    }
+
+    &:hover {
+        background-color: #66EFB0;
+        border-color: #66EFB0;
+        text-decoration: none;
+        color: #08312A;
+        transition: all 0.2s 0s ease-in;
+        a {
+            color: #08312A;
+            text-decoration: none;
+        }
+    }
+}
+

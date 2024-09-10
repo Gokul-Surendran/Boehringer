@@ -3,7 +3,9 @@
 
     label {
         margin-bottom: 5px;
-        font-weight: bold;
+        font-family: 'Boehringer Forward Text Md';
+        color: #000;
+        font-size: 15px;
 
         sup {
             position: relative;
@@ -20,6 +22,12 @@
 
         &:focus {
             border: 1px solid #022D25;
+        }
+    }
+
+    input {
+        &::placeholder {
+            font-size: 13px;
         }
     }
 
