@@ -268,7 +268,7 @@
     }
 
     .account-search .dropdown .dropdown-menu {
-        top: 52px;
+        top: 46px;
         left: 12px !important;
         right: 0 !important;
     }
@@ -464,13 +464,13 @@
     }
 
     .search .form-inline {
-        width: 200px;
+        width: 202px;
         text-align: right;
-        margin-left: 46%;
+        margin-left: 64%;
     }
 
     .form-control {
-        height: 32px !important;
+        height: 34px !important;
         font-size: 14px !important;
     }
 
@@ -490,7 +490,7 @@
 
     .my-lg-8 a {
         top: 16px;
-        right: -22px;
+        right: -62px;
     }
 
     .plp-price {
@@ -564,6 +564,9 @@
     }
     .sec-menu .btn-secondary {
         font-size: 14px !important;
+    }
+    .boehringer-wrap {
+        max-width: 1300px;
     }
 }
 
