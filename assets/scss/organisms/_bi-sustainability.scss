@@ -9,8 +9,10 @@
   }
 
   &__left {
-    width: 65%;
+    width: 100%;
+    margin-bottom: 8%;
     height: auto;
+    margin-left: 42px;
   }
 
   &__right {
@@ -23,6 +25,7 @@
   &__img {
     width: 280px;
     height: auto;
+    margin-top: 30%;
 
     img {
       width: 100%;
@@ -31,11 +34,12 @@
   }
 
   h1 {
-    font-size: 80px;
-    line-height: 86px;
-    font-weight: 500;
+    font-size: 82px;
+    line-height: 100px;
     color: #08312a;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    margin-top: 17%;
+    font-family: 'Boehringer Forward Head Md';
   }
 
   p {
