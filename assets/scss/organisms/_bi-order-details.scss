@@ -1,0 +1,154 @@
+.bi-order {
+    background-color: #f6f5f3;
+    padding: 32px 0;
+
+    &__btn {
+        margin: 20px 0;
+    }
+
+    &__bold {
+        font-weight: 700;
+        text-align: right;
+    }
+
+    table {
+        padding-bottom: 20px;
+    }
+
+    td {
+        color: #191919;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .bi-heading__sub {
+        margin-bottom: 10px;
+    }
+
+    &__details {
+        display: flex;
+        align-items: center;
+        background-color: #ffffff;
+        border-bottom: 1px solid #DEE2E6;
+    }
+
+    &__left {
+        width: 40%;
+
+        p {
+            font-size: 14px;
+            line-height: 20px;
+            padding: 6px;
+            color: #191919;
+            font-weight: 600;
+        }
+    }
+
+    &__right {
+        width: 60%;
+
+        p {
+            font-size: 14px;
+            line-height: 20px;
+            padding: 6px;
+            color: #191919;
+        }
+    }
+
+    &__wrap {
+        display: flex;
+        padding: 8px;
+        margin: 8px;
+        gap: 20px;
+        padding: 8px 8px 20px;
+    }
+
+    &__wrap-white {
+        display: flex;
+        padding: 8px 8px 20px;
+        background-color: #ffffff;
+        gap: 20px;
+    }
+
+    &__col-10 {
+        width: 10%;
+        p {
+            font-size: 14px;
+            line-height: 20px;
+            color: #191919;
+        }
+    }
+
+    &__head {
+        font-size: 14px;
+        line-height: 20px;
+        color: #191919;
+        font-weight: 600;
+    }
+
+    &__sub {
+        font-size: 24px;
+        line-height: 28px;
+        color: #191919;
+        font-weight: 600;
+        text-transform: unset;
+        padding: 10px;
+    }
+
+    &__col-20 {
+        width: 20%;
+        p {
+            font-size: 14px;
+            line-height: 20px;
+            color: #191919;
+        }
+    }
+
+    &__p-head {
+        font-size: 24px;
+        line-height: 28px;
+        color: #191919;
+        font-weight: 600;
+        padding: 20px 0 10px;
+        text-transform: unset;
+    }
+
+    .bi-si-tile {
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+
+        &:last-child {
+            border-bottom: 1px solid #00000048;
+            padding-bottom: 30px;
+        }
+    }
+
+    &__outer {
+        background-color: #F2F2F2;
+    }
+
+}
+
+@include tablet {
+    .bi-order {
+        &__outer {
+            overflow-x: scroll;
+        }
+        &__wrap , &__wrap-white {
+            min-width: 1240px;
+        }
+    }
+}
+
+
+@include mobile {
+    .bi-order {
+        &__outer {
+            overflow-x: scroll;
+        }
+        &__wrap , &__wrap-white {
+            min-width: 1240px;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.bi-order-modal {
+    background-color: #ffffff;
+    cursor: pointer;
+    border: 1px solid #DEE2E6;
+    padding: 10px;
+
+    &__img {
+        width: 100%;
+        height: auto;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__zoom-img {
+        width: 14px;
+        height: 14px;
+        margin: 0 auto;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__inner {
+        width: 100%;
+        height: auto;
+
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .modal-title {
+        color: #191919;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    &__cnt {
+        text-align: center;
+        color: #191919;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .btn-close {
+        width: 14px;
+        height: 14px;
+        box-sizing: border-box;
+    }
+
+    .modal-header .btn-close {
+        margin: -.5rem 0.5rem -.5rem auto;
+    }
+
+    .btn {
+        padding: 0;
+    }
+}

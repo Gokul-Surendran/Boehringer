@@ -2,16 +2,18 @@
     color: #191919;
     font-size: 36px;
     line-height: 42px;
-    font-weight: 600;
+    font-weight: normal;
     margin: 20px 0;
     text-transform: unset;
+    font-family: 'Boehringer Forward Head Md';
 
     &__sub {
         color: #191919;
         font-size: 28px;
         line-height: 34px;
-        font-weight: 600;
+        font-weight: normal;
         margin: 20px 0;
+        font-family: 'Boehringer Forward Head Md';
     }
 
 }
