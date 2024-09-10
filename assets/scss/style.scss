@@ -11,6 +11,8 @@
 
 // atoms
 @import "./atoms/input";
+@import "./atoms/btn";
+@import "./atoms/headings";
 
 
 
@@ -31,6 +33,9 @@
 @import './organisms/user-type';
 @import './organisms/Cart';
 @import './organisms/bi-sustainability';
+@import './organisms/bi-accessibility-statement';
+@import './organisms/bi-order-details';
+
 // pages
 @import "./organisms/124";
 @import "organisms/PLP";

@@ -1,0 +1,96 @@
+.bi-accessibility {
+  background-color: #f6f5f3;
+  padding: 32px 0;
+
+  ul {
+    margin-left: 30px !important;
+    padding: 5px 0 0 !important;
+    
+
+    li {
+      display: list-item;
+      list-style: disc !important;
+      font-size: 16px;
+      line-height: 22px;
+      padding-bottom: 5px !important;
+
+      &::marker {
+        color: #000000;
+      }
+    }
+  }
+
+  h2 {
+    color: #191919;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 20px 0 15px;
+    font-family: 'Boehringer Forward Head Md';
+    text-transform: unset;
+    font-weight: 400;
+  }
+
+  h3 {
+    color: #191919;
+    font-size: 28px;
+    line-height: 34px;
+    margin: 32px 0 10px;
+    font-family: 'Boehringer Forward Head Md';
+    text-transform: unset;
+    font-weight: 400;
+  }
+
+  &__cnt {
+    color: #191919;
+    font-size: 14px;
+    line-height: 20px;
+
+    a {
+      text-decoration: none;
+      color: #333333;
+
+      &:hover {
+        u {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+ 
+}
+
+@include tablet {
+  .bi-accessibility {
+    h2 {
+        width: 100%;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    ul {
+        margin-left: 24px;
+    }
+  }
+}
+
+@include mobile {
+    .bi-accessibility {
+        padding: 24px 0;
+      h2 {
+          width: 100%;
+          font-size: 26px;
+          line-height: 32px;
+      }
+      h3 {
+        font-size: 22px;
+        line-height: 28px;
+      }
+      ul {
+          margin-left: 24px;
+          padding-top: 10px;
+      }
+      li {
+        padding-bottom: 8px;
+      }
+    }
+  }
+  

@@ -2,6 +2,14 @@
     background-color: #f6f5f3;
     padding: 24px 40px;
 
+    a {
+        color: #000000;
+
+        &:hover {
+            color: #000000;
+        }
+    }
+
     &__round {
         font-size: 13px;
         line-height: 18px;
