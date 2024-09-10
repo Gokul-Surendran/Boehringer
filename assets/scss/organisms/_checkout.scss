@@ -130,7 +130,8 @@
 
 @include mobile {
    .cx-checkout {
-      &__form {
+      &__form,
+      &__terms {
          flex-direction: column;
       }
       &__group {
@@ -138,6 +139,9 @@
       }
       &__img {
          width: 60%;
+      }
+      &__placeodr {
+         width: 40%;
       }
    }
 }
