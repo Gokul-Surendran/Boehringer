@@ -1,14 +1,27 @@
 .bi-tree {
     &.ethos {
         .bi-tree__onehead {
-            font-size: 140px;
-            line-height: 150px;
             span {
                 color: #00E57B;
             }
         }
         .bi-tree__one-right {
             margin-top: 50px;
+            width: 55%;
+            img {
+                width: 100%;
+            }
+        }
+        .bi-tree__two-right {
+            img {
+                width: 100%;
+            }
+        }
+        .bi-tree__two-left {
+            width: 70%;
+        }
+        .bi-tree__one-left {
+            width: 65%;
         }
     }
     padding: 32px 0;
@@ -98,6 +111,28 @@
 
 @include mobile {
     .bi-tree {
+        &.ethos {
+            .bi-tree__onehead {
+                font-size: 50px;
+                line-height:60px;
+                br {
+                    display: none;
+                }
+            }
+            .bi-tree__two-right {
+                padding-top: 24px;
+            }
+            .bi-tree__two-left {
+                    width: 100%;
+            }
+            .bi-tree__one-left {
+                width: 100%;
+            }
+            .bi-tree__one-right  {
+                width: 100%;
+            }
+            
+        }
         &__sec-one {
             flex-direction: column;
         }
