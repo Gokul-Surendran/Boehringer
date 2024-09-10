@@ -20,6 +20,7 @@
 @import './molecules/price-range';
 @import './molecules/related-prdct';
 @import './molecules/sustainability-tile';
+@import './molecules/order-modal';
 
 
 
@@ -34,7 +35,7 @@
 @import './organisms/Cart';
 @import './organisms/bi-sustainability';
 @import './organisms/bi-accessibility-statement';
-// @import './organisms/bi-order-details';
+@import './organisms/bi-order-details';
 
 // pages
 @import "./organisms/124";

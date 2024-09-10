@@ -1,4 +1,17 @@
 .bi-btn {
+
+    &--reverse {
+        background-color: #66EFB0;
+        border-color: #66EFB0;
+        border-radius: 2px;
+
+        &:hover {
+            background-color: #00E47C !important;
+            border-color: #00E47C !important;
+        }
+    }
+
+
     background-color: #00E47C;
     color: #08312A;
     border-color: #00E47C;
