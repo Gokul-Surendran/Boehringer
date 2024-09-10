@@ -252,6 +252,10 @@
 
     .bi-pdp {
         background: #F8F9FA;
+
+        .container.inner-marging {
+            background: #F8F9FA;
+        }
     }
 
     // .mobile-price {
@@ -285,14 +289,14 @@
 
     .ab-details {
         border: 2px solid #cccccc;
+        margin: 26px 0 2px 0;
     }
 
     .ab-details td {
         border-right: 1px solid #cccccc;
         border-bottom: 1px solid #cccccc;
-        padding: 8px;
+        padding: 6px 40px;
     }
-
     .ab-details__head {
         color: #08312A;
         font-weight: 400;
@@ -414,17 +418,32 @@
         border: 1px solid #8c8481;
         background-color: #f6f5f3;
     }
+    .cx-varient {
+        flex-direction: column;
+    }
 
     .cx-varient b::after {
         right: 17px;
         top: 0;
+        content: "";
     }
 
     .cx-varient b {
         font-size: 14px;
         color: #08312A;
+        margin-bottom: 14px;
     }
+    .varient-btn  {
+        width: auto !important;
+        padding: 4px 20px !important;
+    }
+    .cx-varient div .varient-btn.active {
+        border-color: #00E47C;
+    }
+    .cx-varient div .varient-btn.disable {
+        background-color: #828282;
 
+    }
     .btn-calc {
         border-radius: 6px;
         background-color: #08312A;
