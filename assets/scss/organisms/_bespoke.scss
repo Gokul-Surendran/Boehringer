@@ -7,6 +7,7 @@
         display: flex;
         justify-content: space-between;
         gap: 13%;
+        padding-bottom: 12%;
     }
 
     &__img {
@@ -33,7 +34,7 @@
             margin: 32px;
 
             h2 {
-                font-size: 35px;
+                font-size: 32px;
                 line-height: 45px;
                 margin-bottom: 40px;
                 text-transform: unset;
