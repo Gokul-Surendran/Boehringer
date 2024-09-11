@@ -148,6 +148,9 @@
     .list-show .hover .product-name {
         font-family: 'Boehringer Forward Head Md';
         color: #08312A;
+        &:hover {
+            color: #1155CC;
+        }
     }
 
     .ab-tile__desc {
@@ -173,7 +176,7 @@
     }
 
     .dataView.product-box a:hover {
-        color: #08312A !important;
+        color: #1155CC !important;
     }
 
     .cx-clr-ctn {
