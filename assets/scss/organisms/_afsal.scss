@@ -36,5 +36,10 @@
    }
    .list-show .product-box {
       border: 1px solid #F6F5F3;
+      &:hover {
+         .list-show .hover .product-name {
+                color: #1155CC;
+        }
+      }
    }
 }
