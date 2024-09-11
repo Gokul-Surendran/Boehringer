@@ -1224,8 +1224,8 @@
   color: #00E47C !important;
 }
 .boehringer .book-name-and-buy {
-  text-align: center;
   padding-right: 20px;
+  min-height: auto;
 }
 .boehringer .book-name-and-buy .btn-buy {
   border-radius: 5px !important;
@@ -1239,7 +1239,7 @@
   color: #00E47C !important;
 }
 .boehringer .book-name-and-buy ul li {
-  color: #000 !important;
+  color: #191919 !important;
 }
 .boehringer .search .form-inline {
   width: 330px;
@@ -4230,8 +4230,8 @@ body {
 }
 .boehringer .sort select {
   color: #5d5d5d;
-  width: auto;
-  padding: 0px 4px;
+  width: 120px;
+  padding: 5px 8px;
   border: 1px solid #8C8481;
   margin-left: 10px;
   font-weight: 500;
@@ -4890,11 +4890,10 @@ body {
 .boehringer .list-show .hover .product-name {
   margin-bottom: 8px;
   font-weight: 500;
-  text-transform: uppercase;
+  height: auto;
 }
 .boehringer .pricing li:first-child {
   padding-right: 0;
-  margin-top: 24px;
 }
 .boehringer .cx-cnquantity {
   width: 50px;
