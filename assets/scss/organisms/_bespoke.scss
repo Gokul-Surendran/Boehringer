@@ -5,12 +5,13 @@
 
     &__outer {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         gap: 13%;
+        padding-bottom: 12%;
     }
 
     &__img {
-        width: 45%;
+        width: 40%;
         padding: 0px 24px;
 
         img {
@@ -27,16 +28,17 @@
         background-color: #fff;
         border-radius: 10px;
         box-shadow: 0px 0 4px 0px rgba(0, 0, 0, .1);
-
+        margin-top: 5%;
+        margin-right: 13%;
         &-wrap {
             margin: 32px;
 
             h2 {
-                font-size: 35px;
+                font-size: 32px;
                 line-height: 45px;
                 margin-bottom: 40px;
                 text-transform: unset;
-                color: #000000;
+                color: #323338;
                 font-weight: 500;
                 font-family: "Poppins", sans-serif;
             }
@@ -66,6 +68,7 @@
             input {
                 border-radius: 5px;
                 padding: 8px 10px;
+                width: 100%;
             }
         }
     }

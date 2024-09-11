@@ -1,0 +1,28 @@
+.bi-sitemap {
+    padding: 32px 0px;
+    background-color: #F6F5F3;
+
+    .bi-heading {
+        margin: 16px 0px;
+        font-weight: normal;
+    }
+
+    ul {
+        margin-left: 25px;
+
+        li {
+            list-style: disc;
+            display: list-item;
+            margin-bottom: 5px;
+
+            &::marker,
+            a {
+                color: #1a2f5a;
+            }
+        }
+
+        ul li {
+            list-style: circle;
+        }
+    }
+}
