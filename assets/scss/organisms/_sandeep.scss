@@ -113,7 +113,8 @@
     }
 
     .bi-ibc {
-        margin: 80px 0;
+        padding: 80px 0;
+        background: #F6F5F3;
     }
 
     .cx-btn-prfl {
@@ -266,13 +267,30 @@
         font-weight: bold;
         color: #2a2b2c;
     }
-
-    .account-search .dropdown .dropdown-menu {
-        top: 46px;
-        left: 12px !important;
-        right: 0 !important;
+    .bi-glb {
+        padding-right: 18px;
+        padding-top: 10px;
     }
+    .bi-tree {
+        margin-left: -18px;
+    }
+    .account-search .dropdown .dropdown-menu {
+        top: 52px;
+        left: 9px !important;
+        right: 0 !important;
 
+        &::after {
+            content: "";
+            position: absolute;
+            top: -8px;
+            left: 50%;
+            width: 0;
+            height: 0;
+        }
+    }
+    .dropdown-menu {
+        margin: 0;
+    }
     .mobile-price .del {
         color: #000000;
         margin-bottom: 20px;
@@ -567,6 +585,22 @@
     }
     .boehringer-wrap {
         max-width: 1300px;
+    }
+    .bi-ibc__section {
+        border-bottom: 2px solid #80808078;
+        padding-bottom: 5%;
+    }
+    .bh-prodcut {
+        padding: 24px 0px;
+        background: #F6F5F3;
+        margin: 0;
+    }
+    .slick-dotted.slick-slider {
+        margin-bottom: 0;
+    }
+    .bh-new {
+        background: #F6F5F3;
+        padding: 14px 0px 20px 0;
     }
 }
 
