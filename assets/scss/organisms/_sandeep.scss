@@ -1,7 +1,7 @@
 .boehringer {
-    .list-show .product-box {
-        border: 2px solid #CCCCCC;
-    }
+    // .list-show .product-box {
+    //     border: 2px solid #CCCCCC;
+    // }
 
     .bi-plp {
         background: #f6f5f3;
@@ -155,10 +155,6 @@
 
     .pricing li:first-child {
         font-family: 'Boehringer Forward Head';
-    }
-
-    .filter-check-box label {
-        color: #676767;
     }
 
     .filter-check-box {
@@ -409,14 +405,16 @@
     }
 
     .filter-check-box label {
-        color: #000000;
+        color: #08312A;
+        font-weight: 600;
+        margin-left: 8px;
     }
 
     .sort select {
         color: #000000;
         font-weight: 400;
-        border: 1px solid #8c8481;
-        background-color: #f6f5f3;
+        border: 1px solid #ccc;
+        // background-color: #f6f5f3;
     }
     .cx-varient {
         flex-direction: column;
