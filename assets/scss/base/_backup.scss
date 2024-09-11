@@ -3771,7 +3771,7 @@
   font-size: 14px;
   line-height: 20px;
   font-weight: 600 !important;
-  background-color: #ffffff;
+  background-color: transparent;
   color: #000000;
 
   &:hover {
@@ -3794,7 +3794,7 @@
   font-size: 155px;
   line-height: 160px;
   font-weight: 700;
-  padding-bottom: 42px;
+  padding-bottom: 20%;
   color: #000000;
 }
 .boehringer .bh-prodcut__cnt {
@@ -3803,7 +3803,7 @@
   color: #000000;
   padding-bottom: 20px;
   width: 90%;
-  font-weight: 500;
+  font-family: 'Boehringer Forward Text';
 }
 .boehringer .bh-prodcut .bh-button {
   width: 130px;
