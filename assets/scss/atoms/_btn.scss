@@ -20,8 +20,9 @@
     padding: 7px 14px;
     border-radius: 4px;
     transition: all 0.2s 0s ease-in;
-    margin: 20px 0;
-    
+    display: inline-block;
+    margin-bottom: 10px;
+
     a {
         color: #08312A;
         text-decoration: none;
@@ -33,10 +34,10 @@
         text-decoration: none;
         color: #08312A;
         transition: all 0.2s 0s ease-in;
+
         a {
             color: #08312A;
             text-decoration: none;
         }
     }
 }
-
