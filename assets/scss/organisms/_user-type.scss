@@ -162,12 +162,13 @@
       border-radius: 0px 0px 5px 5px;
       width: 100%;
       text-align: center;
-      a {
+      li {
          color: #08312A;
          padding: 8px 10px;
          text-decoration: none;
          display: block;
          transition: 0.1s;
+         cursor: pointer;
          &:hover {
             background-color: #f2f2f2;
          }
