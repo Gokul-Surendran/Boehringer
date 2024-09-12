@@ -610,6 +610,20 @@
     .bi-footer {
         padding: 90px 20px;
     }
+
+    /* bottle home section */
+    .bh-prodcut {
+        &__cta {
+            display: flex;
+
+            a {
+                border: 2px solid black;
+                color: #000000;
+                border-radius: 6px;
+                width: auto;
+            }
+        }
+    }
 }
 
 
