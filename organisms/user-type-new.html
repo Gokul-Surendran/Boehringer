@@ -28,15 +28,24 @@
                 <span id="LblOtpEmail">jo***@co****ix.com</span>
               </p>
               <div class="user-type__inputwrap">
-                <div class="dropdown">
+
+                <!--surround the select box with a "custom-select" DIV element. Remember to set the width:-->
+                <div class="custom-select">
+                  <select>
+                    <option value="usertype">User Type</option>
+                    <option value="personal">Personal</option>
+                    <option id="business" value="business">Business</option>
+                  </select>
+                </div>
+                <!-- <div class="dropdown">
                   <button class="btn btn-secondary dropdown-toggle user-type__button" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     User Type
                   </button>
                   <ul class="dropdown-menu user-type__dropdown" aria-labelledby="dropdownMenuButton1">
-                    <li class="dropdown-item">Personal</li>
-                    <li id="business" class="dropdown-item">Business</li>
+                    <li><a class="dropdown-item" href="#">Personal</a></li>
+                    <li><a id="business" class="dropdown-item" href="#">Business</a></li>
                   </ul>
-                </div>
+                </div> -->
                 <input name="TxtEnterOtp" type="text" maxlength="6" id="TxtEnterOtp" placeholder="Enter OTP *" class="user-type__otpip">
                 </div>
                <input type="submit" value="Submit" class="user-type__submit">
@@ -55,6 +64,7 @@
     <script src="../assets/js/slick.min.js"></script>
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/script.js"></script>
+      
     <!-- scripts -->
   </body>
 </html>
