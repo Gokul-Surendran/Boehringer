@@ -1,5 +1,6 @@
 .bi-tree {
     background-color: #F6F5F3;
+    padding: 10% 10% 0% 10%;
     &.ethos {
         .bi-tree__onehead {
             font-size: 145px;
@@ -40,19 +41,19 @@
             }
         }
     }
-    padding: 32px 0;
+    
 
     &__num-head {
         color: #00E57B;
-        font-size: 350px;
-        line-height: 360px;
+        font-size: 380px;
+        line-height: 250px;
         font-family: 'Boehringer Forward Head Md';
     }
 
     &__sec-one {
         display: flex;
         margin-bottom: 32px;
-        padding: 64px 0;
+        padding: 72px 0;
     }
     &__one-left {
         width: 55%;
@@ -71,8 +72,8 @@
         p {
             color: #08312a;
             font-size: 16px;
-            font-weight: 400;
             padding-bottom: 16px;
+            font-family: 'Boehringer Forward Head Md';
         }
     }
     &__one-right {
@@ -86,6 +87,7 @@
     &__sec-two {
         display: flex;
         padding-top: 32px;
+        padding-bottom: 10%;
     }
     &__two-left {
         width: 50%;
@@ -103,16 +105,17 @@
         }
 
         h1 {
-            font-size: 95px;
+            font-size: 104px;
+            padding-top: 28px;
             padding-bottom: 24px;
             font-weight: 600;
             color: #000;
         }
         p {
             color: #08312a;
-            font-size: 16px;
-            font-weight: 400;
+            font-size: 18px;
             padding-bottom: 16px;
+            font-family: 'Boehringer Forward Head Md';
         }
     }
 }
