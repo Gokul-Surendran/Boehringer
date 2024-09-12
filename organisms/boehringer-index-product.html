@@ -40,9 +40,17 @@
                                 </a>
                             </div>
                             <div class="bh-prodcut__right">
+                              <div class="bottle-product">
                                 <div class="bh-prodcut__img">
-                                     <img src="../assets/images/bh-bottle.png" alt="">
-                                </div>
+                                  <img src="../assets/images/bh-bottle.png" alt="">
+                                  </div>
+                            <div class="bh-prodcut__img">
+                              <img src="../assets/images/bh-bottle.png" alt="">
+                            </div>
+                            <div class="bh-prodcut__img">
+                              <img src="../assets/images/bh-bottle.png" alt="">
+                            </div>
+                            </div>
                             </div>
                         </div>
                         <!-- content starts -->
@@ -63,6 +71,16 @@
     <script src="../assets/js/slick.min.js"></script>
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/script.js"></script>
+    <script>
+      $('.bottle-product').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        dots: true,
+        Infinity: true,
+        autoplaySpeed: 2000,
+      });
+    </script>
     <!-- scripts -->
   </body>
 </html>
