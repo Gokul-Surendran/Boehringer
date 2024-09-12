@@ -1,0 +1,62 @@
+.bi-reporting {
+    padding: 32px 0px;
+    background-color: #F6F5F3;
+
+    .bi-heading {
+        margin: 0;
+        margin-bottom: 16px;
+        font-weight: normal;
+    }
+
+    .btn {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #000;
+        font-size: 19px;
+        line-height: 25px;
+        font-family: 'Boehringer Forward Head Md';
+        border-radius: 0;
+        background-color: #e5e3de;
+        padding: 5px 8px;
+    }
+
+    .btn.collapsed {
+        border: 1px solid #c5c5c5;
+    }
+
+    .btn img {
+        width: 20px;
+        height: auto;
+    }
+
+    .card {
+        margin-bottom: 2px;
+    }
+
+    .card-header {
+        padding: 0;
+        border-bottom: 0;
+        background-color: transparent;
+    }
+
+    .card-body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .btn:focus {
+        box-shadow: none;
+    }
+}
+
+
+@include tablet {
+    .bi-reporting {
+        .card-body {
+            justify-content: flex-start;
+        }
+    }
+}
