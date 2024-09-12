@@ -62,7 +62,7 @@
       font-family: 'Boehringer Forward Head';
       background-color: #00E47C;
       border: 2px solid #00E47C;
-      border-radius: 30px;
+      border-radius: 5px;
       color: #08312A;
       cursor: pointer;
       font-size: 20px;
@@ -81,13 +81,28 @@
    justify-content: center;
    border-bottom: 1px solid #ccc;
    margin-bottom: 16px;
+   .btn-secondary:hover {
+      color: #08312A;
+      background-color: #f2f2f2;
+      border-color: #08312A;
+   }
+   .btn-secondary:focus {
+      color: #08312A;
+      background-color: transparent;
+      border-color: #08312A;
+      box-shadow: none;
+   }
+   .dropdown-menu {
+      padding: 0;
+      margin-top: -6px !important;
+   }
    }
 
    &__otpip {
       text-align: center;
       letter-spacing: 2px;
       border: 1px solid #08312A;
-      border-radius: 20px;
+      border-radius: 5px;
       min-height: 42px;
       margin: 24px 0px 16px;
       font-size: 16px;
@@ -115,7 +130,7 @@
 
       &:hover {
          .user-type__button {
-            border-radius: 20px 20px 0px 0px;
+            border-radius: 5px 5px 0px 0px;
             border-bottom: 1px solid transparent;
          }
          .user-type__dropdown {
@@ -126,9 +141,9 @@
    }
    &__button {
       background-color: #fff;
-      border-radius: 30px;
+      border-radius: 5px;
       width: 100%;
-      color: #212121;
+      color: #08312A;
       min-height: 42px;
       font-size: 16px;
       border: 1px solid #08312A;
@@ -143,7 +158,8 @@
       min-width: 200px;
       background-color: #fff;
       border: 1px solid #08312A;
-      border-radius: 0px 0px 20px 20px;
+      border-top: 1px solid #e5e3de;
+      border-radius: 0px 0px 5px 5px;
       width: 100%;
       text-align: center;
       a {
@@ -164,7 +180,7 @@
          border-radius: 0px;
        }
        #business:hover {
-         border-radius: 0px 0px 20px 20px;
+         border-radius: 0px 0px 5px 5px;
        }
       
     }
