@@ -610,6 +610,27 @@
     .bi-footer {
         padding: 90px 20px;
     }
+
+    /* bottle home section */
+    .bh-prodcut {
+        &__cta {
+            display: flex;
+
+            a {
+                border: 2px solid black;
+                color: #000000;
+                border-radius: 20px;
+                width: auto;
+                padding: 6px 17px 4px 17px;
+                line-height: 22px;
+                margin-right: 16px;
+                font-size: 13px;
+                font-weight: 600;
+                font-family: "Boehringer Forward Text Md";
+                letter-spacing: 1px;
+            }
+        }
+    }
 }
 
 

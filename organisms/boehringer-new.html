@@ -21,32 +21,38 @@
                 <h2 class="bh-heading">
                     New in
                 </h2>
-                <div class="bh-new__slide">
-                    <div class="bh-new__img">
-                        <img src="../assets/images/bh-img1.png" alt="">
-                    </div>
-                    <div class="bh-new__img">
-                        <img src="../assets/images/bh-img2.png" alt="">
-                    </div>
-                    <div class="bh-new__img">
-                        <img src="../assets/images/bh-img3.png" alt="">
-                    </div>
-                    <div class="bh-new__img">
-                        <img src="../assets/images/bh-img4.png" alt="">
-                    </div>
-                    <div class="bh-new__img">
-                        <img src="../assets/images/bh-img1.png" alt="">
-                    </div>
-                    <div class="bh-new__img">
-                        <img src="../assets/images/bh-img2.png" alt="">
-                    </div>
-                    <div class="bh-new__img">
-                        <img src="../assets/images/bh-img1.png" alt="">
-                    </div>
+            </div>
+            <div class="product-slick">
+                <div class="bh-new__img">
+                    <img src="../assets/images/bh-img1.png" alt="">
+                </div>
+                <div class="bh-new__img">
+                    <img src="../assets/images/bh-img2.png" alt="">
+                </div>
+                <div class="bh-new__img">
+                    <img src="../assets/images/bh-img3.png" alt="">
+                </div>
+                <div class="bh-new__img">
+                    <img src="../assets/images/bh-img4.png" alt="">
+                </div>
+                <div class="bh-new__img">
+                    <img src="../assets/images/bh-img1.png" alt="">
+                </div>
+                <div class="bh-new__img">
+                    <img src="../assets/images/bh-img2.png" alt="">
+                </div>
+                <div class="bh-new__img">
+                    <img src="../assets/images/bh-img1.png" alt="">
+                </div>
+                <div class="bh-new__img">
+                    <img src="../assets/images/bh-img1.png" alt="">
+                </div>
+                <div class="bh-new__img">
+                    <img src="../assets/images/bh-img1.png" alt="">
                 </div>
             </div>
-        </div>
-     </div>
+            </div>
+            </div>
     <!-- body content end -->
 
     <!-- scripts -->
@@ -55,6 +61,16 @@
     <script src="../assets/js/slick.min.js"></script>
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/script.js"></script>
+    <script>
+        $('.product-slick').slick({
+            slidesToShow: 7,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            arrows: false,
+            dots: true,
+        });
+    </script>
     <!-- scripts -->
   </body>
 </html>

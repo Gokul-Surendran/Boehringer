@@ -1,0 +1,25 @@
+/* ********************************** */
+ /* Tablet-pro */
+/* ********************************** */
+
+@include tablet-pro {
+    .boehringer {
+        .my-lg-8 a {
+            right: 6px;
+        }
+         .search .form-inline {
+            margin-left: 26%;
+        }
+    }
+}
+
+/* ********************************** */
+ /* Tablet */
+/* ********************************** */
+@include tablet {
+    .boehringer {
+        .headerspacer {
+            height: 220px;
+        }
+    }
+}

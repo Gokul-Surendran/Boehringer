@@ -15,74 +15,52 @@
   </head>
   <body>
     <!-- body content start -->
-    <div class="boehringer">
+    <div class="boehringer"> 
         <div class="bh-prodcut">
             <div class="container">
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">SOCIAL ENTERPRISE</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">DONATION</button>
-                    </li>
-                  </ul>
-                  <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+              <div class="bh-prodcut__cta mb-3">
+                <a href="">SOCIAL ENTERPRISE</a>
+                <a href="">DONATION</a>
+              </div>
+                <div class="bh-prodcut__outer">
+                            <div class="bh-prodcut__left">
+                                <!-- heading -->
+                                 <h1 class="bh-prodcut__head">Our Ocean Bottle</h1>
+        
+                                 <p class="bh-prodcut__cnt">
+                                    The double wall insulation keeps your cold drinks cold and your hot drinks hot. Designed with a dual opening function the leak proof lid gives you the option to sip from the spout.  Easy access for filling, cleaning and adding ice.
+                                 </p>
+        
+                                 <p class="bh-prodcut__cnt">
+                                    Bottles are made from 90% recycled stainless steel and recycled materials and are 100% dishwasher safe - all while helping protect the ocean, each Ocean Bottle funds the collection of 1000 ocean bound plastic bottles. 
+                                 </p>
+        
+                                 <a href="#" class="bh-button round mt-4">
+                                    Discover
+                                </a>
+                            </div>
+                            <div class="bh-prodcut__right">
+                              <div class="bottle-product">
+                                <div class="bh-prodcut__img">
+                                  <img src="../assets/images/bh-bottle.png" alt="">
+                                  </div>
+                            <div class="bh-prodcut__img">
+                              <img src="../assets/images/bh-bottle.png" alt="">
+                            </div>
+                            <div class="bh-prodcut__img">
+                              <img src="../assets/images/bh-bottle.png" alt="">
+                            </div>
+                            </div>
+                            </div>
+                        </div>
                         <!-- content starts -->
-                        <div class="bh-prodcut__outer">
-                            <div class="bh-prodcut__left">
-                                <!-- heading -->
-                                 <h1 class="bh-prodcut__head">Our Ocean Bottle</h1>
-        
-                                 <p class="bh-prodcut__cnt">
-                                    The double wall insulation keeps your cold drinks cold and your hot drinks hot. Designed with a dual opening function the leak proof lid gives you the option to sip from the spout.  Easy access for filling, cleaning and adding ice.
-                                 </p>
-        
-                                 <p class="bh-prodcut__cnt">
-                                    Bottles are made from 90% recycled stainless steel and recycled materials and are 100% dishwasher safe - all while helping protect the ocean, each Ocean Bottle funds the collection of 1000 ocean bound plastic bottles. 
-                                 </p>
-        
-                                 <a href="#" class="bh-button round mt-4">
-                                    Discover
-                                </a>
-                            </div>
-                            <div class="bh-prodcut__right">
-                                <div class="bh-prodcut__img">
-                                     <img src="../assets/images/bh-bottle.png" alt="">
-                                </div>
-                            </div>
-                        </div>
+                       
                         <!-- content ends -->
-                    </div>
-                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                 
                          <!-- content starts -->
-                         <div class="bh-prodcut__outer">
-                            <div class="bh-prodcut__left">
-                                <!-- heading -->
-                                 <h1 class="bh-prodcut__head">Our Ocean Bottle</h1>
-        
-                                 <p class="bh-prodcut__cnt">
-                                    The double wall insulation keeps your cold drinks cold and your hot drinks hot. Designed with a dual opening function the leak proof lid gives you the option to sip from the spout.  Easy access for filling, cleaning and adding ice.
-                                 </p>
-        
-                                 <p class="bh-prodcut__cnt">
-                                    Bottles are made from 90% recycled stainless steel and recycled materials and are 100% dishwasher safe - all while helping protect the ocean, each Ocean Bottle funds the collection of 1000 ocean bound plastic bottles. 
-                                 </p>
-        
-                                 <a href="#" class="bh-button round mt-4">
-                                    Discover
-                                </a>
-                            </div>
-                            <div class="bh-prodcut__right">
-                                <div class="bh-prodcut__img">
-                                     <img src="../assets/images/bh-bottle.png" alt="">
-                                </div>
-                            </div>
-                        </div>
+                         
                         <!-- content ends -->
-                    </div>
-                  </div> 
-            </div>
+              </div>
         </div>
      </div>
     <!-- body content end -->
@@ -93,6 +71,16 @@
     <script src="../assets/js/slick.min.js"></script>
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/script.js"></script>
+    <script>
+      $('.bottle-product').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        dots: true,
+        Infinity: true,
+        autoplaySpeed: 2000,
+      });
+    </script>
     <!-- scripts -->
   </body>
 </html>
