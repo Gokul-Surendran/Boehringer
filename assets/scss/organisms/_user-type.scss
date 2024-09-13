@@ -81,21 +81,6 @@
    justify-content: center;
    border-bottom: 1px solid #ccc;
    margin-bottom: 16px;
-   .btn-secondary:hover {
-      color: #08312A;
-      background-color: #f2f2f2;
-      border-color: #08312A;
-   }
-   .btn-secondary:focus {
-      color: #08312A;
-      background-color: transparent;
-      border-color: #08312A;
-      box-shadow: none;
-   }
-   .dropdown-menu {
-      padding: 0;
-      margin-top: -6px !important;
-   }
    }
 
    &__otpip {
@@ -119,148 +104,43 @@
       color: #ff0000;
       font-weight: 600;
    }
+   
    &__dnarrow {
       width: 16px;
       margin-left: 8px;
    }
-   &__userselect {
-      position: relative;
-      display: block;
-      font-family: 'Boehringer Forward Head';
 
-      &:hover {
-         .user-type__button {
-            border-radius: 5px 5px 0px 0px;
-            border-bottom: 1px solid transparent;
-         }
-         .user-type__dropdown {
-            display: block;
-            border-top: 1px solid #e5e3de;
-         }
-      }
-   }
-   &__button {
+    &__custom-select {
+      position: relative;
       background-color: #fff;
       border-radius: 5px;
       width: 100%;
       color: #08312A;
       min-height: 42px;
       font-size: 16px;
+      text-align: center;
       border: 1px solid #08312A;
       cursor: pointer;
-      padding-left: 12px;
-    }
-    &__dropdown {
-      display: none;
-      font-size: 16px;
-      position: absolute;
-      z-index: 1;
-      min-width: 200px;
-      background-color: #fff;
-      border: 1px solid #08312A;
-      border-top: 1px solid #e5e3de;
-      border-radius: 0px 0px 5px 5px;
-      width: 100%;
-      text-align: center;
-      a {
-         color: #08312A;
-         padding: 8px 10px;
-         text-decoration: none;
-         display: block;
-         transition: 0.1s;
+      select {
+         width: 100%;
+         height: 100%;
+         padding: 0;
+         min-height: 42px;
+         border: none;
+         background: none;
+         text-align: center;
          cursor: pointer;
-         &:hover {
-            background-color: #f2f2f2;
-         }
-         &:focus {
-            background-color: #fff;
-            color: #08312A;
-         }
+         color: inherit;
+         appearance: none; /* Hide default arrow */
+         -webkit-appearance: none; /* For Safari */
+         -moz-appearance: none; /* For Firefox */
        }
-       #personal:hover {
-         border-radius: 0px;
-       }
-       #business:hover {
-         border-radius: 0px 0px 5px 5px;
-       }
-      
+    }
+    &__dwnarrow {
+      position: absolute;
+      top: 18px;
+      right: 32%;
+      border: 7px solid transparent;
+      border-color: #08312A transparent transparent transparent;
     }
 }
-
-// For the select dropdown
-/*the container must be positioned relative:*/
-.custom-select {
-   position: relative;
-   width: 303px;
-   background-color: #fff;
-   border-radius: 5px;
-   color: #08312A;
-   min-height: 42px;
-   font-size: 16px;
-   border: 1px solid #08312A;
-   text-align: center;
- }
- 
- .custom-select select {
-   display: none; /*hide original SELECT element:*/
- }
- 
- .select-selected {
-   min-height: 42px;
- }
- 
- /*style the arrow inside the select element:*/
- .select-selected:after {
-   position: absolute;
-   content: "";
-   top: 18px;
-   right: 32%;
-   width: 0;
-   height: 0;
-   border: 6px solid transparent;
-   border-color: #08312A transparent transparent transparent;
- }
- 
- /*point the arrow upwards when the select box is open (active):*/
- .select-selected.select-arrow-active {
-   border-radius: 5px 5px 0px 0px;
-   &:after {
-      border-color: transparent transparent #08312A transparent;
-      top: 11px;
-    }
- }
- 
- /*style the items (options), including the selected item:*/
- .select-items div,.select-selected {
-   color: #ffffff;
-   color: #08312A;
-   padding: 8px 16px;
-   border-color: transparent;
-   cursor: pointer;
-   user-select: none;
-   &:last-child {
-      border-radius: 0px 0px 5px 5px;
-   }
- }
- 
- /*style items (options):*/
- .select-items {
-   position: absolute;
-   background-color: #fff;
-   border: 1px solid #08312A;
-   border-top: 1px solid #e5e3de;
-   border-radius: 0px 0px 5px 5px;
-   top: 96%;
-   left: -1px;
-   right: -1px;
-   z-index: 99;
- }
- 
- /*hide the items when the select box is closed:*/
- .select-hide {
-   display: none;
- }
- 
- .select-items div:hover, .same-as-selected {
-   background-color: #f2f2f2;
- }
