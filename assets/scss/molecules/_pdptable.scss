@@ -1,0 +1,25 @@
+.bi-tbl {
+    table, th,td {
+        border: 1px solid black;
+        padding: 10px 6px;
+        color: #000000;
+
+    }
+    th {
+        border-collapse: separate;
+        border-spacing: 6px 10px; /* Space between cells */ 
+    }
+    table {
+        font-size: 13px;
+        margin-left: -6px;
+        padding: 0;
+        border: 0;
+        border-collapse: separate;
+        border-spacing: 6px 0px; /* Space between cells */
+      }
+      &__tr {
+        td ,th{
+            border-top: 0;
+        }
+      }
+}
