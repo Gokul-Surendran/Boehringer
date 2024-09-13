@@ -1,0 +1,24 @@
+.bi-cookies {
+    background-color: gray;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    &__para {
+        color: #fff;
+        text-align: center;
+        font-size: 15px;
+        a {
+            text-decoration: underline;
+        }
+    }
+    &__btn {
+        text-align: center;
+        margin-top: 20px;
+        a {
+            background-color: #a6ef17;
+            color: #fff !important;
+            padding: 10px 40px;
+            border-radius: 4px;
+        }
+    }
+}
