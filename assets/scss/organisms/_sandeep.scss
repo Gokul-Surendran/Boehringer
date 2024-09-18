@@ -388,7 +388,7 @@
 
     .bi-pdphead {
         display: flex;
-        align-items: flex-end;
+        align-items: center;
     }
 
     .bi-img {
@@ -675,6 +675,16 @@
     .b-price span {
         font-size: 20px;
         color: #000000 !important;
+    }
+    .bi-up {
+        font-weight: 300 !important;
+    }
+    .cx-rmb-left {
+        color: #000000;
+        font-weight: 300;
+    }
+    .product-details-page h2  {
+        margin-top: 0 !important;
     }
 }
 
