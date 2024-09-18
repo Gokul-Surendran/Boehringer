@@ -4,7 +4,7 @@
    width: 100%;
 }
 .bi-shpcarttitle__a {
-   width: 38%;
+   width: 40%;
    font-size: 20px;
    padding-left: 32px;
    font-weight: 600;
@@ -19,23 +19,25 @@
    color: #08312A;
    text-align: center;
 }
-.bi-shpcarttitle__b,
+.bi-shpcarttitle__b {
+   width: 19%;
+}
 .bi-shpcarttitle__c {
-   width: 18%;
+   width: 10%;
 }
 .bi-shpcarttitle__d {
-   width: 16%;
+   width: 21%;
 }
 .bi-shpcarttitle__e {
    width: 10%;
    padding-right: 12px;
 }
-.bi-shpcartpdt__pricecode {
+.bi-shpcartpdt__unitprice {
    font-weight: 700;
-   color: #000;
+   color: #08312A;
    text-align: center;
    font-size: 18px;
-   width: 18%;
+   width: 20%;
 }
 .bi-ordersumrywrap {
    background-color: #fff;
@@ -103,6 +105,12 @@
    height: 48px;
    border: 1px solid #54565A;
    border-radius: 4px;
+}
+.cx-shpcartpdt__details {
+   span {
+      font-size: 17px;
+      color: #000;
+   }
 }
 
 @include mobile {

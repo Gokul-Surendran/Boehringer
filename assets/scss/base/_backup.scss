@@ -2178,8 +2178,8 @@
 }
 .cx-shpcart .cx-shpcartpdt__pdtname {
   font-size: 20px;
-  color: #000;
-  margin-bottom: 0;
+  color: #08312A;
+  margin-bottom: 5px;
   text-transform: unset;
 }
 .cx-shpcart .cx-shpcartpdt__subdetails {
@@ -2191,13 +2191,12 @@
   align-items: center;
   border: 1px solid #08312A;
   border-radius: 5px;
-  padding: 8px 10px;
-  width: 90px;
-  height: 40px;
+  padding: 6px 10px;
+  width: auto;
   justify-content: space-between;
 }
 .cx-shpcart .cx-shpcartpdt__quantityouter {
-  width: 18%;
+  width: 9%;
   display: flex;
   justify-content: center;
 }
@@ -2225,7 +2224,7 @@
 .cx-shpcart .cx-shpcartpdt__price {
   font-weight: 700;
   color: #000;
-  width: 16%;
+  width: 22%;
   text-align: center;
   font-size: 18px;
 }
@@ -2236,7 +2235,7 @@
 .cx-shpcart .cx-shpcartpdt__delete {
   display: flex;
   justify-content: center;
-  width: 8%;
+  width: 9%;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -2263,7 +2262,7 @@
     height: 30px;
   }
   .cx-shpcart .cx-shpcartpdt__quantityouter {
-    width: 18%;
+    width: 14%;
   }
   .cx-shpcart .cx-shpcartpdt__qntityvalue {
     font-size: 15px;
@@ -2442,7 +2441,7 @@
   font-size: 16px;
 }
 .cx-odrsmry .value {
-  color: #000000;
+  color: #08312a;
   font-weight: 600;
   font-size: 18px;
 }
@@ -3134,7 +3133,7 @@
   font-size: 16px;
 }
 .cx-shpingcart .cx-ordrsumry .value {
-  color: #000000;
+  color: #08312A;
   font-weight: 600;
   font-size: 18px;
 }
