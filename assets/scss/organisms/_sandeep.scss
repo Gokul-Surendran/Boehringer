@@ -345,31 +345,32 @@
         overflow-x: scroll;
     }
 
-    .cx-tbout::-webkit-scrollbar {
+    .bi-tbl__scroll::-webkit-scrollbar {
+        margin-top: 20px;
         height: 6px;
         /* Set the height of the scrollbar */
     }
 
-    .cx-tbout::-webkit-scrollbar-thumb {
+    .bi-tbl__scroll::-webkit-scrollbar-thumb {
         background-color: #888;
         /* Color of the scrollbar thumb */
         border-radius: 10px;
         /* Roundness of the scrollbar */
     }
 
-    .cx-tbout::-webkit-scrollbar-thumb:hover {
+    .bi-tbl__scroll::-webkit-scrollbar-thumb:hover {
         background-color: #555;
         /* Darker color when hovering */
     }
 
-    .cx-tbout::-webkit-scrollbar-track {
+    .bi-tbl__scroll::-webkit-scrollbar-track {
         background-color: #f1f1f1;
         /* Background of the scrollbar track */
         border-radius: 10px;
     }
 
     /* Optional: Adds smooth scrolling */
-    .cx-tbout {
+    .bi-tbl__scroll {
         scroll-behavior: smooth;
         cursor: pointer;
     }
@@ -454,12 +455,14 @@
     }
     .varient-btn  {
         width: auto !important;
-        padding: 4px 20px !important;
+        padding: 4px 18px !important;
         overflow: hidden;
     }
     .cx-varient div .varient-btn.active {
         border-color: #00E47C;
         position: relative;
+        font-weight: 600;
+        color: #000000;
         &::after {
             content: "";
             position: absolute;
@@ -474,8 +477,8 @@
         }
     }
     .cx-varient div .varient-btn.disable {
-        background-color: #828282;
-
+        background-color: #E5E5E5;
+        color: #828282;
     }
     .btn-calc {
         border-radius: 6px;
