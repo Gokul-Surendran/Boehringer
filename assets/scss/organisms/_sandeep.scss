@@ -297,11 +297,18 @@
 
     .bi-rmb-left {
         color: #000000;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .bi-rmb {
         font-weight: bold;
+
+        b {
+            color: #08312A;
+        }
+        span {
+            font-size: 20px;
+        }
     }
 
     .ab-details {
@@ -647,6 +654,27 @@
                 letter-spacing: 1px;
             }
         }
+    }
+    .b-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+        p {
+            color: #000000;
+            font-size: 22px;
+            font-weight: 200;
+        }
+    }
+    .ri-rmb-left {
+        font-size: 18px;
+    }
+    .b-price b {
+        color: #08312A !important;
+    }
+    .b-price span {
+        font-size: 20px;
+        color: #000000 !important;
     }
 }
 
