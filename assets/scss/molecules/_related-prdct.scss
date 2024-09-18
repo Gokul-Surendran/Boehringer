@@ -17,6 +17,7 @@
         position: relative;
         border: 1px solid #e1e1e1;
         overflow: hidden;
+        padding: 20px 0 0px 0;
     }
     &__dwn {
         border: 1px solid #CCCCCC;
@@ -40,7 +41,7 @@
     &__content {
         p {
             font-size: 16px;
-            text-align: center;
+            text-align: left;
             color: #000;
             font-family: 'Boehringer Forward Head';
         }
@@ -49,6 +50,7 @@
             font-size: 16px;
             color: #08312A !important;
             font-family: 'Boehringer Forward Head';
-            text-align: center;
+            text-transform: uppercase;
+            text-align: left;
     }
 }
