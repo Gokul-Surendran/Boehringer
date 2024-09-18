@@ -1,6 +1,6 @@
 .cx-checkout {
    background-color: #f6f5f3;
-   padding: 80px 0px;
+   padding: 60px 0px;
    &__heading {
       font-size: 50px;
       font-weight: 700;
@@ -95,9 +95,10 @@
       align-items: center;
    }
    &__placeodr {
-      width: 16%;
+      width: 22%;
    }
    &__helptxt {
+      font-family: 'Boehringer Forward Head Md';
       color: #000;
       margin: 8px 0;
    }
@@ -105,7 +106,7 @@
       color: #54565A;
       a {
          color: #08312a;
-         text-decoration: underline;
+         text-decoration: underline !important;
          font-weight: 600;
       }
    }
