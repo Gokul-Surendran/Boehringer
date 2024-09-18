@@ -15,7 +15,7 @@
     .bi-wicon {
         width: 24px;
         position: absolute;
-        right: 4px;
+        right: 7px;
         top: 4px;
 
         img {
@@ -277,6 +277,7 @@
         top: 52px;
         left: 9px !important;
         right: 0 !important;
+        text-align: center;
 
         &::after {
             content: "";
