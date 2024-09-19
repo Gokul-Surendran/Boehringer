@@ -512,6 +512,7 @@
     .cx-varient div .varient-btn.disable {
         background-color: #E5E5E5;
         color: #828282;
+        pointer-events: none;
     }
 
     .btn-calc {
