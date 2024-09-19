@@ -42,4 +42,27 @@
         }
       }
    }
+   .bi-odrouter {
+      background-color: #f6f5f3;
+      .inner-marging {
+         background-color: #f6f5f3 !important;
+      }
+      span {
+         color: #191919;
+         font-size: 14px;
+         font-weight: 700;
+      }
+      select {
+         border: 1px solid #aaa;
+         border-radius: 3px;
+         padding: 2px;
+         background-color: transparent;
+      }
+   }
+   .bi-odrtitle {
+      font-family: 'Boehringer Forward Head Md';
+      font-size: 35px;
+      color: #191919;
+      margin-bottom: 10px;
+   }
 }
