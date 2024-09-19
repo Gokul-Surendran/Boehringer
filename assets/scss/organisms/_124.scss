@@ -1,13 +1,16 @@
 .bi-tree {
     background-color: #F6F5F3;
-    padding: 10% 10% 0% 10%;
+    padding: 3% 10% 0% 10%;
     &.ethos {
         .bi-tree__onehead {
-            font-size: 145px;
-            line-height: 155px;
+            font-size: 120px !important;
+            line-height: 130px !important;
             span {
                 color: #00E57B;
             }
+        }
+        .bi-tree__sec-two {
+            padding-bottom: 15%;
         }
         .bi-tree__one-right {
             margin-top: 50px;
