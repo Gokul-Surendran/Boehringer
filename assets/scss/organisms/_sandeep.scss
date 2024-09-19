@@ -208,7 +208,7 @@
 
     .inner-marging {
         padding-top: 40px;
-        min-height: 850px;
+        min-height: 900px;
     }
 
     .btn-wishlists {
@@ -220,7 +220,7 @@
         font-size: 14px !important;
         width: 44%;
         font-weight: 400;
-        margin-right: 20px;
+        margin-right: 30px;
         &:hover {
             color: #08312A !important;
             background-color: transparent !important;
@@ -391,6 +391,9 @@
     .bi-pdphead {
         display: flex;
         align-items: center;
+        h2 {
+            font-size: 20px;
+        }
     }
 
     .bi-img {
@@ -676,13 +679,21 @@
     }
     .bi-up {
         font-weight: 300 !important;
+        font-size: 20px;
     }
     .cx-rmb-left {
         color: #000000;
         font-weight: 300;
+        font-size: 18px !important;
     }
     .product-details-page h2  {
         margin-top: 0 !important;
+    }
+    .bi-pdp {
+        input {
+            font-family: 'Boehringer Forward Text Md';
+            font-size: 14px;
+        }
     }
 }
 
