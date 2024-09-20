@@ -313,6 +313,8 @@
 
         b {
             color: #08312A;
+            width: 16px;
+            display: inline-block;
         }
 
         span {
@@ -760,6 +762,10 @@
         color: #08312A;
         margin-bottom: 14px;
         font-weight: 900;
+    }
+    .fa-angle-left:before,
+    .fa-angle-right:before {
+        content: "";
     }
 }
 
