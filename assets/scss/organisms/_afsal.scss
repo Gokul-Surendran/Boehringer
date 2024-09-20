@@ -37,7 +37,7 @@
    }
    .list-show .product-box {
       border: 1px solid #F6F5F3;
-      width: 80% !important;
+      width: 84% !important;
       &:hover {
          .list-show .hover .product-name {
                 color: #1155CC;
@@ -74,5 +74,8 @@
       font-family: 'Boehringer Forward Head Md';
       font-size: 13px;
       color: #08312A;
+   }
+   .pricing {
+      font-size: 14px;
    }
 }
