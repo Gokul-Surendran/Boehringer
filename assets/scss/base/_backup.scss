@@ -1646,6 +1646,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  transition: all 0.2s 0s ease-in;
   gap: 8px;
   text-decoration: none;
   font-size: 18px;
@@ -1657,8 +1658,10 @@
   border-radius: 5px;
 }
 .boehringer .bh-button:hover {
-  background-color: #fff;
-  border: 1px solid #00E47C;
+  background-color: #66EFB0;
+  border-color: #66EFB0;
+  color: #08312A;
+  transition: all 0.2s 0s ease-in;
 }
 .boehringer .bh-button p {
   padding: 0;
