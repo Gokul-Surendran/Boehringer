@@ -1,58 +1,72 @@
 .bi-tree {
     background-color: #F6F5F3;
-    padding: 3% 10% 0% 10%;
+    padding: 8% 10% 0% 10%;
+
     &.ethos {
         .bi-tree__onehead {
             font-size: 120px !important;
             line-height: 130px !important;
+
             span {
                 color: #00E57B;
             }
         }
+
         .bi-tree__sec-one {
             margin-bottom: 0;
+            padding: 0 0 40px 0;
         }
-        .bi-tree__sec-two {
-            padding-top: 0;
-        }
+
         .bi-tree__desc p {
             font-size: 16px;
+        }
+
         .bi-tree__sec-two {
+            padding-top: 0;
             padding-bottom: 15%;
         }
+
         .bi-tree__one-right {
             margin-top: 50px;
             width: 70%;
+
             img {
                 width: 100%;
             }
         }
+
         .bi-tree__two-right {
             img {
                 width: 100%;
             }
         }
+
         .bi-tree__two-left {
             width: 62%;
         }
+
         .bi-tree__one-left {
             width: 60%;
         }
+
         .bi-tree__one-left {
             margin-right: -30%;
         }
+
         .bi-tree__desc {
             width: 70%;
         }
+
         .bi-tree__one-right {
             display: flex;
             justify-content: flex-end;
+
             img {
                 width: 70%;
             }
         }
     }
-    
+
 
     &__num-head {
         color: #00E57B;
@@ -66,20 +80,24 @@
         margin-bottom: 32px;
         padding: 72px 0;
     }
+
     &__one-left {
         width: 55%;
         margin-right: -15%;
         z-index: 1;
     }
+
     &__onehead {
         font-size: 160px;
         line-height: 170px;
-            font-family: 'Boehringer Forward Head Md';
+        font-family: 'Boehringer Forward Head Md';
         padding-bottom: 32px;
         color: #000;
     }
+
     &__desc {
         width: 60%;
+
         p {
             color: #08312a;
             font-size: 16px;
@@ -87,29 +105,35 @@
             font-family: 'Boehringer Forward Head Md';
         }
     }
+
     &__one-right {
         width: 65%;
+
         img {
             width: 100%;
             height: auto;
         }
     }
-    
+
     &__sec-two {
         display: flex;
         padding-top: 32px;
         padding-bottom: 10%;
     }
+
     &__two-left {
         width: 50%;
+
         img {
             width: 100%;
             height: auto;
         }
     }
+
     &__two-right {
         width: 50%;
         padding-left: 32px;
+
         img {
             width: 70%;
             height: auto;
@@ -122,6 +146,7 @@
             font-weight: 600;
             color: #000;
         }
+
         p {
             color: #08312a;
             font-size: 17px;
@@ -131,12 +156,13 @@
     }
 }
 
+
 @include tablet {
     .bi-tree {
         &__onehead {
             font-size: 100px;
             line-height: 110px;
-        } 
+        }
     }
 }
 
@@ -145,73 +171,91 @@
         &.ethos {
             .bi-tree__onehead {
                 font-size: 50px;
-                line-height:60px;
+                line-height: 60px;
+
                 br {
                     display: none;
                 }
             }
+
             .bi-tree__two-right {
                 padding-top: 24px;
             }
+
             .bi-tree__two-left {
-                    width: 100%;
+                width: 100%;
             }
+
             .bi-tree__one-left {
                 width: 100%;
                 margin-right: 0;
             }
-            .bi-tree__one-right  {
+
+            .bi-tree__one-right {
                 width: 100%;
+
                 img {
                     width: 100%;
                 }
             }
+
             .bi-tree__desc {
                 width: 100%;
             }
-            
+
         }
+
         &__sec-one {
             flex-direction: column;
         }
+
         &__onehead {
             font-size: 50px;
-            line-height:60px;
-        } 
+            line-height: 60px;
+        }
+
         &__one-left {
             width: 100%;
             margin: 0;
         }
+
         &__desc {
             width: 100%;
         }
+
         &__one-right {
             width: 100%;
         }
+
         &__sec-two {
             flex-direction: column;
         }
+
         &__two-left {
             width: 100%;
         }
+
         &__two-right {
             width: 100%;
             padding-left: 0;
+
             h1 {
                 font-size: 50px;
                 line-height: 60px;
+
                 br {
                     display: none;
                 }
             }
+
             img {
                 width: 100%;
             }
         }
+
         &__num-head {
             font-size: 150px;
             line-height: 160px;
         }
     }
-}
 }

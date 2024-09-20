@@ -12,6 +12,7 @@
    .product-details-page h3 {
       color: #000;
       margin-top: 15px;
+      font-size: 20px;
   }
   .bi-pdtspecwrap {
    margin: 20px 0;
@@ -19,10 +20,12 @@
   .bi-pdtspec {
     border: 2px solid #08312A;
     color: #000;
-    font-size: 11px;
+    font-size: 9px;
     border-radius: 20px;
-    padding: 6px 12px;
-    margin-right: 5px;
+    padding: 4px 10px;
+    margin-right: 6px;
+    text-transform: uppercase;
+    font-weight: bold;
   }
   .ListingCol {
    max-width: 33.33% !important;

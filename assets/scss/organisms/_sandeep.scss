@@ -404,15 +404,15 @@
         align-items: center;
 
         h2 {
-            font-size: 20px;
+            font-size: 28px;
         }
     }
 
     .bi-img {
-        margin-left: 10px;
+        margin-left: 16px;
         a {
-            width: 28px;
-            height: 28px;
+            width: 26px;
+            height: 26px;
             display: block;
             img {
                 width: 100%;
@@ -448,6 +448,7 @@
     }
 
     .bi-txt {
+        margin-top: 16px;
         textarea {
             border: 1px solid #54565A;
             border-radius: 6px;
