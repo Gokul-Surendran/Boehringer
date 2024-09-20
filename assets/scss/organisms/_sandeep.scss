@@ -147,7 +147,7 @@
         font-family: 'Boehringer Forward Head';
         font-size: 14px;
         color: #08312A;
-
+        letter-spacing: 0.7px;
         &:hover {
             color: #1155CC;
         }
@@ -458,6 +458,7 @@
         color: #08312A;
         font-weight: 700;
         margin-left: 8px;
+        letter-spacing: 0.3px;
     }
 
     .sort select {
