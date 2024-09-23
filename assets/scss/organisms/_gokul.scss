@@ -99,6 +99,10 @@
         height: 265px !important;
     }
 
+    .bi-plp .product img {
+        width: 80%;
+    }
+
     // product 
     
     .bh-prodcut {
@@ -178,12 +182,21 @@
         }
     }
 
+    @media (max-width: 1397px) {
+        .sec-menu ul {
+            justify-content: space-between;
+        }
+    }
+
     // contact us 
     @media (min-width: 2304px) and (max-width: 6144px) {
         .bi-contact-us {
             min-height: 80vh;
         }
     }
+
+    // header 
+
 
    @include tablet-pro {
     .search .form-inline {
