@@ -1,0 +1,19 @@
+.bi-modal {
+    .modal-dialog {
+        max-width: 800px;
+    }
+    .modal-content {
+        border-radius: 20px !important;
+        width: 100%;
+    }
+    &__img {
+        width: 100%;
+        height: auto;
+       img {
+        width: 65%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+       }
+    }
+}
