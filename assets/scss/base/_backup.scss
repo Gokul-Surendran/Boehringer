@@ -2527,6 +2527,8 @@
   justify-content: space-between;
   float: right;
   margin-top: 10px;
+  width: 70%;
+  gap: 20px;
 }
 .cx-tb-pop__btns .back {
   font-size: 14px;
@@ -3143,7 +3145,7 @@
   color: #08312A;
   font-weight: 700;
 }
-.cx-shpingcart .cx-ordrsumry__btn {
+.cx-ordrsumry__btn {
   background-color: #00E47C;
   color: #08312A;
   width: 100%;
@@ -3154,7 +3156,7 @@
   padding: 10px 0px;
   margin-top: 26px;
 }
-.cx-shpingcart .cx-ordrsumry__btn:hover {
+.cx-ordrsumry__btn:hover {
   background-color: transparent;
   color: #00E47C;
   cursor: pointer;
@@ -4100,7 +4102,7 @@ body {
   text-align: center;
 }
 .boehringer .modal-header {
-  background-color: #25E2CC;
+  background-color: #08312A;
   padding: 7px 12px;
   align-items: center !important;
 }
@@ -4742,7 +4744,7 @@ body {
   left: 35%;
 }
 .boehringer .dxpc-headerImg {
-  width: 26px;
+  width: 32px;
 }
 .boehringer .dxpcLite_Moderno {
   border-radius: 5px;
