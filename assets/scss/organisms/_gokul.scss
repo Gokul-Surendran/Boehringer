@@ -78,6 +78,20 @@
         }
     }
 
+    // PLP 
+    .bi-plp {
+        .ListingCol {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .book-name-and-buy {
+            padding: 0px 10px 16px 10px;
+        } 
+        .product-name a {
+            font-size: 14px;
+        }
+    }
+
     //PDP
     .ab-details {
         min-width: 1000px;
@@ -100,7 +114,7 @@
     }
 
     .bi-plp .product img {
-        width: 80%;
+        width: 100%;
     }
 
     // product 
@@ -189,9 +203,15 @@
     }
 
     // contact us 
-    @media (min-width: 2304px) and (max-width: 6144px) {
+    @media (min-width: 2048px) and (max-width: 6144px) {
         .bi-contact-us {
             min-height: 80vh;
+        }
+    }
+
+    @media (min-width: 1706px) and (max-width: 1920px) {
+        .bi-contact-us {
+            min-height: 35vh;
         }
     }
 
