@@ -94,6 +94,11 @@
         background-color: red;
     }
 
+    .owl-item.active{
+        width: 265px !important;
+        height: 265px !important;
+    }
+
     // product 
     
     .bh-prodcut {
@@ -165,11 +170,18 @@
     #header .navbar {
         padding-right: 32px;
         .dropdown-menu {
-            min-width: 150px;
+            min-width: 120px;
             .dropdown-item {
                 font-size: 14px;
                 padding: 10px !important;
             }
+        }
+    }
+
+    // contact us 
+    @media (min-width: 2304px) and (max-width: 6144px) {
+        .bi-contact-us {
+            min-height: 80vh;
         }
     }
 
