@@ -1,6 +1,6 @@
 .bi-sb {
     background-color: #f6f5f3;
-
+    padding: 90px 0;
     &__header {
         display: flex;
         padding: 8px 8px 20px;
@@ -14,6 +14,7 @@
     }
 
     &__heading2 {
+        color: #000000;
         font-size: 28px;
         text-transform: unset;
         margin-top: 20px;
@@ -27,6 +28,7 @@
 
         a {
             background-color: #00E47C;
+            color: #000000;
             width: auto;
             border: 1px solid #00E47C;
             border-radius: 3px;
