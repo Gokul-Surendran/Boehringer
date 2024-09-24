@@ -112,6 +112,9 @@
       color: #000;
    }
 }
+.cx-cancel {
+   background-color: #08312A !important;
+}
 
 @include mobile {
    .bi-binputwrap,

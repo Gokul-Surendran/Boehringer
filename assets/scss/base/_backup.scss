@@ -4646,11 +4646,11 @@ body {
 .boehringer .cx-cancel {
   font-size: 14px;
   text-align: center;
-  background-color: transparent !important;
-  border: 2px solid #003D5B !important;
-  color: #003D5B;
+  background-color: #08312A !important;
+  border: 2px solid #08312A !important;
+  color: #fff;
   padding: 8px 20px;
-  border-radius: 20px;
+  border-radius: 6px;
   width: 150px;
   text-transform: uppercase;
   font-weight: bold;
@@ -4661,18 +4661,18 @@ body {
   width: 95px !important;
 }
 .boehringer .cx-cancel:hover {
-  color: #fff !important;
-  background-color: #003D5B !important;
+  color: #000000 !important;
+  background-color: transparent !important;
 }
 .boehringer .cx-save {
   font-size: 14px;
-  background-color: #25E2CC !important;
-  border: 2px solid #25E2CC !important;
-  color: #003D5B;
+  background-color: #00E47C !important;
+  border: 2px solid #00E47C !important;
+  color: #000;
   padding: 8px 10px;
   text-transform: uppercase;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 6px;
   width: 150px;
   font-weight: bold;
 }
@@ -4681,7 +4681,7 @@ body {
   width: auto !important;
 }
 .boehringer .cx-save:hover {
-  color: #25E2CC !important;
+  color: #00E47C !important;
   background-color: transparent !important;
 }
 .boehringer .ab-address__head-btn,
