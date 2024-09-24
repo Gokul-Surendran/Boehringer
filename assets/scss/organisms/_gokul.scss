@@ -175,11 +175,18 @@
         span.number {
             width: 35px !important;
             height: 16px !important;
-            color: #000 !important;
+            color: #191919 !important;
             left: 13px;
             top: -28px !important;
             font-weight: 600;
             border-radius: 20px !important;
+        }
+    }
+
+    .cx-cart-icon {
+        .number {
+            font-weight: 600 !important;
+            color: #191919 !important;
         }
     }
 
