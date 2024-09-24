@@ -204,7 +204,7 @@
 }
 
 .ab-details__head td {
-  color: #003D5B !important;
+  color: #08312A !important;
   font-size: 16px;
   font-weight: 600;
 }
@@ -3466,7 +3466,7 @@
   margin: 20px 10px;
 }
 .cx-cart-pop__header h4 {
-  color: #003D5B;
+  color: #08312A;
   padding: 0px 30px;
 }
 .cx-cart-pop__header p {
@@ -3478,8 +3478,9 @@
   padding: 20px 30px;
 }
 .cx-cart-pop___body h4 {
-  color: #003D5B;
+  color: #08312A;
   font-size: 20px;
+  margin-bottom: 6px;
 }
 .cx-cart-pop__prdct {
   border-radius: 6px;
@@ -3512,6 +3513,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding: 6px 0 10px;
 }
 .cx-cart-pop__qntity {
   display: flex;
@@ -3524,7 +3526,7 @@
   justify-content: space-between;
 }
 .cx-cart-pop__qnty {
-  width: 65% !important;
+  width: 100% !important;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -3551,7 +3553,7 @@
   padding-top: 4px;
 }
 .cx-cart-pop__cta {
-  width: 70%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4137,7 +4139,7 @@ body {
   background-color: #f8f9fa !important;
 }
 .boehringer .cx-prdct-row td {
-  color: #003D5B;
+  color: #08312A;
   font-weight: 500;
   text-align: center;
 }
@@ -4677,8 +4679,8 @@ body {
   font-weight: bold;
 }
 .boehringer .cx-save--yes {
-  padding: 4px 8px !important;
-  width: auto !important;
+  padding: 10px 8px !important;
+  width: 100% !important;
 }
 .boehringer .cx-save:hover {
   color: #00E47C !important;
