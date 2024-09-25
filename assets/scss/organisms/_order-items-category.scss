@@ -1,0 +1,67 @@
+.bi-oicat {
+   background-color: #f6f5f3;
+   padding: 40px 0px;
+   &__head {
+      font-size: 46px;
+      color: #08312A;
+      font-weight: 700;
+      margin: 20px 0;
+      text-transform: unset;
+   }
+   &__copy {
+      font-family: "Boehringer Forward Head Md";
+      font-size: 21px;
+      font-weight: 500;
+      color: #08312A;
+      margin-bottom: 40px;
+   }
+   &__imgwrap {
+      display: flex;
+      justify-content: space-between;
+      img {
+         width: auto;
+         height: 380px;
+      }
+   }
+}
+
+@include tablet-pro {
+   .bi-oicat {
+      &__imgwrap {
+         img {
+            height: 320px;
+         }
+      }
+   }
+}
+
+@include tablet {
+   .bi-oicat {
+      &__imgwrap {
+         img {
+            height: 240px;
+         }
+      }
+   }
+}
+
+
+@include mobile {
+   .bi-oicat {
+      &__head {
+         font-size: 40px;
+      }
+      &__copy {
+         margin-bottom: 20px;
+      }
+      &__imgwrap {
+         flex-direction: column;
+         align-items: flex-start;
+         img {
+            margin-bottom: 30px;
+            width: 100%;
+            height: auto;
+         }
+      }
+   }
+}
