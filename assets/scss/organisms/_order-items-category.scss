@@ -38,20 +38,21 @@
 @include tablet {
    .bi-oicat {
       &__imgwrap {
-         flex-direction: column;
-         align-items: flex-start;
          img {
-            margin-bottom: 30px;
-            height: 340px;
+            height: 240px;
          }
       }
    }
 }
 
+
 @include mobile {
    .bi-oicat {
       &__head {
          font-size: 40px;
+      }
+      &__copy {
+         margin-bottom: 20px;
       }
       &__imgwrap {
          flex-direction: column;
