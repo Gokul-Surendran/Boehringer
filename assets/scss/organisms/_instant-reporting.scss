@@ -1,6 +1,6 @@
 .bi-instreporting {
     background-color: #F6F5F3;
-    
+
     &__heada {
         font-size: 50px;
         text-transform: unset;
@@ -24,12 +24,13 @@
 
     &__cardswrap {
         width: 100%;
-        padding-bottom: 80px;
+        padding-bottom: 40px;
         display: flex;
         flex-wrap: wrap;
+        margin: 0 -10px;
     }
 
-    
+
     &__card {
         background-color: #fff;
         padding: 20px;
