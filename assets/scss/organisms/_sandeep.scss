@@ -148,6 +148,7 @@
         font-size: 14px;
         color: #08312A;
         letter-spacing: 0.7px;
+
         &:hover {
             color: #1155CC;
         }
@@ -404,10 +405,12 @@
 
     .bi-img {
         margin-left: 16px;
+
         a {
             width: 26px;
             height: 26px;
             display: block;
+
             img {
                 width: 100%;
             }
@@ -443,6 +446,7 @@
 
     .bi-txt {
         margin-top: 16px;
+
         textarea {
             border: 1px solid #54565A;
             border-radius: 6px;
@@ -746,18 +750,29 @@
         .container.inner-marging {
             background: #F8F9FA;
         }
+
         .owl-item img {
             width: 265px !important;
             height: 256px !important;
         }
+
         input {
             font-family: 'Boehringer Forward Text Md';
             font-size: 18px;
             text-align: center;
         }
     }
-    #header .wshlt span.number  {
+
+    #header .wshlt span.number {
         color: #000000;
+       
+    }
+    .cx-cart-icon {
+        .number {
+            width: 20px !important;
+            height: 20px !important;
+            transform: translateY(4px) !important;
+        }
     }
     .bi-qdhd {
         font-size: 14px;
@@ -765,17 +780,53 @@
         margin-bottom: 14px;
         font-weight: 900;
     }
+
     .fa-angle-left:before,
     .fa-angle-right:before {
         content: "";
     }
+
     .bi-qntytypop {
         .modal-content {
             width: 100%;
         }
+
         .bi-tbl {
             width: 100%;
         }
+    }
+
+    .cx-shpcartpdt .boldblu {
+        margin-right: -4px;
+    }
+
+    .cx-shpcartpdt__quantity {
+        input {
+            font-weight: 300;
+            color: #08312A;
+            text-align: end;
+        }
+    }
+
+    .bi-sqinput {
+        padding: 0 12px;
+    }
+
+    .bi-cart {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: space-between;
+        height: 90%;
+    }
+    .cx-odrsmry__item.total .value {
+        color: #08312A;
+    }
+    .cx-copdt__link {
+        padding-top: 2px;
+    }
+    .bi-sub {
+        font-size: 16px;
     }
 }
 
