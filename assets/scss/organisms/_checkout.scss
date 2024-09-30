@@ -54,6 +54,7 @@
          border-radius: 4px;
          height: 40px;
          padding: 8px;
+         color: #54565A;
       }
       textarea {
          resize: none;
@@ -100,7 +101,7 @@
    &__helptxt {
       font-family: 'Boehringer Forward Head Md';
       color: #000;
-      margin: 8px 0;
+      margin: 22px 0 8px;
    }
    &__getin {
       color: #54565A;
@@ -126,6 +127,9 @@
          cursor: pointer;
          border: 1px solid #00E47C;
       }
+   }
+   .bi-dollar {
+      margin-right: -2px;
    }
 }
 
