@@ -76,9 +76,9 @@
    display: flex;
    gap: 20px;
 }
-.bi-savebasket {
-   margin-top: 32px;
-}
+// .bi-savebasket {
+//    margin-top: 32px;
+// }
 .bi-sbhead {
    font-size: 18px;
    font-weight: 500;
@@ -87,15 +87,17 @@
    margin-bottom: 16px;
 }
 .bi-sbcopy {
-   font-size: 16px;
+   font-size: 15px;
    color: #000;
-   width: 85%;
+   padding-right: 60px;
+   // width: 85%;
    a {
       text-decoration: underline !important;
+      color: #00e37c;
    }
 }
 .bi-binputwrap {
-   margin-top: 20px;
+   width: 90%;
 }
 .bi-w40 {
    width: 40%;
@@ -115,7 +117,36 @@
 .cx-cancel {
    background-color: #08312A !important;
 }
-
+.bi-newflex {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   margin-top: 30px;
+}
+.bi-note {
+   text-align: center;
+   padding-top: 22px;
+   font-size: 18px;
+   color: #000000;
+   .bi-notespan {
+      color: #08312A;
+   }
+}
+.cx-shpingcart .cx-ordrsumry__head {
+   text-align: center;
+}
+.bi-radiolbl {
+   color: #08312A;
+   font-size: 18px;
+   font-weight: 500;
+   font-family: 'Boehringer Forward Text Md';
+   
+}
+.cx-ordrsumry__item {
+   input[type=radio] {
+      accent-color: #12a912;
+   }
+}
 @include mobile {
    .bi-binputwrap,
    .cx-ordrsumry__head {
