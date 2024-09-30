@@ -3,7 +3,6 @@
     table,
     th,
     td {
-        border: 1px solid black;
         padding: 10px 9px;
         color: #000000;
         text-align: center;
@@ -18,8 +17,14 @@
         // border-spacing: 6px 0px; 
     }
 
-    &__tr {
+    tr {       
+        border-bottom: 1px solid black;
+        &:last-child {
+            border-bottom: 0;
+        }
+    }
 
+    &__tr {
         td,
         th {
             border-top: 0;
