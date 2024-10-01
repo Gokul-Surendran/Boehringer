@@ -688,7 +688,7 @@
 
             a {
                 border: 2px solid black;
-                color: #000000;
+                color: #000000 !important;
                 border-radius: 20px;
                 width: auto;
                 padding: 6px 17px 4px 17px;
@@ -698,6 +698,9 @@
                 font-weight: 600;
                 font-family: "Boehringer Forward Text Md";
                 letter-spacing: 1px;
+                &:hover {
+                    color-scheme: #0000;
+                }
             }
         }
     }
