@@ -8,6 +8,7 @@
     &__logo {
         width: 180px;
         height: auto;
+        padding-bottom: 10px;
 
         img {
             width: 100%;
@@ -17,11 +18,13 @@
 
     &__wrap {
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        align-items: center;
         gap: 30px;
         margin-top: 30px;
+        border-radius: 10px;
+        padding: 30px 40px;
+        background-color: #fff;
+        min-height: 300px;
     }
 
     &__inner {
@@ -78,11 +81,20 @@
 
     }
 
-    &__form {
-        width: 40%;
-        border-radius: 10px;
-        padding: 15px 20px;
-        background-color: #fff;
+    &__sign-in {
+        width: 55%;
+        border-right: 1px solid #54565abd;
+        padding: 20px 100px 20px 20px;
+
+        .bi-btn {
+            display: block;
+            text-align: center;
+        }
+    }
+
+    &__sign-up {
+        width: 45%;
+        padding: 20px 0px;
 
 
         .bi-input label {
@@ -94,15 +106,10 @@
         .bi-input input {
             border-radius: 4px;
         }
-
-        .bi-btn {
-            display: block;
-            text-align: center;
-        }
     }
 
     &__title {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
 
         h4 {
             font-family: 'Boehringer Forward Text';
@@ -126,15 +133,20 @@
         p {
             color: #08312A;
             text-align: center;
+
+            span {
+                font-weight: 600;
+            }
         }
     }
 
     &__cnt {
         p {
             color: #08312A;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             font-weight: 700;
             line-height: 24px;
+            text-align: center;
         }
 
         span {
@@ -154,9 +166,11 @@
 
     h6 {
         color: #fff;
-        margin-top: 30px;
-        position: absolute;
-        bottom: 7%;
+        margin-top: 40px;
+    }
+
+    .bi-heading {
+        color: #fff;
     }
 
 }
@@ -165,12 +179,8 @@
 @include tablet {
     .bi-agency-select {
 
-        &__wrap {
-            margin-top: 70px;
-        }
-
-        &__form {
-            width: 60%;
+        &__sign-in {
+            padding: 20px 50px 20px 10px;
         }
     }
 }
@@ -179,15 +189,18 @@
     .bi-agency-select {
 
         &__wrap {
-            align-items: flex-start;
-        }
-
-        &__inner {
             flex-direction: column;
-            gap: 20px;
         }
 
-        &__form {
+        &__sign-in {
+            width: 100%;
+            padding: 0;
+            padding-bottom: 50px;
+            border-right: none;
+            border-bottom: 1px solid #54565abd;
+        }
+
+        &__sign-up {
             width: 100%;
         }
     }
