@@ -1,6 +1,6 @@
 .bi-agency1 {
     width: 100%;
-    min-height: 100vh;
+    height: auto;
     background-color: #08312a;
     padding: 40px 0;
     &__header {
@@ -47,7 +47,7 @@
     &__form {
         background-color: #fff;
         width: 100%;
-        min-height: 70vh;
+        height: auto;
         border-radius: 6px;
         margin-top: 20px;
         padding: 24px;
@@ -64,11 +64,28 @@
         width: 100%;
         padding: 4px 0;
         .bi-input {
-            width: calc(50% - 32px);
+            width: calc(50% - 20px);
         }
         label {
             font-size: 18px;
             color: #08312a;
         }
+    }
+    &__cta {
+        float: right;
+        margin-top: 18px;
+    }
+    &__cancel {
+        background-color: #00e47c;
+        padding: 10px 26px;
+        border-radius: 6px;
+        width: auto;
+        margin-right: 16px;
+    }
+    &__Next {
+        background-color: #00e47c;
+        padding: 10px 26px;
+        border-radius: 6px;
+        width: auto;
     }
 }
