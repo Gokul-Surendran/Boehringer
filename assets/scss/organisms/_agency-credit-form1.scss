@@ -1,0 +1,74 @@
+.bi-agency1 {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #08312a;
+    padding: 40px 0;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        width: 200px;
+        img {
+            width: 100%;
+        }
+    }
+    &__para {
+        color: #fff;
+        font-size: 20px;
+        text-align: end;
+    }
+    &__head {
+        font-size: 46px;
+        color: #fff;
+        font-weight: 700;
+        margin: 46px 0;
+        h2 {
+            text-transform: unset;
+        }
+    }
+    &__barout {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    &__line {
+        border: 1px solid #00e47c;
+        width: calc(25% - 12px);
+        margin: 6px;
+        min-height: 8px;
+        border-radius: 6px;
+        &.active {
+            background-color: #00e47c;
+        }
+    }
+    &__form {
+        background-color: #fff;
+        width: 100%;
+        min-height: 70vh;
+        border-radius: 6px;
+        margin-top: 20px;
+        padding: 24px;
+    }
+    &__h5 {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+    &__formflex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 4px 0;
+        .bi-input {
+            width: calc(50% - 32px);
+        }
+        label {
+            font-size: 18px;
+            color: #08312a;
+        }
+    }
+}
