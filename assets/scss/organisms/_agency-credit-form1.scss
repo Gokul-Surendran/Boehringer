@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     background-color: #08312a;
-    padding: 40px 0;
+    padding: 74px 0;
     &__header {
         display: flex;
         justify-content: space-between;
@@ -73,7 +73,7 @@
     }
     &__cta {
         float: right;
-        margin-top: 18px;
+        margin-top: 32px;
     }
     &__cancel {
         background-color: #00e47c;
@@ -81,11 +81,22 @@
         border-radius: 6px;
         width: auto;
         margin-right: 16px;
+        &:hover {
+            background-color: #66EFB0;
+        }
     }
     &__Next {
         background-color: #00e47c;
         padding: 10px 26px;
         border-radius: 6px;
         width: auto;
+        &:hover {       
+            background-color: #66EFB0;
+        }
+    }
+    &__copyright {
+        float: left;
+        color: #fff;
+        padding-top: 10%;
     }
 }
