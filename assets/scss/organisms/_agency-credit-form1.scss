@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     background-color: #08312a;
-    padding: 74px 0;
+    padding: 40px 0;
     &__header {
         display: flex;
         justify-content: space-between;
@@ -72,8 +72,9 @@
         }
     }
     &__cta {
-        float: right;
         margin-top: 32px;
+        display: flex;
+        justify-content: flex-end;
     }
     &__cancel {
         background-color: #00e47c;
@@ -95,8 +96,48 @@
         }
     }
     &__copyright {
-        float: left;
         color: #fff;
-        padding-top: 10%;
+        padding-top: 40px;
+    }
+}
+
+
+/* media queries */
+@include tablet {
+    .bi-agency1 {
+        &__logo {
+            width: 170px;
+        }
+        &__head {
+            font-size: 38px;
+        }
+    }
+}
+
+@include mobile {
+    .bi-agency1 {
+        &__logo {
+            width: 120px;
+        }
+        &__para {
+            font-size: 14px;
+        }
+        &__head {
+            font-size: 18px;
+            margin-bottom: 16px;
+        }
+        &__h5 {
+            font-size: 20px;
+        }
+        &__formflex {
+            flex-direction: column;
+            .bi-input {
+                width: calc(100% - 20px);
+            }
+            label {
+                font-size: 12px;
+                color: #08312a;
+            }
+        }
     }
 }
