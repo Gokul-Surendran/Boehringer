@@ -19,12 +19,13 @@
     &__wrap {
         display: flex;
         justify-content: center;
+        align-items: center;
         gap: 30px;
         margin-top: 30px;
         border-radius: 10px;
-        padding: 30px 40px;
+        padding: 20px 40px;
         background-color: #fff;
-        min-height: 300px;
+        min-height: 340px;
     }
 
     &__inner {
@@ -84,18 +85,12 @@
     &__sign-in {
         width: 55%;
         border-right: 1px solid #54565abd;
-        padding: 20px 100px 20px 20px;
+        padding: 10px 100px 10px 20px;
 
         .bi-btn {
             display: block;
             text-align: center;
         }
-    }
-
-    &__sign-up {
-        width: 45%;
-        padding: 20px 0px;
-
 
         .bi-input label {
             color: #08312A;
@@ -108,10 +103,42 @@
         }
     }
 
+    &__sign-up {
+        width: 45%;
+        min-height: 258px;
+        padding: 10px 0px;
+
+        .bi-input {
+            margin-bottom: 12px;
+        }
+
+        .bi-input label {
+            color: #08312A;
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+        .bi-input input {
+            border-radius: 4px;
+        }
+
+        .bi-btn {
+            display: block;
+            text-align: center;
+        }
+
+        p {
+            color: #08312A;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 0;
+        }
+    }
+
     &__title {
         margin-bottom: 20px;
 
-        h4 {
+        h3 {
             font-family: 'Boehringer Forward Text';
             font-size: 25px;
             line-height: 35px;
@@ -119,49 +146,56 @@
             color: #08312A;
             text-align: center;
             margin-bottom: 5px;
+            text-transform: capitalize;
         }
 
-        h5 {
+        h4 {
             font-family: 'Boehringer Forward Text';
-            font-size: 20px;
-            line-height: 30px;
             color: #08312A;
             text-align: center;
             margin-bottom: 15px;
         }
 
-        p {
-            color: #08312A;
+        h5 {
+            color: #000;
+            font-weight: 700;
             text-align: center;
 
-            span {
-                font-weight: 600;
+            a {
+                color: #08312A;
+                text-decoration: underline !important;
+
+                &:hover {
+                    text-decoration: none !important;
+                }
+            }
+
+        }
+
+        p {
+            color: #000;
+            text-align: center;
+            font-weight: 400;
+            margin-bottom: 15px;
+
+            a {
+                color: #08312A;
+                font-weight: 500;
+                text-decoration: underline !important;
+
+                &:hover {
+                    text-decoration: none !important;
+                }
             }
         }
     }
 
     &__cnt {
-        p {
-            color: #08312A;
-            margin-bottom: 15px;
-            font-weight: 700;
-            line-height: 24px;
-            text-align: center;
-        }
-
-        span {
-            font-weight: 500;
-        }
-
-        a {
-            font-weight: 700;
-            color: #08312A;
-            text-decoration: underline !important;
-
-            &:hover {
-                text-decoration: none !important;
-            }
-        }
+        color: #08312A;
+        margin-bottom: 15px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
     }
 
     h6 {
@@ -173,14 +207,33 @@
         color: #fff;
     }
 
+    &__otp {
+        background-color: #FF565633;
+        border: 1px solid #FF8C8C80;
+        text-align: center;
+        padding: 5px 10px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+
 }
 
 
 @include tablet {
     .bi-agency-select {
 
+        &__wrap {
+            align-items: flex-start;
+        }
+
         &__sign-in {
-            padding: 20px 50px 20px 10px;
+            padding: 10px 50px 10px 10px;
+        }
+
+        &__title {
+            br {
+                display: none;
+            }
         }
     }
 }
@@ -190,18 +243,25 @@
 
         &__wrap {
             flex-direction: column;
+            align-items: flex-start;
         }
 
         &__sign-in {
             width: 100%;
             padding: 0;
-            padding-bottom: 50px;
+            padding-bottom: 40px;
             border-right: none;
             border-bottom: 1px solid #54565abd;
         }
 
         &__sign-up {
             width: 100%;
+        }
+
+        &__title {
+            br {
+                display: none;
+            }
         }
     }
 }
