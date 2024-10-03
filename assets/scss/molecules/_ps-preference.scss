@@ -7,8 +7,8 @@
       background-color: #022D25;
       }
    &__head {
-      font-size: 100px;
-      line-height: 110px;
+      font-size: 92px;
+      line-height: 102px;
       color: #fff;
       margin-top: 60px;
       font-family: 'Boehringer Forward Head';
@@ -29,7 +29,7 @@
       line-height: 36px;
       font-weight: 700;
       color: #ffffff;
-      margin: 40px 0 56px;
+      margin: 20px 0 60px;
       text-align: left;
       span {
          color: #00E47C;
@@ -41,16 +41,16 @@
    }
    &__btn {
       display: flex;
-      justify-content: center;
+      // justify-content: center;
       align-items: center;
       background-color: #00E47C;
       color: #08312A;
       font-size: 24px;
-      padding: 12px;
+      padding: 12px 24px;
       transition: all 0.2s 0s ease-in;
       text-align: center;
       border-radius: 5px;
-      width: 65%;
+      width: 70%;
       margin-bottom: 26px;
       &:hover {
          background-color: #66EFB0;
@@ -60,6 +60,9 @@
          width: 30px;
          height: auto;
          margin-right: 12px;
+      }
+      img.width60 {
+         width: 60px;
       }
       span {
          font-weight: 600;
