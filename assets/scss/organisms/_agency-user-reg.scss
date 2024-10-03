@@ -1,0 +1,108 @@
+.bi-agencyreg {
+    width: 100%;
+    background-color: #08312A;
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        padding: 32px 0;
+    }
+    &__logo {
+        width: 200px;
+        img {
+            width: 100%;
+        }
+    }
+    &__para {
+        color: #fff;
+        font-size: 20px;
+        text-align: end;
+    }
+}
+.bi-agencyform {
+    padding: 28px 0;
+    background-color: #F6F5F3;
+
+    &__heading {
+        h4 {
+            font-size: 28px;
+            color: #08312A;
+        }
+    }
+    &__required {
+        width: 100%;
+        background-color: #9EEAF9;
+        padding: 12px 18px;
+        margin-top: 24px;
+        border-radius: 6px;
+    }
+    &__form {
+        background-color: #fff;
+        margin-top: 14px;
+        padding: 22px 26px;
+        border-radius: 6px
+    }
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 4px 0;
+        .bi-input {
+            width: calc(50% - 20px);
+        }
+        label {
+            font-size: 18px;
+            color: #08312a;
+        }
+    }
+    &__captcha {
+        width: 100%;
+       
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    &__downpara {
+        margin-top: 24px;
+        a {
+            color: #1A2F5A !important;
+            text-decoration: underline !important;
+        }
+    }
+    &__regcta {
+        display: flex;
+        justify-content: right;
+        margin-top: 24px;
+    }
+}
+
+@include mobile {
+    .bi-agencyreg {
+        &__logo {
+            width: 120px;
+        }
+        &__para {
+            font-size: 14px;
+        }
+    }
+    .bi-agencyform {
+        &__heading {
+            h4 {
+                font-size: 22px;
+            }
+        }
+        &__flex {
+            flex-direction: column;
+            .bi-input {
+                width: calc(100% - 20px);
+            }
+            label {
+                font-size: 12px;
+            }
+        }
+    }
+   
+}
