@@ -16,6 +16,14 @@
          color: #00E47C;
       }
      }
+   &__whitehead {
+      font-size: 50px;
+      line-height: 60px;
+      font-weight: 700;
+      color: #fff;
+      margin-top: 80px;
+      font-family: 'Boehringer Forward Head';
+     }
    &__subhead {
       font-size: 28px;
       line-height: 36px;
@@ -25,6 +33,10 @@
       text-align: left;
       span {
          color: #00E47C;
+      }
+      &.normal {
+         font-weight: normal;
+         margin: 30px 0;
       }
    }
    &__btn {
@@ -52,6 +64,9 @@
       span {
          font-weight: 600;
       }
+      &.width20 {
+         width: 20%;
+      }
    }
    &__crtxt {
       color: #fff;
@@ -68,6 +83,9 @@
       }
       &__btn {
          width: 72%;
+         &.width20 {
+            width: 30%;
+         }
       }
    }
 }
@@ -80,6 +98,9 @@
       }
       &__btn {
          width: 90%;
+         &.width20 {
+            width: 40%;
+         }
       }
    }
 }
@@ -102,6 +123,9 @@
          img {
             width: 20px;
             margin-right: 4px;
+         }
+         &.width20 {
+            width: 50%;
          }
       }
    }

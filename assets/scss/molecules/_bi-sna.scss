@@ -16,7 +16,7 @@
     &__content {
         color: #fff;
         font-size: 130px;
-        padding-top: 40px;
+        padding-top: 30px;
         text-align: center;
 
         span {
@@ -76,7 +76,7 @@
     &__crtxt {
         color: #fff;
         position: absolute;
-        bottom: 12px;
+        bottom: 20px;
      }
 }
 
@@ -142,6 +142,9 @@
         &__para {
             font-size: 15px;
             padding-top: 30px;
+        }
+        &__btn {
+            flex-direction: column;
         }
     }
 }
