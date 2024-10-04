@@ -1102,7 +1102,7 @@
 .boehringer .ab-address__choose-add:hover,
 .boehringer .ab-address__confirm-order:hover,
 .boehringer #ctl09_lblSCOrderAll:hover {
-  color: #25E2CC !important;
+  color: #08312A !important;
   background-color: transparent !important;
 }
 .boehringer .mobile-price .btn-red.hvr-fade {
@@ -2434,9 +2434,9 @@
   }
 }
 .cx-odrsmry__item:nth-child(4) {
-  border-bottom: 1px solid #c0c0c0;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  // border-bottom: 1px solid #c0c0c0;
+  padding-top: 6px;
+  padding-bottom: 4px;
 }
 .cx-odrsmry .label {
   color: #000;
@@ -4098,20 +4098,26 @@ body {
 }
 .boehringer .modal-content {
   border-radius: 6px !important;
+  width: 100%;
 }
 .boehringer .cx-popup-h {
   text-transform: unset;
   margin-bottom: 20px;
-  text-align: center;
+  // text-align: center;
+  span {
+    font-weight: 200;
+    font-size: 14px;
+  }
 }
 .boehringer .modal-header {
-  background-color: #08312A;
-  padding: 7px 12px;
+  // background-color: #08312A;
+  padding: 14x 12px;
   align-items: center !important;
 }
 .boehringer .cx-btn-out {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  width: 100%;
 }
 .boehringer .dxpc-closeBtn:hover {
   background-color: #1d85cd;
@@ -4644,12 +4650,12 @@ body {
 .boehringer .cx-cancel {
   font-size: 14px;
   text-align: center;
-  background-color: #08312A !important;
-  border: 2px solid #08312A !important;
+  background-color: transparent !important;
+  border: 2px solid #666666 !important;
   color: #fff;
   padding: 8px 20px;
   border-radius: 6px;
-  width: 150px;
+  width: auto;
   text-transform: uppercase;
   font-weight: bold;
   margin-right: 16px;
@@ -4671,12 +4677,12 @@ body {
   text-transform: uppercase;
   text-align: center;
   border-radius: 6px;
-  width: 150px;
+  width: 50% !important;
   font-weight: bold;
 }
 .boehringer .cx-save--yes {
   padding: 10px 8px !important;
-  width: 100% !important;
+  width: 50% !important;
 }
 .boehringer .cx-save:hover {
   color: #00E47C !important;
