@@ -1,7 +1,7 @@
 .bi-agency1 {
     width: 100%;
     height: auto;
-    background-color: #08312a;
+    background-color: #F6F5F3;
     padding: 40px 0;
     &__header {
         display: flex;
@@ -21,7 +21,7 @@
     }
     &__head {
         font-size: 46px;
-        color: #fff;
+        color: #08312a;
         font-weight: 700;
         margin: 46px 0;
         h2 {
@@ -55,7 +55,8 @@
     &__h5 {
         font-size: 24px;
         font-weight: 700;
-        margin-bottom: 12px;
+        margin-bottom: 30px;
+        color: #08312a;
     }
     &__formflex {
         display: flex;
