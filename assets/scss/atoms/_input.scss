@@ -30,8 +30,12 @@
             font-size: 13px;
         }
     }
+}
 
-
+.bi-input.error {
+    input {
+        color: #FF5B5B;
+    }
 }
 
 
