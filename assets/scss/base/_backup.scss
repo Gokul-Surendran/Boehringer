@@ -4107,17 +4107,20 @@ body {
   span {
     font-weight: 200;
     font-size: 14px;
+    color: #191919;
   }
 }
 .boehringer .modal-header {
   // background-color: #08312A;
-  padding: 14x 12px;
+  padding: 20px;
   align-items: center !important;
 }
 .boehringer .cx-btn-out {
   display: flex;
   justify-content: flex-start;
   width: 100%;
+  align-items: center;
+  margin-bottom: 10px;
 }
 .boehringer .dxpc-closeBtn:hover {
   background-color: #1d85cd;
@@ -4648,16 +4651,16 @@ body {
   justify-content: center !important;
 }
 .boehringer .cx-cancel {
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   background-color: transparent !important;
-  border: 2px solid #666666 !important;
-  color: #fff;
-  padding: 8px 20px;
+  border: 2px solid #cccccc !important;
+  color: #000;
+  padding: 5px 12px;
   border-radius: 6px;
   width: auto;
-  text-transform: uppercase;
-  font-weight: bold;
+  text-transform: unset;
+  font-weight: 400;
   margin-right: 16px;
 }
 .boehringer .cx-cancel--no {
@@ -4666,27 +4669,27 @@ body {
 }
 .boehringer .cx-cancel:hover {
   color: #000000 !important;
-  background-color: transparent !important;
+  background-color: #cccccc !important;
 }
 .boehringer .cx-save {
-  font-size: 14px;
+  font-size: 16px;
   background-color: #00E47C !important;
   border: 2px solid #00E47C !important;
-  color: #000;
+  color: #0D0B0C;
   padding: 8px 10px;
-  text-transform: uppercase;
+  text-transform: unset;
   text-align: center;
   border-radius: 6px;
   width: 50% !important;
-  font-weight: bold;
+  font-weight: 400;
 }
 .boehringer .cx-save--yes {
-  padding: 10px 8px !important;
-  width: 50% !important;
+  padding: 5px 12px !important;
+  width: auto !important;
 }
 .boehringer .cx-save:hover {
-  color: #00E47C !important;
-  background-color: transparent !important;
+  
+  background-color: #66EFB0 !important;
 }
 .boehringer .ab-address__head-btn,
 .boehringer .cx-plus {
