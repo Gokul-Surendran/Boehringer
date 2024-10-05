@@ -1,0 +1,44 @@
+.bi-radioout {
+    display: block;
+    position: relative;
+    padding: 10px 25px 10px 60px;
+    margin-bottom: 12px;
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+    width: max-content;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+
+    input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+}
+
+.radio-btn {
+    position: absolute;
+   
+    background-color: transparent;
+    border: 2px solid #00E47C;
+    border-radius: 50%;
+
+    &::after {
+        content: "";
+        position: absolute;
+        display: none;
+        top: 3px;
+        left: 4px;
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+        background: #00E47C;
+    }
+}
+
+.bi-radioout input:checked~.radio-btn:after {
+    display: block;
+}
