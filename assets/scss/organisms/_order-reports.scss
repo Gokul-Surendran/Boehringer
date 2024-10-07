@@ -1,0 +1,119 @@
+.bi-order-reports {
+    padding: 32px 0;
+    background-color: #f6f5f3;
+    .heading {
+        text-transform: unset;
+        font-size: 44px;
+        color: #08312A;
+        font-weight: 600;
+    }
+    .heading2 {
+        font-size: 20px;
+        color: #08312A;
+        margin: 40px 0 20px 0;
+        font-weight: 600;
+    }
+    .or-out {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .first {
+        width: calc(33.3% - 10px);
+        margin: 5px;   
+        label {
+            font-size: 18px;
+            color: #000;
+            margin-right: 12px;
+            width: 36%;
+            text-align: right;
+        }
+        select {
+            border: 1px solid #8C8481;
+            padding: 5px 12px;
+            border-radius: 5px;
+            width: 40%;
+        }
+        input {
+            border: 1px solid #8C8481;
+            padding: 5px 12px;
+            border-radius: 5px;
+            width: 40%;
+        }
+    }
+    .first:last-child {
+        text-align: right;
+    }
+    .grid-img {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+    .mt-3 {
+        margin-right: 0;
+    }
+    .buttons {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 38px;
+    }
+    .srch {
+        padding: 6px 25px;
+        margin-bottom: 0px;
+        border: 1px solid #00E47C;
+        background-color: #00E47C;
+        border-radius: 6px;
+        margin-right: 12px;
+    }
+    .srch:hover {
+        border: 1px solid #66EFB0;
+        background-color: #66EFB0;    
+    }
+    .rst {
+        padding: 6px 25px;
+        margin-bottom: 0px;
+        border: 1px solid #08312A;
+        background-color: #08312A;
+        border-radius: 6px;
+        color: #fff;
+    }
+    .rst:hover {
+        border: 1px solid #091a09;
+        background-color: #091a09;    
+    }
+}
+
+@include tablet-pro {
+    .bi-order-reports {
+        .first {
+            label {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@include tablet {
+    .bi-order-reports {
+        .first {
+            label {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@include mobile {
+    .bi-order-reports {
+        .or-out {
+            flex-direction: column;
+        }
+        .first {
+            width: 100%;
+        }
+        .first:last-child {
+            text-align: left;
+        }
+    }
+}
