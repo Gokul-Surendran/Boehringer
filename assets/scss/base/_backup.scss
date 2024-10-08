@@ -2231,6 +2231,9 @@
   width: 22%;
   text-align: center;
   font-size: 18px;
+  &.small-font {
+    font-size: 12px;
+  }
 }
 .cx-shpcart .cx-shpcartpdt .boldblu {
   color: #08312A;

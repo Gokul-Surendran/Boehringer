@@ -13,12 +13,45 @@
     <link rel="stylesheet" href="../assets/css/style.css" />
     <!-- styles -->
     <title>Document</title>
+    <style>
+      .text1 {
+        font-size: 24px;
+      }
+    
+    
+      .text1.small-font {
+        font-size: 16px;
+      }
+    </style>
   </head>
   <body>
     <!-- body content start -->
+    <div class="text1" id="text-content">
+      This1246537.
+    </div>
     <!-- body content end -->
 
     <!-- scripts -->
+    <script>
+      function adjustFontSize() {
+        const textElement = document.getElementById('text-content');
+        const textContent = textElement.textContent.trim();
+
+        // Remove non-alphanumeric characters and count the length
+        const alphaNumericContent = textContent.replace(/[^a-zA-Z0-9]/g, '');
+        const charCount = alphaNumericContent.length;
+
+        // Check if the character count exceeds 7
+        if (charCount > 7) {
+          textElement.classList.add('small-font'); // Apply the smaller font class
+        } else {
+          textElement.classList.remove('small-font'); // Revert to original font size
+        }
+      }
+
+      // Run the function on page load
+      adjustFontSize();
+    </script>
     <script src="../assets/js/jquery.slim.min.js"></script>
     <script src="../assets/js/aos.js"></script>
     <script src="../assets/js/slick.min.js"></script>
