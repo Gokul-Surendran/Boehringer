@@ -1035,20 +1035,20 @@
   margin: 0 auto;
 }
 .boehringer #header .wshlt span.number {
-  background: #003D5B;
+  background: #08312A;
   top: -30px;
   right: -10px;
 }
 .boehringer .ab-header__dropdown::after {
-  border-top: 9px solid #25E2CC;
+  border-top: 9px solid #00E47C;
 }
 .boehringer .fa,
 .boehringer .ab-summary__head {
-  color: #003D5B;
+  color: #08312A;
 }
 .boehringer .sec-menu .btn-secondary:hover::before,
 .boehringer .ab-header__dropdown-link:hover {
-  background-color: #25E2CC;
+  background-color: #00E47C;
   bottom: -1px;
 }
 .boehringer .product-details-page h2,
@@ -1090,9 +1090,9 @@
 .boehringer .ab-address__choose-add,
 .boehringer .ab-address__confirm-order,
 .boehringer #ctl09_lblSCOrderAll {
-  background-color: #25E2CC !important;
-  border: 2px solid #25E2CC !important;
-  color: #003D5B;
+  background-color: #00E47C !important;
+  border: 2px solid #00E47C !important;
+  color: #08312A;
   border-radius: 20px;
   font-weight: 600 !important;
   box-shadow: none;
@@ -1116,8 +1116,8 @@
 .boehringer .ab-address__remove-all,
 .boehringer #ctl09_lblSCRemoveAll {
   background-color: transparent !important;
-  border: 2px solid #003D5B !important;
-  color: #003D5B;
+  border: 2px solid #08312A !important;
+  color: #08312A;
   padding: 8px 32px;
   box-shadow: none;
   border-radius: 20px;
@@ -1128,7 +1128,7 @@
 .boehringer .ab-address__remove-all:hover,
 .boehringer #ctl09_lblSCRemoveAll:hover {
   color: #fff !important;
-  background-color: #003D5B !important;
+  background-color: #08312A !important;
 }
 .boehringer #ctl09_lblSCRemoveAll {
   padding: 8px 16px;
@@ -1146,10 +1146,10 @@
 }
 .boehringer .main-heading {
   font-size: 28px;
-  color: #003D5B;
+  color: #08312A;
 }
 .boehringer .main-heading:hover {
-  color: #003D5B;
+  color: #08312A;
 }
 .boehringer .cx-banner {
   width: 100%;
@@ -1171,8 +1171,8 @@
   margin-right: 80px !important;
 }
 .boehringer .abt-footer {
-  background: #003D5B;
-  border-bottom: 7px solid #25E2CC !important;
+  background: #08312A;
+  border-bottom: 7px solid #00E47C !important;
 }
 .boehringer .abt-footer__txt {
   padding: 0 24px;
@@ -1201,22 +1201,22 @@
   font-size: 16px;
 }
 .boehringer .ab-button {
-  background-color: #003D5B;
-  border: 2px solid #003D5B;
+  background-color: #08312A;
+  border: 2px solid #08312A;
   border-radius: 24px;
   max-width: 340px;
 }
 .boehringer .ab-button:hover {
-  color: #003D5B;
-  background-color: #25E2CC;
-  border: 2px solid #25E2CC;
+  color: #08312A;
+  background-color: #00E47C;
+  border: 2px solid #00E47C;
 }
 .boehringer .book-name {
-  color: #003D5B;
+  color: #08312A;
   text-transform: uppercase;
 }
 .boehringer .book-name:hover {
-  color: #25E2CC;
+  color: #00E47C;
 }
 .boehringer .listing .book-name-and-buy {
   padding-right: 10px !important;
@@ -1232,7 +1232,7 @@
   border-radius: 5px !important;
   border: 2px solid #00E47C;
   background-color: #00E47C;
-  color: #003D5B !important;
+  color: #08312A !important;
   padding: 8px;
 }
 .boehringer .book-name-and-buy .btn-buy:hover {
@@ -1743,22 +1743,22 @@
   width: 34%;
 }
 .cx-ma__right__edit svg {
-  color: #003D5B;
+  color: #08312A;
 }
 .cx-ma__right__edit a {
   text-decoration: none;
-  color: #003D5B;
+  color: #08312A;
   font-weight: 400;
   font-size: 16px;
 }
 .cx-ma__right__delete svg {
-  color: #003D5B;
+  color: #08312A;
 }
 .cx-ma__right__delete a {
   display: flex;
   gap: 2px;
   text-decoration: none;
-  color: #003D5B;
+  color: #08312A;
   font-weight: 400;
   font-size: 16px;
 }
@@ -1808,7 +1808,7 @@
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 0;
-  color: #003D5B;
+  color: #08312A;
 }
 .person-info__lt {
   width: 80%;
@@ -1839,11 +1839,11 @@
   text-decoration: none;
 }
 .person-info__save {
-  color: #25E2CC;
+  color: #00E47C;
   margin-bottom: 0;
 }
 .person-info__edit {
-  color: #003D5B;
+  color: #08312A;
 }
 
 @media (max-width: 767px) {
@@ -1919,7 +1919,7 @@
 .cx-carttitle .cx-carttitle__a {
   font-size: 20px;
   font-weight: 700;
-  color: #003D5B;
+  color: #08312A;
 }
 .cx-carttitle__wrapb {
   display: flex;
@@ -1931,7 +1931,7 @@
   text-align: center;
   font-size: 20px;
   font-weight: 700;
-  color: #003D5B;
+  color: #08312A;
 }
 .cx-carttitle.your-wishlist {
   margin-top: 20px;
@@ -1986,7 +1986,7 @@
   width: 11.66%;
 }
 .cx-cartpdt .boldblu {
-  color: #003D5B;
+  color: #08312A;
   font-weight: 700;
 }
 .cx-cartpdt__subprice {
@@ -1995,7 +1995,7 @@
   width: 11.66%;
 }
 .cx-cartpdt__subprice span {
-  color: #003D5B;
+  color: #08312A;
 }
 .cx-cartpdt__quantity {
   display: flex;
@@ -2016,7 +2016,7 @@
   font-weight: 500;
 }
 .cx-cartpdt__crtbtn {
-  background-color: #003D5B;
+  background-color: #08312A;
   border-radius: 25px;
   padding: 10px;
   font-size: 16px;
@@ -2025,12 +2025,12 @@
   text-decoration: none;
   color: #ffffff;
   font-weight: 500;
-  border: 2px solid #003D5B;
+  border: 2px solid #08312A;
 }
 .cx-cartpdt__crtbtn:hover {
   background-color: transparent;
-  color: #003D5B;
-  border: 2px solid #003D5B;
+  color: #08312A;
+  border: 2px solid #08312A;
   transition: 0.3s ease-in-out;
 }
 .cx-cartpdt__valuebtn {
@@ -2040,7 +2040,7 @@
 .cx-cartpdt__valuebtnup, .cx-cartpdt__valuebtndown {
   border: none;
   background: none;
-  color: #003D5B;
+  color: #08312A;
   height: 11px;
   width: 13px;
 }
@@ -2145,14 +2145,14 @@
   width: 45%;
   font-size: 24px;
   font-weight: 700;
-  color: #003D5B;
+  color: #08312A;
   text-align: left;
 }
 .cx-shpcart .cx-shpcarttitle__b, .cx-shpcart .cx-shpcarttitle__c, .cx-shpcart .cx-shpcarttitle__d {
   width: 18.33%;
   font-size: 24px;
   font-weight: 700;
-  color: #003D5B;
+  color: #08312A;
   text-align: center;
 }
 .cx-shpcart .cx-shpcartpdt {
@@ -2215,7 +2215,7 @@
 .cx-shpcart .cx-shpcartpdt__valuebtnup, .cx-shpcart .cx-shpcartpdt__valuebtndown {
   border: none;
   background: none;
-  color: #003D5B;
+  color: #08312A;
   height: 11px;
   width: 13px;
 }
@@ -2286,14 +2286,14 @@
     width: 30%;
     font-size: 15px;
     font-weight: 700;
-    color: #003D5B;
+    color: #08312A;
     text-align: left;
   }
   .cx-shpcart .cx-shpcarttitle__b, .cx-shpcart .cx-shpcarttitle__c, .cx-shpcart .cx-shpcarttitle__d {
     width: 23.33%;
     font-size: 15px;
     font-weight: 700;
-    color: #003D5B;
+    color: #08312A;
     text-align: center;
   }
   .cx-shpcart .cx-shpcartpdt__wrap {
@@ -2345,10 +2345,10 @@
   font-weight: 500;
 }
 .cx-address__inner a:hover {
-  color: #003D5B;
+  color: #08312A;
 }
 .cx-address__inner h4 {
-  color: #003D5B;
+  color: #08312A;
   font-size: 20px;
   font-weight: 600;
 }
@@ -2461,23 +2461,23 @@
   margin-bottom: 20px;
 }
 .cx-odrsmry__btn {
-  background-color: #25E2CC;
+  background-color: #00E47C;
   color: #08312a;
   text-decoration: none;
   font-weight: 600;
   width: 90%;
   display: inline-block;
   text-align: center;
-  border: 1px solid #25E2CC;
+  border: 1px solid #00E47C;
   border-radius: 20px;
   padding: 8px 0px;
   margin: 20px 0px 0px;
 }
 .cx-odrsmry__btn:hover {
   background-color: transparent;
-  color: #25E2CC;
+  color: #00E47C;
   cursor: pointer;
-  border: 1px solid #25E2CC;
+  border: 1px solid #00E47C;
 }
 .cx-odrsmry__txtcart {
   display: flex;
@@ -2517,7 +2517,7 @@
   padding: 8px;
 }
 .cx-tb-pop th {
-  background-color: #003d5b;
+  background-color: #08312A;
   color: #fff;
 }
 .cx-tb-pop__item-img {
@@ -2538,8 +2538,8 @@
   font-size: 14px;
   text-align: center;
   background-color: transparent;
-  border: 2px solid #003D5B;
-  color: #003D5B;
+  border: 2px solid #08312A;
+  color: #08312A;
   padding: 4px 10px;
   border-radius: 20px;
   width: auto;
@@ -2549,14 +2549,14 @@
   text-decoration: none;
 }
 .cx-tb-pop__btns .back:hover {
-  background-color: #003D5B;
+  background-color: #08312A;
   color: #fff;
 }
 .cx-tb-pop__btns .proceed {
   font-size: 14px;
-  background-color: #25E2CC;
-  border: 2px solid #25E2CC;
-  color: #003D5B;
+  background-color: #00E47C;
+  border: 2px solid #00E47C;
+  color: #08312A;
   padding: 4px 10px;
   text-transform: uppercase;
   text-align: center;
@@ -2567,12 +2567,12 @@
 }
 .cx-tb-pop__btns .proceed:hover {
   background-color: #fff;
-  color: #25E2CC;
+  color: #00E47C;
 }
 .cx-tb-pop__head {
   margin-top: 6px;
   font-size: 18px;
-  color: #003D5B;
+  color: #08312A;
   text-align: left;
   text-transform: unset;
 }
@@ -2596,7 +2596,7 @@
   padding-top: 12px;
 }
 .abt-shop__txt:hover {
-  color: #25E2CC;
+  color: #00E47C;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -2638,7 +2638,7 @@
   width: 100%;
 }
 .cx-pf__head {
-  color: #003D5B;
+  color: #08312A;
   font-weight: 700;
   text-align: center;
   font-size: 54px;
@@ -2659,10 +2659,10 @@
 }
 .cx-pf__back {
   color: #fff;
-  background-color: #003D5B !important;
+  background-color: #08312A !important;
   display: inline-block;
   text-align: center;
-  border: 1px solid #003D5B !important;
+  border: 1px solid #08312A !important;
   border-radius: 20px;
   width: 150px;
   height: 34px;
@@ -2673,26 +2673,26 @@
   margin-right: 16px;
 }
 .cx-pf__back:hover {
-  color: #003D5B;
+  color: #08312A;
   background-color: #fff !important;
 }
 .cx-pf__again {
-  color: #003D5B;
+  color: #08312A;
   display: inline-block;
   text-align: center;
-  border: 1px solid #25E2CC;
+  border: 1px solid #00E47C;
   border-radius: 20px;
   width: 150px;
   height: 34px;
   padding: 6px 8px;
   font-weight: 700;
   font-size: 16px;
-  background-color: #25E2CC;
+  background-color: #00E47C;
 }
 .cx-pf__again:hover {
-  color: #25E2CC;
+  color: #00E47C;
   background-color: #fff;
-  border: 1px solid #25E2CC;
+  border: 1px solid #00E47C;
 }
 
 @media (max-width: 767px) {
@@ -2719,7 +2719,7 @@
   display: flex;
 }
 .cx-faq__btn {
-  color: #003D5B;
+  color: #08312A;
   font-weight: bold;
   border: none !important;
   padding: 0;
@@ -2727,7 +2727,7 @@
 }
 .cx-faq__btn:hover {
   text-decoration: none;
-  color: #003D5B;
+  color: #08312A;
   border: none !important;
 }
 .cx-faq .card {
@@ -2803,7 +2803,7 @@
   vertical-align: middle;
   text-transform: uppercase;
   color: #fff;
-  background-color: #003D5B;
+  background-color: #08312A;
   padding: 40px 0px;
 }
 .cx-pp__head h1 {
@@ -2828,7 +2828,7 @@
   padding: 30px 0;
 }
 .cx-contact__outer {
-  background-color: #003D5B;
+  background-color: #08312A;
   min-height: 90vh;
 }
 .cx-contact__left {
@@ -2971,7 +2971,7 @@
   resize: none;
 }
 .cx-contact__submit {
-  background-color: #003D5B;
+  background-color: #08312A;
   font-weight: bold;
   color: white;
   padding: 12px 20px;
@@ -3271,7 +3271,7 @@
   height: fit-content;
 }
 .cx-checkout__left h2 {
-  color: #003D5B;
+  color: #08312A;
   font-size: 22px;
   margin-top: 12px;
   margin-bottom: 14px;
@@ -3280,7 +3280,7 @@
 }
 .cx-checkout__checkpara {
   margin-bottom: 16px;
-  color: #003D5B;
+  color: #08312A;
   font-size: 16px;
   font-weight: 500;
 }
@@ -3302,7 +3302,7 @@
   font-weight: 600;
 }
 .cx-checkout__addnew a:hover {
-  color: #003D5B;
+  color: #08312A;
 }
 .cx-checkout__payimg {
   width: 30%;
@@ -3315,7 +3315,7 @@
   margin: 16px 0px;
 }
 .cx-checkout__cmmnt h3 {
-  color: #003D5B;
+  color: #08312A;
   font-size: 20px;
   margin: 20px 0px;
   font-weight: 600;
@@ -3387,7 +3387,7 @@
   font-weight: 500;
   padding: 20px;
   margin-bottom: 0;
-  border-bottom: 1px solid #25E2CC;
+  border-bottom: 1px solid #00E47C;
 }
 .cx-checkout-address p {
   margin-bottom: 0;
@@ -3396,22 +3396,22 @@
 }
 .cx-checkout-address__container {
   padding: 0px 20px 20px 20px;
-  border-bottom: 1px solid #25E2CC;
+  border-bottom: 1px solid #00E47C;
   min-height: 400px;
 }
 .cx-checkout-address__outer {
   margin: 20px 0;
   display: flex;
   gap: 10px;
-  border-bottom: 1px solid #25E2CC;
+  border-bottom: 1px solid #00E47C;
   justify-content: space-between;
 }
 .cx-checkout-address__outer span {
   font-weight: bold;
-  color: #003D5B;
+  color: #08312A;
   padding-right: 5px;
   margin-right: 5px;
-  border-right: 1px solid #25E2CC;
+  border-right: 1px solid #00E47C;
 }
 .cx-checkout-address__outer:nth-child(3) {
   border-bottom: none;
@@ -3428,12 +3428,12 @@
   font-size: 14px;
 }
 .cx-checkout-address__edit a {
-  color: #25E2CC;
+  color: #00E47C;
   text-decoration: none;
   float: right;
 }
 .cx-checkout-address__edit a:hover {
-  color: #003D5B;
+  color: #08312A;
 }
 .cx-checkout-address__btn {
   font-size: 13px;
@@ -3489,7 +3489,7 @@
 }
 .cx-cart-pop__prdct {
   border-radius: 6px;
-  border: 1px solid #003D5B;
+  border: 1px solid #08312A;
   padding: 10px 12px;
   display: flex;
   justify-content: space-between;
@@ -3547,7 +3547,7 @@
 .cx-cart-pop__qntyup, .cx-cart-pop__qntydown {
   border: none;
   background: none;
-  color: #003D5B;
+  color: #08312A;
   height: 11px;
   width: 13px;
 }
@@ -3571,16 +3571,16 @@
   height: 40px;
   width: 100%;
   text-decoration: none;
-  background-color: #003D5B;
+  background-color: #08312A;
   font-weight: 600;
-  border: 1px solid #003D5B;
+  border: 1px solid #08312A;
   border-radius: 6px;
   color: #fff !important;
   cursor: pointer;
 }
 .cx-cart-pop__cta a:hover {
   background-color: #fff;
-  color: #003D5B !important;
+  color: #08312A !important;
 }
 
 .boehringer .bh-hero {
@@ -3901,8 +3901,8 @@ body {
 }
 .boehringer .cx-adrsmodal .cx-cancel:hover {
   background-color: #fff !important;
-  color: #25E2CC !important;
-  border: 1px solid #25E2CC !important;
+  color: #00E47C !important;
+  border: 1px solid #00E47C !important;
   transition: 0.3s;
 }
 .boehringer .cx-adrsmodal .close {
@@ -3919,15 +3919,15 @@ body {
 
 .boehringer .btn-wishlists {
   border-radius: 20px !important;
-  background-color: #003D5B !important;
-  border: 1px solid #003D5B !important;
+  background-color: #08312A !important;
+  border: 1px solid #08312A !important;
   color: #F6F6F6;
   padding: 5px 20px;
   font-size: 14px !important;
   font-weight: 600;
 }
 .boehringer .btn-wishlists:hover {
-  color: #003D5B !important;
+  color: #08312A !important;
   background-color: transparent !important;
 }
 .boehringer #ctl09_lblSCRemoveAll {
@@ -3963,8 +3963,8 @@ body {
   border: 1px solid blue;
   width: auto;
   background-color: transparent !important;
-  border: 2px solid #003D5B !important;
-  color: #003D5B;
+  border: 2px solid #08312A !important;
+  color: #08312A;
   text-transform: uppercase;
   font-weight: bold;
   box-shadow: none;
@@ -3976,15 +3976,15 @@ body {
 }
 .boehringer .dxflCLLSys a[data-args="[['CancelEdit'],1]"]:hover {
   color: #fff !important;
-  background-color: #003D5B !important;
+  background-color: #08312A !important;
 }
 .boehringer .dxflCLLSys a[data-args="[['UpdateEdit'],1]"] {
   background-color: azure;
   border: 1px solid blue;
   width: auto;
-  background-color: #25E2CC !important;
-  border: 2px solid #25E2CC !important;
-  color: #003D5B;
+  background-color: #00E47C !important;
+  border: 2px solid #00E47C !important;
+  color: #08312A;
   text-transform: uppercase;
   font-weight: bold;
   box-shadow: none;
@@ -3996,7 +3996,7 @@ body {
   text-align: center;
 }
 .boehringer .dxflCLLSys a[data-args="[['UpdateEdit'],1]"]:hover {
-  color: #25E2CC !important;
+  color: #00E47C !important;
   background-color: transparent !important;
 }
 .boehringer .dxflCLLSys {
@@ -4025,7 +4025,7 @@ body {
   background-color: #ecf5f4;
 }
 .boehringer .ab-header__dropdown.active a::before {
-  background-color: #25E2CC;
+  background-color: #00E47C;
 }
 .boehringer .p-box h4 span {
   margin-right: 25px !important;
@@ -4047,7 +4047,7 @@ body {
 .boehringer .top-box h4 {
   font-family: "Prompt", sans-serif;
   font-size: 19px;
-  color: #003D5B;
+  color: #08312A;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -4056,7 +4056,7 @@ body {
 }
 .boehringer .edit-del {
   font-weight: 500;
-  color: #003d5b;
+  color: #08312A;
 }
 .boehringer .edit-del .fa {
   font-weight: 600;
@@ -4072,7 +4072,7 @@ body {
 }
 .boehringer .top-box-edit span {
   font-size: 18px;
-  color: #003D5B;
+  color: #08312A;
   font-weight: 500;
 }
 .boehringer .ab-address__address p {
@@ -4162,7 +4162,7 @@ body {
   text-align: center;
 }
 .boehringer .b-price span {
-  color: #003d5b !important;
+  color: #08312A !important;
 }
 .boehringer .cat {
   width: 50% !important;
@@ -4189,7 +4189,7 @@ body {
   font-size: 15px !important;
 }
 .boehringer .cx-code {
-  color: #003D5B !important;
+  color: #08312A !important;
   font-size: 16px !important;
 }
 .boehringer .cx-rmb-left {
@@ -4203,7 +4203,7 @@ body {
   min-height: 90vh;
 }
 .boehringer .cx-rmb {
-  color: #003D5B;
+  color: #08312A;
   font-weight: 600;
 }
 .boehringer .cx-txt-bold {
@@ -4301,7 +4301,7 @@ body {
 }
 .boehringer .cx-check-cmmnt {
   font-size: 18px;
-  color: #003d5b;
+  color: #08312A;
   font-weight: 600;
 }
 .boehringer .selector .form-control {
@@ -4316,7 +4316,7 @@ body {
 }
 .boehringer .cx-pdplink a {
   font-size: 16px;
-  color: #003D5B;
+  color: #08312A;
   font-weight: 600;
 }
 .boehringer .cx-pdplink a:hover {
@@ -4448,7 +4448,7 @@ body {
   padding: 6px 7px;
 }
 .boehringer .cx-qd {
-  color: #003D5B;
+  color: #08312A;
   font-size: 18px;
   font-weight: 300;
   width: 100%;
@@ -4468,7 +4468,7 @@ body {
 }
 .boehringer .cx-upqnty {
   font-size: 14px;
-  color: #003D5B !important;
+  color: #08312A !important;
   font-weight: 500;
   position: relative;
   cursor: pointer;
@@ -4481,7 +4481,7 @@ body {
   bottom: 0;
   height: 1px;
   left: 0;
-  background: #003D5B;
+  background: #08312A;
 }
 .boehringer .owl-item .item {
   width: 265px;
@@ -4500,8 +4500,8 @@ body {
 }
 .boehringer .cx-remove-all {
   font-size: 14px;
-  background-color: #003D5B;
-  border: 2px solid #003D5B;
+  background-color: #08312A;
+  border: 2px solid #08312A;
   color: #fff;
   padding: 8px 20px;
   text-transform: uppercase;
@@ -4513,7 +4513,7 @@ body {
 }
 .boehringer .cx-remove-all:hover {
   background-color: #fff;
-  color: #003d5b;
+  color: #08312A;
 }
 .boehringer .cx-fcouter {
   justify-content: center;
@@ -4622,13 +4622,13 @@ body {
 .boehringer .search .btn {
   border-radius: 50%;
   padding: 6px 12px;
-  background: #003D5B;
+  background: #08312A;
 }
 .boehringer .search .btn:hover {
-  background: #003D5B;
+  background: #08312A;
 }
 .boehringer .search .btn:active {
-  background: #003D5B;
+  background: #08312A;
 }
 .boehringer .tele select {
   width: 42%;
@@ -4698,11 +4698,11 @@ body {
 }
 .boehringer .ab-address__head-btn,
 .boehringer .cx-plus {
-  color: #25E2CC;
+  color: #00E47C;
 }
 .boehringer .ab-address__head-btn:hover,
 .boehringer .cx-plus:hover {
-  color: #003D5B;
+  color: #08312A;
 }
 .boehringer .p-box {
   height: auto !important;
@@ -4711,7 +4711,7 @@ body {
 .boehringer .p-box h4 {
   font-family: "Prompt", sans-serif;
   font-size: 19px;
-  color: #003D5B;
+  color: #08312A;
   font-weight: bold;
 }
 .boehringer .cx-box {
@@ -4724,7 +4724,7 @@ body {
 }
 .boehringer .fa-save,
 .boehringer .cx-fnbtn {
-  color: #003d5b;
+  color: #08312A;
   text-decoration: underline !important;
   font-size: 16px;
   margin-left: 5px;
@@ -4765,7 +4765,7 @@ body {
 .boehringer .dxpcLite_Moderno .dxpc-header {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  background-color: #25E2CC !important;
+  background-color: #00E47C !important;
 }
 .boehringer .dxpcLite_Moderno .dxpc-content {
   font-size: 16px;
@@ -4836,10 +4836,10 @@ body {
 }
 .boehringer .checkbox-group,
 .boehringer .ibc-cart__radio__outer {
-  color: #003D5B;
+  color: #08312A;
 }
 .boehringer .dxgvHeader_Moderno {
-  background-color: #003D5B;
+  background-color: #08312A;
 }
 .boehringer .user-items .dropdown-menu {
   top: 42px;
@@ -4876,7 +4876,7 @@ body {
 .boehringer .profile-name {
   font-size: 18px !important;
   font-weight: bold;
-  color: #003D5B;
+  color: #08312A;
   align-items: flex-end;
   margin-left: 8px;
 }
@@ -4992,7 +4992,7 @@ body {
 }
 .boehringer .cx-ordrsum .cx-ordrsum__head {
   text-align: left;
-  color: #003D5B;
+  color: #08312A;
   margin-top: 20px;
 }
 .boehringer .cx-ordrsum .cx-ordrsum__paddngb {
