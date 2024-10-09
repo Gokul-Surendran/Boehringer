@@ -4125,6 +4125,7 @@ body {
   width: 100%;
   align-items: center;
   margin-bottom: 10px;
+  font-size: 14px;
 }
 .boehringer .dxpc-closeBtn:hover {
   background-color: #1d85cd;
@@ -4655,12 +4656,12 @@ body {
   justify-content: center !important;
 }
 .boehringer .cx-cancel {
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
   background-color: transparent !important;
   border: 2px solid #cccccc !important;
   color: #000;
-  padding: 5px 12px;
+  padding: 8px 12px;
   border-radius: 6px;
   width: auto;
   text-transform: unset;
@@ -4676,7 +4677,7 @@ body {
   background-color: #cccccc !important;
 }
 .boehringer .cx-save {
-  font-size: 16px;
+  font-size: 14px;
   background-color: #00E47C !important;
   border: 2px solid #00E47C !important;
   color: #0D0B0C;
@@ -4688,7 +4689,7 @@ body {
   font-weight: 400;
 }
 .boehringer .cx-save--yes {
-  padding: 5px 12px !important;
+  padding: 8px 12px !important;
   width: auto !important;
 }
 .boehringer .cx-save:hover {
