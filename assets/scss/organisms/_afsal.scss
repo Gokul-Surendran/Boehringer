@@ -85,24 +85,6 @@
       width: 50%;
     }
     .cx-copdt__outer {
-      &::-webkit-scrollbar {
-         width: 18px; /* Set the width of the scrollbar */
-       }
-       
-       &::-webkit-scrollbar-track {
-         background: #e4e7e7; /* Set the background color of the scrollbar track */
-       }
-       
-       &::-webkit-scrollbar-thumb {
-         background: #08312A; /* Set the background color of the scrollbar thumb */
-         border: 1px solid #e4e7e7; /* Add a border to the thumb */
-       }
-       
-       &::-webkit-scrollbar-button {
-         width: 10px;
-         height: 10px;
-         background: #08312A; /* Set the background color of the scrollbar buttons */
-         transform: rotate(45deg); /* Rotate the button to create a triangle shape */
-       }
+      scrollbar-color: #08312A #e4e7e7;
     }
 }
