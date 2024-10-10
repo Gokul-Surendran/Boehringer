@@ -19,18 +19,16 @@
    color: #08312A;
    text-align: center;
 }
-// .bi-shpcarttitle__b {
-//    width: 19%;
-// }
+.bi-shpcarttitle__b,
+.bi-shpcarttitle__d {
+   width: 19%;
+}
 .bi-shpcarttitle__unit {
    font-size: 10px;
    margin-top: 4px;
 }
 .bi-shpcarttitle__c {
-   width: 15%;
-}
-.bi-shpcarttitle__d {
-   width: 35%;
+   width: 12%;
 }
 .bi-shpcarttitle__e {
    width: 10%;
@@ -40,7 +38,7 @@
    color: #08312A;
    text-align: center;
    font-size: 16px;
-   width: 35%;
+   width: 10%;
 }
 .bi-ordersumrywrap {
    background-color: #fff;
