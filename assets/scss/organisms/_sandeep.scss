@@ -274,9 +274,10 @@
 
     .account-search .dropdown .dropdown-menu {
         top: 52px;
-        left: 9px !important;
+        left: -28px !important;
         right: 0 !important;
         text-align: center;
+        padding: 20px 0;
 
         &::after {
             content: "";
