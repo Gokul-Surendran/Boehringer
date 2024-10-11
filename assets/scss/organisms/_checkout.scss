@@ -80,6 +80,14 @@
       label {
          color: #08312a;
          margin-left: 8px;
+         a {
+            color: #08312a;
+            text-decoration: underline !important;
+            font-weight: 600;
+            &:hover {
+                text-decoration: none!important;
+            }
+         }
       }
       input[type="checkbox"] {
          height: 18px;
@@ -122,10 +130,10 @@
       padding: 10px 0px;
       margin-top: 26px;
       &:hover {
-         background-color: transparent;
-         color: #00E47C;
+         background-color: #66EFB0;
+         color: #08312A;
          cursor: pointer;
-         border: 1px solid #00E47C;
+         border: 1px solid #66EFB0;
       }
    }
    .bi-dollar {
