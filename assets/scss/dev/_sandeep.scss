@@ -608,10 +608,10 @@
     .cx-pf__back {
         cursor: pointer;
         color: #08312A;
-        background-color: #00E47C !important;
+        background-color: #00E47C;
         display: inline-block;
         text-align: center;
-        border: 1px solid #00E47C !important;
+        border: 1px solid #00E47C;
         border-radius: 6px;
         width: 230px;
         height: 38px;
@@ -624,6 +624,12 @@
             background-color: #66EFB0 !important;
             border: 1px solid #66EFB0 !important;
             color: #08312A;
+        }
+
+        &.nwclrbtn {
+            background-color: #CCFAE5;
+            color: #08312A;
+            border: 1px solid #CCFAE5;
         }
     }
 
