@@ -1,65 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- styles -->
     <link rel="stylesheet" href="../assets/css/aos.css">
     <link rel="stylesheet" href="../assets/css/slick.css">
     <link rel="stylesheet" href="../assets/css/slick-theme.css">
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/styleold.css">
     <link rel="stylesheet" href="../assets/css/style.css" />
+    <!-- styles -->
     <title>Document</title>
-    <style>
-        .text1 {
-            font-size: 24px;
-        }
+  </head>
+  <body>
+    <!-- body content start -->
 
-        .text1.small-font {
-            font-size: 16px;
-        }
-    </style>
-</head>
-<body>
-    <div class="text1 fontvar">
-        This11651694189
-    </div>
-    <script>
-        function adjustFontSize() {
-            const textElements = document.getElementsByClassName('fontvar');
-            for (const textElement of textElements) {
-                const textContent = textElement.textContent.trim();
+    <!-- body content end -->
 
-                // Remove non-alphanumeric characters and count the length
-                const alphaNumericContent = textContent.replace(/[^a-zA-Z0-9]/g, '');
-                const charCount = alphaNumericContent.length;
-
-                // Check if the character count exceeds 7
-                if (charCount > 7) {
-                    textElement.classList.add('small-font'); // Apply the smaller font class
-                } else {
-                    textElement.classList.remove('small-font'); // Revert to original font size
-                }
-            }
-        }
-
-        // Run the function on page load
-        adjustFontSize();
-        
-        // // Attach an event listener to the document to listen for changes
-        // document.addEventListener('DOMContentLoaded', function() {
-        //     adjustFontSize();
-        // });
-
-        // document.addEventListener('DOMSubtreeModified', function() {
-        //     adjustFontSize();
-        // });
-    </script>
+    <!-- scripts -->
     <script src="../assets/js/jquery.slim.min.js"></script>
     <script src="../assets/js/aos.js"></script>
     <script src="../assets/js/slick.min.js"></script>
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/script.js"></script>
-    </body>
+    <!-- scripts -->
+  </body>
 </html>
