@@ -18,14 +18,18 @@
     select {
         width: 100%;
         border: 1px solid #cccccc;
-        padding: 5px 10px;
         font-size: 1rem;
         &:focus {
             border: 1px solid #022D25;
         }
     }
 
+    select {
+        padding: 5px 7px;
+    }
+
     input {
+    padding: 5px 10px;
         &::placeholder {
             font-size: 13px;
         }
