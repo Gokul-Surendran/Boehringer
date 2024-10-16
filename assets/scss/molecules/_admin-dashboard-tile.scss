@@ -1,0 +1,11 @@
+.bia-dashboardtile {
+    &__out {
+       display: flex;
+       justify-content: space-between;
+       width: 100%; 
+    }
+    &__inner {
+        width: calc(33.3% - 12px);
+        margin: 6px;
+    }
+}

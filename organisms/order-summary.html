@@ -16,33 +16,64 @@
   <body>
     <!-- body content start -->
      <div class="bi-order-summary">
-        <div class="content-wrapper">
+        <div class="wrapper-main">
             <h4 class="bi-heading">Order Summary</h4>
             <div class="bi-order-summary__wrap">
-                <div class="bi-order-summary__w-25">
-                    <label>From:</label>
-                    <input type="date">
+                <div class="bi-order-summary__fromtoout">
+                    <div class="bi-order-summary__w-25">
+                        <label>From:</label>
+                        <input type="date">
+                    </div>
+                    <div class="bi-order-summary__w-25">
+                        <label>To:</label>
+                        <input type="date">
+                    </div>
                 </div>
-                <div class="bi-order-summary__w-25">
-                    <label>To:</label>
-                    <input type="date">
+                <div>
+                    <a href="#" class="bi-btn bi-btn--reverse">
+                        Search
+                     </a>   
+                     <a href="#" class="bi-btn">
+                        Export Report
+                     </a>
                 </div>
-                <div class="bi-order-summary__w-25">
-                    <label>Order Status:</label>
-                    <select id="order-status">
-                        <option value="All">All</option>
-                        <option value="Processed">Processed</option>
-                        <option value="Delivered">Delivered</option>
-                    </select>
-                </div>
-                <a href="#" class="bi-btn bi-btn--reverse">
-                    Search
-                 </a>
-
-                 <a href="#" class="bi-btn">
-                    Export Report
-                 </a>
+                
             </div>
+            <div class="bi-agencyform__flex">
+                <div class="bi-input">
+                  <label for="fname">Order ID From:</label>
+                  <input type="text" placeholder="">
+               </div>
+                <div class="bi-input center">
+                  <label for="fname">Customer Name:</label>
+                  <input type="text" placeholder="">
+               </div>
+               <div class="bi-input flexend">
+                <label for="fname">Product:</label>
+                <select name="" id="">
+                    <option value="">Hoodie</option>
+                    <option value="">shirt</option>
+                  </select>
+             </div>
+            </div>
+            
+            <div class="bi-agencyform__flex">
+                <div class="bi-input">
+                  <label for="fname">Order ID To:</label>
+                  <input type="text" placeholder="">
+               </div>
+                <div class="bi-input center">
+                  <label for="fname">Customer Email:</label>
+                  <input type="text" placeholder="">
+               </div>
+               <div class="bi-input flexend">
+                <label for="fname">Order Status:</label>
+                <select name="" id="">
+                    <option value="">Hoodie</option>
+                    <option value="">shirt</option>
+                  </select>
+             </div>
+              </div>
             <div class="bi-order-summary__cnt">
                 <img src="../assets/images/order-summary.png" alt="table">
             </div>

@@ -29,10 +29,39 @@
    }
 
    .bi-order-summary__wrap {
-      justify-content: flex-end;
+      justify-content: flex-start;
       gap: 30px;
       margin: 30px 0px;
+      justify-content: space-between;
+      align-items: center;
    }
+   .bi-input {
+      display: flex;
+      width: calc(33.3% - 12px);
+      label {
+          width: 114px;
+          text-align: right;
+      }
+      input {
+          padding: 0 6px;
+          width: 30%;
+          border-radius: 4px;
+          margin-left: 14px;
+      }
+
+      select {
+          padding: 0 6px;
+          width: 30%;
+          border-radius: 4px;
+          margin-left: 14px;
+      }
+      &.center {
+          justify-content: center;
+      }
+      &.flexend{
+          justify-content: flex-end;
+      }
+  }
 }
 
 @include tablet-pro {
@@ -42,6 +71,7 @@
             height: 320px;
          }
       }
+      
    }
 }
 
@@ -51,6 +81,12 @@
          img {
             height: 240px;
          }
+      }
+      .bi-order-summary {
+         margin-top: 24px;
+         margin-left: 60px;
+         padding: 0;
+         width: 100%;
       }
    }
 }
@@ -76,14 +112,28 @@
             height: auto;
          }
       }
-   }
-}
-
-@include mobile-tablet {
-   .bi-oicat {
       .bi-order-summary__wrap {
-         flex-direction: row;
-         gap: 20px;
+         flex-direction: column;
+         padding: 0;
+         justify-content: flex-start;
+      }
+      .bi-order-summary {
+         margin-top: 0;
+         margin-left: 0px;
+         padding: 0;
+         width: 100%;
+      }
+      .bi-input {
+         input {
+            width: 60%;
+         }
+         select {
+            width: 60%;            
+         }
+      }
+      .bi-input.flexend {
+         justify-content: flex-start;
       }
    }
 }
+

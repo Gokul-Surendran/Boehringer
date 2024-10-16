@@ -21,15 +21,51 @@
          <h2 class="bi-oicat__head">Order Items By Category</h2>
          <p class="bi-oicat__copy">A report showing the total number of items ordered broken down by category.</p>
          <div class="bi-order-summary__wrap">
-          <div>
-            <label>From:</label>
-            <input type="date">
+          <div class="bi-order-summary__fromtoout">
+              <div class="bi-order-summary__w-25">
+                  <label>From:</label>
+                  <input type="date">
+              </div>
+              <div class="bi-order-summary__w-25">
+                  <label>To:</label>
+                  <input type="date">
+              </div>
           </div>
-          <div>
-              <label>To:</label>
-              <input type="date">
+          <div class="bi-order-summary">
+              <a href="#" class="bi-btn bi-btn--reverse">
+                  Search
+               </a>   
+               <a href="#" class="bi-btn">
+                  Export Report
+               </a>
           </div>
-         </div>
+      </div>
+      <div class="bi-agencyform__flex">
+        <div class="bi-input">
+          <label for="fname">Order ID From:</label>
+          <input type="text" placeholder="">
+       </div>
+       <div class="bi-input flexend">
+        <label for="fname">Country:</label>
+        <select name="" id="">
+            <option value="">Hoodie</option>
+            <option value="">shirt</option>
+          </select>
+     </div>
+    </div>
+    <div class="bi-agencyform__flex">
+      <div class="bi-input">
+        <label for="fname">Order ID To:</label>
+        <input type="text" placeholder="">
+     </div>
+     <div class="bi-input flexend">
+      <label for="fname">Order Status:</label>
+      <select name="" id="">
+          <option value="">Hoodie</option>
+          <option value="">shirt</option>
+        </select>
+   </div>
+  </div>
          <div class="bi-oicat__imgwrap">
             <img src="../assets/images/oi-cat-img1.png" alt="graph">
             <img src="../assets/images/oi-cat-img2.png" alt="list">
