@@ -803,7 +803,7 @@
     }
 
     .cx-shpcartpdt .boldblu {
-        margin-right: -4px;
+        margin-right: -3px;
     }
 
     .cx-shpcartpdt__quantity {
@@ -866,17 +866,10 @@
         padding: 10px 10px;
         position: relative;
         font-size: 16px;
-        &:after {
-            content: "";
-            background-image: url('../../../assets/images/angle.png'); /* Replace with your icon's path */
-            background-size: contain;
-            background-repeat: no-repeat;
-            width: 20px;
-            height: 16px;        
-            position: absolute;
-            right: 0;
-            top: 50%;
-            transform: translateY(-50%);
+        img {
+            width: 10px;
+            height: auto;
+            float: right;
         }
     }
 }

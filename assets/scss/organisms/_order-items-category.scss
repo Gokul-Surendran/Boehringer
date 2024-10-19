@@ -21,9 +21,8 @@
    &__imgwrap {
       display: flex;
       justify-content: space-between;
-      // table {
-      //    min-height: 400px;
-      // }
+      min-height: 400px;
+      align-items: flex-start;
       img {
          width: auto;
          height: 380px;
