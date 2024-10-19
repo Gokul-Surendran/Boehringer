@@ -19,77 +19,40 @@
     &__wrap {
         display: flex;
         justify-content: center;
-        align-items: center;
         gap: 30px;
         margin-top: 30px;
         border-radius: 10px;
-        padding: 20px 40px;
+        padding: 30px 40px;
         background-color: #fff;
         min-height: 340px;
     }
 
     &__inner {
         display: flex;
-        gap: 40px;
-
-        .container {
-            display: block;
-            position: relative;
-            padding: 10px 25px 10px 60px;
-            margin-bottom: 12px;
-            margin: 0;
-            font-size: 16px;
-            color: #fff;
-            width: max-content;
-            border: 1px solid #fff;
-            border-radius: 8px;
-            cursor: pointer;
-            user-select: none;
-
-            input {
-                position: absolute;
-                opacity: 0;
-                cursor: pointer;
-            }
-        }
-
-        .radio-btn {
-            position: absolute;
-            top: 10px;
-            left: 25px;
-            height: 20px;
-            width: 20px;
-            background-color: #022D25;
-            border: 2px solid #00E47C;
-            border-radius: 50%;
-
-            &::after {
-                content: "";
-                position: absolute;
-                display: none;
-                top: 3px;
-                left: 3px;
-                width: 10px;
-                height: 10px;
-                border-radius: 50%;
-                background: #00E47C;
-            }
-        }
-
-        .container input:checked~.radio-btn:after {
-            display: block;
-        }
-
+        justify-content: center;
+        align-items: baseline;
+        gap: 20px;
     }
 
     &__sign-in {
-        width: 55%;
-        border-right: 1px solid #54565abd;
-        padding: 10px 100px 10px 20px;
+        width: 50%;
+        padding-right: 20px;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: "";
+            background-color: #54565abd;
+            width: 1px;
+            height: 80%;
+            top: 10%;
+            right: -5%;
+        }
 
         .bi-btn {
             display: block;
             text-align: center;
+            color: #08312A;
         }
 
         .bi-input label {
@@ -100,39 +63,51 @@
 
         .bi-input input {
             border-radius: 4px;
+        }
+
+        .bi-agency-select__title {
+            margin-bottom: 10px;
         }
     }
 
     &__sign-up {
-        width: 45%;
-        min-height: 258px;
-        padding: 10px 0px;
-
-        .bi-input {
-            margin-bottom: 12px;
-        }
-
-        .bi-input label {
-            color: #08312A;
-            font-weight: 500;
-            font-size: 16px;
-        }
-
-        .bi-input input {
-            border-radius: 4px;
-        }
-
-        .bi-btn {
-            display: block;
-            text-align: center;
-        }
+        width: 50%;
 
         p {
+            width: 85%;
             color: #08312A;
             font-weight: 700;
             text-align: center;
             margin-bottom: 0;
         }
+
+        .bi-btn {
+            color: #08312A;
+            margin: 0;
+        }
+
+        h5 {
+            color: #000;
+            font-weight: 500;
+            text-align: center;
+            margin-bottom: 10px;
+
+            a {
+                font-weight: 500;
+                color: #08312A;
+                text-decoration: underline !important;
+
+                &:hover {
+                    text-decoration: none !important;
+                }
+            }
+
+        }
+
+    }
+
+    &__step {
+        margin-bottom: 25px;
     }
 
     &__title {
@@ -145,7 +120,7 @@
             font-weight: 600;
             color: #08312A;
             text-align: center;
-            margin-bottom: 5px;
+            margin-bottom: 30px;
             text-transform: capitalize;
         }
 
@@ -153,23 +128,9 @@
             font-family: 'Boehringer Forward Text';
             color: #08312A;
             text-align: center;
-            margin-bottom: 15px;
-        }
-
-        h5 {
-            color: #000;
-            font-weight: 700;
-            text-align: center;
-
-            a {
-                color: #08312A;
-                text-decoration: underline !important;
-
-                &:hover {
-                    text-decoration: none !important;
-                }
-            }
-
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 0;
         }
 
         p {
@@ -177,6 +138,8 @@
             text-align: center;
             font-weight: 400;
             margin-bottom: 15px;
+            margin: 0 auto;
+            text-align: center;
 
             a {
                 color: #08312A;
@@ -196,6 +159,16 @@
         font-weight: 700;
         line-height: 24px;
         text-align: center;
+    }
+
+    &__captcha {
+        width: 100%;
+        margin-bottom: 10px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
     }
 
     h6 {
@@ -221,19 +194,18 @@
 
 @include tablet {
     .bi-agency-select {
-
-        &__wrap {
-            align-items: flex-start;
-        }
-
-        &__sign-in {
-            padding: 10px 50px 10px 10px;
+        &__inner {
+            gap: 10px;
         }
 
         &__title {
-            br {
-                display: none;
+            h4 {
+                font-size: 18px;
             }
+        }
+
+        .bi-btn {
+            font-size: 13px;
         }
     }
 }
@@ -243,25 +215,40 @@
 
         &__wrap {
             flex-direction: column;
-            align-items: flex-start;
+            padding: 30px 20px;
         }
 
         &__sign-in {
             width: 100%;
-            padding: 0;
-            padding-bottom: 40px;
-            border-right: none;
-            border-bottom: 1px solid #54565abd;
+            padding-right: 0;
+
+            &::after {
+                width: 85%;
+                height: 1px;
+                top: auto;
+                right: auto;
+                bottom: -15px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
         }
 
         &__sign-up {
             width: 100%;
         }
 
+        &__inner {
+            gap: 10px;
+        }
+
         &__title {
-            br {
-                display: none;
+            h4 {
+                font-size: 18px;
             }
+        }
+
+        .bi-btn {
+            font-size: 13px;
         }
     }
 }
