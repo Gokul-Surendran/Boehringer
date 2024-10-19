@@ -849,7 +849,9 @@
     .small-font {
         font-size: 12px;
     }
-   
+    .bi-piegap {
+        margin-right: 34px;
+    }
 }
 .bi-loginbtn {
     width: 100%;
@@ -878,9 +880,11 @@
         }
     }
 }
-
-
-
+.bi-oicat {
+    .bi-order-summary__w-25 {
+        display: flex;
+    }
+}
 
 /* Media Queries */
 @include mobile {
