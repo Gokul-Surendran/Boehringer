@@ -683,7 +683,7 @@
     .bi-footer {
         padding: 62px 20px;
     }
-
+    
     /* bottle home section */
     .bh-prodcut {
         &__cta {
@@ -851,6 +851,9 @@
     }
     .bi-piegap {
         margin-right: 34px;
+    }
+    .user-items .dropdown-menu .dropdown-item span {
+        display: block !important;
     }
 }
 .bi-loginbtn {

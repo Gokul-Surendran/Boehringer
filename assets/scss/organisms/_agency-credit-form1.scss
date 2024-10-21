@@ -20,7 +20,7 @@
         text-align: end;
     }
     &__head {
-        font-size: 46px;
+        font-size: 32px;
         color: #08312a;
         font-weight: 700;
         margin: 46px 0;
@@ -66,6 +66,14 @@
         padding: 4px 0;
         .bi-input {
             width: calc(50% - 20px);
+            span:first-child {
+                color: #08312a;
+                font-weight: 600;
+                font-size: 14px;
+            }
+            input, select {
+                margin-top: 10px;
+            }
         }
         label {
             font-size: 18px;
@@ -78,7 +86,7 @@
         justify-content: flex-end;
     }
     &__cancel {
-        background-color: #00e47c;
+        background-color: #CCFAE5;
         padding: 10px 26px;
         border-radius: 6px;
         width: auto;
