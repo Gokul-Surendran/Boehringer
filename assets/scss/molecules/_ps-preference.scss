@@ -5,21 +5,25 @@
       width: 100%;
       min-height: 100vh;
       background-color: #022D25;
-      }
+   }
+
    &__head {
       font-size: 92px;
       line-height: 102px;
       color: #fff;
       margin-top: 60px;
       font-family: 'Boehringer Forward Head';
+
       span {
          color: #00E47C;
       }
+
       &.txtfont {
          font-size: 52px;
          line-height: 62px;
       }
-     }
+   }
+
    &__whitehead {
       font-size: 50px;
       line-height: 60px;
@@ -27,7 +31,8 @@
       color: #fff;
       margin-top: 80px;
       font-family: 'Boehringer Forward Head';
-     }
+   }
+
    &__subhead {
       font-size: 28px;
       line-height: 36px;
@@ -35,14 +40,17 @@
       color: #ffffff;
       margin: 20px 0 60px;
       text-align: left;
+
       span {
          color: #00E47C;
       }
+
       &.normal {
          font-weight: normal;
          margin: 30px 0;
       }
    }
+
    &__btn {
       display: flex;
       // justify-content: center;
@@ -56,25 +64,31 @@
       border-radius: 5px;
       width: 70%;
       margin-bottom: 26px;
+
       &:hover {
          background-color: #66EFB0;
          transition: all 0.2s 0s ease-in;
       }
+
       img {
          width: 30px;
          height: auto;
          margin-right: 12px;
       }
+
       img.width60 {
          width: 60px;
       }
+
       span {
          font-weight: 600;
       }
+
       &.width20 {
          width: 32%;
       }
    }
+
    &__crtxt {
       color: #fff;
       position: absolute;
@@ -88,8 +102,10 @@
          font-size: 110px;
          line-height: 120px;
       }
+
       &__btn {
          width: 72%;
+
          &.width20 {
             width: 30%;
          }
@@ -103,8 +119,10 @@
          font-size: 110px;
          line-height: 120px;
       }
+
       &__btn {
          width: 90%;
+
          &.width20 {
             width: 40%;
          }
@@ -119,18 +137,22 @@
          line-height: 80px;
          margin-top: 30px;
       }
+
       &__subhead {
          font-size: 23px;
          line-height: 30px;
       }
+
       &__btn {
          width: 100%;
          font-size: 14px;
          padding: 12px 6px;
+
          img {
             width: 20px;
             margin-right: 4px;
          }
+
          &.width20 {
             width: 50%;
          }
