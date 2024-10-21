@@ -46,6 +46,14 @@
        justify-content: center;
        align-items: center;
        gap: 40px;
+       &__firsbtn {
+         background-color: #CCFAE5 !important;
+         color: #08312A;
+         &:hover {
+             background-color: #66EFB0 !important;
+             transition: all 0.2s 0s ease-in;
+         }
+       }
        a {
            background-color: #00E47C;
            color: #08312A;
