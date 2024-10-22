@@ -234,4 +234,14 @@
         margin: 0;
     }
    }
+
+
+   @include mobile {
+    // PLP 
+    .bi-plp {
+        .ListingCol {
+            justify-content: center;
+        }
+    }
+   }
 }

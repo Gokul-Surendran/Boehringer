@@ -1,0 +1,23 @@
+.boehringer {
+    // PLP page filter section
+    @include mobile {
+        .bi-bgclr {
+            .left-box.filter-mbl {
+                width: 260px;
+                padding-right: 30px;
+    
+                .dxeTBContentContainerSys {
+                    right: -10px;
+                }
+
+                .dxeTBHSys .dxeTBIncBtn_MaterialCompact {
+                    right: 5px;
+                }
+
+                .dxeTBHSys .dxeTBDecBtn_MaterialCompact {
+                    left: 5px;
+                }
+            }
+        }
+    }
+}
