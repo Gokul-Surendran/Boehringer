@@ -1,38 +1,46 @@
-.boehringer  {
+.boehringer {
     .menu-bar .cx-btn-prfl {
         transform: translateY(-8px);
     }
+
     .bi-footer__links {
         font-size: 14px;
     }
+
     .bi-footer__head {
         font-size: 26px;
     }
+
     .bh-heading {
         font-family: 'Boehringer Forward Text Md';
         font-weight: 500;
     }
+
     .menu-bar {
         .lang {
             margin-bottom: 0;
         }
+
         .account-search .dropdown .dropdown-menu {
             top: 46px;
             left: 9px !important;
             right: 0 !important;
-        } 
+        }
     }
+
     .bh-button {
         padding: 6px 10px;
         border: 1px solid #00E47C;
-       }
+    }
+
     .sec-menu {
         width: 78%;
     }
+
     .bi-footer__head {
-        color: #fff;   
+        color: #fff;
         font-family: 'Boehringer Forward Text';
-        font-weight: 500; 
+        font-weight: 500;
     }
 
     //order history 
@@ -43,21 +51,27 @@
     .tab-content {
         table {
             background-color: transparent;
-            tr>&:first-child{
-                    border-bottom: 1px solid #000;
+
+            tr>&:first-child {
+                border-bottom: 1px solid #000;
             }
+
             tr {
                 height: 40px;
+
                 &:nth-child(odd) {
                     background-color: white;
                 }
+
                 &:nth-child(even) {
                     background-color: #F6F5F3;
                 }
+
                 td {
                     background-color: transparent;
                     border: 0;
                     vertical-align: middle;
+
                     &:nth-child(even) {
                         a {
                             background-color: #00E47C;
@@ -80,9 +94,11 @@
             display: flex;
             justify-content: flex-end;
         }
+
         .book-name-and-buy {
             padding: 0px 10px 16px 10px;
-        } 
+        }
+
         .product-name a {
             text-transform: uppercase;
             font-size: 12px;
@@ -93,6 +109,7 @@
     .ab-details {
         min-width: 1000px;
     }
+
     .cx-tbout {
         overflow-x: scroll;
         position: relative;
@@ -105,7 +122,7 @@
         background-color: red;
     }
 
-    .owl-item.active{
+    .owl-item.active {
         width: 265px !important;
         height: 265px !important;
     }
@@ -115,7 +132,7 @@
     }
 
     // product 
-    
+
     .bh-prodcut {
         .slick-dots {
             display: flex;
@@ -123,6 +140,7 @@
             bottom: -8%;
             right: 6%;
         }
+
         .slick-dots li button {
             border: 2px solid #fff;
             content: "";
@@ -131,16 +149,24 @@
             width: 16px;
             height: 16px;
         }
+
         .slick-dots li button:before {
             content: "";
         }
+
         .slick-dots li {
             margin: 0 2px;
         }
+
         .slick-active {
             button {
                 background-color: #00E47C;
             }
+        }
+
+        .slick-next,
+        .slick-prev {
+            display: none !important;
         }
     }
 
@@ -151,19 +177,23 @@
         position: relative;
         margin-right: 32px;
     }
+
     .my-lg-8 a {
         right: 5%;
         top: 6px;
         width: 20px;
         height: 20px;
+
         &:hover {
             background-color: transparent;
         }
+
         img {
             width: 100%;
             height: 100%;
         }
     }
+
     .lang {
         width: auto;
     }
@@ -187,12 +217,14 @@
         }
     }
 
-  
+
 
     #header .navbar {
         padding-right: 32px;
+
         .dropdown-menu {
             min-width: 120px;
+
             .dropdown-item {
                 font-size: 14px;
                 padding: 10px !important;
@@ -222,16 +254,22 @@
     // header 
 
 
-   @include tablet-pro {
-    .search .form-inline {
-        margin-left: auto !important;
-        margin-right: 24px;
+    @include tablet-pro {
+        .search .form-inline {
+            margin-left: auto !important;
+            margin-right: 24px;
+        }
     }
-   }
 
-   @include tablet {
-    .search .form-inline {
-        margin: 0;
+    @include tablet {
+        .search .form-inline {
+            margin: 0;
+        }
     }
-   }
+
+    @include mobile {
+        .search .form-inline {
+            margin-right: 0;
+        }
+    }
 }
