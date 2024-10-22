@@ -450,6 +450,7 @@
         textarea {
             border: 1px solid #54565A;
             border-radius: 6px;
+            resize: none;
         }
     }
 
@@ -883,6 +884,65 @@
 }
 
 /* Media Queries */
+@include tablet-pro {
+    .boehringer {
+        .cx-rmb-left {
+            font-size: 14px !important;
+        }
+        .mobile-price .del {
+            font-size: 11px !important;
+        }
+        .bi-txt textarea {
+            width: 280px;
+        }
+        .bi-pdphead h2 {
+            font-size: 20px;
+        }
+        .bi-pdtspec {
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+    }
+}
+@include tablet {
+    .boehringer {
+        .bi-txt textarea {
+            width: 510px;
+        }
+        .bi-txtarea {
+            width: 400px;
+        }
+        .bi-pdp {
+            .col-md-6 , .col-md-4 {
+                flex: 0 0 80.3%;
+                max-width: 80.3%;
+            }
+        }
+        .cx-prdct-wrap {
+            display: flex;
+        } 
+        .bi-pdtspec {
+            font-size: 7px;
+            padding: 4px 6px;
+        }   
+        .mobile-price-wrap table > tbody > tr {
+            display: flex;
+            flex-direction: row;
+        }  
+        .bi-rmb {
+            margin-left: 80px;
+        } 
+        .bi-pdplft-tab {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 280px;
+        }
+        .cx-rmb-left {
+            font-size: 16px !important;
+        }
+    }
+}
 @include mobile {
     .boehringer {
         .bh-heading2 {

@@ -18,6 +18,10 @@
         color: #fff;
         font-size: 20px;
         text-align: end;
+        a{
+            text-decoration: underline !important;
+            color: #fff;
+        }
     }
     &__head {
         font-size: 32px;
