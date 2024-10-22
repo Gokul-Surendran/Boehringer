@@ -1,0 +1,265 @@
+.boehringer {
+
+    // shopping cart -tablet-pro
+
+    @include tablet-pro {
+        .bi-shpcarttitle {
+            &__a {
+                width: 30%;
+            }
+
+            &__b, &__c, &__d, &__e {
+                width: 17.5%;
+            }
+        }
+
+        .cx-shpcartpdt {
+            &__wrap {
+                width: 30%;
+                flex-direction: column;
+                padding-left: 15px;
+            }
+
+            &__price, &__quantityouter, &__delete {
+                width: 17.5%;
+            }
+        }
+
+        .bi-buttonswrap {
+            .bi-ordrsumry__btn {
+                width: 100%;
+                white-space: nowrap;
+            }
+
+            .cx-ordrsumry__btn {
+                white-space: nowrap;
+                padding: 10px;
+            }
+        }
+
+        .bi-newflex {
+            .cx-ordrsumry__btn {
+                width: 100%;
+            }
+
+            .bi-w40 {
+                width: 60%;
+            }
+        }
+    }
+
+
+    // PLP page filter section
+
+    @include tablet {
+        .bi-plp {
+            #filter-expand-mbl {
+                top: 10px;
+            }
+
+            .margin-lr-cut {
+                padding-top: 0;
+            }
+
+            .left-box.filter-mbl {
+                width: 250px;
+                padding-right: 25px;
+            }
+
+            .bi-bgclr {
+                .top-row {
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+
+     // shopping cart
+
+     @include tablet {
+        .cx-shpcart {
+            overflow-x: scroll;
+            min-height: 260px;
+
+            &__outer {
+                min-width: 700px;
+            }
+        }
+
+        .cx-shpcart::-webkit-scrollbar {
+           height: 3px;
+        }
+
+        .cx-shpcart::-webkit-scrollbar-thumb{
+            border-radius: 10px;
+            background-color: #d9d9d9;
+         }
+
+         .cx-shpcart::-webkit-scrollbar-track {
+            background: none;
+        }
+
+        .cx-shpcartpdt {
+            &__wrap {
+                flex-direction: column;
+                width: 20%;
+            }
+
+            &__price, &__quantityouter, &__delete {
+                width: 20%;
+            }
+
+            &__details {
+                margin: 5px 0px 10px 20px;
+            }
+        }
+
+        .bi-shpcarttitle {
+            &__a, &__c, &__e {
+                width: 20%;
+            }
+        }
+
+        .cx-ordrsumry {
+            .bi-radiolbl label {
+                padding-right: 15px;
+            }
+
+            .cx-ordrsumry__btn {
+                font-size: 14px;
+            }
+
+            .cx-ordrsumry__head {
+                font-size: 24px;
+            }
+        }
+
+        .cx-shpingcart {
+            &__head {
+                font-size: 36px;
+            }
+
+            &__left {
+                width: 60%;
+            }
+
+            &__right {
+                width: 40%;
+            }
+        }
+    }
+
+    // PLP page filter section
+    @include mobile {
+        .bi-plp {
+            .bi-bgclr {
+                .left-box.filter-mbl {
+                    width: 260px;
+                    padding-right: 30px;
+        
+                    .dxeTBContentContainerSys {
+                        right: -10px;
+                    }
+                }
+            }
+    
+            .fa {
+                padding-left: 4px;
+            }
+        }
+    }
+
+    // shopping cart
+
+    @include mobile {
+
+        .cx-shpcart {
+            overflow-x: scroll;
+            min-height: 260px;
+
+            &__outer {
+                min-width: 580px;
+            }
+        }
+
+        .bi-shpcarttitle {
+            &__a {
+                width: 30%;
+                font-size: 16px;
+            }
+
+            &__b, &__c, &__d, &__e {
+                width: 17.5%;
+                font-size: 16px;
+            }
+        }
+
+        .cx-shpcartpdt {
+            &__wrap {
+                width: 30%;
+                padding-left: 10px;
+            }
+
+            &__price, &__quantityouter, &__delete {
+                width: 17.5%;
+            }
+        }
+
+        .bi-newflex {
+            .bi-w40 {
+                width: 100%;
+            }
+
+            .cx-ordrsumry__btn {
+                white-space: nowrap;
+                font-size: 14px;
+                padding: 10px;
+            }
+
+            .bi-sbhead {
+                font-size: 16px;
+            }
+
+        }
+
+        .bi-buttonswrap {
+            .bi-buttons {
+
+                .bi-ordrsumry__btn {
+                    font-size: 14px;
+                }
+
+                .cx-ordrsumry__btn {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .bi-ordersumrywrap {
+            .cx-ordrsumry__item label{
+                font-size: 16px;
+            }
+
+            .cx-ordrsumry__item {
+                .label {
+                    font-size: 14px;
+                }
+
+                &.total {
+                    .label {
+                        font-size: 16px !important;
+                        font-weight: 600;
+                    }  
+                }
+            }
+
+            .cx-ordrsumry__btn {
+                font-size: 14px;
+            }
+
+            .bi-note {
+                font-size: 14px;
+            }
+        }
+    }
+}
