@@ -1,27 +1,46 @@
 .boehringer {
     // PLP page filter section
-    @include mobile {
-        .bi-bgclr {
+
+    @include tablet {
+        .bi-plp {
+            #filter-expand-mbl {
+                top: 10px;
+            }
+
+            .margin-lr-cut {
+                padding-top: 0;
+            }
+
             .left-box.filter-mbl {
-                width: 260px;
-                padding-right: 30px;
-    
-                .dxeTBContentContainerSys {
-                    right: -10px;
-                }
+                width: 250px;
+                padding-right: 25px;
+            }
 
-                .dxeTBHSys .dxeTBIncBtn_MaterialCompact {
-                    right: 5px;
-                }
-
-                .dxeTBHSys .dxeTBDecBtn_MaterialCompact {
-                    left: 5px;
+            .bi-bgclr {
+                .top-row {
+                    flex-direction: column;
                 }
             }
         }
+    }
 
-        .fa {
-            padding-left: 4px;
+
+    @include mobile {
+        .bi-plp {
+            .bi-bgclr {
+                .left-box.filter-mbl {
+                    width: 260px;
+                    padding-right: 30px;
+        
+                    .dxeTBContentContainerSys {
+                        right: -10px;
+                    }
+                }
+            }
+    
+            .fa {
+                padding-left: 4px;
+            }
         }
     }
 }
