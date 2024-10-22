@@ -53,7 +53,7 @@
    text-align: center;
    border: 1px solid #08312A;
    border-radius: 4px;
-   padding: 10px 0px;
+   padding: 10px;
    margin-top: 26px;
    &.cartbtn {
       background-color: #CCFAE5;
@@ -164,6 +164,36 @@
       accent-color: #12a912;
    }
 }
+
+
+@include tablet {
+   .bi-w40 {
+      width: 100%;
+
+      .cx-ordrsumry__btn {
+         font-size: 14px;
+      }
+   }
+
+   .bi-buttons {
+      width: unset;
+
+      .bi-ordrsumry__btn {
+         width: 100%;
+         white-space: nowrap;
+         padding: 10px;
+         font-size: 14px;
+      }
+
+      .cx-ordrsumry__btn {
+         white-space: nowrap;
+         padding: 10px;
+         font-size: 14px;
+      }
+   }
+}
+
+
 @include mobile {
    .bi-binputwrap,
    .cx-ordrsumry__head {

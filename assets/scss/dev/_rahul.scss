@@ -1,4 +1,54 @@
 .boehringer {
+
+    // shopping cart -tablet-pro
+
+    @include tablet-pro {
+        .bi-shpcarttitle {
+            &__a {
+                width: 30%;
+            }
+
+            &__b, &__c, &__d, &__e {
+                width: 17.5%;
+            }
+        }
+
+        .cx-shpcartpdt {
+            &__wrap {
+                width: 30%;
+                flex-direction: column;
+                padding-left: 15px;
+            }
+
+            &__price, &__quantityouter, &__delete {
+                width: 17.5%;
+            }
+        }
+
+        .bi-buttonswrap {
+            .bi-ordrsumry__btn {
+                width: 100%;
+                white-space: nowrap;
+            }
+
+            .cx-ordrsumry__btn {
+                white-space: nowrap;
+                padding: 10px;
+            }
+        }
+
+        .bi-newflex {
+            .cx-ordrsumry__btn {
+                width: 100%;
+            }
+
+            .bi-w40 {
+                width: 60%;
+            }
+        }
+    }
+
+
     // PLP page filter section
 
     @include tablet {
@@ -24,7 +74,82 @@
         }
     }
 
+     // shopping cart
 
+     @include tablet {
+        .cx-shpcart {
+            overflow-x: scroll;
+            min-height: 260px;
+
+            &__outer {
+                min-width: 700px;
+            }
+        }
+
+        .cx-shpcart::-webkit-scrollbar {
+           height: 3px;
+        }
+
+        .cx-shpcart::-webkit-scrollbar-thumb{
+            border-radius: 10px;
+            background-color: #d9d9d9;
+         }
+
+         .cx-shpcart::-webkit-scrollbar-track {
+            background: none;
+        }
+
+        .cx-shpcartpdt {
+            &__wrap {
+                flex-direction: column;
+                width: 20%;
+            }
+
+            &__price, &__quantityouter, &__delete {
+                width: 20%;
+            }
+
+            &__details {
+                margin: 5px 0px 10px 20px;
+            }
+        }
+
+        .bi-shpcarttitle {
+            &__a, &__c, &__e {
+                width: 20%;
+            }
+        }
+
+        .cx-ordrsumry {
+            .bi-radiolbl label {
+                padding-right: 15px;
+            }
+
+            .cx-ordrsumry__btn {
+                font-size: 14px;
+            }
+
+            .cx-ordrsumry__head {
+                font-size: 24px;
+            }
+        }
+
+        .cx-shpingcart {
+            &__head {
+                font-size: 36px;
+            }
+
+            &__left {
+                width: 60%;
+            }
+
+            &__right {
+                width: 40%;
+            }
+        }
+    }
+
+    // PLP page filter section
     @include mobile {
         .bi-plp {
             .bi-bgclr {
