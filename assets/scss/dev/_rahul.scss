@@ -48,6 +48,20 @@
         }
     }
 
+    // Checkout Section
+
+    @include tablet-pro {
+        .cx-checkout {
+            &__head {
+                font-size: 22px;
+            }
+
+            &__heading {
+                font-size: 28px;
+            }
+        }
+    }
+
 
     // PLP page filter section
 
@@ -259,6 +273,46 @@
 
             .bi-note {
                 font-size: 14px;
+            }
+        }
+    }
+
+
+    // checkout section
+    
+    @include mobile {
+        .cx-checkout {
+
+            &__heading {
+                font-size: 24px;
+                margin: 10px 0px 15px 0px;
+            }
+
+            &__head {
+                font-size: 22px;
+            }
+
+            &__right {
+                margin-bottom: 0;
+
+                .cx-odrsmry__head {
+                    font-size: 24px;
+                }
+
+                .bi-note {
+                    font-size: 14px;
+                }
+            }
+
+            &__group {
+
+                label {
+                    font-size: 16px;
+                }
+
+                input {
+                    font-size: 14px;
+                }
             }
         }
     }
