@@ -869,6 +869,12 @@
     .user-items .dropdown-menu .dropdown-item span {
         display: block !important;
     }
+    .cx-checkout__checkbox {
+        color: #08312A;
+        a {
+            text-decoration: underline !important;
+        }
+    }
 }
 
 .bi-loginbtn {
