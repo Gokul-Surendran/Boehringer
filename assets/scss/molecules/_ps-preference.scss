@@ -52,7 +52,7 @@
    }
 
    &__btn {
-      display: flex;
+      display: inline-flex;
       // justify-content: center;
       align-items: center;
       background-color: #00E47C;
@@ -62,7 +62,6 @@
       transition: all 0.2s 0s ease-in;
       text-align: center;
       border-radius: 5px;
-      width: 70%;
       margin-bottom: 26px;
 
       &:hover {
@@ -85,14 +84,14 @@
       }
 
       &.width20 {
-         width: 22%;
+         width: auto;
       }
    }
 
    &__crtxt {
       color: #fff;
       position: absolute;
-      bottom: 30px;
+      bottom: 10px;
    }
 }
 
