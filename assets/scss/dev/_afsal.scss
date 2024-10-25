@@ -93,7 +93,7 @@
          margin-left: -3px;
       }
     }
-    
+
     @include mobile {
       .ListingCol {
          max-width: 100% !important;
@@ -108,5 +108,12 @@
       .fiter-head {
          font-size: 18px;
       }
+      .menu-icon {
+         display: block;
+         top: 50%;
+       }
+       .sec-menu {
+         display: none;
+       }
     }
 }
