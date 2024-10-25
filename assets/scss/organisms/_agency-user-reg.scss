@@ -66,6 +66,7 @@
         }
     }
     &__downpara {
+        color: #000;
         a {
             color: #1A2F5A !important;
             text-decoration: underline !important;
@@ -75,6 +76,9 @@
         display: flex;
         justify-content: right;
         margin-top: 24px;
+        .bi-btn {
+            color: #08312A;
+        }
     }
     .input2 {
         display: flex;

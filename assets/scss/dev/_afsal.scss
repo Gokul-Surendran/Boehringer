@@ -46,6 +46,7 @@
    }
    .bi-odrouter {
       background-color: #f6f5f3;
+      font-family: 'Boehringer Forward Text' !important;
       .inner-marging {
          background-color: #f6f5f3 !important;
       }
@@ -92,14 +93,20 @@
          margin-left: -3px;
       }
     }
-}
+    
+    @include mobile {
+      .ListingCol {
+         max-width: 100% !important;
+        }
 
-@include mobile {
-   .boehringer .menu-icon {
-      display: block;
-      top: 50%;
-    }
-    .boehringer .sec-menu {
-      display: none;
+      .container.bi-bgclr {
+         .col-lg-9.col-sm-12 {
+               padding: 0px;
+         }
+      }
+
+      .fiter-head {
+         font-size: 18px;
+      }
     }
 }

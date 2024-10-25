@@ -450,6 +450,7 @@
         textarea {
             border: 1px solid #54565A;
             border-radius: 6px;
+            resize: none;
         }
     }
 
@@ -575,6 +576,7 @@
 
     .cx-pf__head {
         display: inline-block;
+
         span {
             font-weight: bold;
             color: #08312A;
@@ -701,6 +703,7 @@
                 font-weight: 600;
                 font-family: "Boehringer Forward Text Md";
                 letter-spacing: 1px;
+
                 &:hover {
                     color-scheme: #0000;
                 }
@@ -771,8 +774,9 @@
 
     #header .wshlt span.number {
         color: #000000;
-       
+
     }
+
     .cx-cart-icon {
         .number {
             width: 16px !important;
@@ -780,6 +784,7 @@
             transform: translateY(4px) !important;
         }
     }
+
     .bi-qdhd {
         font-size: 14px;
         color: #08312A;
@@ -803,7 +808,7 @@
     }
 
     .cx-shpcartpdt .boldblu {
-        margin-right: -4px;
+        margin-right: -3px;
     }
 
     .cx-shpcartpdt__quantity {
@@ -825,38 +830,63 @@
         justify-content: space-between;
         height: 90%;
     }
+
     .cx-odrsmry__item.total .value {
         color: #08312A;
     }
+
     .cx-copdt__link {
         padding-top: 2px;
     }
+
     .bi-sub {
         font-size: 16px;
     }
+
     .bi-odrouter select {
         padding: 2px 20px;
     }
+
     .bi-pophead {
         font-size: 21px;
         color: #000000;
         text-transform: unset;
         font-weight: 600;
     }
+
     .bi-prdctcs {
         font-family: 'Boehringer Forward Text';
     }
+
     .small-font {
         font-size: 12px;
     }
-   
+
+    .bi-piegap {
+        margin-right: 34px;
+    }
+
+    .user-items .dropdown-menu .dropdown-item span {
+        display: block !important;
+    }
+    .cx-checkout__checkbox {
+        color: #08312A;
+        a {
+            text-decoration: underline !important;
+        }
+    }
+    .bi-spanwhite {
+        color: #ffffff;
+    }
 }
+
 .bi-loginbtn {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 75vh;
+
     .bi-btn {
         color: #000;
         width: 300px;
@@ -864,29 +894,121 @@
         padding: 10px 10px;
         position: relative;
         font-size: 16px;
-        &:after {
-            content: "";
-            background-image: url('../../../assets/images/angle.png'); /* Replace with your icon's path */
-            background-size: contain;
-            background-repeat: no-repeat;
-            width: 20px;
-            height: 16px;        
-            position: absolute;
-            right: 0;
-            top: 50%;
-            transform: translateY(-50%);
+
+        img {
+            width: 10px;
+            height: auto;
+            float: right;
+        }
+    }
+}
+
+.bi-oicat {
+    .bi-order-summary__w-25 {
+        display: flex;
+    }
+}
+
+/* Media Queries */
+@include tablet-pro {
+    .boehringer {
+        .cx-rmb-left {
+            font-size: 14px !important;
+        }
+        .mobile-price .del {
+            font-size: 11px !important;
+        }
+        .bi-txt textarea {
+            width: 280px;
+        }
+        .bi-pdphead h2 {
+            font-size: 20px;
+        }
+        .bi-pdtspec {
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+    }
+}
+@include tablet {
+    .boehringer {
+        .bi-txt textarea {
+            width: 510px;
+        }
+        .bi-txtarea {
+            width: 400px;
+        }
+        .bi-pdp {
+            .col-md-6 , .col-md-4 {
+                flex: 0 0 80.3%;
+                max-width: 80.3%;
+            }
+        }
+        .cx-prdct-wrap {
+            display: flex;
+        } 
+        .bi-pdtspec {
+            font-size: 7px;
+            padding: 4px 6px;
+        }   
+        .mobile-price-wrap table > tbody > tr {
+            display: flex;
+            flex-direction: row;
+        }  
+        .bi-rmb {
+            margin-left: 80px;
+        } 
+        .bi-pdplft-tab {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 280px;
+        }
+        .cx-rmb-left {
+            font-size: 16px !important;
+        }
+    }
+}
+@include tablet {
+    .boehringer {
+        .bi-ibc {
+            padding: 70px 0 40px;
         }
     }
 }
 
 
 
-
-/* Media Queries */
 @include mobile {
     .boehringer {
         .bh-heading2 {
             font-size: 32px;
+        }
+
+        .inner-marging {
+            padding-top: 0;
+        }
+        .bi-glb {
+            padding-right: 0;
+            margin-right: 15px !important;
+        }
+
+        .cx-btn-prfl {
+            padding: 10px 0 0 15px !important;
+        }
+
+        .sec-menu ul {
+            flex-direction: column;
+        }
+
+        .bi-ibc {
+            padding: 50px 0 40px;
+        }
+
+        .bh-new .bh-heading {
+            padding: 8px 20px 40px;
+            font-size: 35px;
+            line-height: 45px;
         }
     }
 
