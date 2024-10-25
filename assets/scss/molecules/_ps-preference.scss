@@ -63,6 +63,7 @@
       text-align: center;
       border-radius: 5px;
       margin-bottom: 26px;
+      position: relative;
 
       &:hover {
          background-color: #66EFB0;
@@ -86,6 +87,16 @@
       &.width20 {
          width: auto;
       }
+      &.sp {
+         width: 74%;
+      }
+      .bi-spangle {
+         position: absolute;
+         right: 18px;
+         width: 12px;
+         float: right;
+         height: auto; 
+     }
    }
 
    &__crtxt {
@@ -104,7 +115,9 @@
 
       &__btn {
          width: 72%;
-
+         &.sp {
+            width: 100%;
+         }
          &.width20 {
             width: 30%;
          }
@@ -121,7 +134,10 @@
 
       &__btn {
          width: 90%;
-
+         &.sp {
+            width: 100%;
+            font-size: 18px;
+         }
          &.width20 {
             width: 40%;
          }
@@ -144,9 +160,12 @@
 
       &__btn {
          width: 100%;
-         font-size: 14px;
+         font-size: 18px !important;
          padding: 12px 6px;
-
+         &.sp {
+            width: 100%;
+            font-size: 18px;
+         }
          img {
             width: 20px;
             margin-right: 4px;

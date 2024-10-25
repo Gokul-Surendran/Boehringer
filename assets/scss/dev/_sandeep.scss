@@ -878,6 +878,12 @@
     .bi-spanwhite {
         color: #ffffff;
     }
+    .del span {
+        width: auto;
+        margin-bottom: 4px;
+        margin-right: 4px;
+        font-size: 12px;
+    }
 }
 
 .bi-loginbtn {
@@ -967,12 +973,12 @@
         .cx-rmb-left {
             font-size: 16px !important;
         }
-    }
-}
-@include tablet {
-    .boehringer {
         .bi-ibc {
             padding: 70px 0 40px;
+        }
+        .bi-pdpres {
+            display: flex;
+            flex-direction: column;
         }
     }
 }
