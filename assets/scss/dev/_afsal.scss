@@ -93,3 +93,13 @@
       }
     }
 }
+
+@include mobile {
+   .boehringer .menu-icon {
+      display: block;
+      top: 50%;
+    }
+    .boehringer .sec-menu {
+      display: none;
+    }
+}
