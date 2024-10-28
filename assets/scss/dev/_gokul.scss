@@ -223,7 +223,7 @@
         padding-right: 32px;
 
         .dropdown-menu {
-            min-width: 120px;
+            min-width: max-content;
 
             .dropdown-item {
                 font-size: 14px;

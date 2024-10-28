@@ -1,157 +1,227 @@
 .bi-sna {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #022d25;
+  padding: 32px;
+  position: relative;
+
+  &__icon {
+    width: 14%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__content {
+    color: #fff;
+    font-size: 110px;
+    padding-top: 30px;
+    text-align: center;
+
+    span {
+      color: #00e47c;
+    }
+  }
+  &__ssocontent {
+    color: #fff;
+    font-size: 94px;
+    padding-top: 30px;
+    text-align: center;
+
+    span {
+      color: #00e47c;
+    }
+  }
+
+  &__face {
     width: 100%;
-    min-height: 100vh;
-    background-color: #022D25;
-    padding: 32px;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
 
-    &__icon {
-        width: 14%;
-
-        img {
-            width: 100%;
-        }
+    img {
+      width: 120px;
     }
+  }
 
-    &__content {
-        color: #fff;
-        font-size: 110px;
-        padding-top: 30px;
-        text-align: center;
+  &__para {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    padding-top: 46px;
+    justify-content: center;
+    align-items: center;
 
-        span {
-            color: #00E47C;
-        }
+    span {
+      color: #00e47c;
     }
+  }
+  &__ssopara {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    color: #fff;
+    font-size: 38px;
+    padding-top: 46px;
+    justify-content: center;
+    align-items: center;
+  }
+  &__ssolink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
 
-    &__face {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 32px;
-
-        img {
-            width: 120px;
+    p {
+      font-size: 27px;
+      color: #fff;
+      padding-left: 10px;
+     
+      a {
+        position: relative;
+        color: #00e47c;
+        // text-decoration: underline !important;
+        &::after {
+          content: "";
+          position: absolute;
+          background: #00e47c;
+          width: 100%;
+          left: 0;
+          bottom: 0;
+          height: 1px;
         }
+      }
     }
-
-    &__para {
-        width: 100%;
-        display: flex;
-        text-align: center;
-        color: #fff;
-        font-size: 28px;
-        padding-top: 46px;
-        justify-content: center;
-        align-items: center;
-
-        span {
-            color: #00E47C;
-        }
+  }
+  &__btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+    &__firsbtn {
+      background-color: #ccfae5 !important;
+      color: #08312a;
+      &:hover {
+        background-color: #66efb0 !important;
+        transition: all 0.2s 0s ease-in;
+      }
     }
-
-    &__btn {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 40px;
-        margin-top: 40px;
-        &__firsbtn {
-            background-color: #CCFAE5 !important;
-            color: #08312A;
-            &:hover {
-                background-color: #66EFB0 !important;
-                transition: all 0.2s 0s ease-in;
-            }
-          }
-        a {
-            background-color: #00E47C;
-            color: #08312A;
-            font-size: 22px;
-            padding: 10px 12px;
-            transition: all 0.2s 0s ease-in;
-            text-align: center;
-            border-radius: 5px;
-            width: 36%;
-            &:hover {
-                background-color: #66EFB0;
-                transition: all 0.2s 0s ease-in;
-            }
-        }
+    a {
+      background-color: #00e47c;
+      color: #08312a;
+      font-size: 22px;
+      padding: 10px 12px;
+      transition: all 0.2s 0s ease-in;
+      text-align: center;
+      border-radius: 5px;
+      width: 36%;
+      &:hover {
+        background-color: #66efb0;
+        transition: all 0.2s 0s ease-in;
+      }
     }
-    &__crtxt {
-        color: #fff;
-        padding-top: 62px;
-     }
+  }
+  &__crtxt {
+    color: #fff;
+    padding-top: 62px;
+  }
 }
 
 /* media query */
 /* tablet-pro */
 @include tablet-pro {
-    .bi-sna {
-        &__content {
-            font-size: 120px;
-        }
-
-        &__face {
-            padding-top: 30px;
-
-            img {
-                width: 110px;
-            }
-        }
+  .bi-sna {
+    &__content {
+      font-size: 120px;
     }
+
+    &__face {
+      padding-top: 30px;
+
+      img {
+        width: 110px;
+      }
+    }
+  }
 }
 
 /* tablet */
 @include tablet {
-    .bi-sna {
-        &__icon {
-            width: 30%;
+  .bi-sna {
+    &__icon {
+      width: 30%;
 
-            img {
-                width: 100%;
-            }
-        }
-
-        &__content {
-            font-size: 100px;
-        }
-
-        &__face {
-            img {
-                width: 100px;
-            }
-        }
+      img {
+        width: 100%;
+      }
     }
+
+    &__content {
+      font-size: 100px;
+    }
+    &__ssocontent {
+        font-size: 52px;
+    }
+    &__ssopara {
+        font-size: 28px;
+    }
+    &__face {
+      img {
+        width: 100px;
+      }
+    }
+    &__btn {
+        a {
+          width: 70%;
+        }
+      }
+  }
 }
 
 @include mobile {
-    .bi-sna {
-        &__icon {
-            width: 40%;
-        }
-
-        &__content {
-            font-size: 40px;
-        }
-
-        &__face {
-            padding-top: 30px;
-
-            img {
-                width: 70px;
-            }
-        }
-
-        &__para {
-            font-size: 15px;
-            padding-top: 30px;
-        }
-        &__btn {
-            flex-direction: column;
-        }
+  .bi-sna {
+    &__icon {
+      width: 40%;
     }
+
+    &__content {
+      font-size: 40px;
+    }
+    &__ssocontent {
+        font-size: 22px;
+    }
+    &__face {
+      padding-top: 30px;
+
+      img {
+        width: 70px;
+      }
+    }
+
+    &__para {
+      font-size: 15px;
+      padding-top: 30px;
+    }
+    &__ssopara {
+        font-size: 14px;
+        padding-top: 30px;
+    }
+    &__ssolink {
+      p {
+        font-size: 12px;
+      }
+    }
+    &__btn {
+      flex-direction: column;
+      a {
+        width: 100%;
+      }
+    }
+  }
 }
