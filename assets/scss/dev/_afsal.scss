@@ -98,7 +98,7 @@
     @include mobile {
       .ListingCol {
          max-width: 100% !important;
-         justify-content: center;
+         justify-content: center !important;
         }
 
       .container.bi-bgclr {
