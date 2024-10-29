@@ -39,7 +39,7 @@
     }
     &__form {
         background-color: #fff;
-        margin-top: 80px;
+        margin-top: 40px;
         padding: 32px 28px;
         border-radius: 6px
     }
@@ -51,6 +51,10 @@
         padding: 4px 0;
         .bi-input {
             width: calc(50% - 12px);
+
+            a {
+              text-decoration: underline !important;
+            }
         }
         label {
             font-size: 18px;

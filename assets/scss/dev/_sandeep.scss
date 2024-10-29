@@ -884,6 +884,19 @@
         margin-right: 4px;
         font-size: 12px;
     }
+    .bi-qntytext {
+        padding-right: 100px;
+    }
+    .bia-order-summary {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bi-pdpcol {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
 }
 
 .bi-loginbtn {
@@ -939,9 +952,10 @@
 @include tablet {
     .boehringer {
         .bi-txt textarea {
-            width: 510px;
+            width: 438px;
         }
         .bi-txtarea {
+            display: block;
             width: 400px;
         }
         .bi-pdp {
@@ -968,7 +982,8 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
-            width: 280px;
+            width: 420px;
+            background-color: #fff;
         }
         .cx-rmb-left {
             font-size: 16px !important;
@@ -979,6 +994,9 @@
         .bi-pdpres {
             display: flex;
             flex-direction: column;
+        }
+        .bi-cart-sb {
+            width: 124px;
         }
     }
 }
@@ -1016,6 +1034,12 @@
             font-size: 35px;
             line-height: 45px;
         }
+        .mobile-price-wrap table > tbody > tr {
+            display: flex;
+            justify-content: space-between;
+            width: 92% !important;
+            flex-direction: row;
+          }
     }
 
     .bh-prodcut__left {

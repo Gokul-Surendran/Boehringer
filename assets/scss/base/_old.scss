@@ -6042,12 +6042,13 @@ a {
 
     .mobile-price-wrap table>tbody>tr {
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
+        // flex-direction: column;
         width: 100% !important;
     }
 
     .mobile-price-wrap table>tbody>tr>td>table {
-        width: 100% !important;
+        // width: 100% !important;
         margin-bottom: 4px;
     }
 
