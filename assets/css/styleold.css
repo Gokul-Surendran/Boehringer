@@ -5752,11 +5752,6 @@ a {
     min-height: calc(100% - 60px);
   }
 }
-@media (max-width: 991px) and (min-width: 481px) {
-  .headerspacer {
-    height: 240px;
-  }
-}
 .table-scroll {
   overflow: auto;
 }

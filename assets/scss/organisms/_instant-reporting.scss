@@ -1,134 +1,151 @@
 .bi-instreporting {
-    background-color: #F6F5F3;
+  background-color: #f6f5f3;
 
-    &__heada {
-        font-size: 50px;
-        text-transform: unset;
-        padding: 40px 0px;
-        color: #08312A;
+  &__heada {
+    font-size: 50px;
+    text-transform: unset;
+    padding: 40px 0px;
+    color: #08312a;
+  }
+
+  &__headb {
+    background-color: #08312a;
+    padding: 15px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 20px;
+
+    h3 {
+      color: #fff;
+      font-size: 22px;
+      text-transform: unset;
     }
+  }
 
-    &__headb {
-        background-color: #08312A;
-        padding: 15px 20px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        margin-bottom: 20px;
+  &__cardswrap {
+    width: 100%;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+  }
 
-        h3 {
-            color: #fff;
-            font-size: 22px;
-            text-transform: unset;
-        }
+  &__card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: calc(70% - 20px);
+    margin: 0px 10px 20px;
+
+    
+  }
+  .btn {
+    width: auto;
+    margin-left: 57px;
+  }
+  &__icon {
+    width: 10%;
+
+    img {
+      width: 100%;
     }
+  }
 
-    &__cardswrap {
-        width: 100%;
-        padding-bottom: 40px;
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 -10px;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    width: 66%;
+
+    .bi-btn {
+      padding: 7px 30px;
     }
+  }
 
+  &__contenthead {
+    color: #08312a;
+    font-size: 20px;
+    font-family: "Boehringer Forward Head Md";
+    padding-bottom: 10px;
+  }
 
-    &__card {
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        width: calc(70% - 20px);
-        margin: 0px 10px 20px;
-    }
-
-    &__icon {
-        width: 10%;
-
-        img {
-            width: 100%;
-        }
-    }
-
-    &__container {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-evenly;
-        padding-left: 20px;
-        width: 95%;
-
-        .bi-btn {
-            padding: 7px 30px;
-        }
-    }
-
-    &__contenthead {
-        color: #08312A;
-        font-size: 22px;
-        font-family: 'Boehringer Forward Head Md';
-        padding-bottom: 10px;
-    }
-
-    &__content {
-        font-size: 17px;
-        color: #000;
-        padding-bottom: 10px;
-    }
+  &__content {
+    font-size: 14px;
+    color: #000;
+    padding-bottom: 10px;
+  }
 }
 
-
 @include tablet-pro {
-    .bi-instreporting {
-        &__icon {
-            width: 25%;
-        }
+  .bi-instreporting {
+    &__icon {
+      width: 12%;
     }
+    &__card {
+        width: 100%;
+    }
+  }
 }
 
 @include tablet {
-    .bi-instreporting {
-        &__icon {
-            width: 25%;
-        }
-        &__contenthead {
-            font-size: 18px;
-        }
-        &__content {
-            font-size: 14px;
-        }
-        &__container {
-            .bi-btn {
-                margin-left: 0;
-                margin-top: 4px;
-            }
-        }
+  .bi-instreporting {
+    &__icon {
+      width: 12%;
     }
+    &__card {
+        width: 100%;
+    }
+    &__contenthead {
+      font-size: 18px;
+    }
+    &__content {
+      font-size: 14px;
+    }
+    &__container {
+      .bi-btn {
+        margin-left: 0;
+        margin-top: 4px;
+      }
+    }
+  }
 }
 
 @include mobile {
-    .bi-instreporting {
-
-        &__cardswrap {
-            flex-direction: column;
-        }
-
-        &__card {
-            width: 100%;
-            margin: 0px 0px 20px;
-        }
-
-        &__heada {
-            font-size: 42px;
-        }
-
-        &__icon {
-            width: 35%;
-        }
-        &__container {
-            .bi-btn {
-                margin-left: 0;
-                margin-top: 4px;
-            }
-        }
+  .bi-instreporting {
+    padding: 24px 0;
+    &__cardswrap {
+      flex-direction: column;
     }
+
+    &__card {
+      width: 100%;
+    //   margin: 0px 0px 20px;
+      flex-direction: column;
+    }
+
+    &__heada {
+      font-size: 42px;
+    }
+
+    &__icon {
+      width: 20%;
+    }
+    &__contenthead {
+        font-size: 21px;
+    }
+    &__content {
+      margin-bottom: 20px;
+    }
+    &__container {
+      .bi-btn {
+        margin-left: 0;
+        margin-top: 4px;
+      }
+    }
+  }
 }

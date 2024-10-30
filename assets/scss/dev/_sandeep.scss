@@ -872,8 +872,22 @@
     .cx-checkout__checkbox {
         color: #08312A;
         a {
-            text-decoration: underline !important;
-        }
+            position: relative;
+            &::after {
+              content: "";
+              background-color: #00E47C;
+              width: 100%;
+              height: 2px;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+            }
+            &:hover{
+              &::after{
+                width: 0;
+              }
+            }
+          }
     }
     .bi-spanwhite {
         color: #ffffff;
@@ -896,6 +910,9 @@
         display: flex;
         flex-direction: column;
         padding: 10px;
+    }
+    .bi-date {
+        padding: 3px 6px;
     }
 }
 
@@ -998,6 +1015,10 @@
         .bi-cart-sb {
             width: 124px;
         }
+       
+    }
+    .headerspacer {
+        height: 0 !important;
     }
 }
 
@@ -1039,6 +1060,9 @@
             justify-content: space-between;
             width: 92% !important;
             flex-direction: row;
+          }
+        .bi-plp {
+            padding: 20px 0;
           }
     }
 
