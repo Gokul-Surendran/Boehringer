@@ -912,7 +912,16 @@
         padding: 10px;
     }
     .bi-date {
-        padding: 3px 6px;
+       
+        input {
+            padding: 6px 20px !important;
+        }
+    }
+    .bi-dateout {
+        display: flex;
+    }
+    .bi-bundle {
+        background-color: #F6F5F3;
     }
 }
 
@@ -1015,7 +1024,10 @@
         .bi-cart-sb {
             width: 124px;
         }
-       
+        .bi-piegap {
+            margin-right: 0 !important;
+            margin-bottom: 20px !important;
+        }
     }
     .headerspacer {
         height: 220px !important;

@@ -1,140 +1,155 @@
 .bi-oicat {
-   background-color: #f6f5f3;
-   padding: 40px 0px;
+  background-color: #f6f5f3;
+  padding: 40px 0px;
 
-   &__head {
-      font-size: 46px;
-      color: #08312A;
-      font-weight: 700;
-      margin: 20px 0;
-      text-transform: unset;
-   }
+  &__head {
+    font-size: 46px;
+    color: #08312a;
+    font-weight: 700;
+    margin: 20px 0;
+    text-transform: unset;
+  }
 
-   &__copy {
-      font-family: "Boehringer Forward Head Md";
-      font-size: 21px;
-      font-weight: 500;
-      color: #08312A;
-      margin-bottom: 30px;
-   }
+  &__copy {
+    font-family: "Boehringer Forward Head Md";
+    font-size: 21px;
+    font-weight: 500;
+    color: #08312a;
+    margin-bottom: 30px;
+  }
 
-   &__imgwrap {
-      display: flex;
-      justify-content: space-between;
-      min-height: 400px;
-      align-items: flex-start;
-      img {
-         width: auto;
-         height: 380px;
-      }
-   }
+  &__imgwrap {
+    display: flex;
+    justify-content: space-between;
+    min-height: 400px;
+    align-items: flex-start;
+    img {
+      width: auto;
+      height: 380px;
+    }
+  }
 
-   .bi-order-summary__wrap {
-      justify-content: flex-start;
-      gap: 30px;
-      margin: 30px 0px;
-      justify-content: end;
-      align-items: center;
-   }
-   .bi-input {
-      display: flex;
-      width: calc(33.3% - 12px);
-      label {
-          width: 114px;
-          text-align: right;
-      }
-      input {
-          padding: 0 6px;
-          width: 30%;
-          border-radius: 4px;
-          margin-left: 14px;
-      }
+  .bi-order-summary__wrap {
+    justify-content: flex-start;
+    gap: 30px;
+    margin: 30px 0px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .bi-input {
+    display: flex;
+    width: calc(33.3% - 12px);
+    label {
+      width: 114px;
+      text-align: right;
+    }
+    input {
+      padding: 0 6px;
+      width: 30%;
+      border-radius: 4px;
+      margin-left: 14px;
+    }
 
-      select {
-          padding: 0 6px;
-          width: 30%;
-          border-radius: 4px;
-          margin-left: 14px;
-      }
-      &.center {
-          justify-content: center;
-      }
-      &.flexend{
-          justify-content: flex-end;
-      }
+    select {
+      padding: 0 6px;
+      width: 30%;
+      border-radius: 4px;
+      margin-left: 14px;
+    }
+    &.center {
+      justify-content: center;
+    }
+    &.flexend {
+      justify-content: flex-end;
+    }
+  }
+  .bi-btn {
+   margin-bottom: 0;
+  }
+  .bi-btn--reverse {
+    padding: 6px 25px;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #08312a !important;
+    background-color: #08312a;
+    margin-right: 16px;
+    &:hover {
+      border: 1px solid #08312a !important;
+      background-color: #051b18 !important;
+    }
+  }
+  .bi-oic-btns {
+   display: flex;
   }
 }
 
 @include tablet-pro {
-   .bi-oicat {
-      &__imgwrap {
-         img {
-            height: 320px;
-         }
+  .bi-oicat {
+    &__imgwrap {
+      img {
+        height: 320px;
       }
-      
-   }
+    }
+  }
 }
 
 @include tablet {
-   .bi-oicat {
-      &__imgwrap {
-         img {
-            height: 240px;
-         }
+  .bi-oicat {
+    &__imgwrap {
+      img {
+        height: 240px;
       }
-      .bi-order-summary {
-         margin-top: 24px;
-         margin-left: 60px;
-         padding: 0;
-         width: 100%;
-      }
-   }
+    }
+    .bi-order-summary {
+      margin-top: 24px;
+      margin-left: 60px;
+      padding: 0;
+      width: 100%;
+    }
+  }
 }
-
 
 @include mobile {
-   .bi-oicat {
-      &__head {
-         font-size: 40px;
-      }
+  .bi-oicat {
+    &__head {
+      font-size: 40px;
+    }
 
-      &__copy {
-         margin-bottom: 20px;
-      }
+    &__copy {
+      margin-bottom: 20px;
+    }
 
-      &__imgwrap {
-         flex-direction: column;
-         align-items: flex-start;
+    &__imgwrap {
+      flex-direction: column;
+      align-items: flex-start;
 
-         img {
-            margin-bottom: 30px;
-            width: 100%;
-            height: auto;
-         }
+      img {
+        margin-bottom: 30px;
+        width: 100%;
+        height: auto;
       }
-      .bi-order-summary__wrap {
-         flex-direction: column;
-         padding: 0;
-         justify-content: flex-start;
+    }
+    .bi-order-summary__wrap {
+      flex-direction: column;
+      padding: 0;
+      justify-content: flex-start;
+    }
+    .bi-order-summary {
+      margin-top: 0;
+      margin-left: 0px;
+      padding: 0;
+      width: 100%;
+    }
+    .bi-input {
+      input {
+        width: 60%;
       }
-      .bi-order-summary {
-         margin-top: 0;
-         margin-left: 0px;
-         padding: 0;
-         width: 100%;
+      select {
+        width: 60%;
       }
-      .bi-input {
-         input {
-            width: 60%;
-         }
-         select {
-            width: 60%;            
-         }
-      }
-      .bi-input.flexend {
-         justify-content: flex-start;
-      }
-   }
+    }
+    .bi-input.flexend {
+      justify-content: flex-start;
+    }
+  }
 }
-
