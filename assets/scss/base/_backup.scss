@@ -4787,6 +4787,7 @@ body {
 .boehringer .cx-btn-out {
   display: flex;
   justify-content: flex-start;
+  gap: 20px;
   width: 100%;
   align-items: center;
   margin-bottom: 10px;
@@ -5475,7 +5476,7 @@ body {
 }
 
 .boehringer .cx-save--yes {
-  padding: 5px 12px !important;
+  padding: 8px 12px !important;
   width: auto !important;
 }
 
