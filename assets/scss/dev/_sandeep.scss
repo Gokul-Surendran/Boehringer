@@ -912,13 +912,14 @@
         padding: 10px;
     }
     .bi-date {
-       
+       width: 100% !important;
         input {
             padding: 6px 20px !important;
         }
     }
     .bi-dateout {
         display: flex;
+        width: 70%;
     }
     .bi-bundle {
         background-color: #F6F5F3;
@@ -1027,6 +1028,9 @@
         .bi-piegap {
             margin-right: 0 !important;
             margin-bottom: 20px !important;
+        }
+        .list-show .product-box {
+            width: 100% !important;
         }
     }
     .headerspacer {

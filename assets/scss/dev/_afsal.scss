@@ -57,7 +57,8 @@
       span {
          color: #191919;
          font-size: 14px;
-         font-weight: 700;
+         font-weight: 600;
+         margin-right: 4px;
       }
       select {
          border: 1px solid #aaa;
@@ -71,6 +72,10 @@
       font-size: 35px;
       color: #191919;
       margin-bottom: 10px;
+      span {
+         font-size: 35px !important;
+         font-weight: 500 !important;
+      }
    }
    .bi-footer__arr p {
       font-size: 12px;

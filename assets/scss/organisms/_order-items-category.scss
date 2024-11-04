@@ -1,7 +1,7 @@
 .bi-oicat {
   background-color: #f6f5f3;
   padding: 40px 0px;
-
+  overflow: hidden;
   &__head {
     font-size: 46px;
     color: #08312a;
@@ -99,6 +99,12 @@
       img {
         height: 240px;
       }
+    }
+    .bi-order-summary__wrap {
+      align-items: flex-start;
+    }
+    .bi-order-summary__w-25 {
+      width: 50%;
     }
     .bi-order-summary {
       margin-top: 24px;
