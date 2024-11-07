@@ -1,1088 +1,1118 @@
 .boehringer {
-
-    .bi-plp {
-        background: #f6f5f3;
-    }
-
-    .list-show .product-box .product {
-        border-bottom: 0px;
-        background-color: transparent;
-    }
-
-    .bi-wicon {
-        width: 24px;
-        position: absolute;
-        right: 7px;
-        top: 4px;
-
-        img {
-            position: absolute;
-            right: 4px;
-            top: 4px;
-            width: 100%;
-        }
-    }
-
-    .bh-prodcut {
-        .nav-pills {
-            text-align: left;
-        }
-    }
-
-    .sec-menu {
-        width: 100% !important;
-    }
-
-    .sec-menu ul {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    .bi-dot {
-        position: absolute;
-        border-radius: 50%;
-        width: 20px;
-        height: 20px;
-        border: 2px solid white;
-        right: 12%;
-        bottom: 12%;
-
-        &.active {
-            background: #00E47C;
-        }
-    }
-
-    .bi-dot2 {
-        position: absolute;
-        border-radius: 50%;
-        width: 20px;
-        height: 20px;
-        border: 2px solid white;
-        right: 14%;
-        bottom: 12%;
-
-        &.active {
-            background: #00E47C;
-        }
-    }
-
-    .user-items button {
-        width: auto !important;
-    }
-
-    .bh-button {
-        border: 1px solid #00E47C;
-        border-radius: 6px;
-        padding: 6px;
-        font-size: 16px;
-    }
-
-    .bh-heading {
-        font-size: 52px;
-        line-height: 72px;
-        padding-bottom: 8px;
-    }
-
-    .bh-hero__text {
-        padding-bottom: 54px;
-    }
-
-    .bh-heading2 {
-        width: 100%;
-        font-size: 48px;
-        padding-bottom: 8px;
-        text-transform: unset;
-        color: #191919;
-        font-weight: 600;
-    }
-
-    .bi-ibc__para {
-        font-size: 16px;
-        width: 85%;
-        font-weight: 500;
-        font-family: 'Boehringer Forward Text Md';
-    }
-
-    .bi-footer__links {
-        &:hover {
-            color: #00E47C;
-        }
-    }
-
-    .bi-ibc {
-        padding: 110px 0 40px;
-        background: #F6F5F3;
-    }
-
-    .cx-btn-prfl {
-        padding: 22px 0 0 15px !important;
-    }
-
-    .bh-prodcut__left {
-        width: 38%;
-    }
-
-    .bh-prodcut__cnt {
-        font-size: 17px;
-    }
-
-    .bh-new__slide {
-        margin: 0;
-    }
-
-    .bh-new .bh-heading {
-        padding: 8px 60px 60px;
-    }
-
-    .bi-plp {
-
-        .bread-crumb {
-            margin-left: 15px;
-        }
-    }
-
-    .list-show .hover .product-name {
-        font-family: 'Boehringer Forward Head';
-        font-size: 14px;
-        color: #08312A;
-        letter-spacing: 0.7px;
-
-        &:hover {
-            color: #1155CC;
-        }
-    }
-
-    .ab-tile__desc {
-        font-family: 'Boehringer Forward Text Md';
-    }
-
-    .pricing li:first-child {
-        font-family: 'Boehringer Forward Head';
-    }
-
-    .filter-check-box {
-        td {
-            padding-bottom: 4px;
-        }
-    }
-
-    .book-name-and-buy .btn-buy {
-        font-family: 'Boehringer Forward Head';
-        color: #08312A !important;
-        text-transform: capitalize;
-        font-size: 15px;
-        padding: 5px 10px;
-    }
-
-    .dataView.product-box a:hover {
-        color: #1155CC !important;
-    }
-
-    .cx-clr-ctn {
-        width: auto;
-        border: 2px solid #00E47C;
-        background-color: #00E47C;
-        padding: 5px 20px;
-        color: #FFFFFF;
-
-        &:hover {
-            color: #00E47C !important;
-        }
-    }
-
-    .left-box {
-        h3 {
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-        }
-    }
-
-    .cx-sortby {
-        color: #000000;
-        text-transform: none;
-        font-weight: 400;
-        font-size: 18px;
-    }
-
-    .inner-marging {
-        padding-top: 40px;
-        min-height: unset;
-    }
-
-    .btn-wishlists {
-        border-radius: 6px !important;
-        background-color: #08312A !important;
-        border: 1px solid #08312A !important;
-        color: #F6F6F6;
-        padding: 10px 20px;
-        font-size: 14px !important;
-        width: 44%;
-        font-weight: 400;
-        margin-right: 30px;
-
-        &:hover {
-            color: #08312A !important;
-            background-color: transparent !important;
-        }
-    }
-
-    .mobile-price .btn-red.hvr-fade {
-        background-color: #00E47C !important;
-        border: 2px solid #00E47C !important;
-        color: #08312A !important;
-        border-radius: 6px;
-        padding: 10px 20px;
-        box-shadow: none;
-        font-size: 14px !important;
-        width: 100%;
-        font-weight: 400 !important;
-
-        &:hover {
-            border: 2px solid #66EFB0 !important;
-            background-color: #66EFB0 !important;
-        }
-    }
-
-    .bi-pdpbtn {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        padding-top: 24px;
-    }
-
-    // .mobile-price {
-    //     background-color: #fff !important;
-    // }
-    .cx-pp__copy h4 {
-        font-size: 20px;
-        font-weight: bold;
-        color: #2a2b2c;
-    }
-
-    .bi-glb {
-        padding-right: 18px;
-        padding-top: 5px;
-    }
-
-    .bi-tree {
-        margin-left: -18px;
-    }
-
-    .account-search .dropdown .dropdown-menu {
-        top: 52px;
-        left: -28px !important;
-        right: 0 !important;
-        text-align: center;
-        padding: 20px 0;
-
-        &::after {
-            content: "";
-            position: absolute;
-            top: -8px;
-            left: 50%;
-            width: 0;
-            height: 0;
-        }
-    }
-
-    .dropdown-menu {
-        margin: 0;
-    }
-
-    .mobile-price .del {
-        color: #000000;
-        margin-bottom: 20px;
-    }
-
-    .bi-rmb-left {
-        color: #000000;
-        font-size: 18px;
-    }
-
-    .bi-rmb {
-        font-weight: bold;
-
-        b {
-            color: #08312A;
-            display: inline-block;
-            transform: translateX(4px);
-        }
-
-        span {
-            font-size: 20px;
-        }
-    }
-
-    .ab-details {
-        border: 2px solid #cccccc;
-        margin: 26px 0 2px 0;
-    }
-
-    .ab-details td {
-        border-right: 1px solid #cccccc;
-        border-bottom: 1px solid #cccccc;
-        padding: 6px 40px;
-    }
-
-    .ab-details__head {
-        color: #08312A;
-        font-weight: 400;
-    }
-
-    .bi-pdplft {
-        background: #fff;
-        border-radius: 8px;
-    }
-
-    .cx-qd {
-        color: #08312A;
-        font-weight: bold;
-        margin-bottom: 16px;
-        font-size: 20px;
-    }
-
-    .mobile-price {
-        background-color: #fff !important;
-    }
-
-    .bi-txtarea {
-        color: #08312A;
-        font-size: 12px;
-        font-weight: bold;
-    }
-
-    .cx-tbout {
-        justify-content: flex-start;
-        min-width: 207px;
-        overflow-x: scroll;
-    }
-
-    .bi-tbl__scroll::-webkit-scrollbar {
-        margin-top: 20px;
-        height: 6px;
-        /* Set the height of the scrollbar */
-    }
-
-    .bi-tbl__scroll::-webkit-scrollbar-thumb {
-        background-color: #888;
-        /* Color of the scrollbar thumb */
-        border-radius: 10px;
-        /* Roundness of the scrollbar */
-    }
-
-    .bi-tbl__scroll::-webkit-scrollbar-thumb:hover {
-        background-color: #555;
-        /* Darker color when hovering */
-    }
-
-    .bi-tbl__scroll::-webkit-scrollbar-track {
-        background-color: #f1f1f1;
-        /* Background of the scrollbar track */
-        border-radius: 10px;
-    }
-
-    /* Optional: Adds smooth scrolling */
-    .bi-tbl__scroll {
-        scroll-behavior: smooth;
-        cursor: pointer;
-    }
-
-    .product-details-page h2 {
-        text-transform: capitalize;
-    }
-
-    .bi-pdphead {
-        display: flex;
-        align-items: center;
-
-        h2 {
-            font-size: 28px;
-        }
-    }
-
-    .bi-img {
-        margin-left: 16px;
-
-        a {
-            width: 26px;
-            height: 26px;
-            display: block;
-
-            img {
-                width: 100%;
-            }
-        }
-    }
-
-    .bi-to {
-        display: flex;
-        color: #000000;
-
-
-        ul {
-            line-height: 30px;
-
-            li {
-                padding-left: 20px;
-                position: relative;
-
-                &::before {
-                    content: "";
-                    position: absolute;
-                    background: #000;
-                    left: 0;
-                    width: 5px;
-                    height: 5px;
-                    border-radius: 50%;
-                    font-size: 50px;
-                    top: 11px;
-                }
-            }
-        }
-    }
-
-    .bi-txt {
-        margin-top: 16px;
-
-        textarea {
-            border: 1px solid #54565A;
-            border-radius: 6px;
-            resize: none;
-        }
-    }
-
-    .filter-check-box label {
-        color: #08312A;
-        font-weight: 700;
-        margin-left: 8px;
-        letter-spacing: 0.3px;
-    }
-
-    .sort select {
-        color: #000000;
-        font-weight: 400;
-        border: 1px solid #ccc;
-        margin-right: -30px;
-        margin-bottom: 12px;
-    }
-
-    .cx-varient {
-        flex-direction: column;
-    }
-
-    .cx-varient b::after {
-        right: 17px;
-        top: 0;
-        content: "";
-    }
-
-    .cx-varient b {
-        font-size: 14px;
-        color: #08312A;
-        margin-bottom: 14px;
-        font-weight: 900;
-    }
-
-    .varient-btn {
-        width: auto !important;
-        padding: 6px 12px !important;
-        overflow: hidden;
-    }
-
-    .cx-varient div .varient-btn.active {
-        border-color: #00E47C;
-        position: relative;
-        font-weight: 600;
-        color: #000000;
-
-        &::after {
-            content: "";
-            position: absolute;
-            background-image: url("data:image/svg+xml,%3Csvg width='19' height='16' viewBox='0 0 19 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.94162 8.57143L19.0004 0V12C19.0004 14.2091 17.2096 16 15.0004 16H0L8.94162 8.57143Z' fill='%2300E47C'/%3E%3Cpath d='M17.1023 8.63545L17.22 8.52573L17.1023 8.416L16.5383 7.89028L16.436 7.79498L16.3338 7.89023L12.1999 11.7399L10.6661 10.3137L10.5639 10.2186L10.4617 10.3138L9.89772 10.8396L9.78001 10.9493L9.89772 11.059L12.0977 13.1097L12.2 13.2051L12.3023 13.1097L17.1023 8.63545Z' fill='white' stroke='white' stroke-width='0.3'/%3E%3C/svg%3E%0A");
-            background-position: bottom right;
-            background-repeat: no-repeat;
-            background-size: cover;
-            width: 20px;
-            height: 17px;
-            right: -1px;
-            bottom: 0;
-        }
-    }
-
-    .cx-varient div .varient-btn.disable {
-        background-color: #E5E5E5;
-        color: #828282;
-        pointer-events: none;
-    }
-
-    .btn-calc {
-        border-radius: 6px;
-        background-color: #08312A;
-        border: 1px solid #08312A;
-        color: #F6F6F6;
-        padding: 8px 10px;
-        font-size: 14px;
-        width: auto;
-
-        &:hover {
-            color: #08312A;
-            background-color: transparent;
-        }
-    }
-
-    .bi-product-desc {
-        line-height: 22px;
-    }
-
-    .search .form-inline {
-        width: 202px;
-        text-align: right;
-        margin-left: 64%;
-    }
-
-    .form-control {
-        height: 34px !important;
-        font-size: 14px !important;
-    }
-
-    .navbar-brand>img:nth-child(2) {
-        width: 140px !important;
-    }
-
-    .cx-searchbar {
-        border: 1px solid #fff !important;
-    }
-
-    .btn-outline-success:hover {
-        color: #fff;
-        background-color: none;
-        border-color: none;
-    }
-
-    .my-lg-8 a {
-        top: 16px;
-        right: -62px;
-    }
-
-    .plp-price {
-        display: flex;
-        justify-content: space-between;
-        color: #666666;
-        margin-bottom: 6px;
-    }
-
-    .cx-pf__head {
-        display: inline-block;
-
-        span {
-            font-weight: bold;
-            color: #08312A;
-        }
-    }
-
-    .cx-pf__again {
-        cursor: pointer;
-        color: #fff;
-        display: inline-block;
-        text-align: center;
-        border: 1px solid #08312A;
-        border-radius: 6px;
-        width: 230px;
-        height: 38px;
-        padding: 7px 8px;
-        font-weight: 100;
-        font-size: 16px;
-        background-color: #08312A;
-        margin-right: 32px;
-        transition: 0.3s;
-
-        &:hover {
-            background-color: transparent;
-            border: 1px solid #08312A;
-            color: #08312A;
-        }
-    }
-
-    .cx-pf__back {
-        cursor: pointer;
-        color: #08312A;
-        background-color: #00E47C;
-        display: inline-block;
-        text-align: center;
-        border: 1px solid #00E47C;
-        border-radius: 6px;
-        width: 230px;
-        height: 38px;
-        padding: 7px 8px;
-        font-weight: 100;
-        font-size: 16px;
-        margin-right: 16px;
-
-        &:hover {
-            background-color: #66EFB0 !important;
-            border: 1px solid #66EFB0 !important;
-            color: #08312A;
-        }
-
-        &.nwclrbtn {
-            background-color: #CCFAE5;
-            color: #08312A;
-            border: 1px solid #CCFAE5;
-        }
-    }
-
-    .cx-pf__para {
-        color: #000000;
-    }
-
-    .cx-pf__wrap {
-        margin-top: 24px;
-    }
-
-    .navbar {
-        margin-top: 0;
-    }
-
-    .sec-menu .btn-secondary:hover::before {
-        background-color: transparent;
-    }
-
-    .sec-menu .btn-secondary:hover {
-        color: #00E47C !important;
-    }
-
-    .boehringer-wrap {
-        max-width: 1300px;
-    }
-
-    .bi-ibc__section {
-        border-bottom: 1px solid #afafaf;
-        padding-bottom: 70px;
-    }
-
-    .bh-prodcut {
-        padding: 14% 0px 7% 0;
-        background: #F6F5F3;
-        margin: 0;
-    }
-
-    .slick-dotted.slick-slider {
-        margin-bottom: 0;
-    }
-
-    .bh-new {
-        background: #F6F5F3;
-        padding: 14px 0;
-    }
-
-    .bi-dntcta {
-        margin-left: 20px;
-    }
-
-    .bi-footer {
-        padding: 62px 20px;
-    }
-
-    /* bottle home section */
-    .bh-prodcut {
-        &__cta {
-            display: flex;
-
-            a {
-                border: 2px solid black;
-                color: #000000 !important;
-                border-radius: 20px;
-                width: auto;
-                padding: 6px 17px 4px 17px;
-                line-height: 22px;
-                margin-right: 16px;
-                font-size: 13px;
-                font-weight: 600;
-                font-family: "Boehringer Forward Text Md";
-                letter-spacing: 1px;
-
-                &:hover {
-                    color-scheme: #0000;
-                }
-            }
-        }
-    }
-
-    .b-price {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-top: 20px;
-
-        p {
-            color: #000000;
-            font-size: 22px;
-            font-weight: 200;
-        }
-    }
-
-    .ri-rmb-left {
-        font-size: 18px;
-    }
-
-    .b-price b {
-        color: #08312A !important;
-    }
-
-    .b-price span {
-        font-size: 20px;
-        color: #000000 !important;
-    }
-
-    .bi-up {
-        font-weight: 300 !important;
-        font-size: 20px;
-    }
-
-    .cx-rmb-left {
-        color: #000000;
-        font-weight: 300;
-        font-size: 18px !important;
-    }
-
-    .product-details-page h2 {
-        margin-top: 0 !important;
-    }
-
-    .bi-pdp {
-        display: flex;
-        background: #F8F9FA;
-
-        .container.inner-marging {
-            background: #F8F9FA;
-        }
-
-        .owl-item img {
-            width: 265px !important;
-            height: 256px !important;
-        }
-
-        input {
-            font-family: 'Boehringer Forward Text Md';
-            font-size: 18px;
-            text-align: center;
-        }
-    }
-
-    #header .wshlt span.number {
-        color: #000000;
-
-    }
-
-    .cx-cart-icon {
-        .number {
-            width: 16px !important;
-            height: 16px !important;
-            transform: translateY(4px) !important;
-        }
-    }
-
-    .bi-qdhd {
-        font-size: 14px;
-        color: #08312A;
-        margin-bottom: 14px;
-        font-weight: 900;
-    }
-
-    .fa-angle-left:before,
-    .fa-angle-right:before {
-        content: "";
-    }
-
-    .bi-qntytypop {
-        .modal-content {
-            width: 100%;
-        }
-
-        .bi-tbl {
-            width: 100%;
-        }
-    }
-
-    .cx-shpcartpdt .boldblu {
-        margin-right: -3px;
-    }
-
-    .cx-shpcartpdt__quantity {
-        input {
-            font-weight: 300;
-            color: #08312A;
-            text-align: center;
-        }
-    }
-
-    .bi-sqinput {
-        padding: 0 12px;
-    }
-
-    .bi-cart {
-        display: flex;
-        flex-direction: column;
-        align-content: space-around;
-        justify-content: space-between;
-        height: 90%;
-    }
-
-    .cx-odrsmry__item.total .value {
-        color: #08312A;
-    }
-
-    .cx-copdt__link {
-        padding-top: 2px;
-    }
-
-    .bi-sub {
-        font-size: 16px;
-    }
-
-    .bi-odrouter select {
-        padding: 2px 20px;
-    }
-
-    .bi-pophead {
-        font-size: 21px;
-        color: #000000;
-        text-transform: unset;
-        font-weight: 600;
-    }
-
-    .bi-prdctcs {
-        font-family: 'Boehringer Forward Text';
-    }
-
-    .small-font {
-        font-size: 12px;
-    }
-
-    .bi-piegap {
-        margin-right: 34px;
-    }
-
-    .user-items .dropdown-menu .dropdown-item span {
-        display: block !important;
-    }
-    .cx-checkout__checkbox {
-        color: #08312A;
-        a {
-            position: relative;
-            &::after {
-              content: "";
-              background-color: #00E47C;
-              width: 100%;
-              height: 2px;
-              position: absolute;
-              bottom: 0;
-              left: 0;
-            }
-            &:hover{
-              &::after{
-                width: 0;
-              }
-            }
-          }
-    }
-    .bi-spanwhite {
-        color: #ffffff;
-    }
-    .del span {
-        width: auto;
-        margin-bottom: 4px;
-        margin-right: 4px;
-        font-size: 12px;
-    }
-    .bi-qntytext {
-        padding-right: 100px;
-    }
-    .bia-order-summary {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .bi-pdpcol {
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-    }
-    .bi-date {
-       width: 100% !important;
-        input {
-            padding: 6px 20px !important;
-        }
-    }
-    .bi-dateout {
-        display: flex;
-        width: 70%;
-    }
-    .bi-bundle {
-        background-color: #F6F5F3;
-    }
-}
-
-.bi-loginbtn {
+  .bi-plp {
+    background: #f6f5f3;
+  }
+
+  .list-show .product-box .product {
+    border-bottom: 0px;
+    background-color: transparent;
+  }
+
+  .bi-wicon {
+    width: 24px;
+    position: absolute;
+    right: 7px;
+    top: 4px;
+
+    img {
+      position: absolute;
+      right: 4px;
+      top: 4px;
+      width: 100%;
+    }
+  }
+
+  .bh-prodcut {
+    .nav-pills {
+      text-align: left;
+    }
+  }
+
+  .sec-menu {
+    width: 100% !important;
+  }
+
+  .sec-menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .bi-dot {
+    position: absolute;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    right: 12%;
+    bottom: 12%;
+
+    &.active {
+      background: #00e47c;
+    }
+  }
+
+  .bi-dot2 {
+    position: absolute;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    right: 14%;
+    bottom: 12%;
+
+    &.active {
+      background: #00e47c;
+    }
+  }
+
+  .user-items button {
+    width: auto !important;
+  }
+
+  .bh-button {
+    border: 1px solid #00e47c;
+    border-radius: 6px;
+    padding: 6px;
+    font-size: 16px;
+  }
+
+  .bh-heading {
+    font-size: 52px;
+    line-height: 72px;
+    padding-bottom: 8px;
+  }
+
+  .bh-hero__text {
+    padding-bottom: 54px;
+  }
+
+  .bh-heading2 {
     width: 100%;
+    font-size: 48px;
+    padding-bottom: 8px;
+    text-transform: unset;
+    color: #191919;
+    font-weight: 600;
+  }
+
+  .bi-ibc__para {
+    font-size: 16px;
+    width: 85%;
+    font-weight: 500;
+    font-family: "Boehringer Forward Text Md";
+  }
+
+  .bi-footer__links {
+    &:hover {
+      color: #00e47c;
+    }
+  }
+
+  .bi-ibc {
+    padding: 110px 0 40px;
+    background: #f6f5f3;
+  }
+
+  .cx-btn-prfl {
+    padding: 22px 0 0 15px !important;
+  }
+
+  .bh-prodcut__left {
+    width: 38%;
+  }
+
+  .bh-prodcut__cnt {
+    font-size: 17px;
+  }
+
+  .bh-new__slide {
+    margin: 0;
+  }
+
+  .bh-new .bh-heading {
+    padding: 8px 60px 60px;
+  }
+
+  .bi-plp {
+    .bread-crumb {
+      margin-left: 15px;
+    }
+  }
+
+  .list-show .hover .product-name {
+    font-family: "Boehringer Forward Head";
+    font-size: 14px;
+    color: #08312a;
+    letter-spacing: 0.7px;
+
+    &:hover {
+      color: #1155cc;
+    }
+  }
+
+  .ab-tile__desc {
+    font-family: "Boehringer Forward Text Md";
+  }
+
+  .pricing li:first-child {
+    font-family: "Boehringer Forward Head";
+  }
+
+  .filter-check-box {
+    td {
+      padding-bottom: 4px;
+    }
+  }
+
+  .book-name-and-buy .btn-buy {
+    font-family: "Boehringer Forward Head";
+    color: #08312a !important;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 5px 10px;
+  }
+
+  .dataView.product-box a:hover {
+    color: #1155cc !important;
+  }
+
+  .cx-clr-ctn {
+    width: auto;
+    border: 2px solid #00e47c;
+    background-color: #00e47c;
+    padding: 5px 20px;
+    color: #ffffff;
+
+    &:hover {
+      color: #00e47c !important;
+    }
+  }
+
+  .left-box {
+    h3 {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+  }
+
+  .cx-sortby {
+    color: #000000;
+    text-transform: none;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .inner-marging {
+    padding-top: 40px;
+    min-height: unset;
+  }
+
+  .btn-wishlists {
+    border-radius: 6px !important;
+    background-color: #08312a !important;
+    border: 1px solid #08312a !important;
+    color: #f6f6f6;
+    padding: 10px 20px;
+    font-size: 14px !important;
+    width: 44%;
+    font-weight: 400;
+    margin-right: 30px;
+
+    &:hover {
+      color: #08312a !important;
+      background-color: transparent !important;
+    }
+  }
+
+  .mobile-price .btn-red.hvr-fade {
+    background-color: #00e47c !important;
+    border: 2px solid #00e47c !important;
+    color: #08312a !important;
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-shadow: none;
+    font-size: 14px !important;
+    width: 100%;
+    font-weight: 400 !important;
+
+    &:hover {
+      border: 2px solid #66efb0 !important;
+      background-color: #66efb0 !important;
+    }
+  }
+
+  .bi-pdpbtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 24px;
+  }
+
+  // .mobile-price {
+  //     background-color: #fff !important;
+  // }
+  .cx-pp__copy h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2a2b2c;
+  }
+
+  .bi-glb {
+    padding-right: 18px;
+    padding-top: 5px;
+  }
+
+  .bi-tree {
+    margin-left: -18px;
+  }
+
+  .account-search .dropdown .dropdown-menu {
+    top: 52px;
+    left: -28px !important;
+    right: 0 !important;
+    text-align: center;
+    padding: 20px 0;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: -8px;
+      left: 50%;
+      width: 0;
+      height: 0;
+    }
+  }
+
+  .dropdown-menu {
+    margin: 0;
+  }
+
+  .mobile-price .del {
+    color: #000000;
+    margin-bottom: 20px;
+  }
+
+  .bi-rmb-left {
+    color: #000000;
+    font-size: 18px;
+  }
+
+  .bi-rmb {
+    font-weight: bold;
+
+    b {
+      color: #08312a;
+      display: inline-block;
+      transform: translateX(4px);
+    }
+
+    span {
+      font-size: 20px;
+    }
+  }
+
+  .ab-details {
+    border: 2px solid #cccccc;
+    margin: 26px 0 2px 0;
+  }
+
+  .ab-details td {
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding: 6px 40px;
+  }
+
+  .ab-details__head {
+    color: #08312a;
+    font-weight: 400;
+  }
+
+  .bi-pdplft {
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: 32px;
+  }
+
+  .cx-qd {
+    color: #08312a;
+    font-weight: bold;
+    margin-bottom: 16px;
+    font-size: 20px;
+  }
+
+  .mobile-price {
+    background-color: #fff !important;
+  }
+
+  .bi-txtarea {
+    color: #08312a;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .cx-tbout {
+    justify-content: flex-start;
+    min-width: 207px;
+    overflow-x: scroll;
+  }
+
+  .bi-tbl__scroll::-webkit-scrollbar {
+    margin-top: 20px;
+    height: 6px;
+    /* Set the height of the scrollbar */
+  }
+
+  .bi-tbl__scroll::-webkit-scrollbar-thumb {
+    background-color: #08312a;
+    /* Color of the scrollbar thumb */
+    border-radius: 10px;
+    /* Roundness of the scrollbar */
+  }
+
+  .bi-tbl__scroll::-webkit-scrollbar-thumb:hover {
+    background-color: #08312a;
+    /* Darker color when hovering */
+  }
+
+  .bi-tbl__scroll::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    /* Background of the scrollbar track */
+    border-radius: 10px;
+  }
+
+  /* Optional: Adds smooth scrolling */
+  .bi-tbl__scroll {
+    scroll-behavior: smooth;
+    cursor: pointer;
+  }
+
+  .product-details-page h2 {
+    text-transform: capitalize;
+  }
+
+  .bi-pdphead {
+    display: flex;
+    align-items: center;
+
+    h2 {
+      font-size: 28px;
+    }
+  }
+
+  .bi-img {
+    margin-left: 16px;
+
+    a {
+      width: 26px;
+      height: 26px;
+      display: block;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .bi-to {
+    display: flex;
+    color: #000000;
+
+    ul {
+      line-height: 30px;
+
+      li {
+        padding-left: 20px;
+        position: relative;
+
+        &::before {
+          content: "";
+          position: absolute;
+          background: #000;
+          left: 0;
+          width: 5px;
+          height: 5px;
+          border-radius: 50%;
+          font-size: 50px;
+          top: 11px;
+        }
+      }
+    }
+  }
+
+  .bi-txt {
+    margin-top: 16px;
+
+    textarea {
+      border: 1px solid #54565a;
+      border-radius: 6px;
+      resize: none;
+    }
+  }
+
+  .filter-check-box label {
+    color: #08312a;
+    font-weight: 700;
+    margin-left: 8px;
+    letter-spacing: 0.3px;
+  }
+
+  .sort select {
+    color: #000000;
+    font-weight: 400;
+    border: 1px solid #ccc;
+    margin-right: -30px;
+    margin-bottom: 12px;
+  }
+
+  .cx-varient {
+    flex-direction: column;
+  }
+
+  .cx-varient b::after {
+    right: 17px;
+    top: 0;
+    content: "";
+  }
+
+  .cx-varient b {
+    font-size: 14px;
+    color: #08312a;
+    margin-bottom: 14px;
+    font-weight: 900;
+  }
+
+  .varient-btn {
+    width: auto !important;
+    padding: 6px 12px !important;
+    overflow: hidden;
+  }
+
+  .cx-varient div .varient-btn.active {
+    border-color: #00e47c;
+    position: relative;
+    font-weight: 600;
+    color: #000000;
+
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url("data:image/svg+xml,%3Csvg width='19' height='16' viewBox='0 0 19 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.94162 8.57143L19.0004 0V12C19.0004 14.2091 17.2096 16 15.0004 16H0L8.94162 8.57143Z' fill='%2300E47C'/%3E%3Cpath d='M17.1023 8.63545L17.22 8.52573L17.1023 8.416L16.5383 7.89028L16.436 7.79498L16.3338 7.89023L12.1999 11.7399L10.6661 10.3137L10.5639 10.2186L10.4617 10.3138L9.89772 10.8396L9.78001 10.9493L9.89772 11.059L12.0977 13.1097L12.2 13.2051L12.3023 13.1097L17.1023 8.63545Z' fill='white' stroke='white' stroke-width='0.3'/%3E%3C/svg%3E%0A");
+      background-position: bottom right;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 20px;
+      height: 17px;
+      right: -1px;
+      bottom: 0;
+    }
+  }
+
+  .cx-varient div .varient-btn.disable {
+    background-color: #e5e5e5;
+    color: #828282;
+    pointer-events: none;
+  }
+
+  .btn-calc {
+    border-radius: 6px;
+    background-color: #08312a;
+    border: 1px solid #08312a;
+    color: #f6f6f6;
+    padding: 8px 10px;
+    font-size: 14px;
+    width: auto;
+
+    &:hover {
+      color: #08312a;
+      background-color: transparent;
+    }
+  }
+
+  .bi-product-desc {
+    line-height: 22px;
+  }
+
+  .search .form-inline {
+    width: 202px;
+    text-align: right;
+    margin-left: 64%;
+  }
+
+  .form-control {
+    height: 34px !important;
+    font-size: 14px !important;
+  }
+
+  .navbar-brand > img:nth-child(2) {
+    width: 140px !important;
+  }
+
+  .cx-searchbar {
+    border: 1px solid #fff !important;
+  }
+
+  .btn-outline-success:hover {
+    color: #fff;
+    background-color: none;
+    border-color: none;
+  }
+
+  .my-lg-8 a {
+    top: 16px;
+    right: -62px;
+  }
+
+  .plp-price {
+    display: flex;
+    justify-content: space-between;
+    color: #666666;
+    margin-bottom: 6px;
+  }
+
+  .cx-pf__head {
+    display: inline-block;
+
+    span {
+      font-weight: bold;
+      color: #08312a;
+    }
+  }
+
+  .cx-pf__again {
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #08312a;
+    border-radius: 6px;
+    width: 230px;
+    height: 38px;
+    padding: 7px 8px;
+    font-weight: 100;
+    font-size: 16px;
+    background-color: #08312a;
+    margin-right: 32px;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: transparent;
+      border: 1px solid #08312a;
+      color: #08312a;
+    }
+  }
+
+  .cx-pf__back {
+    cursor: pointer;
+    color: #08312a;
+    background-color: #00e47c;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #00e47c;
+    border-radius: 6px;
+    width: 230px;
+    height: 38px;
+    padding: 7px 8px;
+    font-weight: 100;
+    font-size: 16px;
+    margin-right: 16px;
+
+    &:hover {
+      background-color: #66efb0 !important;
+      border: 1px solid #66efb0 !important;
+      color: #08312a;
+    }
+
+    &.nwclrbtn {
+      background-color: #ccfae5;
+      color: #08312a;
+      border: 1px solid #ccfae5;
+    }
+  }
+
+  .cx-pf__para {
+    color: #000000;
+  }
+
+  .cx-pf__wrap {
+    margin-top: 24px;
+  }
+
+  .navbar {
+    margin-top: 0;
+  }
+
+  .sec-menu .btn-secondary:hover::before {
+    background-color: transparent;
+  }
+
+  .sec-menu .btn-secondary:hover {
+    color: #00e47c !important;
+  }
+
+  .boehringer-wrap {
+    max-width: 1300px;
+  }
+
+  .bi-ibc__section {
+    border-bottom: 1px solid #afafaf;
+    padding-bottom: 70px;
+  }
+
+  .bh-prodcut {
+    padding: 14% 0px 7% 0;
+    background: #f6f5f3;
+    margin: 0;
+  }
+
+  .slick-dotted.slick-slider {
+    margin-bottom: 0;
+  }
+
+  .bh-new {
+    background: #f6f5f3;
+    padding: 14px 0;
+  }
+
+  .bi-dntcta {
+    margin-left: 20px;
+  }
+
+  .bi-footer {
+    padding: 62px 20px;
+  }
+
+  /* bottle home section */
+  .bh-prodcut {
+    &__cta {
+      display: flex;
+
+      a {
+        border: 2px solid black;
+        color: #000000 !important;
+        border-radius: 20px;
+        width: auto;
+        padding: 6px 17px 4px 17px;
+        line-height: 22px;
+        margin-right: 16px;
+        font-size: 13px;
+        font-weight: 600;
+        font-family: "Boehringer Forward Text Md";
+        letter-spacing: 1px;
+
+        &:hover {
+          color-scheme: #0000;
+        }
+      }
+    }
+  }
+
+  .b-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+
+    p {
+      color: #000000;
+      font-size: 22px;
+      font-weight: 200;
+    }
+  }
+
+  .ri-rmb-left {
+    font-size: 18px;
+  }
+
+  .b-price b {
+    color: #08312a !important;
+  }
+
+  .b-price span {
+    font-size: 20px;
+    color: #000000 !important;
+  }
+
+  .bi-up {
+    font-weight: 300 !important;
+    font-size: 20px;
+  }
+
+  .cx-rmb-left {
+    color: #000000;
+    font-weight: 300;
+    font-size: 18px !important;
+    textarea {
+      border: 1px solid #000000;
+      border-radius: 4px;
+      resize: none;
+    }
+  }
+
+  .product-details-page h2 {
+    margin-top: 0 !important;
+  }
+
+  .bi-pdp {
+    display: flex;
+    background: #f8f9fa;
+
+    .container.inner-marging {
+      background: #f8f9fa;
+    }
+
+    .owl-item img {
+      width: 265px !important;
+      height: 256px !important;
+    }
+
+    input {
+      font-family: "Boehringer Forward Text Md";
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+
+  #header .wshlt span.number {
+    color: #000000;
+  }
+
+  .cx-cart-icon {
+    .number {
+      width: 16px !important;
+      height: 16px !important;
+      transform: translateY(4px) !important;
+    }
+  }
+
+  .bi-qdhd {
+    font-size: 14px;
+    color: #08312a;
+    margin-bottom: 14px;
+    font-weight: 900;
+  }
+
+  .fa-angle-left:before,
+  .fa-angle-right:before {
+    content: "";
+  }
+
+  .bi-qntytypop {
+    .modal-content {
+      width: 100%;
+    }
+
+    .bi-tbl {
+      width: 100%;
+    }
+  }
+
+  .cx-shpcartpdt .boldblu {
+    margin-right: -3px;
+  }
+
+  .cx-shpcartpdt__quantity {
+    input {
+      font-weight: 300;
+      color: #08312a;
+      text-align: center;
+    }
+  }
+
+  .bi-sqinput {
+    padding: 0 12px;
+  }
+
+  .bi-cart {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-between;
+    height: 90%;
+  }
+
+  .cx-odrsmry__item.total .value {
+    color: #08312a;
+  }
+
+  .cx-copdt__link {
+    padding-top: 2px;
+  }
+
+  .bi-sub {
+    font-size: 16px;
+  }
+
+  .bi-odrouter select {
+    padding: 2px 20px;
+  }
+
+  .bi-pophead {
+    font-size: 21px;
+    color: #000000;
+    text-transform: unset;
+    font-weight: 600;
+  }
+
+  .bi-prdctcs {
+    font-family: "Boehringer Forward Text";
+  }
+
+  .small-font {
+    font-size: 12px;
+  }
+
+  .bi-piegap {
+    margin-right: 34px;
+  }
+
+  .user-items .dropdown-menu .dropdown-item span {
+    display: block !important;
+  }
+  .cx-checkout__checkbox {
+    color: #08312a;
+    a {
+      position: relative;
+      &::after {
+        content: "";
+        background-color: #00e47c;
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+      &:hover {
+        &::after {
+          width: 0;
+        }
+      }
+    }
+  }
+  .bi-spanwhite {
+    color: #ffffff;
+  }
+  .del span {
+    width: auto;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    font-size: 12px;
+  }
+  .bi-qntytext {
+    padding-right: 100px;
+  }
+  .bia-order-summary {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75vh;
-
-    .bi-btn {
-        color: #000;
-        width: 300px;
-        text-align: center;
-        padding: 10px 10px;
-        position: relative;
-        font-size: 16px;
-
-        img {
-            width: 10px;
-            height: auto;
-            float: right;
-        }
+  }
+  .bi-pdpcol {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .bi-date {
+    width: 100% !important;
+    input {
+      padding: 6px 20px !important;
     }
+  }
+  .bi-dateout {
+    display: flex;
+    width: 70%;
+  }
+  .bi-bundle {
+    background-color: #f6f5f3;
+  }
+  .btn-grey {
+    font-size: 10px !important;
+    padding: 9px 20px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    margin-left: 16px;
+  }
+}
+
+.bi-loginbtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+
+  .bi-btn {
+    color: #000;
+    width: 300px;
+    text-align: center;
+    padding: 10px 10px;
+    position: relative;
+    font-size: 16px;
+
+    img {
+      width: 10px;
+      height: auto;
+      float: right;
+    }
+  }
 }
 
 .bi-oicat {
-    .bi-order-summary__w-25 {
-        display: flex;
-    }
+  .bi-order-summary__w-25 {
+    display: flex;
+  }
 }
 
 /* Media Queries */
 @include tablet-pro {
-    .boehringer {
-        .cx-rmb-left {
-            font-size: 14px !important;
-        }
-        .mobile-price .del {
-            font-size: 11px !important;
-        }
-        .bi-txt textarea {
-            width: 280px;
-        }
-        .bi-pdphead h2 {
-            font-size: 20px;
-        }
-        .bi-pdtspec {
-            display: inline-block;
-            margin-bottom: 10px;
-        }
+  .boehringer {
+    .cx-rmb-left {
+      font-size: 14px !important;
     }
+    .mobile-price .del {
+      font-size: 11px !important;
+    }
+    .bi-txt textarea {
+      width: 280px;
+    }
+    .bi-pdphead h2 {
+      font-size: 20px;
+    }
+    .bi-pdtspec {
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+  }
 }
 @include tablet {
-    .boehringer {
-        .bi-txt textarea {
-            width: 438px;
-        }
-        .bi-txtarea {
-            display: block;
-            width: 400px;
-        }
-        .bi-pdp {
-            .col-md-6 , .col-md-4 {
-                flex: 0 0 80.3%;
-                max-width: 80.3%;
-            }
-        }
-        .cx-prdct-wrap {
-            display: flex;
-        } 
-        .bi-pdtspec {
-            font-size: 7px;
-            padding: 4px 6px;
-        }   
-        .mobile-price-wrap table > tbody > tr {
-            display: flex;
-            flex-direction: row;
-        }  
-        .bi-rmb {
-            margin-left: 80px;
-        } 
-        .bi-pdplft-tab {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            width: 420px;
-            background-color: #fff;
-        }
-        .cx-rmb-left {
-            font-size: 16px !important;
-        }
-        .bi-ibc {
-            padding: 70px 0 40px;
-        }
-        .bi-pdpres {
-            display: flex;
-            flex-direction: column;
-        }
-        .bi-cart-sb {
-            width: 124px;
-        }
-        .bi-piegap {
-            margin-right: 0 !important;
-            margin-bottom: 20px !important;
-        }
-        .list-show .product-box {
-            width: 100% !important;
-        }
+  .boehringer {
+    .bi-txt textarea {
+      width: 438px;
     }
-    .headerspacer {
-        height: 220px !important;
+    .bi-txtarea {
+      display: block;
+      width: 400px;
     }
+    .bi-pdp {
+      .col-md-6,
+      .col-md-4 {
+        flex: 0 0 80.3%;
+        max-width: 80.3%;
+      }
+    }
+    .cx-prdct-wrap {
+      display: flex;
+    }
+    .bi-pdtspec {
+      font-size: 7px;
+      padding: 4px 6px;
+    }
+    .mobile-price-wrap table > tbody > tr {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .bi-rmb {
+      margin-left: 80px;
+    }
+    .bi-pdplft-tab {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 462px;
+      padding-right: 30px;
+      background-color: #fff;
+    }
+    .cx-rmb-left {
+      font-size: 16px !important;
+    }
+    .mobile-price-wrap table > tbody > tr > td > table {
+        margin-left: 0px !important;
+    }
+    .bi-ibc {
+      padding: 70px 0 40px;
+    }
+    .bi-pdpres {
+      display: flex;
+      flex-direction: column;
+    }
+    .bi-cart-sb {
+      width: 124px;
+    }
+    .bi-piegap {
+      margin-right: 0 !important;
+      margin-bottom: 20px !important;
+    }
+    .list-show .product-box {
+      width: 100% !important;
+    }
+  }
+  .headerspacer {
+    height: 220px !important;
+  }
 }
 
-
-
 @include mobile {
-    .boehringer {
-        .bh-heading2 {
-            font-size: 32px;
-        }
-
-        .inner-marging {
-            padding-top: 0;
-        }
-        .bi-glb {
-            padding-right: 0;
-            margin-right: 15px !important;
-        }
-
-        .cx-btn-prfl {
-            padding: 10px 0 0 15px !important;
-        }
-
-        .sec-menu ul {
-            flex-direction: column;
-        }
-
-        .bi-ibc {
-            padding: 50px 0 40px;
-        }
-
-        .bh-new .bh-heading {
-            padding: 8px 20px 40px;
-            font-size: 35px;
-            line-height: 45px;
-        }
-        .mobile-price-wrap table > tbody > tr {
-            display: flex;
-            justify-content: space-between;
-            width: 92% !important;
-            flex-direction: row;
-          }
-        .bi-plp {
-            padding: 20px 0;
-          }
+  .boehringer {
+    .bh-heading2 {
+      font-size: 32px;
     }
 
-    .bh-prodcut__left {
-        width: 100% !important;
+    .inner-marging {
+      padding-top: 0;
     }
+    .bi-glb {
+      padding-right: 0;
+      margin-right: 15px !important;
+    }
+
+    .cx-btn-prfl {
+      padding: 10px 0 0 15px !important;
+    }
+
+    .sec-menu ul {
+      flex-direction: column;
+    }
+
+    .bi-ibc {
+      padding: 50px 0 40px;
+    }
+
+    .bh-new .bh-heading {
+      padding: 8px 20px 40px;
+      font-size: 35px;
+      line-height: 45px;
+    }
+    .mobile-price-wrap table > tbody > tr {
+      display: flex;
+      justify-content: space-between;
+      width: 92% !important;
+      flex-direction: row;
+      align-items: center;
+    }
+    .bi-plp {
+      padding: 20px 0;
+    }
+    .cx-timer {
+      width: 100%;
+    }
+    .mobile-price .btn-grey {
+      margin-top: 0 !important;
+      margin-left: 20px;
+      padding: 9px 0;
+      margin-bottom: 5px;
+    }
+    .cx-rmb-left {
+      font-size: 14px !important;
+      margin-bottom: 0;
+    }
+    .cx-txt-bold {
+        font-size: 14px;
+    }
+  }
+
+  .bh-prodcut__left {
+    width: 100% !important;
+  }
 }
