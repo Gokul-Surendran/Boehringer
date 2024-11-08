@@ -5,13 +5,12 @@
 
     &__outer {
         display: flex;
-        justify-content: space-between;
-        gap: 13%;
+        gap: 4%;
         padding-bottom: 12%;
     }
 
     &__img {
-        width: 40%;
+        width: 33%;
         padding: 0px 24px;
 
         img {
@@ -126,7 +125,47 @@
             background-color: #94054d;
         }
     }
+    &__newform{
+        padding-top: 80px;
 
+        .bi-input {
+            margin-bottom: 36px;
+            label {
+                font-size: 20px;
+                color: #37352f;
+                font-weight: 600;
+                position: relative;
+                margin-bottom: 14px;
+                &::after {
+                    content: "*";
+                    position: absolute;
+                    right:-20px;
+                    top: 4px;
+                    font-weight: bold;
+                }
+            }
+            input {
+                border-radius: 6px;
+                padding: 10px 4px;
+                box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgba(61, 59, 53, 0.16) 0px 0px 0px 1px, rgba(61, 59, 53, 0.08) 0px 2px 5px 0px;
+                border: 0px;
+            }
+        }
+    }
+    &__nextcta {
+        padding: 8px 12px;
+        border-radius: 6px;
+        border: 1px solid #000000;
+        background-color: #000000;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+
+        &:hover {
+            background-color: #313131;
+            color: #fff;
+        }
+    }
 }
 
 

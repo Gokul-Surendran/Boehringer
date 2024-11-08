@@ -243,10 +243,25 @@
         .bi-contact-us {
             min-height: 80vh;
         }
+        .bi-odrouter {
+            min-height: 80vh;
+        }
+        .bi-pot .bi-besthnks {
+            min-height: 80vh;
+        }
+        .bi-pdp {
+            min-height: 80vh;
+        }
+        .bi-plp {
+            min-height: 80vh;
+        }
     }
 
-    @media (min-width: 1706px) and (max-width: 1920px) {
+    @media (min-width: 1690px) and (max-width: 2047px) {
         .bi-contact-us {
+            min-height: 30vh;
+        }
+        .bi-odrouter {
             min-height: 35vh;
         }
     }

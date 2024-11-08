@@ -1044,6 +1044,7 @@
 .ab-navbar .ab-nav-icons,
 .ab-navbar .dropdown-toggle {
   transform: translateY(8px);
+  margin-left: 11px !important;
 }
 
 .ab-navbar .profile-name {
@@ -5578,9 +5579,9 @@ body {
   font-size: 16px !important;
 }
 
-.boehringer .sec-menu .btn-secondary {
-  font-size: 15px !important;
-}
+// .boehringer .sec-menu .btn-secondary {
+//   font-size: 15px !important;
+// }
 
 .boehringer .ab-header__dropdown-inner {
   width: 0;
