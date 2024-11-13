@@ -1130,6 +1130,14 @@
     .cx-txt-bold {
         font-size: 14px;
     }
+    .bi-dateout {
+      flex-direction: column;
+      gap: 10px;
+      align-items: self-end;
+      .bi-order-summary__w-25 {
+        width: 100%;
+      }
+    }
   }
 
   .bh-prodcut__left {
