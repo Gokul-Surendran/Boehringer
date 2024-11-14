@@ -30,7 +30,7 @@
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin: 30px 0;
+    margin: 30px 0 50px 0;
     border-radius: 10px;
     padding: 36px 40px 60px;
     background-color: #fff;
@@ -243,6 +243,13 @@
           }
         }
       }
+    }
+  }
+  .bi-otppara {
+    text-align: center;
+    margin-bottom: 26px;
+    h4 {
+      color: #08312A;
     }
   }
 }
