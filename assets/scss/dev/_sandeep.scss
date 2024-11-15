@@ -952,14 +952,16 @@
     }
   }
   .bi-sbsearch {
-    margin-top: 20px;
-
     input {
       font-size: 14px;
       padding: 6px 8px;
       border-radius: 4px;
       border: 1px solid #ccc;
     }
+  }
+  .bi-sbout {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
