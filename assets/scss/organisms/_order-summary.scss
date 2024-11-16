@@ -69,8 +69,12 @@
             border: 1px solid #8c8481;
             padding: 4px 12px;
             border-radius: 5px;
-            width: 36%;
-            
+            width: 206px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            option {
+                white-space: nowrap;
+            }
         }
         input {
             background: #00E47C;
