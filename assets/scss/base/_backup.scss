@@ -1237,7 +1237,6 @@
 .boehringer .cx-footerlogo {
   display: flex;
   margin-left: 20px;
-  width: 100%;
 }
 
 .boehringer .cx-footerlogo img {
@@ -4120,23 +4119,23 @@
   margin-left: 10px;
 }
 
-.cx-cart-pop__cta a {
+.cx-cart-pop__cta  {
   text-align: center;
-  padding-top: 9px;
-  height: 40px;
-  width: 100%;
   text-decoration: none;
-  background-color: #08312A;
+  background-color: #00E47C;
   font-weight: 600;
-  border: 1px solid #08312A;
+  border: 1px solid #00E47C;
   border-radius: 6px;
   color: #fff !important;
   cursor: pointer;
+  padding: 10px;
 }
 
-.cx-cart-pop__cta a:hover {
-  background-color: #fff;
+.cx-cart-pop__cta :hover {
+  // background-color: #66EFB0 !important;
   color: #08312A !important;
+  width: 100%;
+  text-align: center;
 }
 
 .boehringer .bh-hero {
@@ -5443,7 +5442,7 @@ body {
   font-size: 14px;
   text-align: center;
   background-color: transparent !important;
-  border: 2px solid #cccccc !important;
+  border: 1px solid #cccccc !important;
   color: #000;
   padding: 6px 12px;
   border-radius: 6px;
@@ -5454,7 +5453,7 @@ body {
 }
 
 .boehringer .cx-cancel--no {
-  padding: 6px 24px !important;
+  padding: 5px 24px !important;
   width: auto !important;
 }
 
@@ -5466,9 +5465,9 @@ body {
 .boehringer .cx-save {
   font-size: 14px;
   background-color: #00E47C !important;
-  border: 2px solid #00E47C !important;
+  border: 1px solid #00E47C !important;
   color: #0D0B0C;
-  padding: 5px 10px;
+  padding: 5px 24px;
   text-transform: unset;
   text-align: center;
   border-radius: 6px;
@@ -5482,7 +5481,7 @@ body {
 }
 
 .boehringer .cx-save:hover {
-  border: 2px solid #66EFB0 !important;
+  border: 1px solid #66EFB0 !important;
   background-color: #66EFB0 !important;
 }
 
