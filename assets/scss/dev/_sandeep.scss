@@ -960,15 +960,21 @@
       border: 1px solid #ccc;
       background-color: #F6F5F3;
     }
+    span {
+      font-weight: 600;
+    }
   }
   .bi-sbout {
     display: flex;
     justify-content: space-between;
+    span {
+      font-weight: 600;
+    }
   }
  
   .bi-poptbl {
     min-height: auto;
-    max-height: 200px;
+    max-height: 172px;
     overflow-y: scroll;
     scroll-behavior: smooth;
   }

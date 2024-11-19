@@ -4016,7 +4016,7 @@
 }
 
 .cx-cart-pop___body {
-  padding: 20px 30px;
+  padding: 4px 30px;
 }
 
 .cx-cart-pop___body h4 {
@@ -4032,7 +4032,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 6px;
 }
 
 .cx-cart-pop__prdctimg {
@@ -4072,7 +4072,6 @@
   border-radius: 5px;
   padding: 8px 10px;
   width: 50%;
-  height: 40px;
   justify-content: space-between;
 }
 
@@ -4128,7 +4127,7 @@
   border-radius: 6px;
   color: #fff !important;
   cursor: pointer;
-  padding: 10px;
+  padding: 6px 10px;
 }
 
 .cx-cart-pop__cta :hover {
@@ -5722,9 +5721,9 @@ body {
   font-weight: bold;
 }
 
-// .boehringer .bread-crumb {
-//   margin-top: 20px !important;
-// }
+.boehringer .bread-crumb {
+  margin: 20px 0 34px;
+}
 .boehringer .ab-address__inner {
   width: 100%;
 }
