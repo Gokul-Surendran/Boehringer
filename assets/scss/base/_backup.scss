@@ -1088,8 +1088,11 @@
 
 .boehringer #header .wshlt span.number {
   background: #08312A;
-  top: -30px;
+  top: -24px;
   right: -10px;
+  width: 16px;
+  height: 16px;
+  font-weight: 600;
 }
 
 .boehringer .ab-header__dropdown::after {
@@ -1366,7 +1369,7 @@
   background-color: #08312A;
 }
 
-.boehringer .boehringer .btn-secondary {
+.boehringer .btn-secondary {
   color: #fff !important;
 }
 
@@ -5443,7 +5446,7 @@ body {
   text-align: center;
   background-color: transparent !important;
   border: 1px solid #cccccc !important;
-  color: #000;
+  color: #000 !important;
   padding: 6px 12px;
   border-radius: 6px;
   width: auto;
@@ -5577,9 +5580,13 @@ body {
   font-size: 16px !important;
 }
 
-// .boehringer .sec-menu .btn-secondary {
-//   font-size: 15px !important;
-// }
+.boehringer .sec-menu .btn-secondary {
+  &.active {
+    color: #00E47C !important;
+    box-shadow: none;
+    font-weight: 600;
+  }
+}
 
 .boehringer .ab-header__dropdown-inner {
   width: 0;

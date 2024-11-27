@@ -782,10 +782,11 @@
   }
 
   .cx-cart-icon {
-    .number {
+    span .number {
       width: 16px !important;
       height: 16px !important;
       transform: translateY(4px) !important;
+      top: 10px;
     }
   }
 
