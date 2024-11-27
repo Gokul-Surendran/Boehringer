@@ -199,7 +199,14 @@
    .cx-ordrsumry__head {
       margin-top: 24px;
    }
-   .bi-buttons {
+   .bi-sbcopy {
+      padding-right: 0;
+   }
+   .bi-newflex {
+      flex-direction: column;
+   }
+   .bi-buttons,
+   .bi-binputwrap {
       width: 100%;
    }
    .cx-shpcart__outer {

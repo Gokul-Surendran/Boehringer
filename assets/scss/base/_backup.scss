@@ -3843,7 +3843,7 @@
 /* mobile */
 @media (max-width: 767px) {
   .cx-checkout__outer {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .cx-checkout__left {
@@ -3876,7 +3876,7 @@
 /* tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
   .cx-checkout__outer {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .cx-checkout__right {
