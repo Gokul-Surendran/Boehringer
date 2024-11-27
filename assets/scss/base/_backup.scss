@@ -3754,12 +3754,12 @@
 
 .cx-checkout__outer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
 }
 
 .cx-checkout__left {
-  width: 66%;
+  width: 68%;
   border-radius: 6px;
   height: -moz-fit-content;
   height: fit-content;

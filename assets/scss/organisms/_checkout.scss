@@ -77,6 +77,7 @@
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
+      width: 68%;
       label {
          color: #08312a;
          margin-left: 8px;
@@ -158,6 +159,9 @@
       &__left {
          margin-top: px;
       }
+      &__terms {
+         width: 100%;
+      }
    }
 }
 
@@ -166,6 +170,11 @@
       &__form,
       &__terms {
          flex-direction: column;
+      }
+      &__terms {
+         flex-direction: column;
+         width: 100%;
+         align-items: flex-start;
       }
       &__left {
          margin-top: 0px;
