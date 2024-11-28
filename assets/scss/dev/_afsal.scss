@@ -1,8 +1,8 @@
 .boehringer {
    .fiter-head {
-      font-family: 'Boehringer Forward Head Md';
+      font-family: "Boehringer Forward Head Md";
       font-weight: normal;
-      color: #08312A;
+      color: #08312a;
       font-size: 21px;
       margin: 12px 0px;
       text-transform: unset;
@@ -11,46 +11,46 @@
       color: #000;
       margin-top: 15px;
       font-size: 20px;
-  }
-  .bi-pdtspecwrap {
-   margin: 20px 0;
-  }
-  .bi-pdtspec {
-   display: inline-block;
-    border: 2px solid #08312A;
-    color: #000;
-    font-size: 9px;
-    border-radius: 20px;
-    padding: 4px 4px;
-    margin-right: 0px;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 6px;
-  }
-  .ListingCol {
-   max-width: 33.33% !important;
-  }
-  .container.bi-bgclr {
-   background-color: #F6F5F3 !important;
+   }
+   .bi-pdtspecwrap {
+      margin: 20px 0;
+   }
+   .bi-pdtspec {
+      display: inline-block;
+      border: 2px solid #08312a;
+      color: #000;
+      font-size: 9px;
+      border-radius: 20px;
+      padding: 4px 4px;
+      margin-right: 0px;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-top: 6px;
+   }
+   .ListingCol {
+      max-width: 33.33% !important;
+   }
+   .container.bi-bgclr {
+      background-color: #f6f5f3 !important;
    }
    .book-name-and-buy ul li {
       font-family: "Boehringer Forward Text" !important;
       font-weight: normal;
    }
    .list-show .product-box {
-      border: 1px solid #F6F5F3;
+      border: 1px solid #f6f5f3;
       width: 80% !important;
       &:hover {
          .list-show .hover .product-name {
-                color: #1155CC;
-        }
+            color: #1155cc;
+         }
       }
    }
    .bi-odrouter {
       padding-bottom: 20px;
       min-height: auto;
       background-color: #f6f5f3;
-      font-family: 'Boehringer Forward Text' !important;
+      font-family: "Boehringer Forward Text" !important;
       .inner-marging {
          background-color: #f6f5f3 !important;
       }
@@ -67,7 +67,7 @@
       }
    }
    .bi-odrtitle {
-      font-family: 'Boehringer Forward Head Md';
+      font-family: "Boehringer Forward Head Md";
       font-size: 35px;
       color: #191919;
       margin-bottom: 10px;
@@ -80,9 +80,9 @@
       font-size: 12px;
    }
    .plp-price p {
-      font-family: 'Boehringer Forward Head Md';
+      font-family: "Boehringer Forward Head Md";
       font-size: 13px;
-      color: #08312A;
+      color: #08312a;
    }
    .pricing {
       font-size: 14px;
@@ -90,27 +90,59 @@
    .cx-upnot {
       display: inline-block;
       font-size: 16px;
-      color: #FF0000;
+      color: #ff0000;
       width: 50%;
-    }
-    .cx-copdt__outer {
-      scrollbar-color: #08312A #e4e7e7;
-    }
-    .boldblu {
+   }
+   .cx-copdt__outer {
+      scrollbar-color: #08312a #e4e7e7;
+   }
+   .boldblu {
       span:nth-child(2) {
          margin-left: -3px;
       }
-    }
+   }
+   
+   .bi-plp input[type=checkbox] {
+      height: 16px;
+      width: 16px;
+   }
 
-    @include mobile {
+   .bi-circleclr {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      display: inline-block;
+      margin-left: 16px;
+      border: 1px solid #000;
+      
+      &.darkgreen {
+         background-color: #013220;
+      }
+
+      &.forestgreen {
+         background-color: #228B22;
+      }
+
+      &.white {
+         background-color: #fff;
+      }
+
+      &.teal {
+         background-color: #008080;
+      }
+   }
+
+
+   // mobile
+   @include mobile {
       .ListingCol {
          max-width: 100% !important;
          justify-content: center !important;
-        }
+      }
 
       .container.bi-bgclr {
          .col-lg-9.col-sm-12 {
-               padding: 0px;
+            padding: 0px;
          }
       }
 
@@ -120,9 +152,9 @@
       .menu-icon {
          display: block;
          top: 50%;
-       }
-       .sec-menu {
+      }
+      .sec-menu {
          display: none;
-       }
-    }
+      }
+   }
 }
