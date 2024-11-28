@@ -5036,27 +5036,27 @@ body {
   text-decoration: underline !important;
 }
 
-.boehringer .cx-outofstock {
+.boehringer .bi-outofstock {
   position: absolute;
   width: 100%;
-  height: 47%;
+  height: 72%;
   left: 0;
   top: 0;
-  background: rgba(0, 0, 0, 0.5411764706);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
   z-index: 99;
   display: flex;
-  align-content: center;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
 }
 
-.boehringer .cx-outofstock-text {
-  background: #FF5656;
-  padding: 10px 0;
+.boehringer .bi-outofstock-text {
+  font-family: "Boehringer Forward Text Md";
+  background-color: rgb(128 128 128 / 0.5);
+  padding: 5px 0;
   font-size: 18px;
-  /* height: 33px; */
+  font-weight: 600;
   width: 100%;
-  color: #fff;
+  color: #08312a;
   text-align: center;
   vertical-align: middle;
   margin: auto;
@@ -5285,13 +5285,13 @@ body {
     margin-top: 0;
   }
 
-  .boehringer .cx-outofstock {
+  .boehringer .bi-outofstock {
     height: 41%;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .boehringer .cx-outofstock {
+  .boehringer .bi-outofstock {
     height: 41%;
   }
 }
@@ -5362,7 +5362,7 @@ body {
     font-size: 12px;
   }
 
-  .boehringer .cx-outofstock {
+  .boehringer .bi-outofstock {
     height: 43%;
   }
 
