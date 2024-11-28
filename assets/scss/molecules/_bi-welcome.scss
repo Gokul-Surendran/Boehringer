@@ -1,0 +1,50 @@
+.bi-welcome {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 32px 0;
+    &__logo {
+        width: 180px;
+        height: auto;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    &__heading {
+        font-size: 94px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        height: 80vh;
+    }
+}
+
+@include tablet-pro {
+    .bi-welcome {
+        &__heading {
+            font-size: 80px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            height: 80vh;
+        }
+    }
+}
+@include tablet {
+    .bi-welcome {
+        &__heading {
+            font-size: 74px;
+        }
+    }
+}
+@include mobile {
+    .bi-welcome {
+        &__heading {
+            font-size: 36px;
+            text-align: center;
+            justify-content: center;
+        }
+    }
+}
