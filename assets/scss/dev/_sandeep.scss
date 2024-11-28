@@ -959,7 +959,7 @@
       padding: 6px 8px;
       border-radius: 4px;
       border: 1px solid #ccc;
-      background-color: #F6F5F3;
+      background-color: #f6f5f3;
     }
     span {
       font-weight: 600;
@@ -972,7 +972,7 @@
       font-weight: 600;
     }
   }
- 
+
   .bi-poptbl {
     min-height: auto;
     max-height: 172px;
@@ -987,14 +987,14 @@
   }
 
   .bi-poptbl::-webkit-scrollbar-thumb {
-    background-color: #ACABAA;
+    background-color: #acabaa;
     /* Color of the scrollbar thumb */
     border-radius: 10px;
     /* Roundness of the scrollbar */
   }
 
   .bi-poptbl::-webkit-scrollbar-thumb:hover {
-    background-color: #ACABAA;
+    background-color: #acabaa;
     /* Darker color when hovering */
   }
 
@@ -1002,6 +1002,44 @@
     background-color: #f1f1f1;
     /* Background of the scrollbar track */
     border-radius: 10px;
+  }
+  .bi-lgreen {
+    color: #00e47c !important;
+  }
+  .bi-pdpdelpara {
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 14px;
+  }
+  .bi-pdppod {
+    font-size: 14px;
+    margin-left: 4px;
+    color: #08312a;
+  }
+  .bi-cart-sb {
+    a {
+      background-color: #08312a;
+      color: #fff;
+      width: auto;
+      display: inline-block;
+      text-align: center;
+      border: 1px solid #08312a;
+      border-radius: 4px;
+      padding: 10px 14px;
+      margin-top: 28px;
+    }
+  }
+  .cx-shpcartpdt__subdetails2 {
+    padding-top: 4px;
+    span {
+      color: #000;
+      font-size: 14px;
+      border-right: 1px solid #ccc;
+      padding-right: 6px;
+      &:last-child {
+        border-right: none;
+      }
+    }
   }
 }
 
@@ -1098,7 +1136,7 @@
       font-size: 16px !important;
     }
     .mobile-price-wrap table > tbody > tr > td > table {
-        margin-left: 0px !important;
+      margin-left: 0px !important;
     }
     .bi-ibc {
       padding: 70px 0 40px;
@@ -1121,6 +1159,11 @@
   .headerspacer {
     height: 220px !important;
   }
+  .bi-cart-sb {
+    a {
+      padding: 10px 14px;
+    }
+  } 
 }
 
 @include mobile {
@@ -1181,7 +1224,7 @@
       margin-bottom: 0;
     }
     .cx-txt-bold {
-        font-size: 14px;
+      font-size: 14px;
     }
     .bi-dateout {
       flex-direction: column;
