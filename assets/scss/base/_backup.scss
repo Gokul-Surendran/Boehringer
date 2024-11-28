@@ -5043,6 +5043,10 @@ body {
   left: 0;
   top: 0;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
+  // background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)),
+  //              linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)),
+  //              linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)),
+  //              linear-gradient(to left, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
   z-index: 99;
   display: flex;
   justify-content: center;
@@ -5054,7 +5058,6 @@ body {
   background-color: rgb(128 128 128 / 0.5);
   padding: 5px 0;
   font-size: 18px;
-  font-weight: 600;
   width: 100%;
   color: #08312a;
   text-align: center;
@@ -5285,16 +5288,16 @@ body {
     margin-top: 0;
   }
 
-  .boehringer .bi-outofstock {
-    height: 41%;
-  }
+  // .boehringer .bi-outofstock {
+  //   height: 41%;
+  // }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-  .boehringer .bi-outofstock {
-    height: 41%;
-  }
-}
+// @media (min-width: 768px) and (max-width: 1023px) {
+//   .boehringer .bi-outofstock {
+//     height: 41%;
+//   }
+// }
 
 /* mobile */
 @media (max-width: 767px) {
