@@ -132,9 +132,9 @@
     }
 
     .bi-si-tile {
-        padding: 10px 0;
+        padding: 10px 0 0;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
 
         &:last-child {
             border-bottom: 1px solid #00000048;
