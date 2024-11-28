@@ -3624,6 +3624,7 @@
   border-radius: 4px;
   padding: 10px 8px;
   margin-top: 26px;
+  transition: 0.3s all;
 
   &.cartbtn {
     background-color: #CCFAE5;
@@ -5042,15 +5043,15 @@ body {
   height: 72%;
   left: 0;
   top: 0;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
-  // background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)),
-  //              linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)),
-  //              linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)),
-  //              linear-gradient(to left, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
+  // background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
   z-index: 99;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.boehringer .stockout {
+  opacity: 0.3;
 }
 
 .boehringer .bi-outofstock-text {
@@ -5287,17 +5288,7 @@ body {
   .boehringer .selector-div {
     margin-top: 0;
   }
-
-  // .boehringer .bi-outofstock {
-  //   height: 41%;
-  // }
 }
-
-// @media (min-width: 768px) and (max-width: 1023px) {
-//   .boehringer .bi-outofstock {
-//     height: 41%;
-//   }
-// }
 
 /* mobile */
 @media (max-width: 767px) {
@@ -5363,10 +5354,6 @@ body {
 
   .boehringer .address-page ul li .text-box::placeholder {
     font-size: 12px;
-  }
-
-  .boehringer .bi-outofstock {
-    height: 43%;
   }
 
   .boehringer .cx-cochng {
