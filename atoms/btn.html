@@ -24,9 +24,39 @@
         <a href="#" class="bi-btn2">Back to orders</a>
      </div>
     
+
+     <!-- navcategories -->
+     <ul style="display: flex; gap: 20px;">
+      <li>
+        <a class="btn btn-secondary" href="#">All</a></li>
+      <li>
+        <a class="btn btn-secondary" href="#">Clothing</a></li>
+      <li>
+        <a class="btn btn-secondary" href="#">On the go</a></li>
+      <li>
+        <a class="btn btn-secondary" href="#">Pet Care</a></li>
+      <li>
+        <a class="btn btn-secondary" href="#">Active Life</a></li>
+      <li>
+        <a class="btn btn-secondary" href="#">Stationery</a></li>
+      <li>
+        <a class="btn btn-secondary" href="#">Bespoke</a></li>
+    </ul>
     <!-- body content end -->
 
     <!-- scripts -->
+    <Script>
+      document.querySelectorAll('.btn').forEach((link) => {
+    link.addEventListener('click', (event) => {
+        // Remove the active class from all links
+        document.querySelectorAll('.btn').forEach((btn) => btn.classList.remove('active'));
+        
+        // Add the active class to the clicked link
+        event.currentTarget.classList.add('active');
+    });
+});
+
+    </Script>
     <script src="../assets/js/jquery.slim.min.js"></script>
     <script src="../assets/js/aos.js"></script>
     <script src="../assets/js/slick.min.js"></script>

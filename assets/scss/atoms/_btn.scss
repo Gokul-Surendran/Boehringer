@@ -87,3 +87,11 @@
         }
     }
 }
+
+.btn-secondary {
+    &.active {
+      color: #00E47C !important;
+      box-shadow: none;
+      font-weight: 600;
+    }
+  }
