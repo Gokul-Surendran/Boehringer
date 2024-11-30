@@ -28,15 +28,15 @@
      <!-- navcategories -->
      <ul style="display: flex; gap: 20px;">
       <li>
-        <a class="btn btn-secondary" href="#">All</a></li>
+        <a id="button1" class="btn btn-secondary" href="#">All</a></li>
       <li>
-        <a class="btn btn-secondary" href="#">Clothing</a></li>
+        <a id="button2" class="btn btn-secondary" href="#">Clothing</a></li>
       <li>
-        <a class="btn btn-secondary" href="#">On the go</a></li>
+        <a id="button3" class="btn btn-secondary" href="#">On the go</a></li>
       <li>
-        <a class="btn btn-secondary" href="#">Pet Care</a></li>
+        <a id="button4" class="btn btn-secondary" href="#">Pet Care</a></li>
       <li>
-        <a class="btn btn-secondary" href="#">Active Life</a></li>
+        <a id="button5" class="btn btn-secondary" href="#">Active Life</a></li>
       <li>
         <a class="btn btn-secondary" href="#">Stationery</a></li>
       <li>
@@ -46,15 +46,59 @@
 
     <!-- scripts -->
     <Script>
-      document.querySelectorAll('.btn').forEach((link) => {
-    link.addEventListener('click', (event) => {
-        // Remove the active class from all links
-        document.querySelectorAll('.btn').forEach((btn) => btn.classList.remove('active'));
+//       document.querySelectorAll('.btn').forEach((link) => {
+//     link.addEventListener('click', (event) => {
+//         // Remove the active class from all links
+//         document.querySelectorAll('.btn').forEach((btn) => btn.classList.remove('active'));
         
-        // Add the active class to the clicked link
-        event.currentTarget.classList.add('active');
+//         // Add the active class to the clicked link
+//         event.currentTarget.classList.add('active');
+//     });
+// });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('DOM fully loaded');
+
+    // Retrieve the activeButton parameter from the URL
+    const params = new URLSearchParams(window.location.search);
+    const activeButtonId = params.get('activeButton');
+    console.log('Active Button ID from URL:', activeButtonId);
+
+    // Apply the active class if a matching button ID exists
+    if (activeButtonId) {
+        const activeButton = document.getElementById(activeButtonId);
+        if (activeButton) {
+            console.log('Applying active class to:', activeButton);
+            activeButton.classList.add('active');
+        } else {
+            console.log('No button found with ID:', activeButtonId);
+        }
+    }
+
+    // Add event listeners to all .btn-secondary buttons
+    const buttons = document.querySelectorAll('.btn');
+    console.log('Found buttons:', buttons);
+
+    buttons.forEach((button) => {
+        button.addEventListener('click', (event) => {
+            console.log('Button clicked:', event.currentTarget.id);
+
+            // Remove the active class from all buttons
+            buttons.forEach((btn) => btn.classList.remove('active'));
+
+            // Add the active class to the clicked button
+            event.currentTarget.classList.add('active');
+
+            // Update the query parameter in the URL
+            const buttonId = event.currentTarget.id;
+            const newUrl = `${window.location.pathname}?activeButton=${buttonId}`;
+            console.log('Updating URL to:', newUrl);
+            window.history.pushState(null, '', newUrl);
+        });
     });
 });
+
 
     </Script>
     <script src="../assets/js/jquery.slim.min.js"></script>

@@ -10,7 +10,7 @@
     }
 
     &__round {
-        font-size: 10px;
+        font-size: 12px;
         line-height: 14px;
         font-weight: 600;
         padding: 4px 20px;
@@ -18,14 +18,16 @@
         border-radius: 20px;
         color: #000000;
         display: inline-block;
+        text-transform: uppercase;
     }
 
     &__cnt {
-        font-size: 14px;
+        font-size: 14px !important;
+        font-weight: 200;
         line-height: 20px;
         color: #000000;
         padding-top: 8px;
-        font-family: 'Boehringer Forward Text Md';
+        font-family: 'Boehringer Forward Text';
     }
 
 
