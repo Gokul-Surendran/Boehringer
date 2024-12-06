@@ -25,9 +25,10 @@
     background-color: #F6F5F3;
 
     &__heading {
-        h4 {
+        h4 span{
             font-size: 28px;
             color: #08312A;
+            font-weight: 600;
         }
     }
     &__required {
@@ -51,9 +52,32 @@
         padding: 4px 0;
         .bi-input {
             width: calc(50% - 12px);
-
+            span {
+                font-size: 18px;
+                font-weight: 600;
+                color: #08312a;
+                margin-bottom: 8px;
+                display: inline-block;
+            }
             a {
-              text-decoration: underline !important;
+              color: #08312A;
+              position: relative;
+              font-size: 18px;
+              font-weight: 600;
+              &::after {
+                content: '';
+                position: absolute;
+                background-color: #00E47C;
+                width: 98%;
+                height: 2px;
+                left: 0;
+                bottom: -2px;
+              }
+              &:hover {
+                  &::after {
+                      width: 0 !important;
+                  }
+              }
             }
         }
         label {
@@ -72,8 +96,23 @@
     &__downpara {
         color: #000;
         a {
-            color: #1A2F5A !important;
-            text-decoration: underline !important;
+            color: #08312A !important;
+            position: relative;
+            font-weight: bold;
+            &::after {
+                content: '';
+                position: absolute;
+                background-color: #00E47C;
+                width: 98%;
+                left: 0;
+                height: 2px;
+                bottom: -2px;
+            }
+            &:hover {
+                &::after {
+                    width: 0;
+                }
+            }
         }
     }
     &__regcta {

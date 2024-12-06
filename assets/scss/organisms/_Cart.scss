@@ -105,8 +105,22 @@
    padding-right: 60px;
    // width: 85%;
    a {
-      text-decoration: underline !important;
+      position: relative;
       color: #08312A;
+      &::after {
+         content: '';
+         background-color: #00E47C;
+         position: absolute;
+         height: 2px;
+         bottom: 0;
+         width: 100%;
+         left: 0;
+      }
+      &:hover {
+         &::after {
+            width: 0;
+         }
+      }
    }
 }
 .bi-binputwrap {
@@ -140,7 +154,7 @@
    text-align: center;
    padding-top: 22px;
    padding-bottom: 12px;
-   font-size: 10px;
+   font-size: 14px;
    color: #1d0808;
    span {
       color: #08312A;

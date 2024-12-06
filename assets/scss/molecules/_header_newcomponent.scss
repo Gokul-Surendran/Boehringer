@@ -1,0 +1,31 @@
+.bi-headertop {
+    background-color: #072B25;
+    padding: 12px 6px;
+    border-bottom: 1px solid #8C8481;
+    &__inner {
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    &__country {
+        display: flex;
+        gap: 12px;
+        img {
+            width: 30px;
+            border-radius: 3px;
+        }
+    }
+    &__cnafter {
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            border-right: 1px solid #fff;
+            top: 2px;
+            height: 16px;
+            right: -6px;
+        }
+    }
+}

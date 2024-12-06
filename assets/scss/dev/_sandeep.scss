@@ -250,10 +250,11 @@
     width: 100%;
     padding-top: 24px;
   }
-
-  // .mobile-price {
-  //     background-color: #fff !important;
-  // }
+  .bi-pdp {   
+    .mobile-price {
+      padding: 1px 7px 20px;
+    }
+  }
   .cx-pp__copy h4 {
     font-size: 20px;
     font-weight: bold;
@@ -905,6 +906,7 @@
     margin-right: 4px;
     font-size: 10px;
     color: #000;
+    font-weight: bold;
   }
   .bi-qntytext {
     padding-right: 100px;
