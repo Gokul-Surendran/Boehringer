@@ -35,20 +35,39 @@
     }
 
     a[href^="mailto:"] {
-        color: #1a2f5a;
-        text-decoration: underline !important;
-
-        &:hover {
-            color: #333;
-            text-decoration: none !important;
-        }
+        // color: #08312A;
+        // position: relative;
+        // &::after {
+        //     content: "";
+        //     background-color: #00E47C;
+        //     position: absolute;
+        //     height: 2px;
+        //     bottom: 0;
+        //     width: 100%;
+        //     left: 0;
+        // }
+        // &:hover {
+        //     &::after {
+        //         width: 0;
+        //     }
+        // }
     }
 
     a {
-        color: #1a2f5a;
-
+        color: #08312A;
+        position: relative;
+        &::after {
+            content: "";
+            border-bottom: 2px solid #00E47C;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            left: 0;
+        }
         &:hover {
-            color: #333;
+            &::after {
+                width: 0;
+            }
         }
     }
 

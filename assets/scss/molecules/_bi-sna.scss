@@ -129,7 +129,9 @@
   }
   &__crtxt {
     color: #fff;
-    padding-top: 62px;
+    // padding-top: 62px;
+    position: absolute;
+    bottom: 8px;
   }
 }
 
