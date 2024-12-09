@@ -34,24 +34,24 @@
         }
     }
 
-    a[href^="mailto:"] {
-        // color: #08312A;
-        // position: relative;
-        // &::after {
-        //     content: "";
-        //     background-color: #00E47C;
-        //     position: absolute;
-        //     height: 2px;
-        //     bottom: 0;
-        //     width: 100%;
-        //     left: 0;
-        // }
-        // &:hover {
-        //     &::after {
-        //         width: 0;
-        //     }
-        // }
-    }
+    // a[href^="mailto:"] {
+    //     color: #08312A;
+    //     position: relative;
+    //     &::after {
+    //         content: "";
+    //         background-color: #00E47C;
+    //         position: absolute;
+    //         height: 2px;
+    //         bottom: 0;
+    //         width: 100%;
+    //         left: 0;
+    //     }
+    //     &:hover {
+    //         &::after {
+    //             width: 0;
+    //         }
+    //     }
+    // }
 
     a {
         color: #08312A;
