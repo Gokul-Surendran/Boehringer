@@ -1213,6 +1213,10 @@
       padding: 50px 0 40px;
     }
 
+    .bia-order-summary {
+      align-items: flex-start;
+    }
+
     .bh-new .bh-heading {
       padding: 8px 20px 40px;
       font-size: 35px;
@@ -1251,6 +1255,7 @@
       flex-direction: column;
       gap: 10px;
       align-items: self-end;
+      width: 80%;
       .bi-order-summary__w-25 {
         width: 100%;
       }

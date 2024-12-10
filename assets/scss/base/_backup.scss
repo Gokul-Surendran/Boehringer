@@ -1071,9 +1071,10 @@
   .ab-navbar .dropdown-toggle,
   .ab-navbar .profile-name {
     transform: translateY(0px);
+    margin-left: 0px !important;
   }
   .navbar-brand {
-    width: 26% !important;
+    width: 32% !important;
   }
 }
 
@@ -4929,7 +4930,7 @@ body {
 }
 
 .boehringer .cx-cart-icon img {
-  width: 23px;
+  width: 24px;
   transform: translateY(-2px);
 }
 
