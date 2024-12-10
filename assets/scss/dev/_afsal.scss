@@ -131,6 +131,16 @@
          background-color: #008080;
       }
    }
+   .search p {
+      width: auto;
+   }
+
+   /* Firefox-specific style */
+   @-moz-document url-prefix() {
+     select option {
+       font-family: Arial, sans-serif;
+     }
+   }
 
 
    // mobile
@@ -151,10 +161,19 @@
       }
       .menu-icon {
          display: block;
-         top: 50%;
+         top: 74%;
       }
       .sec-menu {
          display: none;
       }
+      .form-inline.my-2.my-lg-8 {
+         margin-top: -44px !important;
+     }
+     #header .navbar {
+      margin-top: 16px;
+     }
+     .headerspacer  {
+      height: 110px;
+     }
    }
 }
