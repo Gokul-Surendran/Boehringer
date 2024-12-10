@@ -902,11 +902,15 @@
   }
   .del span {
     width: auto;
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
     margin-right: 4px;
-    font-size: 10px;
+    font-size: 13px;
     color: #000;
     font-weight: bold;
+
+    &:last-child {
+      margin-bottom: 20px;
+    }
   }
   .bi-qntytext {
     padding-right: 100px;
@@ -1008,10 +1012,11 @@
     border-radius: 10px;
   }
   .bi-lgreen {
-    color: #00e47c !important;
+    color: #08312a !important;
+    font-weight: bold;
   }
   .bi-pdpdelpara {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
     padding-top: 14px;
   }
