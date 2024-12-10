@@ -15,9 +15,9 @@
 
    &__content {
        color: #fff;
-       font-size: 90px;
+       font-size: 86px;
        font-family: 'Boehringer Forward Head';
-       padding-top: 46px;
+       padding-bottom: 46px;
        text-align: center;
 
        span {
@@ -74,6 +74,11 @@
        color: #fff;
        position: absolute;
        bottom: 10px;
+    }
+    .bi-bespara {
+        color: white;
+        font-size: 18px;
+        text-align: center;
     }
 }
 

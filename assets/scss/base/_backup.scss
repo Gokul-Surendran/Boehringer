@@ -4125,24 +4125,25 @@
   margin-left: 10px;
 }
 
-.cx-cart-pop__cta  {
+.cx-cart-pop__cta a {
   text-align: center;
   text-decoration: none;
   background-color: #00E47C;
-  font-weight: 600;
   border: 1px solid #00E47C;
   border-radius: 6px;
-  color: #fff !important;
+  color: #08312A !important;
   cursor: pointer;
+  width: 100%;
   padding: 6px 10px;
+  &:hover {
+    background-color: #66EFB0 !important;
+    color: #08312A !important;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #66EFB0;
+  }
 }
 
-.cx-cart-pop__cta :hover {
-  // background-color: #66EFB0 !important;
-  color: #08312A !important;
-  width: 100%;
-  text-align: center;
-}
 
 .boehringer .bh-hero {
   background-position: center;
