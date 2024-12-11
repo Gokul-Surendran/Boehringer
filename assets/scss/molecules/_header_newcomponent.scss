@@ -13,19 +13,31 @@
         display: flex;
         gap: 12px;
         img {
+            position: absolute;
+            left: -40px;
+            top: 0;
+            bottom: 0;
             width: 30px;
             border-radius: 3px;
         }
     }
     &__cnafter {
         position: relative;
-        &::after {
-            content: "";
-            position: absolute;
-            border-right: 1px solid #fff;
-            top: 2px;
-            height: 16px;
-            right: -6px;
+        // &::after {
+        //     content: "";
+        //     position: absolute;
+        //     border-right: 1px solid #fff;
+        //     top: 2px;
+        //     height: 16px;
+        //     right: -6px;
+        // }
+    }
+}
+
+@include mobile {
+    .bi-headertop {
+        &__inner {
+            font-size: 12px;
         }
     }
 }
