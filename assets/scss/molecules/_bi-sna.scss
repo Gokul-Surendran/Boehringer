@@ -15,8 +15,10 @@
 
   &__content {
     color: #fff;
-    font-size: 110px;
-    padding-top: 30px;
+    font-size: 62px;
+    line-height: 72px;
+    padding-top: 48px;
+    font-weight: 600;
     text-align: center;
 
     span {
@@ -120,7 +122,7 @@
       transition: all 0.2s 0s ease-in;
       text-align: center;
       border-radius: 5px;
-      width: 36%;
+      width: 26%;
       &:hover {
         background-color: #66efb0;
         transition: all 0.2s 0s ease-in;
@@ -133,6 +135,30 @@
     position: absolute;
     bottom: 8px;
   }
+
+  &__newpara {
+    text-align: center;
+    color: #fff;
+    margin-top: 24px;
+    font-size: 18px;
+  
+    a {
+      color: #00e47c;
+      position: relative;
+      &::after {
+          content: "";
+          position: absolute;
+          border-bottom: 1px solid #00e47c;
+          bottom: 0;
+          bottom: 0;
+          width: 100%;
+          left: 0;
+      }
+      &:hover::after {
+        width: 0;
+      }
+    }
+  }
 }
 
 /* media query */
@@ -140,7 +166,7 @@
 @include tablet-pro {
   .bi-sna {
     &__content {
-      font-size: 120px;
+      font-size: 42px;
     }
 
     &__face {
@@ -165,7 +191,7 @@
     }
 
     &__content {
-      font-size: 100px;
+      font-size: 42px;
     }
     &__ssocontent {
         font-size: 52px;
@@ -193,7 +219,7 @@
     }
 
     &__content {
-      font-size: 40px;
+      font-size: 20px;
     }
     &__ssocontent {
         font-size: 22px;
@@ -224,6 +250,9 @@
       a {
         width: 100%;
       }
+    }
+    &__newpara {
+      font-size: 12px;
     }
   }
 }
