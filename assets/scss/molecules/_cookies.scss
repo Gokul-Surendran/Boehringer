@@ -1,5 +1,5 @@
 .bi-cookies {
-    background-color: gray;
+    background-color: #08312a;
     margin: 20px;
     padding: 20px;
     border-radius: 4px;
@@ -12,7 +12,7 @@
           &::after {
             content: "";
             position: absolute;
-            border-bottom: 2px solid #fff;
+            border-bottom: 2px solid #00e47c;
             bottom: 0;
             left: 0;
             width: 100%;
@@ -26,10 +26,16 @@
         text-align: center;
         margin-top: 20px;
         a {
-            background-color: #a6ef17;
-            color: #fff !important;
-            padding: 10px 40px;
+            background-color: #00e47c;
+            color: #08312a !important;
+            border: 1px solid #00e47c;
+            padding: 6px 32px;;
             border-radius: 4px;
+            &:hover {
+                background-color: #66efb0;
+                border: 1px solid #66efb0;
+                color: #08312a !important;
+              }
         }
     }
 }
