@@ -92,19 +92,25 @@
     &__cancel {
         background-color: #CCFAE5;
         padding: 10px 26px;
+        color:#08312a;
         border-radius: 6px;
         width: auto;
         margin-right: 16px;
+        transition: 0.3s all;
         &:hover {
+            color:#08312a;
             background-color: #66EFB0;
         }
     }
     &__Next {
-        background-color: #00e47c;
+        background-color: #00E47C;
+        color:#08312a;
         padding: 10px 26px;
         border-radius: 6px;
         width: auto;
-        &:hover {       
+        transition: 0.3s all;
+        &:hover {     
+            color:#08312a;  
             background-color: #66EFB0;
         }
     }

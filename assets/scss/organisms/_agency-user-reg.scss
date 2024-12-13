@@ -21,7 +21,7 @@
     }
 }
 .bi-agencyform {
-    padding: 28px 0;
+    padding: 32px 0;
     background-color: #F6F5F3;
 
     &__heading {
@@ -114,6 +114,15 @@
                 }
             }
         }
+        &.mt30 {
+            margin-top: 30px;
+        }
+    }
+    &__smpara {
+        font-family: "Boehringer Forward Text Md";
+        font-size: 13px;
+        color: #08312A;
+        margin-top: 6px;
     }
     &__regcta {
         display: flex;

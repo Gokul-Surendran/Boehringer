@@ -33,9 +33,21 @@
     }
 
     .btn-success {
+        background-color: #08312A;
         color: #fff;
-        background-color: #00E47C;
-        border-color: #00E47C;
+        display: inline-block;
+        text-align: center;
+        border: 1px solid #08312A;
+        border-radius: 4px;
+        padding: 5px 16px;
+        cursor: pointer;
+        transition: 0.3s all;
+        &:hover {
+            background-color: #07473d !important;
+            color: #fff !important;
+            border: 1px solid #07473d !important;
+      
+        }
     }
 
     .btn:focus {
