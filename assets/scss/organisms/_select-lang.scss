@@ -49,22 +49,26 @@
         }
 
         select {
-            width: 80%;
+            width: 45%;
             padding: 8px 16px;
             color: #ffffff;
             border: 2px solid #00E47C;
             background-color: #022D25;
 
             option {
-                color: #000;
+                color: #08312A;
                 background-color: #fff;
+                border-bottom: 1px solid #08312A;
+                &:hover {
+                    background-color: #00E47C;
+                    color: #08312A;
+                }
             }
         }
     }
     &__btn {
         width: 100%;
         display: flex;
-        justify-content: center;
         align-items: center;
         margin-top: 40px;
         a {
@@ -75,8 +79,9 @@
             transition: all 0.2s 0s ease-in;
             text-align: center;
             border-radius: 5px;
-            width: 36%;
+            width: 45%;
             &:hover {
+                color: #08312A;
                 background-color: #66EFB0;
                 transition: all 0.2s 0s ease-in;
             }
