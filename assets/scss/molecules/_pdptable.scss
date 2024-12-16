@@ -1,41 +1,44 @@
-.bi-tbl {
+.boehringer {
 
-    table,
-    th,
-    td {
-        padding: 10px 9px;
-        color: #000000;
-        text-align: center;
-        font-size: 12px;
-    }
-
-    table {
-        font-size: 13px;
-        padding: 0;
-        border: 0;
-        margin-bottom: 4px;
-        // border-collapse: separate;
-        // border-spacing: 6px 0px; 
-    }
-
-    tr {       
-        border-bottom: 1px solid black;
-        &:last-child {
-            border-bottom: 0;
+    .bi-tbl {
+    
+        table,
+        th,
+        td {
+            padding: 10px 9px;
+            color: #000000;
+            text-align: center;
+            font-size: 11px;
         }
-    }
-
-    &__tr {
-        td,
-        th {
-            border-top: 0;
+    
+        table {
+            font-size: 13px;
+            padding: 0;
+            border: 0;
+            margin-bottom: 4px;
+            // border-collapse: separate;
+            // border-spacing: 6px 0px; 
         }
-    }
-    &__scroll {
-        min-width: 200px;
-        max-width: 400px; /* Set the max width for the scrollable container */
-        overflow-x: auto; /* Enable horizontal scroll */
+    
+        tr {       
+            border-bottom: 1px solid black;
+            &:last-child {
+                border-bottom: 0;
+            }
+        }
+    
+        &__tr {
+            td,
+            th {
+                border-top: 0;
+            }
+        }
+        &__scroll {
+            min-width: 200px;
+            max-width: 400px; /* Set the max width for the scrollable container */
+            overflow-x: auto; /* Enable horizontal scroll */
+            
+        }
         
     }
-    
 }

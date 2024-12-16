@@ -30,6 +30,7 @@
 
   .sec-menu {
     width: 100% !important;
+    margin-bottom: 0 !important;
   }
 
   .sec-menu ul {
@@ -74,7 +75,7 @@
     border: 1px solid #00e47c;
     border-radius: 6px;
     padding: 6px;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .bh-heading {
@@ -97,10 +98,13 @@
   }
 
   .bi-ibc__para {
-    font-size: 16px;
     width: 85%;
-    font-weight: 500;
-    font-family: "Boehringer Forward Text Md";
+    font-family: "Boehringer Forward Text";
+    color: rgb(8, 49, 42);
+    p {
+      font-size: 15px;
+      font-weight: 500;
+    }
   }
 
   .bi-footer__links {
@@ -164,7 +168,9 @@
       padding-bottom: 4px;
     }
   }
-
+  .menu-icon {
+    margin-left: -16px !important;
+  }
   .book-name-and-buy .btn-buy {
     font-family: "Boehringer Forward Head";
     color: #08312a !important;
@@ -420,25 +426,34 @@
   .bi-to {
     display: flex;
     color: #000000;
-
+    padding-left: 16px;
+    padding-top: 10px;
     ul {
       line-height: 30px;
 
       li {
-        padding-left: 20px;
+        // padding-left: 20px;
         position: relative;
 
         &::before {
           content: "";
           position: absolute;
           background: #000;
-          left: 0;
-          width: 5px;
+          left: -12px;
+           width: 5px;
           height: 5px;
           border-radius: 50%;
           font-size: 50px;
           top: 11px;
         }
+      }
+    }
+    ol {
+      line-height: 30px;
+      list-style-type: decimal !important;
+      li {
+        // padding-left: 20px;
+        position: relative;
       }
     }
   }
@@ -948,7 +963,7 @@
   .bi-smcontent {
     min-height: 40vh !important;
   }
-  #header .navbar .dropdown-menu .dropdown-item {
+   .navbar .dropdown-menu .dropdown-item {
     font-size: 16px !important;
   }
   .bi-besthnks {
@@ -1059,6 +1074,15 @@
   }
   .headerspacer {
     height: 210px;
+    display: none !important;
+  }
+  .bi-pdpremarks {
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+  }
+  .menu-bar {
+    position: unset !important;
   }
 }
 

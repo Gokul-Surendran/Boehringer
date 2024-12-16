@@ -1079,7 +1079,7 @@
 }
 
 .boehringer .navbar-brand {
-  width: 16%;
+  width: 12%;
 }
 
 .boehringer .navbar-brand>img:nth-child(2) {
@@ -1372,6 +1372,7 @@
 
 .boehringer #header {
   background-color: #08312A;
+  position: unset;
 }
 
 .boehringer .btn-secondary {
@@ -1828,7 +1829,7 @@
 .boehringer .bh-button {
   font-family: "Boehringer Forward Text";
   display: block;
-  width: 150px;
+  width: 210px;
   background: #00E47C;
   padding: 10px;
   display: flex;
