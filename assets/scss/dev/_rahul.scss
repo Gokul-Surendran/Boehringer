@@ -316,4 +316,96 @@
             }
         }
     }
+
+
+    // Reporting page
+
+    .bi-instreporting {
+        &__card {
+            .bi-btn {
+                font-size: 16px;
+            }
+        }
+    }
+
+    @include tablet-pro {
+        .bi-instreporting {
+            &__card {
+                .bi-btn {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    @include tablet {
+        .bi-instreporting {
+            &__card {
+                .bi-btn {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    @include mobile {
+        .bi-instreporting {
+            &__card {
+                .bi-btn {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    // Basket
+
+    .bi-order {
+        .bi-sb__btn {
+            .cx-cancel--no {
+                padding: 8px 12px !important;
+            }
+        }
+
+        .pb-3 {
+            span {
+                color: #08312a;
+            }
+        }
+    }
+
+    // agencyform
+
+    .bi-agencyform {
+        .bi-input {
+            .bi-input__error {
+                font-size: 14px;
+                color: #ff0000;
+                font-weight: 100;
+            }
+        }
+    }
+
+    // plp
+
+    .bi-plp {
+
+        .filter-pricewrap {
+            display: flex;
+            align-items: center;
+        }
+
+        .filter-pricerange {
+            font-size: 14px;
+            padding-left: 6px;
+        }
+    }
+
+    // order
+
+    .bi-odrouter {
+        .bi-btn {
+            font-weight: 300;
+        }
+    }
 }
