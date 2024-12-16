@@ -123,7 +123,7 @@
   }
 
   .bh-prodcut__left {
-    width: 38%;
+    width: 34%;
   }
 
   .bh-prodcut__cnt {
@@ -707,6 +707,7 @@
   .bh-prodcut {
     &__cta {
       display: flex;
+      margin-left: 118px;
 
       a {
         border: 2px solid black;
