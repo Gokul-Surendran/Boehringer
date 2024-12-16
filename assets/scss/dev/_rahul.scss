@@ -395,6 +395,16 @@
             align-items: center;
         }
 
+        .filter-pricewrapb {
+            flex-direction: column;
+            align-items: flex-start;
+
+            .filter-pricerange {
+                padding-left: 0;
+                padding-bottom: 10px;
+            }
+        }
+
         .filter-pricerange {
             font-size: 14px;
             padding-left: 6px;
@@ -406,6 +416,15 @@
     .bi-odrouter {
         .bi-btn {
             font-weight: 300;
+        }
+    }
+
+    // to be applied fully
+    .bi-input {
+        .bi-input__error {
+            font-size: 14px;
+            color: #ff0000;
+            font-weight: 100;
         }
     }
 }
