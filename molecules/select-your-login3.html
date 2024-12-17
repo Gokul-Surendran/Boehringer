@@ -13,35 +13,141 @@
     <link rel="stylesheet" href="../assets/css/style.css" />
     <!-- styles -->
     <title>Document</title>
+    <style>
+      /* Fading background */
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    z-index: 998 !important; /* Behind the modal but above the content */
+    display: block;
+}
+
+/* Modal styles */
+.modal-show.show {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999; /* Above the backdrop */
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    padding: 20px;
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+
+/* Prevent page scrolling */
+.body-no-scroll {
+    overflow: hidden;
+}
+
+    </style>
   </head>
+
   <body>
     <!-- body content start -->
-     <div class="bi-pref__outer">
+    <div class="bi-pref__outer">
       <div class="container">
-        <div class="bi-lgs__logo">
-          <img src="../assets/images/Boehringer_logo.png" alt="">
-        </div>
-        <p class="bi-pref__newhead">Welcome to <br> 
-        Boehringer Ingelheim <span>Collection eStore</span>
-        </p>
-        <p class="bi-pref__subhead">Let’s get <span>started</span></p>
-        <div class="bi-lang-select__cnt">
-          <select name="language" id="language">
-            <option value="Please Select">Please Select</option>
-            <option value="boehringer-company">Boehringer employee - company purchase - login with SSO</option>
-            <option value="boehringer-personal">Boehringer employee - personal purchase - login with SSO</option>
-            <option value="agency">Agency user - login with registered email</option>
-          </select>
-        </div>   
-        <div class="bi-lang-select__btn">
-          <a href="#" >Proceed to eStore</a>
-        </div> 
-        <p class="bi-pref__crtxt">2024 All rights reserved</p>
-       </div>
-     </div>
+          <div class="bi-agency1__header">
+              <div class="bi-agency1__logo">
+                  <img src="https://zschneiderimages.s3.ap-southeast-1.amazonaws.com/Boehringer/assets/images/Boehringer_logo.png" alt="img">
+              </div>
+              <div class="bi-agency1__para">
+                  <a href="mailto:stratgift@stratagile.com">stratgift@stratagile.com</a>
+              </div>
+          </div>
+          <p class="bi-pref__newhead">
+              Welcome to
+              <br>
+              Boehringer Ingelheim <span>Collection eStore</span>
+          </p>
+          <p class="bi-pref__subhead">Let’s get <span>started</span></p>
+  
+          <div class="bi-lang-select__cnt select-menu">
+              <div class="select-selected">Please select</div>
+              <select name="ddllog" id="ddllog">
+                  <option selected="selected" value="0">Please select</option>
+                  <option value="1">Boehringer employee - company purchase - login with SSO</option>
+                  <option value="2">Boehringer employee - personal purchase - login with SSO</option>
+                  <option value="3">Agency user - login with registered email</option>
+              </select>
+          </div>
+  
+          <span id="lblerr" style="color: Red; margin-top: 5px; display: inline-block; font-size: 15px;"></span>
+          <div class="bi-lang-select__btn">
+              <a id="btnestorelog" href="javascript:__doPostBack('btnestorelog','')">Proceed to eStore</a>
+          </div>
+          <p class="bi-pref__crtxt">© 2010-2025 Boehringer Ingelheim International GmbH. All rights reserved.</p>
+      </div>
+  
+      <!-- Backdrop -->
+      <div class="modal-backdrop"></div>
+  
+      <!-- Modal -->
+      <div id="DivCookiePopup" class="modal-show show" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog" style="display: flex; justify-content: center; align-items: center">
+              <div class="modal-content">
+                  <div class="modal-body">
+                      <div class="content-wrapper">
+                          <div class="bi-cookies">
+                              <div class="bi-cookies__para">
+                                  <p>
+                                      <span id="Label1">This website uses cookies to give you a better experience. They allow it to function correctly, allow us to count visitor numbers and find out how they navigate the site. This helps us continually make changes so you can find what you’re looking for faster.</span>
+                                      <a> Learn more&gt;&gt;</a>
+                                  </p>
+                              </div>
+                              <div class="bi-cookies__btn">
+                                  <a id="LinkButton1" href="javascript:__doPostBack('LinkButton1','')">ACCEPT &amp; CONTINUE</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
     <!-- body content end -->
 
     <!-- scripts -->
+     <script>
+//       document.addEventListener("DOMContentLoaded", function () {
+//     const modal = document.getElementById("DivCookiePopup");
+//     const backdrop = document.querySelector(".modal-backdrop");
+
+//     // Show modal and backdrop on load
+//     function showModal() {
+//         modal.style.display = "block";
+//         backdrop.style.display = "block";
+//         document.body.classList.add("body-no-scroll");
+//     }
+
+//     // Hide modal and backdrop
+//     function hideModal() {
+//         modal.style.display = "none";
+//         backdrop.style.display = "none";
+//         document.body.classList.remove("body-no-scroll");
+//     }
+
+//     // Show the modal by default
+//     showModal();
+
+//     // Handle "ACCEPT & CONTINUE" button
+//     const acceptButton = document.getElementById("LinkButton1");
+//     acceptButton.addEventListener("click", function (e) {
+//         e.preventDefault();
+//         hideModal();
+//     });
+
+//     // Prevent interaction with the backdrop
+//     backdrop.addEventListener("click", (e) => {
+//         e.stopPropagation();
+//     });
+// });
+</script>
     <script src="../assets/js/jquery.slim.min.js"></script>
     <script src="../assets/js/aos.js"></script>
     <script src="../assets/js/slick.min.js"></script>

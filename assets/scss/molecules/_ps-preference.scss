@@ -16,9 +16,14 @@
     }
     .modal-content {
       background-color: #08312a !important;
+      border-radius: 6px;
     }
     .modal-dialog {
       max-width: none !important;
+    }
+    .modal-backdrop {
+      z-index: unset !important;
+      background-color: rgba(0, 0, 0, 0.6);
     }
   }
 
