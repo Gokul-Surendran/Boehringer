@@ -14,6 +14,11 @@
     <!-- styles -->
     <title>Document</title>
     <style>
+        body {
+    background-color: #08312a;
+    height: 100vh;
+    padding: 32px 0;
+  }
       .select-menu {
       position: relative; /* Important for arrow positioning */
   .select-btn {
@@ -85,20 +90,20 @@
 
       <ul class="options">
           <li class="option">
-              <span class="select-menu__txt">Boehringer employee - company purchase - login with SSO</span>
+              <span class="select-menu__txt"><strong>Boehringer employee</strong> - company purchase - login with SSO</span>
           </li>
           <li class="option">
-              <span class="select-menu__txt">Boehringer employee - personal purchase - login with SSO</span>
+              <span class="select-menu__txt"><strong>Boehringer employee</strong> - personal purchase - login with SSO</span>
           </li>
           <li class="option">
-              <span class="select-menu__txt">Agency user - login with registered email</span>
+              <span class="select-menu__txt"><strong>Agency user</strong> - login with registered email</span>
           </li>
       </ul>
   </div>
     <!-- body content end -->
 
     <!-- scripts -->
-     <script>
+    <script>
       const optionMenu = document.querySelector(".select-menu");
       const selectBtn = optionMenu.querySelector(".select-btn");
       const options = optionMenu.querySelectorAll(".option");
@@ -117,12 +122,12 @@
         });
       });
 
-document.addEventListener('click', (event) => {
-  if (!optionMenu.contains(event.target)) {
-    optionMenu.classList.remove('active');
-  }
-});
-     </script>
+      document.addEventListener('click', (event) => {
+        if (!optionMenu.contains(event.target)) {
+          optionMenu.classList.remove('active');
+        }
+      });
+    </script>
     <script src="../assets/js/jquery.slim.min.js"></script>
     <script src="../assets/js/aos.js"></script>
     <script src="../assets/js/slick.min.js"></script>

@@ -142,6 +142,20 @@
      }
    }
 
+   // ipad mini
+
+   @include tablet {
+      // header style 
+      #header .navbar {
+         flex-wrap: nowrap;
+      }
+      .navbar-expand-lg .navbar-collapse {
+         justify-content: flex-end;
+         display: flex;
+         gap: 40px;
+     }
+   }
+
 
    // mobile
    @include mobile {
