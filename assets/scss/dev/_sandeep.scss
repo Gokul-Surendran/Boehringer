@@ -880,6 +880,9 @@
 
   .bi-prdctcs {
     font-family: "Boehringer Forward Text";
+    span {
+      color: #08312A;
+    }
   }
 
   .small-font {
@@ -1294,7 +1297,7 @@
       }
     }
     .bi-pot__btn {
-      margin-top: 0;
+      margin-top: 0 !important;
     }
   }
 

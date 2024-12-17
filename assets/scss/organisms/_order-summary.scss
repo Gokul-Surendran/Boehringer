@@ -1,226 +1,223 @@
 .bi-order-summary {
-    padding: 32px 0px;
-    background: #F6F5F3;
+  padding: 32px 0px;
+  background: #f6f5f3;
 
-    .bi-heading {
-        color: #08312a;
+  .bi-heading {
+    color: #08312a;
+  }
+
+  &__cnt {
+    overflow: hidden;
+  }
+
+  &__w-25 {
+    width: 30%;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span {
+      white-space: nowrap;
+      margin-right: 4px;
+    }
+  }
+
+  // table {
+  //     width: 100%;
+
+  //     tr:nth-child(odd) {
+  //         background-color: #fff;
+  //     }
+
+  //     th {
+  //         color: #fff;
+  //         padding: 10px 24px;
+  //         background-color: #08312a;
+
+  //         &:first-child {
+  //             border-top-left-radius: 8px;
+  //         }
+
+  //         &:last-child {
+  //             border-top-right-radius: 8px;
+  //         }
+  //     }
+
+  //     td {
+  //         padding: 14px 24px;
+  //         color: #000;
+
+  //         span {
+  //             margin-left: 5px;
+  //         }
+  //     }
+  // }
+
+  &__wrap {
+    margin: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    label {
+      margin-right: 5px;
+      font-size: 18px;
+      color: #000;
+    }
+    select {
+      background: #f6f5f3;
+      border: 1px solid #8c8481;
+      padding: 4px 12px;
+      border-radius: 5px;
+      width: 170px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      option {
+        white-space: nowrap;
+      }
+    }
+    input {
+      background: #00e47c;
+      border: 1px solid #00e47c;
+      padding: 6px 12px;
+      border-radius: 5px;
+    }
+  }
+
+  .bi-btn {
+    padding: 6px 25px;
+    margin-bottom: 0px;
+    border: 1px solid #00e47c;
+    background-color: #00e47c;
+
+    &:hover {
+      border: 1px solid #66efb0;
+      background-color: #66efb0;
+    }
+  }
+
+  .bi-btn--reverse {
+    padding: 6px 25px;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #08312a !important;
+    background-color: #08312a;
+    margin-right: 16px;
+    &:hover {
+      border: 1px solid #07473d !important;
+      background-color: #07473d !important;
+    }
+  }
+  &__fromtoout {
+    display: flex;
+    gap: 10px;
+  }
+  .bi-input {
+    display: flex;
+    width: calc(33.3% - 12px);
+    label {
+      width: 33%;
+      text-align: right;
+    }
+    input {
+      padding: 0 6px;
+      width: 44%;
+      border-radius: 4px;
+      margin-left: 14px;
     }
 
-    &__cnt {
-        overflow: hidden;
+    select {
+      padding: 0 6px;
+      width: 44%;
+      border-radius: 4px;
+      margin-left: 14px;
     }
-
-    &__w-25 {
-        width: 30%;
-        margin-right: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        span {
-            white-space: nowrap;
-            margin-right: 4px;
-        }
+    &.center {
+      justify-content: center;
     }
-
-    // table {
-    //     width: 100%;
-
-    //     tr:nth-child(odd) {
-    //         background-color: #fff;
-    //     }
-
-    //     th {
-    //         color: #fff;
-    //         padding: 10px 24px;
-    //         background-color: #08312a;
-
-    //         &:first-child {
-    //             border-top-left-radius: 8px;
-    //         }
-
-    //         &:last-child {
-    //             border-top-right-radius: 8px;
-    //         }
-    //     }
-
-    //     td {
-    //         padding: 14px 24px;
-    //         color: #000;
-
-    //         span {
-    //             margin-left: 5px;
-    //         }
-    //     }
-    // }
-
-    &__wrap {
-        margin: 25px 0px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        label {
-            margin-right: 5px;
-            font-size: 18px;
-            color: #000;
-        }
-        select {
-            background: #F6F5F3;
-            border: 1px solid #8c8481;
-            padding: 4px 12px;
-            border-radius: 5px;
-            width: 170px;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            option {
-                white-space: nowrap;
-            }
-        }
-        input {
-            background: #00E47C;
-            border: 1px solid #00E47C;
-            padding: 6px 12px;
-            border-radius: 5px;
-        }
+    &.flexend {
+      justify-content: flex-end;
     }
-
-    .bi-btn {
-        padding: 6px 25px;
-        margin-bottom: 0px;
-        border: 1px solid #00E47C;
-        background-color: #00E47C;
-
-        &:hover {
-            border: 1px solid #66EFB0;
-            background-color: #66EFB0;
-        }
-    }
-
-    .bi-btn--reverse {
-        padding: 6px 25px;
-        border-radius: 4px;
-        color: #fff;
-        border: 1px solid #08312a !important;
-        background-color: #08312a;
-        margin-right: 16px;
-        &:hover {
-            border: 1px solid #08312a !important;
-            background-color: #051b18 !important;
-        }
-    }
-    &__fromtoout {
-        display: flex;
-        gap: 10px;
-    }
-    .bi-input {
-        display: flex;
-        width: calc(33.3% - 12px);
-        label {
-            width: 33%;
-            text-align: right;
-        }
-        input {
-            padding: 0 6px;
-            width: 44%;
-            border-radius: 4px;
-            margin-left: 14px;
-        }
-
-        select {
-            padding: 0 6px;
-            width: 44%;
-            border-radius: 4px;
-            margin-left: 14px;
-        }
-        &.center {
-            justify-content: center;
-        }
-        &.flexend{
-            justify-content: flex-end;
-        }
-    }
-    &__dashboardpara {
-        font-size: 18px;
-        font-weight: 600;
-        margin-top: 20px;
-        color: #08312a;
-    }
-    &__stocksummhead {
-        font-size: 24px;
-        color: #08312a;
-        margin-bottom: 20px;
-    }
-    .bi-osdate {
-        display: flex;
-    }
-    .bi-osbtn {
-        display: flex;
-    }
+  }
+  &__dashboardpara {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #08312a;
+  }
+  &__stocksummhead {
+    font-size: 24px;
+    color: #08312a;
+    margin-bottom: 20px;
+  }
+  .bi-osdate {
+    display: flex;
+  }
+  .bi-osbtn {
+    display: flex;
+  }
 }
 
 @include tablet {
-    .bi-order-summary {
-        .bi-input {
-            label {
-                width: 50%;
-                font-size: 14px;
-            }
-        }
-        &__wrap {
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 20px;
-        }
-        
+  .bi-order-summary {
+    .bi-input {
+      label {
+        width: 50%;
+        font-size: 14px;
+      }
     }
+    &__wrap {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+  }
 }
 @include tablet-pro {
-    .bi-order-summary {
-        .bi-input {
-            label {
-                width: 40%;
-            }
-        }
+  .bi-order-summary {
+    .bi-input {
+      label {
+        width: 40%;
+      }
     }
+  }
 }
 @include mobile {
-    .bi-order-summary {
-
-        &__wrap {
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 20px;
-        }
-        .bi-input {
-           
-            input {
-                width: 60%;
-            }
-    
-            select {
-                 width: 60%;
-            }
-            &.center {
-                justify-content: start;
-            }
-            &.flexend{
-                justify-content: flex-start;
-            }
-        }
-        .bi-osdate {
-            flex-direction: column;
-            gap: 10px;
-            width: 100%;
-        }
-        &__w-25 {
-            justify-content: flex-start;
-            width: 50%;
-            flex-direction: column;
-            align-items: flex-start;
-
-            span {
-                width: 20%;
-            }
-        }
+  .bi-order-summary {
+    &__wrap {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
     }
+    .bi-input {
+      input {
+        width: 60%;
+      }
+
+      select {
+        width: 60%;
+      }
+      &.center {
+        justify-content: start;
+      }
+      &.flexend {
+        justify-content: flex-start;
+      }
+    }
+    .bi-osdate {
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+    &__w-25 {
+      justify-content: flex-start;
+      width: 50%;
+      flex-direction: column;
+      align-items: flex-start;
+
+      span {
+        width: 20%;
+      }
+    }
+  }
 }
