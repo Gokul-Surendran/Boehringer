@@ -427,4 +427,36 @@
             font-weight: 100;
         }
     }
+
+    // apply credit: https://boehringer.strat-staging.com/CreditApplicationStart.aspx
+
+    .bi-apply_credit {
+        .bi-pref {
+
+            &__subhead {
+                font-size: 24px;
+                line-height: 30px;
+            }
+
+            &__outer {
+                ul li {
+                    font-size: 20px;
+                }
+
+                ul p {
+                    font-size: 16px;
+                    line-height: 22px;
+                    width: 90%;
+                }
+            }
+
+            &__btn {
+                font-size: 16px;
+            }
+
+            .bi-agency1__para {
+                font-size: 16px;
+            }
+        }
+    }
 }
