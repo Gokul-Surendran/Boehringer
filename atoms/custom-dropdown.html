@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- styles -->
+    <link rel="stylesheet" href="../assets/css/aos.css">
+    <link rel="stylesheet" href="../assets/css/slick.css">
+    <link rel="stylesheet" href="../assets/css/slick-theme.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/styleold.css">
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <!-- styles -->
+    <title>Document</title>
+    <style>
+      .select-menu {
+  position: relative; /* Important for arrow positioning */
+  .select-btn {
+    display: flex;
+    background: transparent;
+    padding: 8px 20px;
+    color: #fff;
+    border: 2px solid #00E47C;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    position: relative; /* Important for arrow positioning */
+    &::after { /* Apply ::after to .select-btn */
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 20px; /* Adjust as needed */
+      transform: translateY(-50%) rotate(-45deg);
+      width: 8px;
+      height: 8px;
+      border-left: 2px solid #fff;
+      border-bottom: 2px solid #fff;
+    }
+  }
+  .options {
+    position: absolute;
+    width: 100%;
+    margin-top: 16px;
+    background: #fff;
+    opacity: 0;
+    visibility: hidden; 
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  }
+  &.active {
+    .options {
+      opacity: 1;
+      visibility: visible; 
+    }
+    .select-btn::after {
+      transform: rotate(136deg);
+    }
+  } 
+  .options .option {
+    display: flex;
+    cursor: pointer;
+    padding: 8px 20px;
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    &:hover {
+      background: #00E47C;
+    }
+  }
+  &__txt {
+    font-size: 16px;
+    color: #08312a;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <!-- body content start -->
+    <div class="select-menu">
+      <div class="select-btn">
+          <span class="sBtn-text">Please select</span>
+      </div>
+
+      <ul class="options">
+          <li class="option">
+              <span class="select-menu__txt">Boehringer employee - company purchase - login with SSO</span>
+          </li>
+          <li class="option">
+              <span class="select-menu__txt">Boehringer employee - personal purchase - login with SSO</span>
+          </li>
+          <li class="option">
+              <span class="select-menu__txt">Agency user - login with registered email</span>
+          </li>
+      </ul>
+  </div>
+    <!-- body content end -->
+
+    <!-- scripts -->
+     <script>
+      const optionMenu = document.querySelector(".select-menu");
+      const selectBtn = optionMenu.querySelector(".select-btn");
+      const options = optionMenu.querySelectorAll(".option");
+      const sBtn_text = optionMenu.querySelector(".sBtn-text");
+
+      selectBtn.addEventListener("click", () => {
+        optionMenu.classList.toggle("active");
+      });
+
+      options.forEach((option) => {
+        option.addEventListener("click", () => {
+          let selectedOption = option.querySelector(".select-menu__txt").innerText;
+          sBtn_text.innerText = selectedOption;
+
+          optionMenu.classList.remove("active");
+        });
+      });
+
+document.addEventListener('click', (event) => {
+  if (!optionMenu.contains(event.target)) {
+    optionMenu.classList.remove('active');
+  }
+});
+     </script>
+    <script src="../assets/js/jquery.slim.min.js"></script>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/slick.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <!-- scripts -->
+  </body>
+</html>
