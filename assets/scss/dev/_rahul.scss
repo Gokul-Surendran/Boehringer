@@ -461,3 +461,27 @@
         }
     }
 }
+
+// thankyou: https://boehringer.strat-staging.com/AgencyUserThanks.aspx
+
+.bi-pref__outer {
+
+    .bi-agency1__para {
+        font-size: 16px;
+    }
+
+    .bi-pref__whitehead {
+        width: 85%;
+        font-size: 36px;
+    }
+
+    .bi-pref__subhead {
+        &.normal {
+            font-size: 18px;
+        }
+    }
+
+    .bi-pref__btn {
+        font-size: 16px;
+    }
+}
