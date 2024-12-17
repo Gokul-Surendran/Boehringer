@@ -33,19 +33,19 @@
     }
 
     .btn-success {
-        background-color: #08312A;
-        color: #fff;
+        background-color: #00E47C;
+        color: #08312A;
         display: inline-block;
         text-align: center;
-        border: 1px solid #08312A;
+        border: 1px solid #00E47C;
         border-radius: 4px;
         padding: 5px 16px;
         cursor: pointer;
         transition: 0.3s all;
         &:hover {
-            background-color: #07473d !important;
-            color: #fff !important;
-            border: 1px solid #07473d !important;
+            background-color: #66EFB0 !important;
+            color: #08312A !important;
+            border: 1px solid #66EFB0 !important;
       
         }
     }
