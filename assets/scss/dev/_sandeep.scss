@@ -169,7 +169,7 @@
     }
   }
   .menu-icon {
-    margin-left: -16px !important;
+    margin-left: 10px !important;
   }
   .book-name-and-buy .btn-buy {
     font-family: "Boehringer Forward Head";
@@ -1287,6 +1287,14 @@
       .bi-order-summary__w-25 {
         width: 100%;
       }
+    }
+    .bh-prodcut {
+      &__cta {
+        margin-left: 0;
+      }
+    }
+    .bi-pot__btn {
+      margin-top: 0;
     }
   }
 

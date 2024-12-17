@@ -82,6 +82,7 @@
   .bi-bespara {
     color: white;
     font-size: 22px;
+    padding-top: 26px;
   }
 }
 
@@ -122,7 +123,7 @@
       margin: 30px 0;
     }
     &__btn {
-      flex-direction: column;
+      // flex-direction: column;
       gap: 20px;
       a {
         font-size: 16px;
