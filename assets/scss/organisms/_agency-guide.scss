@@ -3,6 +3,7 @@
 
     &__tophead {
         text-align: center;
+        margin: 42px 0 64px;
         h1 {
             font-size: 48px;
             line-height: 58px;
@@ -21,9 +22,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 20px;
         width: 100%;
-        margin-top: 24px;
+        margin: 24px 0 48px;
         gap: 20px;
         &.reverse {
             flex-direction: row-reverse;
@@ -50,8 +50,8 @@
             font-weight: bold;
         }
         p {
-            font-size: 16px;
-            line-height: 22px;
+            font-size: 18px;
+            line-height: 24px;
             color: #08312a;
             margin-bottom: 22px;
         }
