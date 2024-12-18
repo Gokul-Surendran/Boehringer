@@ -6,7 +6,7 @@
         h1 {
             font-size: 48px;
             line-height: 58px;
-            color: #000000;
+            color: #08312a;
             font-weight: bold;
             margin-bottom: 20px;
         }
@@ -22,16 +22,51 @@
         justify-content: space-between;
         margin-bottom: 20px;
         width: 100%;
-
+        margin-top: 24px;
+        &.reverse {
+            flex-direction: row-reverse;
+        }
         
     }
     &__content {
-        width: 50%;
+        width: 45%;
+        
         h6 {
-            font-size: 20px;
-            line-height: 32px;
+            font-size: 26px;
+            line-height: 36px;
             color: #000000;
             margin-bottom: 10px;
+            font-weight: bold;
+            margin-top: 22px;
+        }
+        h2 {
+            font-size: 48px;
+            line-height: 58px;
+            color: #000000;
+            margin-bottom: 18px;
+            text-transform: unset;
+            font-weight: bold;
+        }
+        p {
+            font-size: 16px;
+            line-height: 22px;
+            color: #08312a;
+            margin-bottom: 22px;
+        }
+        .bi-btn {
+            margin-left: 0;
+            padding: 4px 26px;
+            margin-top: 4px;
+        }
+    }
+    &__imgsection {
+        width: 55%;
+    
+    }
+    &__lapimg {
+        width: 100%;
+        img {
+            width: 100%;
         }
     }
 }
