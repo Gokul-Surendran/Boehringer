@@ -1,12 +1,10 @@
 .bi-cookies {
-    background-color: #08312a;
-    // margin: 20px;
-    padding: 20px;
+    background-color: #fff;
+    padding: 8px;
     border-radius: 4px;
     &__para {
-        color: #fff;
-        text-align: center;
-        font-size: 15px;
+        color: #08312a;
+        font-size: 16px;
         a {
             position: relative;
           &::after {
@@ -23,19 +21,34 @@
         }
     }
     &__btn {
-        text-align: center;
-        margin-top: 20px;
-        a {
-            background-color: #00e47c;
-            color: #08312a !important;
-            border: 1px solid #00e47c;
-            padding: 6px 32px;;
-            border-radius: 4px;
-            &:hover {
-                background-color: #66efb0;
-                border: 1px solid #66efb0;
-                color: #08312a !important;
-              }
-        }
+      margin-top: 8px;
+      display: flex;
+      justify-content: flex-end;
+      gap: 16px;
     }
+    &__btna, &__btnb {
+      color: #08312a !important;
+      padding: 5px 20px;;
+      border-radius: 4px;
+      transition: 0.3s all;
+      &:hover {
+        color: #08312a !important;
+      }
+    }
+    &__btna {
+      background-color: #00e47c;
+      border: 1px solid #00e47c;
+      &:hover {
+          background-color: #66efb0;
+          border: 1px solid #66efb0;         
+        }
+  }
+    &__btnb {
+      background-color: transparent;
+      border: 1px solid #ccc;
+      &:hover {
+          background-color: #ccc;
+          border: 1px solid #ccc;
+        }
+  }
 }
