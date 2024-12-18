@@ -1,10 +1,14 @@
 .bi-cookies {
     background-color: #fff;
-    padding: 8px;
+    padding: 8px 8px 0;
     border-radius: 4px;
     &__para {
+      p {
         color: #08312a;
         font-size: 16px;
+      }
+      color: #08312a;
+      font-size: 16px;
         a {
             position: relative;
           &::after {
@@ -21,7 +25,7 @@
         }
     }
     &__btn {
-      margin-top: 8px;
+      margin-top: 4px;
       display: flex;
       justify-content: flex-end;
       gap: 16px;
