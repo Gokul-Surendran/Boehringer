@@ -485,3 +485,50 @@
         font-size: 16px;
     }
 }
+
+// footer links
+
+@include tablet {
+    .boehringer .bi-footer {
+        .bi-footer__links {
+            font-size: 13px;
+        }
+    }
+
+    // checkout thanking page
+    .bi-pot {
+        &__content {
+            font-size: 48px;
+        }
+    }
+}
+
+.boehringer {
+
+    // order summary
+
+    .bi-order-summary {
+        .bi-order-inputwrap {
+            display: flex;
+        }
+    }
+
+    @include tablet {
+
+        .bi-order-summary__w-25 {
+            width: 35%;
+        }
+
+        .bi-order-summary__w-25 span {
+            width: 45%;
+        }
+
+        .bi-order-inputwrap {
+            input {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+
