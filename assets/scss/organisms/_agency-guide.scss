@@ -20,9 +20,11 @@
     &__steps {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         margin-bottom: 20px;
         width: 100%;
         margin-top: 24px;
+        gap: 20px;
         &.reverse {
             flex-direction: row-reverse;
         }
