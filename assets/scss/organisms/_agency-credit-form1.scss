@@ -17,12 +17,23 @@
     &__para {
         color: #fff;
         font-size: 18px;
-        text-decoration: underline;
         text-align: end;
         a{
             font-size: 18px;
-            text-decoration: underline !important;
             color: #fff;
+            position: relative;
+            &::after {
+                content: '';
+                position: absolute;
+                border-bottom: 2px solid #00E47C;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                &:hover {
+                    width: 0;
+                }
+            }
+            
         }
     }
     &__head {
