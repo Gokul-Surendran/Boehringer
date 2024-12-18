@@ -35,7 +35,6 @@
         
         h6 {
             font-size: 26px;
-            line-height: 36px;
             color: #000000;
             margin-bottom: 10px;
             font-weight: bold;
@@ -63,11 +62,52 @@
     }
     &__imgsection {
         width: 55%;
-    
+        display: flex;
+        align-items: center;
     }
     &__lapimg {
         width: 100%;
         img {
+            width: 100%;
+        }
+    }
+}
+
+@include tablet {
+    .bi-agency-guide {
+        &__content {
+            h2 {
+                font-size: 35px;
+                line-height: 45px;
+            }
+        }
+    }
+}
+
+@include mobile {
+    .bi-agency-guide {
+        &__tophead {
+            h1 {
+                font-size: 40px;
+                line-height: 50px;
+            }
+        }
+        &__steps {
+            flex-direction: column-reverse;
+            gap: 0;
+            &.reverse {
+                flex-direction: column-reverse;
+            }
+            
+        }
+        &__content {
+            width: 100%;
+            h2 {
+                font-size: 35px;
+                line-height: 45px;
+            }
+        }
+        &__imgsection {
             width: 100%;
         }
     }
