@@ -2727,6 +2727,8 @@
   max-height: 965px;
   overflow-y: auto;
   display: none;
+  scroll-behavior: smooth;
+  cursor: pointer;
 }
 
 .cx-copdt__outer.active {

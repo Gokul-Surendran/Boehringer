@@ -12,14 +12,11 @@
     .modal-show {
       position: absolute;
       top: 0;
-      left: 9%;
-    }
-    .modal-content {
-      background-color: #08312a !important;
-      border-radius: 6px;
+      left: 3%;
+      right: 3%;
     }
     .modal-dialog {
-      max-width: none !important;
+      max-width: 630px !important;
     }
     .modal-backdrop {
       z-index: unset !important;

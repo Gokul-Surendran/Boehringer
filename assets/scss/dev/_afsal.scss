@@ -26,6 +26,7 @@
       text-transform: uppercase;
       font-weight: bold;
       margin-top: 6px;
+      margin-right: 6px;
    }
    .ListingCol {
       max-width: 33.33% !important;
@@ -93,9 +94,29 @@
       color: #ff0000;
       width: 50%;
    }
-   .cx-copdt__outer {
-      scrollbar-color: #08312a #e4e7e7;
-   }
+   .cx-copdt__outer::-webkit-scrollbar {
+      margin-top: 20px;
+      width: 8px;
+      /* Set the height of the scrollbar */
+    }
+    
+    .cx-copdt__outer::-webkit-scrollbar-thumb {
+      background-color: #08312a;
+      /* Color of the scrollbar thumb */
+      border-radius: 10px;
+      /* Roundness of the scrollbar */
+    }
+    
+    .cx-copdt__outer::-webkit-scrollbar-thumb:hover {
+      background-color: #08312a;
+      /* Darker color when hovering */
+    }
+    
+    .cx-copdt__outer::-webkit-scrollbar-track {
+      background-color: #f1f1f1;
+      /* Background of the scrollbar track */
+      border-radius: 10px;
+    }
    .boldblu {
       span:nth-child(2) {
          margin-left: -3px;
