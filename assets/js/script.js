@@ -321,10 +321,10 @@ $(document).ready(function () {
 
 ///FILTER MOBILE
 $(document).ready(function () {
-  $('#filter-expand-mbl').click(function () {
-      $('.left-box').toggleClass("filter-mbl");
+  $(document).on('click', '#filter-expand-mbl', () => {
+      $('.left-box').toggleClass('filter-mbl');
   });
-})
+});
 
 
 /////TEXT LIMIT - PRODUCT DETAILS PAGE
