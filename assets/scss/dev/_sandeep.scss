@@ -341,6 +341,7 @@
     background: #fff;
     border-radius: 8px;
     margin-bottom: 32px;
+    overflow: hidden;
   }
 
   .cx-qd {
@@ -1332,9 +1333,14 @@
     .bi-pot__btn {
       margin-top: 0 !important;
     }
-  }
-
-  .bh-prodcut__left {
-    width: 100% !important;
+    .bh-prodcut__left {
+      width: 100% !important;
+    }
+    .bi-wicon {
+      img {
+        left: 7px;
+        top: 3px;
+      }
+    }
   }
 }
