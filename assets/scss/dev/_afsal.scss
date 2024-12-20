@@ -155,6 +155,11 @@
    .search p {
       width: auto;
    }
+   .bi-labeltxt span:first-child {
+      display: inline-flex;
+      height: 40px;
+      align-items: flex-end;
+   }
 
    /* Firefox-specific style */
    @-moz-document url-prefix() {
