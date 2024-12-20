@@ -585,3 +585,41 @@ document.addEventListener('click', (event) => {
 });
 
 // dropdown style script ends
+
+// Cookie popup script 
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   const modal = document.getElementById("DivCookiePopup");
+//   const backdrop = document.querySelector(".modal-backdrop");
+
+//   // Show modal and backdrop on load
+//   function showModal() {
+//       modal.style.display = "block";
+//       backdrop.style.display = "block";
+//       document.body.classList.add("body-no-scroll");
+//   }
+
+//   // Hide modal and backdrop
+//   function hideModal() {
+//       modal.style.display = "none";
+//       backdrop.style.display = "none";
+//       document.body.classList.remove("body-no-scroll");
+//   }
+
+//   // Show the modal by default
+//   showModal();
+
+//   // Handle "ACCEPT & CONTINUE" button
+    //   const acceptButton = document.getElementById("lnkBtnCookieAccept");
+//   acceptButton.addEventListener("click", function (e) {
+//       e.preventDefault();
+//       hideModal();
+//   });
+
+//   // Prevent interaction with the backdrop
+//   backdrop.addEventListener("click", (e) => {
+//       e.stopPropagation();
+//   });
+// });
+
+// Cookie popup script ends
