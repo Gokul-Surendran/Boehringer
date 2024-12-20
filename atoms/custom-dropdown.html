@@ -1,138 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- styles -->
-    <link rel="stylesheet" href="../assets/css/aos.css">
-    <link rel="stylesheet" href="../assets/css/slick.css">
-    <link rel="stylesheet" href="../assets/css/slick-theme.css">
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/css/styleold.css">
-    <link rel="stylesheet" href="../assets/css/style.css" />
-    <!-- styles -->
-    <title>Document</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Select</title>
     <style>
-        body {
-    background-color: #08312a;
-    height: 100vh;
-    padding: 32px 0;
-  }
-      .select-menu {
-      position: relative; /* Important for arrow positioning */
-  .select-btn {
-    display: flex;
-    background: transparent;
-    padding: 8px 20px;
-    color: #fff;
-    border: 2px solid #00E47C;
-    font-size: 16px;
-    font-weight: 400;
-    align-items: center;
-    cursor: pointer;
-    justify-content: space-between;
-    position: relative; /* Important for arrow positioning */
-    &::after { /* Apply ::after to .select-btn */
-      content: "";
-      position: absolute;
-      top: 50%;
-      right: 20px; /* Adjust as needed */
-      transform: translateY(-50%) rotate(-45deg);
-      width: 8px;
-      height: 8px;
-      border-left: 2px solid #fff;
-      border-bottom: 2px solid #fff;
-    }
-  }
-  .options {
-    position: absolute;
-    width: 100%;
-    margin-top: 16px;
-    background: #fff;
-    opacity: 0;
-    visibility: hidden; 
-    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-  }
-  &.active {
-    .options {
-      opacity: 1;
-      visibility: visible; 
-    }
-    .select-btn::after {
-      transform: rotate(136deg);
-    }
-  } 
-  .options .option {
-    display: flex;
-    cursor: pointer;
-    padding: 8px 20px;
-    align-items: center;
-    background: #fff;
-    border-bottom: 1px solid #ccc;
-    &:hover {
-      background: #00E47C;
-    }
-  }
-  &__txt {
-    font-size: 16px;
-    color: #08312a;
-  }
-}
-    </style>
-  </head>
-  <body>
-    <!-- body content start -->
-    <div class="select-menu">
-      <div class="select-btn">
-          <span class="sBtn-text">Please select</span>
-      </div>
-
-      <ul class="options">
-          <li class="option">
-              <span class="select-menu__txt"><strong>Boehringer employee</strong> - company purchase - login with SSO</span>
-          </li>
-          <li class="option">
-              <span class="select-menu__txt"><strong>Boehringer employee</strong> - personal purchase - login with SSO</span>
-          </li>
-          <li class="option">
-              <span class="select-menu__txt"><strong>Agency user</strong> - login with registered email</span>
-          </li>
-      </ul>
-  </div>
-    <!-- body content end -->
-
-    <!-- scripts -->
-    <script>
-      const optionMenu = document.querySelector(".select-menu");
-      const selectBtn = optionMenu.querySelector(".select-btn");
-      const options = optionMenu.querySelectorAll(".option");
-      const sBtn_text = optionMenu.querySelector(".sBtn-text");
-
-      selectBtn.addEventListener("click", () => {
-        optionMenu.classList.toggle("active");
-      });
-
-      options.forEach((option) => {
-        option.addEventListener("click", () => {
-          let selectedOption = option.querySelector(".select-menu__txt").innerText;
-          sBtn_text.innerText = selectedOption;
-
-          optionMenu.classList.remove("active");
-        });
-      });
-
-      document.addEventListener('click', (event) => {
-        if (!optionMenu.contains(event.target)) {
-          optionMenu.classList.remove('active');
+      body {
+        background: #08312a;
+        height: 100vh;
+      }
+        .select-menu {
+            position: relative;
         }
-      });
+
+        .select-btn {
+            display: flex;
+            background: transparent;
+            padding: 8px 20px;
+            color: #fff;
+            border: 2px solid #00E47C;
+            font-size: 16px;
+            font-weight: 400;
+            align-items: center;
+            cursor: pointer;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        .select-btn::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%) rotate(-45deg);
+            width: 8px;
+            height: 8px;
+            border-left: 2px solid #fff;
+            border-bottom: 2px solid #fff;
+        }
+
+        .options {
+            position: absolute;
+            width: 100%;
+            margin-top: 16px;
+            background: #fff;
+            padding-left: 0;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+        }
+
+        .select-menu.active .options {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .select-menu.active .select-btn::after {
+            transform: rotate(136deg);
+        }
+
+        .options .option {
+            display: flex;
+            cursor: pointer;
+            padding: 8px 20px;
+            align-items: center;
+            background: #fff;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .options .option:hover,
+        .options .option.selected-option {
+            background-color: #00E47C;
+        }
+
+        .select-menu__txt {
+            font-size: 16px;
+            color: #08312a;
+        }
+    </style>
+</head>
+<body>
+    <div class="select-menu">
+        <div class="select-btn">
+            <span class="sBtn-text">Please select</span>
+        </div>
+
+        <ul class="options">
+            <li class="option">
+                <span class="select-menu__txt">Boehringer employee - company purchase - login with SSO</span>
+            </li>
+            <li class="option">
+                <span class="select-menu__txt">Boehringer employee - personal purchase - login with SSO</span>
+            </li>
+            <li class="option">
+                <span class="select-menu__txt">Agency user - login with registered email</span>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        const optionMenu = document.querySelector(".select-menu");
+        const selectBtn = optionMenu.querySelector(".select-btn");
+        const options = optionMenu.querySelectorAll(".option");
+        const sBtn_text = optionMenu.querySelector(".sBtn-text");
+
+        selectBtn.addEventListener("click", () => {
+            optionMenu.classList.toggle("active");
+
+            // Find the selected option in the dropdown
+            const selectedOptionText = sBtn_text.innerText;
+            const selectedOption = options.find(option => {
+                const optionText = option.querySelector(".select-menu__txt").innerText;
+                return optionText === selectedOptionText;
+            });
+
+            // Add the 'selected-option' class to the selected option
+            if (selectedOption) {
+                selectedOption.classList.add("selected-option");
+            }
+        });
+
+        options.forEach((option) => {
+            option.addEventListener("click", () => {
+                let selectedOption = option.querySelector(".select-menu__txt").innerText;
+                sBtn_text.innerText = selectedOption;
+
+                optionMenu.classList.remove("active");
+
+                // Remove the 'selected-option' class from all options
+                options.forEach(option => option.classList.remove("selected-option"));
+
+                // Add the 'selected-option' class to the newly selected option
+                option.classList.add("selected-option");
+            });
+        });
+
+        document.addEventListener('click', (event) => {
+            if (!optionMenu.contains(event.target)) {
+                optionMenu.classList.remove('active');
+            }
+        });
     </script>
-    <script src="../assets/js/jquery.slim.min.js"></script>
-    <script src="../assets/js/aos.js"></script>
-    <script src="../assets/js/slick.min.js"></script>
-    <script src="../assets/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/js/script.js"></script>
-    <!-- scripts -->
-  </body>
+</body>
 </html>
