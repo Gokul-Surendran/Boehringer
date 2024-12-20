@@ -548,6 +548,13 @@ function createCustomSelect(selectMenu) {
       selected.textContent = selectElement.options[i].text;
       items.classList.add('select-hide');
       selected.classList.toggle('select-arrow-active');
+
+      // Remove the 'same-as-selected' class from all options
+      const allOptions = items.querySelectorAll('div');
+      allOptions.forEach(option => option.classList.remove('same-as-selected'));
+
+      // Add the 'same-as-selected' class to the clicked option
+      item.classList.add('same-as-selected');
     });
     items.appendChild(item);
   }

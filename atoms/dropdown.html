@@ -3,13 +3,13 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="../assets/css/style.css" />
-<!-- <style>
+<style>
   body {
     background-color: #08312a;
     height: 100vh;
     padding: 32px 0;
   }
-</style> -->
+</style>
 </head>     
 
 <body>
@@ -42,6 +42,13 @@ function createCustomSelect(selectMenu) {
       selected.textContent = selectElement.options[i].text;
       items.classList.add('select-hide');
       selected.classList.toggle('select-arrow-active');
+
+      // Remove the 'same-as-selected' class from all options
+      const allOptions = items.querySelectorAll('div');
+      allOptions.forEach(option => option.classList.remove('same-as-selected'));
+
+      // Add the 'same-as-selected' class to the clicked option
+      item.classList.add('same-as-selected');
     });
     items.appendChild(item);
   }
