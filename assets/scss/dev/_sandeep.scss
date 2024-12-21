@@ -1096,33 +1096,58 @@
     overflow-y: auto;
     scroll-behavior: smooth;
     cursor: pointer;
-    // scrollbar-width: thin;
-    // scrollbar-color: #08312a #f1f1f1;
+    
   }
   .bi-filterscroll::-webkit-scrollbar {
     margin-top: 2px;
     height: 2px;
     width: 8px;
-    /* Set the height of the scrollbar */
   }
 
   .bi-filterscroll::-webkit-scrollbar-thumb {
     background-color: #08312a;
-    /* Color of the scrollbar thumb */
     border-radius: 20px;
-    /* Roundness of the scrollbar */
   }
 
   .bi-filterscroll::-webkit-scrollbar-thumb:hover {
     background-color: #08312a;
-    /* Darker color when hovering */
   }
 
   .bi-filterscroll::-webkit-scrollbar-track {
     background-color: #ccc;
-    /* Background of the scrollbar track */
     border-radius: 10px;
   }
+
+  /* firefox scroll */
+  .bi-filterscroll {
+    max-height: 172px;
+    min-height: auto;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    cursor: pointer;
+    scrollbar-width: thin; /* Options: auto, thin, none */
+    scrollbar-color: #08312a ; /* thumb color and track color */
+}
+
+  .bi-filterscroll::-moz-scrollbar {
+    height: 2px;
+    width: 8px; /* Thumb width */
+}
+
+.bi-filterscroll::-moz-scrollbar-thumb {
+    background-color: #08312a; /* Thumb color */
+    border-radius: 20px; /* Rounded corners for the thumb */
+}
+
+.bi-filterscroll::-moz-scrollbar-thumb:hover {
+    background-color: #08312a; /* Hover color for the thumb */
+}
+
+.bi-filterscroll::-moz-scrollbar-track {
+    background-color: #ccc; /* Track color */
+    border-radius: 10px; /* Rounded corners for the track */
+}
+/* ---------------- */
   .bi-ohtable {
     overflow-x: auto;
     table {
