@@ -92,8 +92,7 @@
 
      @include tablet {
         .cx-shpcart {
-            overflow-x: scroll;
-            min-height: 260px;
+            overflow-x: auto;
 
             &__outer {
                 min-width: 700px;
@@ -101,12 +100,12 @@
         }
 
         .cx-shpcart::-webkit-scrollbar {
-           height: 3px;
+           height: 4px;
         }
 
         .cx-shpcart::-webkit-scrollbar-thumb{
             border-radius: 10px;
-            background-color: #d9d9d9;
+            background-color: #08312a;
          }
 
          .cx-shpcart::-webkit-scrollbar-track {

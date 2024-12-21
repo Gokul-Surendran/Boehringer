@@ -846,7 +846,7 @@
     flex-direction: column;
     align-content: space-around;
     justify-content: space-between;
-    height: 90%;
+    // height: 90%;
   }
 
   .cx-odrsmry__item.total .value {
@@ -1122,6 +1122,19 @@
     background-color: #ccc;
     /* Background of the scrollbar track */
     border-radius: 10px;
+  }
+  .bi-ohtable {
+    overflow-x: auto;
+    table {
+      font-family: 'Boehringer Forward Text';
+    }
+  }
+  .bi-odpout {
+    display: flex;
+    .bi-btn {
+      margin-left: 0;
+      padding: 6px 10px;
+    }
   }
 }
 
