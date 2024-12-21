@@ -1091,8 +1091,9 @@
 }
 
 .boehringer #header .wshlt span.number {
-  background: #08312A;
-  top: -24px;
+  color: #08312A;
+  background: #00E47C;
+  top: -22px;
   right: -10px;
   width: 16px;
   height: 16px;
@@ -1541,10 +1542,6 @@
 
 .beiersdorf .search .btn {
   background-color: var(--primary-clr);
-}
-
-.beiersdorf #header .wshlt span.number {
-  background: var(--primary-clr);
 }
 
 .beiersdorf .sec-menu .btn-secondary:hover::before {
@@ -4960,10 +4957,6 @@ body {
   margin-bottom: 6px !important;
 }
 
-.boehringer .wshlt span.number {
-  background-color: #00E47C !important;
-}
-
 .boehringer .width {
   color: #333333;
 }
@@ -5844,6 +5837,9 @@ body {
 }
 
 @media (max-width: 767px) {
+  .boehringer .list-show .hover .product-name {
+    height: 50px;
+  }
   .boehringer .tele select {
     width: 44%;
   }

@@ -797,16 +797,9 @@
     }
   }
 
-  #header .wshlt span.number {
-    color: #000000;
-  }
-
   .cx-cart-icon {
-    span .number {
-      width: 16px !important;
-      height: 16px !important;
-      transform: translateY(4px) !important;
-      top: 10px;
+    span.number {
+      top: -24px !important;
     }
   }
 
@@ -969,7 +962,11 @@
     min-height: 40vh !important;
   }
    .navbar .dropdown-menu .dropdown-item {
+    color: #08312A;
     font-size: 16px !important;
+    &:hover {
+      background-color: #00E47C;
+    }
   }
   .bi-besthnks {
     display: flex;
