@@ -341,7 +341,6 @@
     background: #fff;
     border-radius: 8px;
     margin-bottom: 32px;
-    overflow: hidden;
   }
 
   .cx-qd {
@@ -1215,7 +1214,7 @@
       justify-content: center;
       flex-direction: column;
       width: 462px;
-      padding-right: 30px;
+      padding-right: 22px;
       background-color: #fff;
     }
     .cx-rmb-left {
@@ -1345,6 +1344,9 @@
         left: 7px;
         top: 3px;
       }
+    }
+    .mobile-price-wrap table > tbody > tr > td > table {
+      width: 85% !important;
     }
   }
 }
