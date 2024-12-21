@@ -1124,6 +1124,12 @@
     /* Background of the scrollbar track */
     border-radius: 10px;
   }
+  .bi-ohtable {
+    overflow-x: auto;
+    table {
+      font-family: 'Boehringer Forward Text';
+    }
+  }
 }
 
 .bi-loginbtn {
