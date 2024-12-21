@@ -44,6 +44,9 @@
       &__tile2 {
          flex-direction: column;
          align-items: flex-start;
+         h1 {
+            padding: 0;
+         }
       }
    }
 }

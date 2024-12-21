@@ -5308,6 +5308,9 @@ body {
 
 /* mobile */
 @media (max-width: 767px) {
+  .boehringer .margin-lr-cut {
+    padding-top: 20px;
+  }
   .boehringer .book-name-and-buy {
     padding-right: 0 !important;
   }
