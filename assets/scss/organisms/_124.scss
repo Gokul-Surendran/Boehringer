@@ -1,11 +1,11 @@
 .bi-tree {
     background-color: #F6F5F3;
-    padding: 8% 10% 0% 10%;
+    padding: 8% 10% 0%;
 
     &.ethos {
         .bi-tree__onehead {
-            font-size: 120px !important;
-            line-height: 130px !important;
+            font-size: 120px;
+            line-height: 130px;
 
             span {
                 color: #00E57B;
@@ -88,8 +88,8 @@
     }
 
     &__onehead {
-        font-size: 160px;
-        line-height: 170px;
+        // font-size: 160px;
+        // line-height: 170px;
         font-family: 'Boehringer Forward Head Md';
         padding-bottom: 32px;
         color: #000;
@@ -168,6 +168,8 @@
 
 @include mobile {
     .bi-tree {
+     padding: 8% 3% 0% 8%;
+
         &.ethos {
             .bi-tree__onehead {
                 font-size: 50px;
