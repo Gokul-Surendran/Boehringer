@@ -183,6 +183,7 @@
   .bi-sna {
     &__content {
       font-size: 42px;
+      text-align: left;
     }
 
     &__face {
@@ -192,7 +193,9 @@
         width: 110px;
       }
     }
-
+    .bi-center {
+      height: 75vh;
+      }
   }
 }
 
@@ -209,6 +212,7 @@
 
     &__content {
       font-size: 42px;
+      text-align: left;
     }
     &__ssocontent {
         font-size: 52px;
@@ -227,7 +231,7 @@
         }
       }
       .bi-center {
-        height: auto;
+        height: 75vh;
       }
   }
 }
@@ -240,6 +244,7 @@
 
     &__content {
       font-size: 20px;
+      text-align: left;
     }
     &__ssocontent {
         font-size: 22px;
@@ -275,7 +280,7 @@
       font-size: 12px;
     }
     .bi-center {
-      height: auto;
+      height: 75vh;
     }
   }
 }
