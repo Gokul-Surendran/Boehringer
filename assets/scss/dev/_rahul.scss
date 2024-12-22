@@ -78,6 +78,11 @@
             .left-box.filter-mbl {
                 width: 250px;
                 padding-right: 25px;
+                max-height: 644px;
+                min-height: auto;
+                overflow-y: auto;
+                scroll-behavior: smooth;
+                cursor: pointer;
             }
 
             .bi-bgclr {
@@ -515,7 +520,7 @@
     @include tablet {
 
         .bi-order-summary__w-25 {
-            width: 35%;
+            width: 45%;
         }
 
         .bi-order-summary__w-25 span {

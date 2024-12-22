@@ -205,6 +205,13 @@
          font-size: 14px;
       }
    }
+   .bi-newflex {
+      flex-direction: column;
+      gap: 14px;
+   }
+   .bi-sbres {
+      justify-content: flex-start !important;
+   }
 }
 
 
