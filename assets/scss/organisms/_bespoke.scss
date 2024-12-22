@@ -222,5 +222,11 @@
       flex-direction: column;
       padding-bottom: 24px;
     }
+
+    &__newform {
+      .bi-input input {
+        width: 100% !important;
+      }
+    }
   }
 }

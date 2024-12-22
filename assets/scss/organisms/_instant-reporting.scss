@@ -137,11 +137,15 @@
     }
     &__contenthead {
         font-size: 21px;
+        margin-top: 10px;
     }
     &__content {
-      margin-bottom: 20px;
+      margin-bottom: 0px;
     }
     &__container {
+      width: 100%;
+      align-items: center;
+      text-align: center;
       .bi-btn {
         margin-left: 0;
         margin-top: 4px;
