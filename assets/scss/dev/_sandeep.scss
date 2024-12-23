@@ -629,6 +629,19 @@
     }
   }
 
+  .bi-emptyres_para {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .bi-emptyres {
+    margin-top: 14px;  
+    .bi-btn2 {
+      width: 200px;
+      text-align: center;
+    }
+  }
+
   .cx-pf__back {
     cursor: pointer;
     color: #08312a;
@@ -1124,15 +1137,15 @@
   }
 
   /* firefox scroll */
-//   .bi-filterscroll {
-//     max-height: 172px;
-//     min-height: auto;
-//     overflow-y: auto;
-//     scroll-behavior: smooth;
-//     cursor: pointer;
-//     scrollbar-width: thin; /* Options: auto, thin, none */
-//     scrollbar-color: #08312a ; /* thumb color and track color */
-// }
+  .bi-filterscroll {
+    max-height: 172px;
+    min-height: auto;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    cursor: pointer;
+    scrollbar-width: thin; /* Options: auto, thin, none */
+    scrollbar-color: #08312a ; /* thumb color and track color */
+}
 
   .bi-filterscroll::-moz-scrollbar {
     height: 2px;
@@ -1152,6 +1165,7 @@
     background-color: #ccc; /* Track color */
     border-radius: 10px; /* Rounded corners for the track */
 }
+
 /* ---------------- */
   .bi-ohtable {
     overflow-x: auto;
