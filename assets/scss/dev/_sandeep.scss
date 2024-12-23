@@ -358,6 +358,7 @@
     color: #08312a;
     font-size: 12px;
     font-weight: bold;
+    margin-bottom: 14px;
   }
 
   .cx-tbout {
@@ -1410,6 +1411,10 @@
       input {
        width: 132px;
       }
+    }
+    .bi-pdpcr {
+      display: inline-flex;
+      flex-direction: column-reverse;
     }
   }
 }
