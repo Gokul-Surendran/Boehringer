@@ -581,6 +581,13 @@
         
     }
 
+    .bi-bespoke {
+        .bi-bespoke__newform .br-none input {
+            border-radius: unset;
+            padding: 0px 20px !important;
+        }
+    }
+
     @include mobile {
         .bi-instreporting {
             &__container {
