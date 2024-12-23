@@ -1137,15 +1137,15 @@
   }
 
   /* firefox scroll */
-  .bi-filterscroll {
-    max-height: 172px;
-    min-height: auto;
-    overflow-y: auto;
-    scroll-behavior: smooth;
-    cursor: pointer;
-    scrollbar-width: thin; /* Options: auto, thin, none */
-    scrollbar-color: #08312a ; /* thumb color and track color */
-}
+//   .bi-filterscroll {
+//     max-height: 172px;
+//     min-height: auto;
+//     overflow-y: auto;
+//     scroll-behavior: smooth;
+//     cursor: pointer;
+//     scrollbar-width: thin; /* Options: auto, thin, none */
+//     scrollbar-color: #08312a ; /* thumb color and track color */
+// }
 
   .bi-filterscroll::-moz-scrollbar {
     height: 2px;
