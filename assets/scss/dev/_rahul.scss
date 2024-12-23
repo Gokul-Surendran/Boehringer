@@ -564,6 +564,27 @@
         }
         }
 
+    // https://uat.collection.boehringer-ingelheim.com/igc/en/Search
+    @include mobile {
+        .cx-pf {
+            background-color: #f6f5f3;
+        }
+    }
+
+    // https://uat.collection.boehringer-ingelheim.com/igc/en/Bespoke
+
+    @include mobile {
+        .bi-bespoke {
+            .bi-bespoke__newform .br-none input {
+                border-radius: unset;
+            }
+        }
+
+        .bi-date input {
+            width: 100%;
+        }
+        
+    }
 
 }
 
