@@ -36,3 +36,16 @@
         }
     }
 }
+
+@include mobile {
+    .bi-returns {
+        padding: 10px 0;
+
+        h2 {
+            margin-top: 0px;
+        }
+        img {
+            margin-bottom: 0px;
+        }
+    }
+}

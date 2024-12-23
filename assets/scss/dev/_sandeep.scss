@@ -1169,6 +1169,9 @@
   .bi-srchrslt {
     padding-bottom: 14px;
   }
+  .bi-showmyordermob {
+    display: none;
+  }
 }
 
 .bi-loginbtn {
@@ -1321,6 +1324,7 @@
     }
     .inner-marging {
       padding-top: 0;
+      padding: 0 25px;
     }
     .bi-glb {
       padding-right: 0;
@@ -1393,7 +1397,7 @@
     }
     .bi-pot__btn {
       margin-top: 0 !important;
-      flex-direction: column;
+      // flex-direction: column;
       align-items: flex-start;
     }
     .bh-prodcut__left {
@@ -1419,6 +1423,13 @@
     .bi-pdpcr {
       display: inline-flex;
       flex-direction: column-reverse;
+    }
+    .bi-showmyordermob {
+      display: block;
+      margin: 20px 0;
+    }
+    .bi-showmyorder {
+      display: none;
     }
   }
 }
