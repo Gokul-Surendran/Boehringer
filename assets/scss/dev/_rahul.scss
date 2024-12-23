@@ -577,6 +577,7 @@
         .bi-bespoke {
             .bi-bespoke__newform .br-none input {
                 border-radius: unset;
+                padding: 0px 20px;
             }
         }
 
@@ -601,6 +602,15 @@
             .bi-sbsearch {
                 display: flex;
                 flex-direction: column;
+
+                span {
+                    font-size: 14px;
+                    padding-bottom: 4px;
+                }
+
+                input {
+                    padding: 5px 8px;
+                }
             }
 
             .bi-sbout {
@@ -614,6 +624,10 @@
                 span {
                     font-size: 14px;
                     padding-bottom: 4px;
+                }
+
+                select {
+                    padding: 4px 20px;
                 }
             }
         }
