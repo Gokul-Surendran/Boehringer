@@ -533,6 +533,32 @@
             }
         }
     }
+
+    // https://uat.collection.boehringer-ingelheim.com/igc/en/cart
+    // cart page modal issue
+
+    @include mobile {
+        .modal-dialog {
+            margin: 14% 10px 10px 10px;
+        }
+    }
+
+
+    // https://uat.collection.boehringer-ingelheim.com/igc/en/Sustainability
+    // Sustainable Credentials
+
+    @include mobile {
+        .bi-sustainability__col-one {
+            border-bottom: unset;
+            padding: 5px 0 0;
+        }
+
+        .bi-sustainability__col-two {
+            padding: 0px 0px 5px;
+        }
+    }
+
+
 }
 
 
