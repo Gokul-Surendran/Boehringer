@@ -283,6 +283,9 @@
         .bi-user-details {
             min-height: 80vh;
         }
+        .bi-agency1 {
+            min-height: 100vh;
+        }
     }
 
     @media (min-width: 1690px) and (max-width: 2047px) {
@@ -290,6 +293,9 @@
             min-height: 35vh;
         }
         .bi-odrouter {
+            min-height: 35vh;
+        }
+        .bi-agency1 {
             min-height: 35vh;
         }
     }

@@ -160,9 +160,17 @@
 @include tablet {
     .bi-tree {
         &__onehead {
-            font-size: 100px;
-            line-height: 110px;
-        }
+            font-size: 62px !important;
+            line-height: 72px !important;
+        }    
+        &.ethos {
+            .bi-tree__one-right {
+                margin-top: 25px;
+            }
+        }   
+    }
+    .bi-tree__sec-one {
+        align-items: flex-start !important;
     }
 }
 

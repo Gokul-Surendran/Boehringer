@@ -1096,7 +1096,7 @@
     overflow-y: auto;
     scroll-behavior: smooth;
     cursor: pointer;
-    
+  
   }
   .bi-filterscroll::-webkit-scrollbar {
     margin-top: 2px;
@@ -1160,6 +1160,9 @@
       margin-left: 0;
       padding: 6px 10px;
     }
+  }
+  .bi-srchrslt {
+    padding-bottom: 14px;
   }
 }
 
@@ -1278,6 +1281,11 @@
     }
     .list-show .product-box {
       width: 100% !important;
+    }
+    .bh-prodcut {
+      &__cta {
+        margin-left: 72px;
+      }
     }
   }
   .headerspacer {
