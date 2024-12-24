@@ -26,7 +26,7 @@
     width: 95%;
     line-height: 42px;
     margin: 20px 0 15px;
-    font-family: 'Boehringer Forward Head Md';
+    font-family: "Boehringer Forward Head Md";
     text-transform: unset;
     font-weight: 400;
   }
@@ -36,7 +36,7 @@
     font-size: 28px;
     line-height: 34px;
     margin: 32px 0 10px;
-    font-family: 'Boehringer Forward Head Md';
+    font-family: "Boehringer Forward Head Md";
     text-transform: unset;
     font-weight: 400;
   }
@@ -49,49 +49,55 @@
     a {
       text-decoration: none;
       color: #333333;
-
-      &:hover {
-        u {
-          text-decoration: none;
-        }
+      position: relative;
+      &::after {
+        content: "";
+        border-bottom: 2px solid #00e47c;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        left: 0;
       }
+      &:hover {
+        &::after {
+            width: 0;
+        }
+    }
     }
   }
- 
 }
 
 @include tablet {
   .bi-accessibility {
     h2 {
-        width: 100%;
-        font-size: 32px;
-        line-height: 40px;
+      width: 100%;
+      font-size: 32px;
+      line-height: 40px;
     }
     ul {
-        margin-left: 24px;
+      margin-left: 24px;
     }
   }
 }
 
 @include mobile {
-    .bi-accessibility {
-        padding: 24px 0;
-      h2 {
-          width: 100%;
-          font-size: 26px;
-          line-height: 32px;
-      }
-      h3 {
-        font-size: 22px;
-        line-height: 28px;
-      }
-      ul {
-          margin-left: 24px;
-          padding-top: 10px;
-      }
-      li {
-        padding-bottom: 8px;
-      }
+  .bi-accessibility {
+    padding: 24px 0;
+    h2 {
+      width: 100%;
+      font-size: 26px;
+      line-height: 32px;
+    }
+    h3 {
+      font-size: 22px;
+      line-height: 28px;
+    }
+    ul {
+      margin-left: 24px;
+      padding-top: 10px;
+    }
+    li {
+      padding-bottom: 8px;
     }
   }
-  
+}
