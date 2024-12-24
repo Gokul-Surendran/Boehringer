@@ -115,6 +115,7 @@
 @include mobile {
     .bi-lang-select {
         &__cnt {
+            width: 65%;
             h1 {
                 font-size: 40px;
                 line-height: 50px;
@@ -134,7 +135,7 @@
         }
         &__btn {
             a {
-                font-size: 20px;
+                font-size: 16px;
                 width: 65%;
             }
         }

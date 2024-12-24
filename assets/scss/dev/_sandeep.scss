@@ -636,6 +636,9 @@
 
   .bi-emptyres {
     margin-top: 14px;  
+    a {
+      font-family: 'Boehringer Forward Text';
+    }
     .bi-btn2 {
       width: 200px;
       text-align: center;
@@ -1187,6 +1190,9 @@
   .bi-showmyordermob {
     display: none;
   }
+  .bi-mt {
+    margin-top: 0;
+  }
 }
 
 .bi-loginbtn {
@@ -1435,7 +1441,7 @@
     }
     .bi-date {
       input {
-       width: 132px;
+       width: 114px !important;
       }
     }
     .bi-pdpcr {
@@ -1448,6 +1454,18 @@
     }
     .bi-showmyorder {
       display: none;
+    }
+    .bi-prdctcs {
+      span {
+        font-size: 18px;
+      }
+    }
+    .list-show {
+      margin-bottom: 32px;
+    }
+    .bi-graph_mob {
+      flex-direction: row-reverse;
+      justify-content: space-evenly;
     }
   }
 }

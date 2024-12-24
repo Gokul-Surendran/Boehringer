@@ -4496,7 +4496,8 @@ body {
 }
 
 .boehringer .progress {
-  height: 120px !important;
+  top: 320px !important;
+  height: 104px !important;
   width: 220px !important;
   justify-content: center;
   align-items: center;
@@ -4805,7 +4806,7 @@ body {
 
 .boehringer .modal-header {
   // background-color: #08312A;
-  padding: 20px;
+  padding: 30px 10px;
   align-items: center !important;
 }
 
