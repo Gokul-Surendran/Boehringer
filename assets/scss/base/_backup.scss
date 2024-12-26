@@ -1373,7 +1373,7 @@
 
 .boehringer #header {
   background-color: #08312A;
-  position: unset;
+  position: relative;
   padding-bottom: 10px !important;
 }
 
@@ -4497,7 +4497,7 @@ body {
 
 .boehringer .progress {
   top: 320px !important;
-  height: 104px !important;
+  height: 120px !important;
   width: 220px !important;
   justify-content: center;
   align-items: center;

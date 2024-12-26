@@ -5,6 +5,15 @@
     width: 100%;
     min-height: 100vh;
     background-color: #022d25;
+
+    .bi-center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      height: 75vh;
+    }
+    
     .bi-pot__crtxt {
       color: #fff;
       padding-top: 100px;

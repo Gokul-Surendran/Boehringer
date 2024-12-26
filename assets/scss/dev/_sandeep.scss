@@ -214,6 +214,14 @@
     font-family: 'Boehringer Forward Text';
   }
 
+  .bi-freight {
+    width: auto;
+    margin-right: 4px;
+    font-size: 13px;
+    color: #000;
+    font-weight: bold;
+  }
+
   .inner-marging {
     padding-top: 32px;
     min-height: 42vh;
@@ -1190,8 +1198,15 @@
   .bi-showmyordermob {
     display: none;
   }
-  .bi-mt {
-    margin-top: 0;
+  .showing {
+    display: none !important;
+  }
+  .bi-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 75vh;
   }
 }
 
@@ -1224,6 +1239,8 @@
   }
 }
 
+
+/* ********************************************************************************************* */
 /* Media Queries */
 @include tablet-pro {
   .boehringer {
@@ -1315,6 +1332,11 @@
       &__cta {
         margin-left: 72px;
       }
+    }
+    .bi-pdpcr {
+      display: inline-flex;
+      flex-direction: column-reverse;
+      gap: 20px;
     }
   }
   .headerspacer {
@@ -1466,6 +1488,18 @@
     .bi-graph_mob {
       flex-direction: row-reverse;
       justify-content: space-evenly;
+    }
+    .progress {
+      height: 104px !important;
+      span {
+        padding-top: 14px;
+      }
+    }
+    .bi-piegap {
+      margin-right: 0px;
+    }
+    .bi-freight {
+      font-size: 10px;
     }
   }
 }

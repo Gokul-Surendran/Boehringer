@@ -7,7 +7,7 @@
   .select-selected {
     background-color: transparent;
     color: #fff;
-    padding: 8px 16px;
+    padding: 10px 16px;
     border: 2px solid #00E47C;
     cursor: pointer;
     user-select: none;
@@ -33,7 +33,7 @@
   .select-items {
     position: absolute;
     background-color: #fff;
-    margin-top: 10px;
+    margin-top: 0px;
     top: 100%;
     left: 0;
     right: 0;
@@ -43,7 +43,7 @@
   /*style the items (options), including the selected item:*/
   .select-items div {
     color: #08312a;
-    padding: 8px 16px;
+    padding: 10px 16px;
     border-bottom: 1px solid #ccc;
     cursor: pointer;
     user-select: none;

@@ -137,6 +137,7 @@
 /* media queries */
 @include tablet {
     .bi-agency1 {
+        min-height: 100vh;
         &__logo {
             width: 170px;
         }
