@@ -903,6 +903,9 @@
 
   .bi-prdctcs {
     font-family: "Boehringer Forward Text";
+    margin: 3px auto 66px !important;
+    color: #08312a;
+    font-size: 20px;
     span {
       color: #08312A;
     }
@@ -1461,11 +1464,11 @@
     .bi-piegap {
       margin-bottom: 30px;
     }
-    .bi-date {
-      input {
-       width: 114px !important;
-      }
-    }
+    // .bi-date {
+    //   input {
+    //    width: 130px !important;
+    //   }
+    // }
     .bi-pdpcr {
       display: inline-flex;
       flex-direction: column-reverse;

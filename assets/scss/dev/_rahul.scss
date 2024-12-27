@@ -172,8 +172,10 @@
         .bi-plp {
             .bi-bgclr {
                 .left-box.filter-mbl {
-                    width: 260px;
-                    padding-right: 30px;
+                    max-height: 600px;
+                    width: 100%;
+                    border: 0;
+                    padding: 0 20px;
         
                     .dxeTBContentContainerSys {
                         right: -10px;
