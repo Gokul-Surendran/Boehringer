@@ -916,7 +916,7 @@
   }
 
   .bi-piegap {
-    margin-right: 34px;
+    // margin-right: 34px;
 
     tspan {
       font-family: "Boehringer Forward Text";
@@ -1341,6 +1341,14 @@
       flex-direction: column-reverse;
       gap: 20px;
     }
+    .bi-trackdx {
+      .dxeTBHSys  .dxeTBContentContainerSys {
+        width: 100% !important;
+      }
+      .dxeTBTrack_MaterialCompact {
+        width: 110px !important;
+      }
+    }
   }
   .headerspacer {
     height: 220px !important;
@@ -1503,6 +1511,14 @@
     }
     .bi-freight {
       font-size: 10px;
+    }
+    .bi-trackdx {
+      .dxeTBHSys  .dxeTBContentContainerSys {
+        width: 100% !important;
+      }
+      .dxeTBTrack_MaterialCompact {
+        width: 190px !important;
+      }
     }
   }
 }
