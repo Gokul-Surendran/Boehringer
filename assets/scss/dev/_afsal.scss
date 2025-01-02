@@ -59,12 +59,35 @@
          color: #191919;
          font-size: 16px;
          margin-right: 4px;
-      }
+      } 
+         
       select {
          border: 1px solid #aaa;
          border-radius: 3px;
          padding: 2px;
          background-color: transparent;
+      }
+   }
+   .purchase-table-header {
+      a {
+         position: relative;
+         &::after {
+            content: "";
+            background-color: #00E47C;
+            position: absolute;
+            height: 2px;
+            bottom: -1px;
+            width: 90%;
+            left: 0;
+         }
+         &:hover {
+            &::after {
+               width: 0;
+            }
+         }
+         span {
+            color: #08312A;
+         }
       }
    }
    .bi-odrtitle {
