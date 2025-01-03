@@ -178,7 +178,9 @@
       accent-color: #12a912;
    }
 }
-
+input[type=text] {
+   accent-color: #12a912;
+}
 
 @include tablet {
    .bi-w40 {
