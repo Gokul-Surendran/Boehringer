@@ -71,6 +71,46 @@
             width: 100%;
         }
     }
+    &__bespoke {
+        padding: 12px 14px;
+        background-color: #E0E1F6;
+        margin: 76px 0 82px;
+    }
+    &__bespoke-flex {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+    &__bespoke-img {
+        width: 10%;
+        img {
+            width: 100%;
+        }
+    }
+    &__bespoke-text {
+        font-size: 26px;
+        color: #08312A;
+        a {
+            position: relative;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 4px;
+            &::after {
+                content: '';
+                position: absolute;
+                border-bottom: 2px solid #00E47C;
+                width: 100%;
+                left: 0;
+                bottom: 0;
+            }
+            &:hover{
+                &::after{
+                  width: 0;
+                }
+           }
+        }
+    }
 }
 
 @include tablet {
