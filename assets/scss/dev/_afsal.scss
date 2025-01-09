@@ -203,12 +203,40 @@
       padding-right: 24px !important;
    }
 
+   // credit application form dropdown
+
    .bi-input.select-menu {
       .select-selected {
          color: #08312a;
          border: 1px solid #ccc;
          margin-top: 10px;
          border-radius: 4px;
+         padding: 6px 8px;
+         &:after {
+            top: 47px;
+            border-left: 2px solid #000;
+            border-bottom: 2px solid #000;
+          }
+      }
+      .select-items {
+         div {
+            border: 1px solid #ccc;
+            border-bottom: 0;
+            &:last-child {
+               border-bottom: 1px solid #ccc;
+            }
+         }
+       }
+   }
+
+   // saved basket dropdown
+
+   .bi-sbselect.select-menu {
+      .select-selected {
+         background-color: #fff;
+         color: #08312a;
+         border: 1px solid #ccc;
+         margin-top: 10px;
          &:after {
             top: 50px;
             border-left: 2px solid #000;
