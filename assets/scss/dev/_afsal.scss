@@ -207,6 +207,50 @@
       accent-color: #08312A; 
     }
 
+    // language selection
+
+    .lndropdown {
+      position: relative;
+      display: inline-block;
+      &:hover {
+        .lndropdown-content {
+          display: block;
+        }
+      }
+      .lndropbtn {
+      background-color: #072B25;
+      color: #fff;
+      font-size: 16px;
+      border: none;
+    }
+    .lndropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #fff;
+      z-index: 1;
+      border-radius: 6px;
+      a {
+      font-size: 14px;
+      color: #08312a;
+      padding: 8px 12px;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+        &:hover {
+          background-color: #00e47c;
+        }
+        &:first-child {
+          border-top-left-radius: 6px;
+          border-top-right-radius: 6px;
+        }
+        &:last-child {
+          border-bottom-right-radius: 6px;
+          border-bottom-left-radius: 6px;
+        }
+        }
+      }
+    }
+
    // credit application form dropdown
 
    .bi-input.select-menu {
@@ -321,6 +365,75 @@
          }
        }
    }
+
+   // order history dropdown
+
+   .bi-showmyorder {
+      width: 190px;
+      .select-menu {
+         height: 34px;
+         .select-selected {
+            background-color: #fff;
+            color: #08312a;
+            border: 1px solid #ccc;
+            padding: 6px 8px;
+            margin-top: 4px;
+            border-radius: 5px;
+            &:after {
+               top: 16px;
+               right: 14px;
+               border-left: 2px solid #000;
+               border-bottom: 2px solid #000;
+             }
+         }
+         .select-items {
+            div {
+               padding: 6px 8px;
+               border: 1px solid #ccc;
+               border-bottom: 0;
+               &:last-child {
+                  border-bottom: 1px solid #ccc;
+                  border-bottom-left-radius: 5px;
+                  border-bottom-right-radius: 5px;
+               }
+            }
+          }
+      }
+   } 
+   .bi-order-summary__w-25 {
+      .select-menu {
+         display: flex;
+         align-items: center;
+         .select-selected {
+            background-color: #fff;
+            color: #08312a;
+            border: 1px solid #ccc;
+            padding: 6px 8px;
+            margin-top: 4px;
+            border-radius: 5px;
+            width: 190px;
+            &:after {
+               top: 20px;
+               right: 14px;
+               border-left: 2px solid #000;
+               border-bottom: 2px solid #000;
+             }
+         }
+         .select-items {
+            left: 55px;
+            div {
+               padding: 6px 8px;
+               border: 1px solid #ccc;
+               border-bottom: 0;
+               &:last-child {
+                  border-bottom: 1px solid #ccc;
+                  border-bottom-left-radius: 5px;
+                  border-bottom-right-radius: 5px;
+               }
+            }
+          }
+      }
+   } 
 
 
    // ipad mini
