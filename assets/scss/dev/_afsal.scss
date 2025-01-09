@@ -203,6 +203,10 @@
       padding-right: 24px !important;
    }
 
+   input[type="checkbox"] {
+      accent-color: #08312A; 
+    }
+
    // credit application form dropdown
 
    .bi-input.select-menu {
@@ -224,6 +228,8 @@
             border-bottom: 0;
             &:last-child {
                border-bottom: 1px solid #ccc;
+               border-bottom-left-radius: 4px;
+               border-bottom-right-radius: 4px;
             }
          }
        }
@@ -236,11 +242,12 @@
          background-color: #fff;
          color: #08312a;
          border: 1px solid #ccc;
+         border-radius: 4px;
          margin-top: 10px;
          padding: 6px 8px;
          &:after {
             top: 47px;
-            right: 16px;
+            right: 14px;
             border-left: 2px solid #000;
             border-bottom: 2px solid #000;
           }
@@ -252,6 +259,8 @@
             border-bottom: 0;
             &:last-child {
                border-bottom: 1px solid #ccc;
+               border-bottom-left-radius: 4px;
+               border-bottom-right-radius: 4px;
             }
          }
        }
@@ -268,7 +277,7 @@
          width: 190px;
          &:after {
             top: 15px;
-            right: 16px;
+            right: 14px;
             border-left: 2px solid #000;
             border-bottom: 2px solid #000;
           }
@@ -284,6 +293,35 @@
          }
        }
    }
+
+   // order summary dropdown
+
+   .bi-osselect.select-menu {
+      .select-selected {
+         background-color: #fff;
+         color: #08312a;
+         border: 1px solid #ccc;
+         padding: 6px 8px;
+         width: 190px;
+         &:after {
+            top: 16px;
+            right: 14px;
+            border-left: 2px solid #000;
+            border-bottom: 2px solid #000;
+          }
+      }
+      .select-items {
+         div {
+            padding: 6px 8px;
+            border: 1px solid #ccc;
+            border-bottom: 0;
+            &:last-child {
+               border-bottom: 1px solid #ccc;
+            }
+         }
+       }
+   }
+
 
    // ipad mini
 
