@@ -50,6 +50,8 @@
       text-decoration: none;
       color: #333333;
       position: relative;
+      margin-bottom: 2px;
+      display: inline-block;
       &::after {
         content: "";
         border-bottom: 2px solid #00e47c;
