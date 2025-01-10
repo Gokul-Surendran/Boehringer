@@ -283,21 +283,24 @@
    // saved basket dropdown
 
    .bi-sbselect.select-menu {
+      display: flex;
+      align-items: center;
       .select-selected {
          background-color: #fff;
          color: #08312a;
          border: 1px solid #ccc;
          border-radius: 4px;
-         margin-top: 10px;
          padding: 6px 8px;
+         width: 90px;
          &:after {
-            top: 47px;
+            top: 16px;
             right: 14px;
             border-left: 2px solid #000;
             border-bottom: 2px solid #000;
           }
       }
       .select-items {
+         left: 130px;
          div {
             padding: 6px 8px;
             border: 1px solid #ccc;
