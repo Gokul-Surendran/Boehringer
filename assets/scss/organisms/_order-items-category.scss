@@ -78,8 +78,8 @@
     background-color: var(--primary-clr);
     margin-right: 16px;
     &:hover {
-      border: 1px solid #07473d !important;
-      background-color: #07473d !important;
+      border: 1px solid var(--third-clr) !important;
+      background-color: var(--third-clr) !important;
     }
   }
   .bi-oic-btns {

@@ -144,10 +144,10 @@
       margin-top: 26px;
       transition: 0.3s all;
       &:hover {
-         background-color: #66EFB0;
+         background-color: var(--fourth-clr);
          color: var(--primary-clr);
          cursor: pointer;
-         border: 1px solid #66EFB0;
+         border: 1px solid var(--fourth-clr);
       }
    }
    .bi-dollar {

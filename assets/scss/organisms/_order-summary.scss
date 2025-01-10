@@ -92,8 +92,8 @@
     background-color: var(--secondary-clr);
 
     &:hover {
-      border: 1px solid #66efb0;
-      background-color: #66efb0;
+      border: 1px solid var(--fourth-clr);
+      background-color: var(--fourth-clr);
     }
   }
 
@@ -105,8 +105,8 @@
     background-color: var(--primary-clr);
     margin-right: 16px;
     &:hover {
-      border: 1px solid #07473d !important;
-      background-color: #07473d !important;
+      border: 1px solid var(--third-clr) !important;
+      background-color: var(--third-clr) !important;
     }
   }
   &__fromtoout {
@@ -175,8 +175,8 @@
         background-color: var(--secondary-clr);
 
         &:hover {
-            border: 1px solid #66EFB0;
-            background-color: #66EFB0;
+            border: 1px solid vARvar(--fourth-clr);
+            background-color: vARvar(--fourth-clr);
         }
     }
 
@@ -188,8 +188,8 @@
         background-color: var(--primary-clr);
         margin-right: 16px;
         &:hover {
-            border: 1px solid #07473d !important;
-            background-color: #07473d !important;
+            border: 1px solid var(--third-clr) !important;
+            background-color: var(--third-clr) !important;
         }
     }
     &__fromtoout {

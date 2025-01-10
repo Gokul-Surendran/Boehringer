@@ -61,16 +61,16 @@
       color: var(--primary-clr);
       border: 1px solid #CCFAE5;
       &:hover {
-        background-color: #66EFB0;
+        background-color: var(--fourth-clr);
         color: var(--primary-clr);
-        border: 1px solid #66EFB0;
+        border: 1px solid var(--fourth-clr);
       }
     }
    &:hover {
-      background-color: #07473d;
+      background-color: var(--third-clr);
       color: #fff;
       cursor: pointer;
-      border: 1px solid #07473d;
+      border: 1px solid var(--third-clr);
    }
 }
 .cx-shpingcart .cx-ordrsumry__item.total {

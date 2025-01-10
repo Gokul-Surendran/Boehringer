@@ -57,7 +57,7 @@
       background-color: #ccfae5 !important;
       color: var(--primary-clr);
       &:hover {
-        background-color: #66efb0 !important;
+        background-color: var(--fourth-clr) !important;
         transition: all 0.2s 0s ease-in;
         color: var(--primary-clr);
       }
@@ -72,7 +72,7 @@
       border-radius: 5px;
       width: 25%;
       &:hover {
-        background-color: #66efb0;
+        background-color: var(--fourth-clr);
         transition: all 0.2s 0s ease-in;
         color: var(--primary-clr);
 

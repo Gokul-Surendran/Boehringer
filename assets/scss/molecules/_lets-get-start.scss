@@ -39,7 +39,7 @@
    border-radius: 5px;
    width: 36%;
    &:hover {
-      background-color: #66EFB0;
+      background-color: var(--fourth-clr);
       transition: all 0.2s 0s ease-in;
    }
   }

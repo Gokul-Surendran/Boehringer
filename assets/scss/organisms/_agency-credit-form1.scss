@@ -112,7 +112,7 @@
         transition: 0.3s all;
         &:hover {
             color:var(--primary-clr);
-            background-color: #66EFB0;
+            background-color: var(--fourth-clr);
         }
     }
     &__Next {
@@ -124,7 +124,7 @@
         transition: 0.3s all;
         &:hover {     
             color: var(--primary-clr);  
-            background-color: #66EFB0;
+            background-color: var(--fourth-clr);
         }
     }
     &__copyright {

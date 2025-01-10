@@ -163,8 +163,8 @@
     float: right;
     transition: 0.3s all;
     &:hover {
-        border: 1px solid #07473d;
-        background-color: #07473d;
+        border: 1px solid var(--third-clr);
+        background-color: var(--third-clr);
         color: #fff;
         cursor: pointer;
     }

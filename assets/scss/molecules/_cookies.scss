@@ -43,8 +43,8 @@
       background-color: var(--secondary-clr);
       border: 1px solid var(--secondary-clr);
       &:hover {
-          background-color: #66efb0;
-          border: 1px solid #66efb0;         
+          background-color: var(--fourth-clr);
+          border: 1px solid var(--fourth-clr);         
         }
   }
     &__btnb {

@@ -256,8 +256,8 @@
     font-weight: 400 !important;
 
     &:hover {
-      border: 2px solid #66efb0 !important;
-      background-color: #66efb0 !important;
+      border: 2px solid var(--fourth-clr) !important;
+      background-color: var(--fourth-clr) !important;
     }
   }
 
@@ -673,8 +673,8 @@
     margin-right: 16px;
 
     &:hover {
-      background-color: #66efb0 !important;
-      border: 1px solid #66efb0 !important;
+      background-color: var(--fourth-clr) !important;
+      border: 1px solid var(--fourth-clr) !important;
       color: var(--primary-clr);
     }
 
@@ -1097,7 +1097,7 @@
       margin-top: 28px;
       transition: 0.3s all;
       &:hover {
-        background-color: #07473d;
+        background-color: var(--third-clr);
         color: #fff;
         cursor: pointer;
         border: 1px solid var(--primary-clr);

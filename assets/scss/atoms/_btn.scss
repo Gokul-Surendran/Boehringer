@@ -1,8 +1,8 @@
 .bi-btn {
 
     &--reverse {
-        background-color: #66EFB0;
-        border-color: #66EFB0;
+        background-color: var(--fourth-clr);
+        border-color: var(--fourth-clr);
         border-radius: 2px;
 
         &:hover {
@@ -30,8 +30,8 @@
     }
 
     &:hover {
-        background-color: #66EFB0;
-        border-color: #66EFB0;
+        background-color: var(--fourth-clr);
+        border-color: var(--fourth-clr);
         text-decoration: none;
         color: var(--primary-clr);
         transition: all 0.2s 0s ease-in;

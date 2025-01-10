@@ -1848,8 +1848,8 @@
 }
 
 .boehringer .bh-button:hover {
-  background-color: #66EFB0;
-  border-color: #66EFB0;
+  background-color: var(--fourth-clr);
+  border-color: var(--fourth-clr);
   color: var(--primary-clr);
   transition: all 0.2s 0s ease-in;
 }
@@ -3647,18 +3647,18 @@
     border: 1px solid #CCFAE5;
 
     &:hover {
-      background-color: #66EFB0;
+      background-color: var(--fourth-clr);
       color: var(--primary-clr);
-      border: 1px solid #66EFB0;
+      border: 1px solid var(--fourth-clr);
     }
   }
 }
 
 .cx-ordrsumry__btn:hover {
-  background-color: #66EFB0;
+  background-color: var(--fourth-clr);
   color: var(--primary-clr);
   cursor: pointer;
-  border: 1px solid #66EFB0;
+  border: 1px solid var(--fourth-clr);
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -4148,11 +4148,11 @@
   width: 100%;
   padding: 6px 10px;
   &:hover {
-    background-color: #66EFB0 !important;
+    background-color: var(--fourth-clr) !important;
     color: var(--primary-clr) !important;
     width: 100%;
     text-align: center;
-    border: 1px solid #66EFB0;
+    border: 1px solid var(--fourth-clr);
   }
 }
 
@@ -5493,8 +5493,8 @@ body {
 }
 
 .boehringer .cx-save:hover {
-  border: 1px solid #66EFB0 !important;
-  background-color: #66EFB0 !important;
+  border: 1px solid var(--fourth-clr) !important;
+  background-color: var(--fourth-clr) !important;
 }
 
 .boehringer .ab-address__head-btn,
