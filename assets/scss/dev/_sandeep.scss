@@ -782,6 +782,7 @@
 
   .b-price b {
     color: #08312a !important;
+    margin-bottom: 4px;
   }
 
   .b-price span {
@@ -937,11 +938,11 @@
       &::after {
         content: "";
         background-color: #00e47c;
-        width: 95%;
+        width: 92%;
         height: 2px;
         position: absolute;
-        bottom: 0;
-        left: 0;
+        bottom: -2px;
+        left: 2px;
       }
       &:hover {
         &::after {
