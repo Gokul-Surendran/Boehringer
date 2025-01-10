@@ -4,7 +4,7 @@
    &__heading {
       font-size: 50px;
       font-weight: 700;
-      color: #08312A;
+      color: var(--primary-clr);
       text-align: left;
    }
    &__formwrap {
@@ -31,7 +31,7 @@
    &__head {
       font-family: 'Boehringer Forward Text';
       color: #fff;
-      background-color: #08312a;
+      background-color: var(--primary-clr);
       font-size: 26px;
       font-weight: 500;
       padding: 10px 24px;
@@ -46,7 +46,7 @@
       label, span {
          font-size: 18px;
          font-weight: 600;
-         color: #08312a;
+         color: var(--primary-clr);
          margin-bottom: 6px;
       }
       input, select {
@@ -79,10 +79,10 @@
       align-items: flex-end;
       width: 68%;
       label {
-         color: #08312a;
+         color: var(--primary-clr);
          margin-left: 8px;
          a {
-            color: #08312a;
+            color: var(--primary-clr);
             text-decoration: underline !important;
             font-weight: 600;
             &:hover {
@@ -94,10 +94,10 @@
          height: 18px;
          width: 18px;
          background-color: #f6f5f3;
-         border: 2px solid #08312a;
+         border: 2px solid var(--primary-clr);
        }
        input[type="checkbox"]:checked {
-         background-color: #08312a;
+         background-color: var(--primary-clr);
        }
    }
    &__cbwrap {
@@ -113,12 +113,12 @@
       margin: 22px 0 8px;
    }
    &__getin {
-      color: #08312A;
+      color: var(--primary-clr);
       a {
          position: relative;
          &::after {
            content: "";
-           background-color: #00E47C;
+           background-color: var(--secondary-clr);
            width: 98%;
            height: 2px;
            position: absolute;
@@ -133,19 +133,19 @@
        }
    }
    &__btn {
-      background-color: #00E47C;
-      color: #08312A;
+      background-color: var(--secondary-clr);
+      color: var(--primary-clr);
       width: 100%;
       display: inline-block;
       text-align: center;
-      border: 1px solid #00E47C;
+      border: 1px solid var(--secondary-clr);
       border-radius: 4px;
       padding: 10px 0px;
       margin-top: 26px;
       transition: 0.3s all;
       &:hover {
          background-color: #66EFB0;
-         color: #08312A;
+         color: var(--primary-clr);
          cursor: pointer;
          border: 1px solid #66EFB0;
       }

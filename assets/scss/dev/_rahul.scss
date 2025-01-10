@@ -110,7 +110,7 @@
 
         .cx-shpcart::-webkit-scrollbar-thumb{
             border-radius: 10px;
-            background-color: #08312a;
+            background-color: var(--primary-clr);
          }
 
          .cx-shpcart::-webkit-scrollbar-track {
@@ -372,7 +372,7 @@
 
         .pb-3 {
             span {
-                color: #08312a;
+                color: var(--primary-clr);
             }
         }
     }

@@ -2,7 +2,7 @@
     margin-top: 24px;
     margin-bottom: 38px;
     &__head {
-        color: #08312A;
+        color: var(--primary-clr);
         font-size: 20px;
         font-family: 'Boehringer Forward Text';
         font-weight: 700;
@@ -51,7 +51,7 @@
     }
     .rp-head {
             font-size: 14px;
-            color: #08312A !important;
+            color: var(--primary-clr) !important;
             font-family: 'Boehringer Forward Head';
             text-transform: uppercase;
             text-align: left;

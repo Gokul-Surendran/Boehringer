@@ -10,7 +10,7 @@
       margin-bottom: 40px;
       p {
          color: #f7f7f7;
-         background-color: #08312A;
+         background-color: var(--primary-clr);
          border: 1px solid #faebcc;
          font-size: 14px;
          border-radius: 4px;
@@ -34,7 +34,7 @@
       span {
          font-size: 24px;
          margin-left: 19px;
-         color: #08312A;
+         color: var(--primary-clr);
       }
    }
 }

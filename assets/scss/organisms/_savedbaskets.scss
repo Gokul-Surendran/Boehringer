@@ -27,10 +27,10 @@
         align-items: center;
 
         a {
-            background-color: #00E47C;
-            color: #08312A;
+            background-color: var(--secondary-clr);
+            color: var(--primary-clr);
             width: auto;
-            border: 1px solid #00E47C;
+            border: 1px solid var(--secondary-clr);
             border-radius: 4px;
             margin-right: 12px;
             padding: 8px 12px;
@@ -38,7 +38,7 @@
             transition: 0.3s all;
             &:hover {
                 background-color: #66EFB0;
-                color: #08312A;
+                color: var(--primary-clr);
                 border: 1px solid #66EFB0;
             }
         }

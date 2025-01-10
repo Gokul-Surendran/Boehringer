@@ -41,11 +41,11 @@
     }
 
     // a[href^="mailto:"] {
-    //     color: #08312A;
+    //     color: var(--primary-clr);
     //     position: relative;
     //     &::after {
     //         content: "";
-    //         background-color: #00E47C;
+    //         background-color: var(--secondary-clr);
     //         position: absolute;
     //         height: 2px;
     //         bottom: 0;
@@ -60,13 +60,13 @@
     // }
 
     a {
-        color: #08312A;
+        color: var(--primary-clr);
         position: relative;
         margin-bottom: 2px;
         display: inline-block;
         &::after {
             content: "";
-            border-bottom: 2px solid #00E47C;
+            border-bottom: 2px solid var(--secondary-clr);
             position: absolute;
             bottom: 0;
             width: 100%;

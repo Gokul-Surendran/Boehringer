@@ -26,12 +26,12 @@
    margin: 7% 0;
    font-family: 'Boehringer Forward Head';
    span {
-      color: #00E47C;
+      color: var(--secondary-clr);
    }
   }
   &__btn {
-   background-color: #00E47C;
-   color: #08312A;
+   background-color: var(--secondary-clr);
+   color: var(--primary-clr);
    font-size: 24px;
    padding: 12px;
    transition: all 0.2s 0s ease-in;

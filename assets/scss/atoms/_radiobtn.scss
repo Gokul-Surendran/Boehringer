@@ -23,7 +23,7 @@
     position: absolute;
    
     background-color: transparent;
-    border: 2px solid #00E47C;
+    border: 2px solid var(--secondary-clr);
     border-radius: 50%;
 
     &::after {
@@ -35,7 +35,7 @@
         width: 11px;
         height: 11px;
         border-radius: 50%;
-        background: #00E47C;
+        background: var(--secondary-clr);
     }
 }
 

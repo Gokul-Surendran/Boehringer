@@ -19,7 +19,7 @@
         align-items: center;
         font-size: 42px;
         margin-top: 72px;
-        color: #08312a;
+        color: var(--primary-clr);
         font-weight: 700;
     }
     &__cta {
@@ -30,7 +30,7 @@
         margin-top: 42px;
         a {
             border-radius: 6px;
-            background-color: #00E47C;
+            background-color: var(--secondary-clr);
             padding: 10px 80px;
         }
     }

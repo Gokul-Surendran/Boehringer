@@ -6,15 +6,15 @@
         border-radius: 2px;
 
         &:hover {
-            background-color: #00E47C !important;
-            border-color: #00E47C !important;
+            background-color: var(--secondary-clr) !important;
+            border-color: var(--secondary-clr) !important;
         }
     }
 
 
-    background-color: #00E47C;
-    color: #08312A;
-    border-color: #00E47C;
+    background-color: var(--secondary-clr);
+    color: var(--primary-clr);
+    border-color: var(--secondary-clr);
     font-size: 14px;
     line-height: 20px;
     padding: 8px 14px;
@@ -33,7 +33,7 @@
         background-color: #66EFB0;
         border-color: #66EFB0;
         text-decoration: none;
-        color: #08312A;
+        color: var(--primary-clr);
         transition: all 0.2s 0s ease-in;
 
         a {
@@ -46,20 +46,20 @@
 .bi-btn2 {
 
     &--reverse {
-        background-color: #08312A;
-        border-color: #08312A;
+        background-color: var(--primary-clr);
+        border-color: var(--primary-clr);
         border-radius: 2px;
 
         &:hover {
-            background-color: #00E47C !important;
-            border-color: #00E47C !important;
+            background-color: var(--secondary-clr) !important;
+            border-color: var(--secondary-clr) !important;
         }
     }
 
 
-    background-color: #08312A;
+    background-color: var(--primary-clr);
     color: #fff;
-    border-color: #08312A;
+    border-color: var(--primary-clr);
     font-size: 14px;
     line-height: 20px;
     padding: 8px 14px;
@@ -90,7 +90,7 @@
 
 .btn-secondary {
     &.active {
-      color: #00E47C !important;
+      color: var(--secondary-clr) !important;
       box-shadow: none;
       font-weight: 600;
     }

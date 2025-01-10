@@ -1,6 +1,6 @@
 .bi-agencyreg {
     width: 100%;
-    background-color: #08312A;
+    background-color: var(--primary-clr);
     &__header{
         display: flex;
         justify-content: space-between;
@@ -26,13 +26,13 @@
     &__heading {
         h4 {
             font-size: 28px;
-            color: #08312A;
+            color: var(--primary-clr);
             font-weight: 600;
         }
     }
     &__required {
         width: 100%;
-        background-color: #08312A;
+        background-color: var(--primary-clr);
         padding: 12px 28px;
         margin-top: 24px;
         border-radius: 6px;
@@ -57,18 +57,18 @@
             span {
                 font-size: 18px;
                 font-weight: 600;
-                color: #08312a;
+                color: var(--primary-clr);
                 display: inline-block;
             }
             a {
-              color: #08312A;
+              color: var(--primary-clr);
               position: relative;
               font-size: 18px;
               font-weight: 600;
               &::after {
                 content: '';
                 position: absolute;
-                background-color: #00E47C;
+                background-color: var(--secondary-clr);
                 width: 98%;
                 height: 2px;
                 left: 0;
@@ -83,7 +83,7 @@
         }
         label {
             font-size: 16px;
-            color: #08312a;
+            color: var(--primary-clr);
         }
     }
     &__captcha {
@@ -97,13 +97,13 @@
     &__downpara {
         color: #000;
         a {
-            color: #08312A !important;
+            color: var(--primary-clr) !important;
             position: relative;
             font-weight: bold;
             &::after {
                 content: '';
                 position: absolute;
-                background-color: #00E47C;
+                background-color: var(--secondary-clr);
                 width: 98%;
                 left: 0;
                 height: 2px;
@@ -122,7 +122,7 @@
     &__smpara {
         font-family: "Boehringer Forward Text Md";
         font-size: 13px;
-        color: #08312A;
+        color: var(--primary-clr);
         margin-top: 6px;
     }
     &__regcta {
@@ -130,7 +130,7 @@
         justify-content: right;
         margin-top: 24px;
         .bi-btn {
-            color: #08312A;
+            color: var(--primary-clr);
         }
     }
     .input2 {
@@ -156,7 +156,7 @@
         margin-bottom: 14px;
         text-transform: unset;
         font-weight: 600;
-        color: #08312A;
+        color: var(--primary-clr);
     }
     &__toppara {
         float: right;

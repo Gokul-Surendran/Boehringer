@@ -4,7 +4,7 @@
   overflow: hidden;
   &__head {
     font-size: 35px;
-    color: #08312a;
+    color: var(--primary-clr);
     font-weight: 700;
     margin: 20px 0;
     text-transform: unset;
@@ -18,7 +18,7 @@
     font-family: "Boehringer Forward Head Md";
     font-size: 21px;
     font-weight: 500;
-    color: #08312a;
+    color: var(--primary-clr);
     margin-bottom: 30px;
   }
 
@@ -74,8 +74,8 @@
     padding: 6px 25px;
     border-radius: 4px;
     color: #fff;
-    border: 1px solid #08312a !important;
-    background-color: #08312a;
+    border: 1px solid var(--primary-clr) !important;
+    background-color: var(--primary-clr);
     margin-right: 16px;
     &:hover {
       border: 1px solid #07473d !important;

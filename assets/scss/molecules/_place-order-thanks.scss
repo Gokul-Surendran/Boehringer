@@ -26,7 +26,7 @@
     font-family: "Boehringer Forward Head";
     font-weight: 600;
     span {
-      color: #00e47c;
+      color: var(--secondary-clr);
       margin-bottom: 8px;
       display: inline-block;
     }
@@ -43,7 +43,7 @@
     margin: 36px 0;
 
     span {
-      color: #00e47c;
+      color: var(--secondary-clr);
     }
   }
 
@@ -55,16 +55,16 @@
     gap: 40px;
     &__firsbtn {
       background-color: #ccfae5 !important;
-      color: #08312a;
+      color: var(--primary-clr);
       &:hover {
         background-color: #66efb0 !important;
         transition: all 0.2s 0s ease-in;
-        color: #08312a;
+        color: var(--primary-clr);
       }
     }
     a {
-      background-color: #00e47c;
-      color: #08312a;
+      background-color: var(--secondary-clr);
+      color: var(--primary-clr);
       font-size: 22px;
       padding: 6px 8px;
       transition: all 0.2s 0s ease-in;
@@ -74,7 +74,7 @@
       &:hover {
         background-color: #66efb0;
         transition: all 0.2s 0s ease-in;
-        color: #08312a;
+        color: var(--primary-clr);
 
       }
     }

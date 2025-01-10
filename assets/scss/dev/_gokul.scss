@@ -30,7 +30,7 @@
 
     .bh-button {
         padding: 6px 10px;
-        border: 1px solid #00E47C;
+        border: 1px solid var(--secondary-clr);
     }
 
     .sec-menu {
@@ -74,9 +74,9 @@
 
                     &:nth-child(even) {
                         a {
-                            background-color: #00E47C;
-                            border-color: #00E47C;
-                            color: #08312A;
+                            background-color: var(--secondary-clr);
+                            border-color: var(--secondary-clr);
+                            color: var(--primary-clr);
                             text-transform: None;
                             padding: 4px 8px;
                             border-radius: 5px;
@@ -142,7 +142,7 @@
         }
 
         .slick-dots li button {
-            border: 2px solid #08312A;
+            border: 2px solid var(--primary-clr);
             content: "";
             opacity: 1;
             border-radius: 50%;
@@ -160,7 +160,7 @@
 
         .slick-active {
             button {
-                background-color: #00E47C;
+                background-color: var(--secondary-clr);
             }
         }
 
