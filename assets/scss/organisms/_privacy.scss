@@ -62,6 +62,8 @@
     a {
         color: #08312A;
         position: relative;
+        margin-bottom: 2px;
+        display: inline-block;
         &::after {
             content: "";
             border-bottom: 2px solid #00E47C;
