@@ -22,7 +22,7 @@
     text-align: center;
 
     span {
-      color: #00e47c;
+      color: var(--secondary-clr);
     }
   }
   &__ssocontent {
@@ -32,7 +32,7 @@
     text-align: center;
 
     span {
-      color: #00e47c;
+      color: var(--secondary-clr);
     }
   }
 
@@ -60,7 +60,7 @@
       font-size: 22px;
     }
     span {
-      color: #00e47c;
+      color: var(--secondary-clr);
     }
   }
   &__ssopara {
@@ -86,12 +86,12 @@
      
       a {
         position: relative;
-        color: #00e47c;
+        color: var(--secondary-clr);
         // text-decoration: underline !important;
         &::after {
           content: "";
           position: absolute;
-          background: #00e47c;
+          background: var(--secondary-clr);
           width: 100%;
           left: 0;
           bottom: 0;
@@ -109,15 +109,15 @@
     margin-top: 40px;
     &__firsbtn {
       background-color: #ccfae5 !important;
-      color: #08312a;
+      color: var(--primary-clr);
       &:hover {
-        background-color: #66efb0 !important;
+        background-color: var(--fourth-clr) !important;
         transition: all 0.2s 0s ease-in;
       }
     }
     a {
-      background-color: #00e47c;
-      color: #08312a;
+      background-color: var(--secondary-clr);
+      color: var(--primary-clr);
       font-size: 22px;
       padding: 10px 12px;
       transition: all 0.2s 0s ease-in;
@@ -125,8 +125,8 @@
       border-radius: 5px;
       width: 26%;
       &:hover {
-        color: #08312a;
-        background-color: #66efb0;
+        color: var(--primary-clr);
+        background-color: var(--fourth-clr);
         transition: all 0.2s 0s ease-in;
       }
     }
@@ -150,13 +150,13 @@
       width: 40px;
     }
     a {
-      color: #00e47c;
+      color: var(--secondary-clr);
       position: relative;
       margin-left: 4px;
       &::after {
           content: "";
           position: absolute;
-          border-bottom: 1px solid #00e47c;
+          border-bottom: 1px solid var(--secondary-clr);
           bottom: 0;
           bottom: 0;
           width: 100%;

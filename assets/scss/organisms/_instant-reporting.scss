@@ -5,11 +5,11 @@
     font-size: 35px;
     text-transform: unset;
     padding: 40px 0px;
-    color: #08312a;
+    color: var(--primary-clr);
   }
 
   &__headb {
-    background-color: #08312a;
+    background-color: var(--primary-clr);
     padding: 15px 20px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -68,7 +68,7 @@
   }
 
   &__contenthead {
-    color: #08312a;
+    color: var(--primary-clr);
     font-size: 20px;
     font-family: "Boehringer Forward Head Md";
     padding-bottom: 10px;

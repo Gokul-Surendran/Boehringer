@@ -49,7 +49,7 @@
     bottom: 12%;
 
     &.active {
-      background: #00e47c;
+      background: var(--secondary-clr);
     }
   }
 
@@ -63,7 +63,7 @@
     bottom: 12%;
 
     &.active {
-      background: #00e47c;
+      background: var(--secondary-clr);
     }
   }
 
@@ -72,7 +72,7 @@
   }
 
   .bh-button {
-    border: 1px solid #00e47c;
+    border: 1px solid var(--secondary-clr);
     border-radius: 6px;
     padding: 6px;
     font-size: 14px;
@@ -109,7 +109,7 @@
 
   .bi-footer__links {
     &:hover {
-      color: #00e47c;
+      color: var(--secondary-clr);
     }
   }
 
@@ -147,11 +147,11 @@
   .list-show .hover .product-name {
     font-family: "Boehringer Forward Head";
     font-size: 14px;
-    color: #08312a;
+    color: var(--primary-clr);
     letter-spacing: 0.7px;
 
     &:hover {
-      color: #00E47C;
+      color: var(--secondary-clr);
     }
   }
 
@@ -173,25 +173,25 @@
   }
   .book-name-and-buy .btn-buy {
     font-family: "Boehringer Forward Head";
-    color: #08312a !important;
+    color: var(--primary-clr) !important;
     text-transform: capitalize;
     font-size: 15px;
     padding: 5px 10px;
   }
 
   .dataView.product-box a:hover {
-    color: #00e47c !important;
+    color: var(--secondary-clr) !important;
   }
 
   .cx-clr-ctn {
     width: auto;
-    border: 2px solid #00e47c;
-    background-color: #00e47c;
+    border: 2px solid var(--secondary-clr);
+    background-color: var(--secondary-clr);
     padding: 5px 20px;
     color: #ffffff;
 
     &:hover {
-      color: #00e47c !important;
+      color: var(--secondary-clr) !important;
     }
   }
 
@@ -229,8 +229,8 @@
 
   .btn-wishlists {
     border-radius: 6px !important;
-    background-color: #08312a !important;
-    border: 1px solid #08312a !important;
+    background-color: var(--primary-clr) !important;
+    border: 1px solid var(--primary-clr) !important;
     color: #f6f6f6;
     padding: 10px 20px;
     font-size: 14px !important;
@@ -239,15 +239,15 @@
     margin-right: 30px;
 
     &:hover {
-      color: #08312a !important;
+      color: var(--primary-clr) !important;
       background-color: transparent !important;
     }
   }
 
   .mobile-price .btn-red.hvr-fade {
-    background-color: #00e47c !important;
-    border: 2px solid #00e47c !important;
-    color: #08312a !important;
+    background-color: var(--secondary-clr) !important;
+    border: 2px solid var(--secondary-clr) !important;
+    color: var(--primary-clr) !important;
     border-radius: 6px;
     padding: 10px 20px;
     box-shadow: none;
@@ -256,8 +256,8 @@
     font-weight: 400 !important;
 
     &:hover {
-      border: 2px solid #66efb0 !important;
-      background-color: #66efb0 !important;
+      border: 2px solid var(--fourth-clr) !important;
+      background-color: var(--fourth-clr) !important;
     }
   }
 
@@ -327,7 +327,7 @@
     font-weight: bold;
 
     b {
-      color: #08312a;
+      color: var(--primary-clr);
       display: inline-block;
       transform: translateX(4px);
     }
@@ -349,7 +349,7 @@
   }
 
   .ab-details__head {
-    color: #08312a;
+    color: var(--primary-clr);
     font-weight: 400;
   }
 
@@ -360,7 +360,7 @@
   }
 
   .cx-qd {
-    color: #08312a;
+    color: var(--primary-clr);
     font-weight: bold;
     margin-bottom: 16px;
     font-size: 20px;
@@ -371,7 +371,7 @@
   }
 
   .bi-txtarea {
-    color: #08312a;
+    color: var(--primary-clr);
     font-size: 12px;
     font-weight: bold;
     margin-bottom: 14px;
@@ -390,14 +390,14 @@
   }
 
   .bi-tbl__scroll::-webkit-scrollbar-thumb {
-    background-color: #08312a;
+    background-color: var(--primary-clr);
     /* Color of the scrollbar thumb */
     border-radius: 10px;
     /* Roundness of the scrollbar */
   }
 
   .bi-tbl__scroll::-webkit-scrollbar-thumb:hover {
-    background-color: #08312a;
+    background-color: var(--primary-clr);
     /* Darker color when hovering */
   }
 
@@ -487,7 +487,7 @@
   }
 
   .filter-check-box label {
-    color: #08312a;
+    color: var(--primary-clr);
     margin-left: 8px;
     letter-spacing: 0.3px;
 
@@ -516,7 +516,7 @@
 
   .cx-varient b {
     font-size: 14px;
-    color: #08312a;
+    color: var(--primary-clr);
     margin-bottom: 14px;
     font-weight: 900;
   }
@@ -528,7 +528,7 @@
   }
 
   .cx-varient div .varient-btn.active {
-    border-color: #00e47c;
+    border-color: var(--secondary-clr);
     position: relative;
     font-weight: 600;
     color: #000000;
@@ -555,15 +555,15 @@
 
   .btn-calc {
     border-radius: 6px;
-    background-color: #08312a;
-    border: 1px solid #08312a;
+    background-color: var(--primary-clr);
+    border: 1px solid var(--primary-clr);
     color: #f6f6f6;
     padding: 8px 10px;
     font-size: 14px;
     width: auto;
 
     &:hover {
-      color: #08312a;
+      color: var(--primary-clr);
       background-color: transparent;
     }
   }
@@ -614,7 +614,7 @@
 
     span {
       font-weight: bold;
-      color: #08312a;
+      color: var(--primary-clr);
     }
   }
 
@@ -623,21 +623,21 @@
     color: #fff;
     display: inline-block;
     text-align: center;
-    border: 1px solid #08312a;
+    border: 1px solid var(--primary-clr);
     border-radius: 6px;
     width: 230px;
     height: 38px;
     padding: 7px 8px;
     font-weight: 100;
     font-size: 16px;
-    background-color: #08312a;
+    background-color: var(--primary-clr);
     margin-right: 32px;
     transition: 0.3s;
 
     &:hover {
       background-color: transparent;
-      border: 1px solid #08312a;
-      color: #08312a;
+      border: 1px solid var(--primary-clr);
+      color: var(--primary-clr);
     }
   }
 
@@ -659,11 +659,11 @@
 
   .cx-pf__back {
     cursor: pointer;
-    color: #08312a;
-    background-color: #00e47c;
+    color: var(--primary-clr);
+    background-color: var(--secondary-clr);
     display: inline-block;
     text-align: center;
-    border: 1px solid #00e47c;
+    border: 1px solid var(--secondary-clr);
     border-radius: 6px;
     width: 230px;
     height: 38px;
@@ -673,14 +673,14 @@
     margin-right: 16px;
 
     &:hover {
-      background-color: #66efb0 !important;
-      border: 1px solid #66efb0 !important;
-      color: #08312a;
+      background-color: var(--fourth-clr) !important;
+      border: 1px solid var(--fourth-clr) !important;
+      color: var(--primary-clr);
     }
 
     &.nwclrbtn {
       background-color: #ccfae5;
-      color: #08312a;
+      color: var(--primary-clr);
       border: 1px solid #ccfae5;
     }
   }
@@ -702,7 +702,7 @@
   }
 
   .sec-menu .btn-secondary:hover {
-    color: #00e47c !important;
+    color: var(--secondary-clr) !important;
   }
 
   .boehringer-wrap {
@@ -781,7 +781,7 @@
   }
 
   .b-price b {
-    color: #08312a !important;
+    color: var(--primary-clr) !important;
     margin-bottom: 4px;
   }
 
@@ -839,7 +839,7 @@
 
   .bi-qdhd {
     font-size: 14px;
-    color: #08312a;
+    color: var(--primary-clr);
     margin-bottom: 14px;
     font-weight: 900;
   }
@@ -866,7 +866,7 @@
   .cx-shpcartpdt__quantity {
     input {
       font-weight: 300;
-      color: #08312a;
+      color: var(--primary-clr);
       text-align: center;
     }
   }
@@ -884,7 +884,7 @@
   }
 
   .cx-odrsmry__item.total .value {
-    color: #08312a;
+    color: var(--primary-clr);
   }
 
   .cx-copdt__link {
@@ -901,18 +901,18 @@
 
   .bi-pophead {
     font-size: 21px;
-    color: #08312A;
+    color: var(--primary-clr);
     text-transform: unset;
     font-weight: 600;
   }
 
   .bi-prdctcs {
     font-family: "Boehringer Forward Text";
-    margin: 3px auto 66px !important;
-    color: #08312a;
+    margin: 0 auto 50px !important;
+    color: var(--primary-clr);
     font-size: 20px;
     span {
-      color: #08312A;
+      color: var(--primary-clr);
     }
   }
 
@@ -932,12 +932,12 @@
     display: block !important;
   }
   .cx-checkout__checkbox {
-    color: #08312a;
+    color: var(--primary-clr);
     a {
       position: relative;
       &::after {
         content: "";
-        background-color: #00e47c;
+        background-color: var(--secondary-clr);
         width: 92%;
         height: 2px;
         position: absolute;
@@ -1003,10 +1003,10 @@
     min-height: 40vh !important;
   }
    .navbar .dropdown-menu .dropdown-item {
-    color: #08312A;
+    color: var(--primary-clr);
     font-size: 16px !important;
     &:hover {
-      background-color: #00E47C;
+      background-color: var(--secondary-clr);
     }
   }
   .bi-besthnks {
@@ -1071,7 +1071,7 @@
     border-radius: 10px;
   }
   .bi-lgreen {
-    color: #08312a !important;
+    color: var(--primary-clr) !important;
     font-weight: bold;
   }
   .bi-pdpdelpara {
@@ -1082,25 +1082,25 @@
   .bi-pdppod {
     font-size: 14px;
     margin-left: 4px;
-    color: #08312a;
+    color: var(--primary-clr);
   }
   .bi-cart-sb {
     a {
-      background-color: #08312a;
+      background-color: var(--primary-clr);
       color: #fff;
       width: auto;
       display: inline-block;
       text-align: center;
-      border: 1px solid #08312a;
+      border: 1px solid var(--primary-clr);
       border-radius: 4px;
       padding: 10px 14px;
       margin-top: 28px;
       transition: 0.3s all;
       &:hover {
-        background-color: #07473d;
+        background-color: var(--third-clr);
         color: #fff;
         cursor: pointer;
-        border: 1px solid #08312A;
+        border: 1px solid var(--primary-clr);
       }
     }
   }
@@ -1144,12 +1144,12 @@
   }
 
   .bi-filterscroll::-webkit-scrollbar-thumb {
-    background-color: #08312a;
+    background-color: var(--primary-clr);
     border-radius: 20px;
   }
 
   .bi-filterscroll::-webkit-scrollbar-thumb:hover {
-    background-color: #08312a;
+    background-color: var(--primary-clr);
   }
 
   .bi-filterscroll::-webkit-scrollbar-track {
@@ -1165,7 +1165,7 @@
 //     scroll-behavior: smooth;
 //     cursor: pointer;
 //     scrollbar-width: thin; /* Options: auto, thin, none */
-//     scrollbar-color: #08312a ; /* thumb color and track color */
+//     scrollbar-color: var(--primary-clr) ; /* thumb color and track color */
 // }
 
   .bi-filterscroll::-moz-scrollbar {
@@ -1174,12 +1174,12 @@
 }
 
 .bi-filterscroll::-moz-scrollbar-thumb {
-    background-color: #08312a; /* Thumb color */
+    background-color: var(--primary-clr); /* Thumb color */
     border-radius: 20px; /* Rounded corners for the thumb */
 }
 
 .bi-filterscroll::-moz-scrollbar-thumb:hover {
-    background-color: #08312a; /* Hover color for the thumb */
+    background-color: var(--primary-clr); /* Hover color for the thumb */
 }
 
 .bi-filterscroll::-moz-scrollbar-track {
@@ -1218,7 +1218,7 @@
     height: 75vh;
   }
   .bi-cartnote {
-    color: #08312a;
+    color: var(--primary-clr);
     font-size: 16px;
     margin-top: 14px;
     background: #fff;

@@ -2,7 +2,7 @@
    .fiter-head {
       font-family: "Boehringer Forward Head Md";
       font-weight: normal;
-      color: #08312a;
+      color: var(--primary-clr);
       font-size: 21px;
       margin: 6px 0px;
       text-transform: unset;
@@ -17,7 +17,7 @@
    }
    .bi-pdtspec {
       display: inline-block;
-      border: 2px solid #08312a;
+      border: 2px solid var(--primary-clr);
       color: #000;
       font-size: 9px;
       border-radius: 20px;
@@ -43,7 +43,7 @@
       width: 80% !important;
       &:hover {
          .list-show .hover .product-name {
-            color: #00e47c;
+            color: var(--secondary-clr);
          }
       }
    }
@@ -73,7 +73,7 @@
          position: relative;
          &::after {
             content: "";
-            background-color: #00E47C;
+            background-color: var(--secondary-clr);
             position: absolute;
             height: 2px;
             bottom: -1px;
@@ -86,7 +86,7 @@
             }
          }
          span {
-            color: #08312A;
+            color: var(--primary-clr);
          }
       }
    }
@@ -106,7 +106,7 @@
    .plp-price p {
       font-family: "Boehringer Forward Head Md";
       font-size: 13px;
-      color: #08312a;
+      color: var(--primary-clr);
    }
    .pricing {
       font-size: 14px;
@@ -124,14 +124,14 @@
     }
     
     .cx-copdt__outer::-webkit-scrollbar-thumb {
-      background-color: #08312a;
+      background-color: var(--primary-clr);
       /* Color of the scrollbar thumb */
       border-radius: 10px;
       /* Roundness of the scrollbar */
     }
     
     .cx-copdt__outer::-webkit-scrollbar-thumb:hover {
-      background-color: #08312a;
+      background-color: var(--primary-clr);
       /* Darker color when hovering */
     }
     
@@ -204,7 +204,7 @@
    }
 
    input[type="checkbox"] {
-      accent-color: #08312A; 
+      accent-color: var(--primary-clr); 
     }
 
     // language selection
@@ -231,14 +231,14 @@
       border-radius: 6px;
       a {
       font-size: 14px;
-      color: #08312a;
+      color: var(--primary-clr);
       padding: 8px 12px;
       text-align: center;
       text-decoration: none;
       display: block;
       white-space: nowrap;
         &:hover {
-          background-color: #00e47c;
+          background-color: var(--secondary-clr);
         }
         &:first-child {
           border-top-left-radius: 6px;
@@ -256,7 +256,7 @@
 
    .bi-input.select-menu {
       .select-selected {
-         color: #08312a;
+         color: var(--primary-clr);
          border: 1px solid #ccc;
          margin-top: 10px;
          border-radius: 4px;
@@ -287,7 +287,7 @@
       align-items: center;
       .select-selected {
          background-color: #fff;
-         color: #08312a;
+         color: var(--primary-clr);
          border: 1px solid #ccc;
          border-radius: 4px;
          padding: 6px 8px;
@@ -319,7 +319,7 @@
    .bi-opselect.select-menu {
       .select-selected {
          background-color: #fff;
-         color: #08312a;
+         color: var(--primary-clr);
          border: 1px solid #ccc;
          padding: 6px 8px;
          width: 190px;
@@ -347,7 +347,7 @@
    .bi-osselect.select-menu {
       .select-selected {
          background-color: #fff;
-         color: #08312a;
+         color: var(--primary-clr);
          border: 1px solid #ccc;
          padding: 6px 8px;
          width: 190px;
@@ -378,7 +378,7 @@
          height: 34px;
          .select-selected {
             background-color: #fff;
-            color: #08312a;
+            color: var(--primary-clr);
             border: 1px solid #ccc;
             padding: 6px 8px;
             margin-top: 4px;
@@ -410,7 +410,7 @@
          align-items: center;
          .select-selected {
             background-color: #fff;
-            color: #08312a;
+            color: var(--primary-clr);
             border: 1px solid #ccc;
             padding: 6px 8px;
             margin-top: 4px;
@@ -444,7 +444,7 @@
       z-index: 999;
       .select-selected {
          background-color: #fff;
-         color: #08312a;
+         color: var(--primary-clr);
          border: 1px solid #ccc;
          padding: 6px 8px;
          width: 180px;

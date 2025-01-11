@@ -3,7 +3,7 @@
   background: #f6f5f3;
 
   .bi-heading {
-    color: #08312a;
+    color: var(--primary-clr);
   }
 
   &__cnt {
@@ -35,7 +35,7 @@
   //     th {
   //         color: #fff;
   //         padding: 10px 24px;
-  //         background-color: #08312a;
+  //         background-color: var(--primary-clr);
 
   //         &:first-child {
   //             border-top-left-radius: 8px;
@@ -88,12 +88,12 @@
   .bi-btn {
     padding: 6px 25px;
     margin-bottom: 0px;
-    border: 1px solid #00e47c;
-    background-color: #00e47c;
+    border: 1px solid var(--secondary-clr);
+    background-color: var(--secondary-clr);
 
     &:hover {
-      border: 1px solid #66efb0;
-      background-color: #66efb0;
+      border: 1px solid var(--fourth-clr);
+      background-color: var(--fourth-clr);
     }
   }
 
@@ -101,12 +101,12 @@
     padding: 6px 25px;
     border-radius: 4px;
     color: #fff;
-    border: 1px solid #08312a !important;
-    background-color: #08312a;
+    border: 1px solid var(--primary-clr) !important;
+    background-color: var(--primary-clr);
     margin-right: 16px;
     &:hover {
-      border: 1px solid #07473d !important;
-      background-color: #07473d !important;
+      border: 1px solid var(--third-clr) !important;
+      background-color: var(--third-clr) !important;
     }
   }
   &__fromtoout {
@@ -161,8 +161,8 @@
             }
         }
         input {
-            background: #00E47C;
-            border: 1px solid #00E47C;
+            background: var(--secondary-clr);
+            border: 1px solid var(--secondary-clr);
             padding: 6px 12px;
             border-radius: 5px;
         }
@@ -171,12 +171,12 @@
     .bi-btn {
         padding: 6px 25px;
         margin-bottom: 0px;
-        border: 1px solid #00E47C;
-        background-color: #00E47C;
+        border: 1px solid var(--secondary-clr);
+        background-color: var(--secondary-clr);
 
         &:hover {
-            border: 1px solid #66EFB0;
-            background-color: #66EFB0;
+            border: 1px solid vARvar(--fourth-clr);
+            background-color: vARvar(--fourth-clr);
         }
     }
 
@@ -184,12 +184,12 @@
         padding: 6px 25px;
         border-radius: 4px;
         color: #fff;
-        border: 1px solid #08312a !important;
-        background-color: #08312a;
+        border: 1px solid var(--primary-clr) !important;
+        background-color: var(--primary-clr);
         margin-right: 16px;
         &:hover {
-            border: 1px solid #07473d !important;
-            background-color: #07473d !important;
+            border: 1px solid var(--third-clr) !important;
+            background-color: var(--third-clr) !important;
         }
     }
     &__fromtoout {
@@ -227,11 +227,11 @@
         font-size: 18px;
         font-weight: 600;
         margin-top: 20px;
-        color: #08312a;
+        color: var(--primary-clr);
     }
     &__stocksummhead {
         font-size: 24px;
-        color: #08312a;
+        color: var(--primary-clr);
         margin-bottom: 20px;
     }
     .bi-osdate {
@@ -245,11 +245,11 @@
     font-size: 18px;
     font-weight: 600;
     margin-top: 20px;
-    color: #08312a;
+    color: var(--primary-clr);
   }
   &__stocksummhead {
     font-size: 24px;
-    color: #08312a;
+    color: var(--primary-clr);
     margin-bottom: 20px;
   }
   .bi-osdate {

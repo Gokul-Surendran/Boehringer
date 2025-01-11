@@ -25,7 +25,7 @@
             &::after {
                 content: '';
                 position: absolute;
-                border-bottom: 2px solid #00E47C;
+                border-bottom: 2px solid var(--primary-clr);
                 bottom: 0;
                 left: 0;
                 width: 100%;
@@ -38,7 +38,7 @@
     }
     &__head {
         font-size: 32px;
-        color: #08312a;
+        color: var(--primary-clr);
         font-weight: 700;
         margin: 46px 0;
         h2 {
@@ -52,13 +52,13 @@
         width: 100%;
     }
     &__line {
-        border: 1px solid #00e47c;
+        border: 1px solid var(--primary-clr);
         width: calc(25% - 12px);
         margin: 6px;
         min-height: 8px;
         border-radius: 6px;
         &.active {
-            background-color: #00e47c;
+            background-color: var(--primary-clr);
         }
     }
     &__form {
@@ -73,7 +73,7 @@
         font-size: 24px;
         font-weight: 700;
         margin-bottom: 30px;
-        color: #08312a;
+        color: var(--primary-clr);
     }
     &__formflex {
         display: flex;
@@ -84,7 +84,7 @@
         .bi-input {
             width: calc(50% - 20px);
             span:first-child {
-                color: #08312a;
+                color: var(--primary-clr);
                 font-weight: 600;
                 font-size: 14px;
             }
@@ -94,7 +94,7 @@
         }
         label {
             font-size: 18px;
-            color: #08312a;
+            color: var(--primary-clr);
         }
     }
     &__cta {
@@ -105,26 +105,26 @@
     &__cancel {
         background-color: #CCFAE5;
         padding: 10px 26px;
-        color:#08312a;
+        color:var(--primary-clr);
         border-radius: 6px;
         width: auto;
         margin-right: 16px;
         transition: 0.3s all;
         &:hover {
-            color:#08312a;
-            background-color: #66EFB0;
+            color:var(--primary-clr);
+            background-color: var(--fourth-clr);
         }
     }
     &__Next {
-        background-color: #00E47C;
-        color:#08312a;
+        background-color: var(--primary-clr);
+        color: var(--primary-clr);
         padding: 10px 26px;
         border-radius: 6px;
         width: auto;
         transition: 0.3s all;
         &:hover {     
-            color:#08312a;  
-            background-color: #66EFB0;
+            color: var(--primary-clr);  
+            background-color: var(--fourth-clr);
         }
     }
     &__copyright {
@@ -169,7 +169,7 @@
             }
             label {
                 font-size: 12px;
-                color: #08312a;
+                color: var(--primary-clr);
             }
         }
     }

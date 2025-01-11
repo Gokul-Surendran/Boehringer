@@ -27,7 +27,7 @@
       text-align: center;
       font-size: 36px;
       font-weight: bold;
-      color: #08312A;
+      color: var(--primary-clr);
       margin: 20px 0px;  
   }
 
@@ -35,7 +35,7 @@
       font-size: 16px;
       font-family: 'Boehringer Forward Head';
       text-align: center;
-      color: #08312A;
+      color: var(--primary-clr);
       margin-bottom: 20px;
    }
 
@@ -52,7 +52,7 @@
       padding: 7px;
       top: 16px;
       right: 16px;
-      background-color: #08312A;
+      background-color: var(--primary-clr);
       width: 32px;
       height: 32px;
       border-radius: 50%;
@@ -60,10 +60,10 @@
 
   &__submit {
       font-family: 'Boehringer Forward Head';
-      background-color: #00E47C;
-      border: 2px solid #00E47C;
+      background-color: var(--secondary-clr);
+      border: 2px solid var(--secondary-clr);
       border-radius: 5px;
-      color: #08312A;
+      color: var(--primary-clr);
       cursor: pointer;
       font-size: 20px;
       line-height: 28px;
@@ -72,7 +72,7 @@
       padding: 8px 16px;
       &:hover {
          background-color: #fff;
-         color: #00E47C;
+         color: var(--secondary-clr);
       }
   }
   &__inputwrap {
@@ -86,7 +86,7 @@
    &__otpip {
       text-align: center;
       letter-spacing: 2px;
-      border: 1px solid #08312A;
+      border: 1px solid var(--primary-clr);
       border-radius: 5px;
       min-height: 42px;
       margin: 24px 0px 16px;
@@ -96,7 +96,7 @@
 
    &__otpip::placeholder {
       letter-spacing: 0;
-      color:#08312A;
+      color:var(--primary-clr);
    }
 
    &__otpip.active-err {
@@ -115,11 +115,11 @@
       background-color: #fff;
       border-radius: 5px;
       width: 100%;
-      color: #08312A;
+      color: var(--primary-clr);
       min-height: 42px;
       font-size: 16px;
       text-align: center;
-      border: 1px solid #08312A;
+      border: 1px solid var(--primary-clr);
       cursor: pointer;
       select {
          width: 100%;
@@ -141,6 +141,6 @@
       top: 18px;
       right: 32%;
       border: 7px solid transparent;
-      border-color: #08312A transparent transparent transparent;
+      border-color: var(--primary-clr) transparent transparent transparent;
     }
 }

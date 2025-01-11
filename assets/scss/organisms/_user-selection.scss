@@ -27,7 +27,7 @@
       text-align: center;
       font-size: 36px;
       font-weight: bold;
-      color: #08312A;
+      color: var(--primary-clr);
       margin: 8px 0px 38px;  
   }
   
@@ -51,7 +51,7 @@
       padding: 7px;
       top: 16px;
       right: 16px;
-      background-color: #08312A;
+      background-color: var(--primary-clr);
       width: 32px;
       height: 32px;
       border-radius: 50%;
@@ -59,10 +59,10 @@
 
   &__submit {
       font-family: 'Boehringer Forward Head';
-      background-color: #00E47C;
-      border: 2px solid #00E47C;
+      background-color: var(--secondary-clr);
+      border: 2px solid var(--secondary-clr);
       border-radius: 5px;
-      color: #08312A;
+      color: var(--primary-clr);
       cursor: pointer;
       font-size: 20px;
       line-height: 28px;
@@ -71,7 +71,7 @@
       padding: 8px 16px;
       &:hover {
          background-color: #fff;
-         color: #00E47C;
+         color: var(--secondary-clr);
       }
   }
 
@@ -95,7 +95,7 @@
 
   &__rbtn {
    font-family: 'Boehringer Forward Head';
-   color: #08312A;
+   color: var(--primary-clr);
    font-weight: 600;
    img {
       width: 16px;

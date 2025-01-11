@@ -8,7 +8,7 @@
     background-color: transparent;
     color: #fff;
     padding: 10px 16px;
-    border: 2px solid #00E47C;
+    border: 2px solid var(--secondary-clr);
     cursor: pointer;
     user-select: none;
     /*style the arrow inside the select element:*/
@@ -42,7 +42,7 @@
   
   /*style the items (options), including the selected item:*/
   .select-items div {
-    color: #08312a;
+    color: var(--primary-clr);
     padding: 10px 16px;
     border-bottom: 1px solid #ccc;
     cursor: pointer;
@@ -55,6 +55,6 @@
   }
 
   .select-items div:hover, .same-as-selected {
-    background-color: #00E47C;
+    background-color: var(--secondary-clr);
   }
 }
