@@ -9,6 +9,8 @@
         a {
             
             position: relative;
+            margin-bottom: 3px;
+            display: inline-block;
             &::after {
               content: "";
               background-color: var(--secondary-clr);
