@@ -261,13 +261,19 @@
          margin-top: 10px;
          border-radius: 4px;
          padding: 6px 8px;
+         display: flex;
+         height: 40px;
+         align-items: center;
          &:after {
-            top: 47px;
+            top: 52px;
             border-left: 2px solid #000;
             border-bottom: 2px solid #000;
           }
       }
       .select-items {
+         overflow-y: auto;
+         min-height: auto;
+         max-height: 250px;
          div {
             border: 1px solid #ccc;
             border-bottom: 0;
@@ -277,6 +283,29 @@
                border-bottom-right-radius: 4px;
             }
          }
+       }
+       .select-items::-webkit-scrollbar {
+         margin-top: 20px;
+         width: 5px;
+         /* Set the height of the scrollbar */
+       }
+       
+       .select-items::-webkit-scrollbar-thumb {
+         background-color: var(--primary-clr);
+         /* Color of the scrollbar thumb */
+         border-radius: 10px;
+         /* Roundness of the scrollbar */
+       }
+       
+       .select-items::-webkit-scrollbar-thumb:hover {
+         background-color: var(--primary-clr);
+         /* Darker color when hovering */
+       }
+       
+       .select-items::-webkit-scrollbar-track {
+         background-color: #fff;
+         /* Background of the scrollbar track */
+         border-radius: 10px;
        }
    }
 
@@ -321,8 +350,8 @@
          background-color: #fff;
          color: var(--primary-clr);
          border: 1px solid #ccc;
-         padding: 6px 8px;
-         width: 190px;
+         padding: 6px 24px 6px 8px;
+         width: 220px;
          &:after {
             top: 15px;
             right: 14px;
@@ -331,6 +360,9 @@
           }
       }
       .select-items {
+         overflow-y: auto;
+         min-height: auto;
+         max-height: 668px;
          div {
             padding: 6px 8px;
             border: 1px solid #ccc;
@@ -339,6 +371,29 @@
                border-bottom: 1px solid #ccc;
             }
          }
+       }
+       .select-items::-webkit-scrollbar {
+         margin-top: 20px;
+         width: 5px;
+         /* Set the height of the scrollbar */
+       }
+       
+       .select-items::-webkit-scrollbar-thumb {
+         background-color: var(--primary-clr);
+         /* Color of the scrollbar thumb */
+         border-radius: 10px;
+         /* Roundness of the scrollbar */
+       }
+       
+       .select-items::-webkit-scrollbar-thumb:hover {
+         background-color: var(--primary-clr);
+         /* Darker color when hovering */
+       }
+       
+       .select-items::-webkit-scrollbar-track {
+         background-color: #fff;
+         /* Background of the scrollbar track */
+         border-radius: 10px;
        }
    }
 
@@ -407,39 +462,37 @@
           }
       }
    } 
-   .bi-order-summary__w-25 {
-      .select-menu {
-         display: flex;
-         align-items: center;
-         .select-selected {
-            background-color: #fff;
-            color: var(--primary-clr);
-            border: 1px solid #ccc;
-            padding: 6px 8px;
-            margin-top: 4px;
-            border-radius: 5px;
-            width: 190px;
-            &:after {
-               top: 20px;
-               right: 14px;
-               border-left: 2px solid #000;
-               border-bottom: 2px solid #000;
-             }
-         }
-         .select-items {
-            div {
-               padding: 6px 8px;
-               border: 1px solid #ccc;
-               border-bottom: 0;
-               &:last-child {
-                  border-bottom: 1px solid #ccc;
-                  border-bottom-left-radius: 5px;
-                  border-bottom-right-radius: 5px;
-               }
-            }
+   .bi-ohselect.select-menu {
+      display: flex;
+      align-items: center;
+      .select-selected {
+         background-color: #fff;
+         color: var(--primary-clr);
+         border: 1px solid #ccc;
+         padding: 6px 8px;
+         margin-top: 4px;
+         border-radius: 5px;
+         width: 190px;
+         &:after {
+            top: 20px;
+            right: 14px;
+            border-left: 2px solid #000;
+            border-bottom: 2px solid #000;
           }
       }
-   } 
+      .select-items {
+         div {
+            padding: 6px 8px;
+            border: 1px solid #ccc;
+            border-bottom: 0;
+            &:last-child {
+               border-bottom: 1px solid #ccc;
+               border-bottom-left-radius: 5px;
+               border-bottom-right-radius: 5px;
+            }
+         }
+       }
+   }
 
    // sort-by dropdown
 
