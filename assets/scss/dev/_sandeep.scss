@@ -1229,8 +1229,15 @@
     background-image: none;
   }
   .bi-so_name {
-    &:hover {
-      color: var(--primary-clr) !important;
+    .product-name a{
+      &:hover {
+        color: var(--primary-clr) !important;
+      }
+    }
+    .product-name {
+      &:hover {
+        color: var(--primary-clr) !important;
+      }
     }
   }
 }
