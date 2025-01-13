@@ -52,13 +52,13 @@
         width: 100%;
     }
     &__line {
-        border: 1px solid var(--primary-clr);
+        border: 1px solid var(--secondary-clr);
         width: calc(25% - 12px);
         margin: 6px;
         min-height: 8px;
         border-radius: 6px;
         &.active {
-            background-color: var(--primary-clr);
+            background-color: var(--secondary-clr);
         }
     }
     &__form {
@@ -116,7 +116,7 @@
         }
     }
     &__Next {
-        background-color: var(--primary-clr);
+        background-color: var(--secondary-clr);
         color: var(--primary-clr);
         padding: 10px 26px;
         border-radius: 6px;
