@@ -1,30 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- styles -->
-    <link rel="stylesheet" href="../assets/css/aos.css">
-    <link rel="stylesheet" href="../assets/css/slick.css">
-    <link rel="stylesheet" href="../assets/css/slick-theme.css">
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/css/styleold.css">
-    <link rel="stylesheet" href="../assets/css/style.css" />
-    <!-- styles -->
-    <title>Document</title>
-  </head>
-  <body>
-    <!-- body content start -->
+<html>
+<head>
+<title>Select Tag with Changing Content</title>
+<style>
+  .select-menu {
+    position: relative; /* Important for arrow positioning */
 
-    <!-- body content end -->
+    select {
+      display: none; /* Hide original SELECT element */
+    }
 
-    <!-- scripts -->
-    <script src="../assets/js/jquery.slim.min.js"></script>
-    <script src="../assets/js/aos.js"></script>
-    <script src="../assets/js/slick.min.js"></script>
-    <script src="../assets/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/js/script.js"></script>
-    <!-- scripts -->
-  </body>
+    .select-selected {
+      background-color: transparent;
+      color: #000;
+      border: 1px solid #ccc;
+      margin-top: 10px;
+      padding: 10px 16px;
+      cursor: pointer; 
+      user-select: none;
+    }
+
+    /* Style the arrow inside the select element */
+    .select-selected:after {
+      position: absolute;
+      content: "";
+      top: 18px;
+      right: 20px;
+      transform: translateY(-50%) rotate(-45deg);
+      width: 8px;
+      height: 8px;
+      border-left: 2px solid #000;
+      border-bottom: 2px solid #000;
+    }
+
+    /* Point the arrow upwards when the select box is open (active) */
+    .select-selected.select-arrow-active:after {
+      transform: rotate(136deg);
+    }
+
+    /* Style items (options) */
+    .select-items {
+      position: absolute;
+      background-color: #fff;
+      margin-top: 0px;
+      top: 100%;
+      left: 0;
+      right: 0;
+      z-index: 99;
+    }
+
+    /* Style the items (options), including the selected item */
+    .select-items div {
+      color: #08312a;
+      padding: 10px 16px;
+      border: 1px solid #ccc;
+      border-bottom: 0;
+      cursor: pointer;
+      user-select: none;
+      &:first-child {
+        border-top: 0;
+      }
+      &:last-child {
+        border-bottom: 1px solid #ccc;
+      }
+    }
+
+    /* Hide the items when the select box is closed */
+    .select-hide {
+      display: none;
+    }
+
+    .select-items div:hover,
+    .same-as-selected {
+      background-color: #00e47c;
+    }
+  }
+</style>
+</head>
+<body>
+
+<h2>Select an Option:</h2>
+<div class="select-menu"> 
+  <select id="mySelect">
+    <option value="car">Car</option>
+    <option value="bike">Bike</option>
+    <option value="truck">Truck</option>
+  </select>
+</div>
+
+<p id="demo"></p>
+
+<script>
+function myFunction(event) {
+  // Get the selected value from the hidden select element
+  var x = document.getElementById("mySelect").value;
+  document.getElementById("demo").innerHTML = "You selected: " + x;
+}
+
+function createCustomSelect(selectMenu) {
+  const selectElement = selectMenu.querySelector('select');
+  const selected = document.createElement('div');
+  selected.classList.add('select-selected');
+  selected.textContent = selectElement.options[selectElement.selectedIndex].text;
+  selectMenu.insertBefore(selected, selectElement);
+
+  const items = document.createElement('div');
+  items.classList.add('select-items', 'select-hide');
+  for (let i = 0; i < selectElement.options.length; i++) { 
+    const item = document.createElement('div');
+    item.textContent = selectElement.options[i].text;
+    item.addEventListener('click', () => {
+      selectElement.selectedIndex = i; 
+      // Update the selected attribute in the hidden select
+      selectElement.options[i].selected = true; 
+      // Remove selected attribute from other options
+      for (let j = 0; j < selectElement.options.length; j++) {
+        if (j !== i) {
+          selectElement.options[j].selected = false;
+        }
+      }
+      selected.textContent = selectElement.options[i].text;
+      items.classList.add('select-hide');
+      selected.classList.toggle('select-arrow-active');
+
+      // Remove the 'same-as-selected' class from all options
+      const allOptions = items.querySelectorAll('div');
+      allOptions.forEach(option => option.classList.remove('same-as-selected'));
+
+      // Add the 'same-as-selected' class to the clicked option
+      item.classList.add('same-as-selected');
+
+      // Trigger the original myFunction
+      myFunction(event); 
+    });
+    items.appendChild(item);
+  }
+  selectMenu.insertBefore(items, selectElement.nextSibling);
+
+  selected.addEventListener('click', () => {
+    items.classList.toggle('select-hide');
+    selected.classList.toggle('select-arrow-active');
+  });
+}
+
+// Find all elements with the class "select-menu"
+const selectMenus = document.getElementsByClassName("select-menu");
+
+// Create custom select for each element
+for (let i = 0; i < selectMenus.length; i++) {
+  createCustomSelect(selectMenus[i]);
+}
+
+// Close all select boxes when clicking outside
+document.addEventListener('click', (event) => {
+  if (!event.target.closest('.select-selected')) {
+    const selectItems = document.querySelectorAll('.select-items');
+    selectItems.forEach(item => item.classList.add('select-hide'));
+    const selectedItems = document.querySelectorAll('.select-selected');
+    selectedItems.forEach(item => item.classList.remove('select-arrow-active'));
+  }
+});
+
+</script>
+
+</body>
 </html>

@@ -540,11 +540,19 @@ function createCustomSelect(selectMenu) {
 
   const items = document.createElement('div');
   items.classList.add('select-items', 'select-hide');
-  for (let i = 1; i < selectElement.options.length; i++) { // Start from index 1 to skip the first option
+  for (let i = 0; i < selectElement.options.length; i++) { 
     const item = document.createElement('div');
     item.textContent = selectElement.options[i].text;
     item.addEventListener('click', () => {
-      selectElement.selectedIndex = i;
+      selectElement.selectedIndex = i; 
+      // Update the selected attribute in the hidden select
+      selectElement.options[i].selected = true; 
+      // Remove selected attribute from other options
+      for (let j = 0; j < selectElement.options.length; j++) {
+        if (j !== i) {
+          selectElement.options[j].selected = false;
+        }
+      }
       selected.textContent = selectElement.options[i].text;
       items.classList.add('select-hide');
       selected.classList.toggle('select-arrow-active');
@@ -555,6 +563,9 @@ function createCustomSelect(selectMenu) {
 
       // Add the 'same-as-selected' class to the clicked option
       item.classList.add('same-as-selected');
+
+      // Trigger the original myFunction
+      myFunction(event); 
     });
     items.appendChild(item);
   }
