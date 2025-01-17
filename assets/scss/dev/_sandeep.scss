@@ -942,6 +942,8 @@
     color: var(--primary-clr);
     a {
       position: relative;
+      margin-bottom: 1px;
+      display: inline-block;
       &::after {
         content: "";
         background-color: var(--secondary-clr);

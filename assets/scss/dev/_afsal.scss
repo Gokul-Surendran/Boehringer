@@ -1,7 +1,6 @@
 .boehringer {
    .fiter-head {
       font-family: "Boehringer Forward Head Md";
-      font-weight: normal;
       color: var(--primary-clr);
       font-size: 21px;
       margin: 6px 0px;
@@ -61,7 +60,7 @@
          background-color: #f6f5f3 !important;
       }
       span {
-         color: #191919;
+         color: var(--primary-clr);
          font-size: 16px;
          margin-right: 4px;
       } 
@@ -98,11 +97,11 @@
    .bi-odrtitle {
       font-family: "Boehringer Forward Head Md";
       font-size: 35px;
-      color: #191919;
+      color: var(--primary-clr);
       margin-bottom: 10px;
       span {
          font-size: 35px !important;
-         font-weight: 500 !important;
+         font-weight: 600 !important;
       }
    }
    .bi-footer__arr p {
