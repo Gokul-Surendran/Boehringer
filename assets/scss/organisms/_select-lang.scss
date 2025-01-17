@@ -73,7 +73,7 @@
         }
     }
     &__btn {
-        width: 86%;
+        width: 100%;
         display: flex;
         align-items: center;
         margin-top: 15px !important;
@@ -85,7 +85,7 @@
             transition: all 0.2s 0s ease-in;
             text-align: center;
             border-radius: 5px;
-            width: 44%;
+            width: 42%;
             &:hover {
                 color: var(--primary-clr);
                 background-color: var(--fourth-clr);
